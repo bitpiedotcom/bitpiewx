@@ -1,0 +1,31 @@
+.selectbtn{
+  float:left;
+  margin-right:10px;
+}
+.select-btn{
+  height:45px;
+  font-size: 18px
+}
+/*　logo style */
+.logoheight{
+	height:150%;
+	margin-top:-25%;
+}
+/*about*/
+#about{
+  text-align: left !important;
+}
+/* super slider style */
+
+/*.slideBox{ /!*width:450px; height:230px;*!/ overflow:hidden; position:relative; }*/
+/*.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }*/
+/*.slideBox .hd ul{ overflow:hidden; zoom:1; float:left; list-style:none }*/
+/*.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }*/
+/*.slideBox .hd ul li.on{ background:#f00; color:#fff; }*/
+/*.slideBox .bd{ position:relative; height:100%; z-index:0;   }*/
+/*.slideBox .bd ul{ overflow:hidden; zoom:1; float:left; list-style:none }*/
+/*.slideBox .bd li{ zoom:1; vertical-align:middle; }*/
+/*.slideBox .bd img{ /!*width:450px; height:230px; *!/display:block;  }*/
+@media (min-width:300px) and (max-width:530px) {
+#title-hide{display: none !important;}
+}

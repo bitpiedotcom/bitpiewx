@@ -1,0 +1,8 @@
+---
+layout: default
+img: ipone6_front.png
+category: Services
+title: Send and Receive functions:<br>Essence Wallet
+description: |
+---
+ For a mature user community has technical team to develop a trading bitcoins tools, security is no doubt , the better we make the experience easier , send and receive faster, more convenient to use .

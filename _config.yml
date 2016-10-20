@@ -1,0 +1,32 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://bitpie.com
+title: Bitpie - a simple and secure Bitcoin wallet!
+email: bithernet@gmail.com
+author: getcai
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description.
+copyright: '&copy; 2016 bitpie.com.'
+credits: 'bitpie Based on Bither Technology. <a href="http://bither.net">Bither</a>. <a href="http://chaincloud.com">ChainCloud</a>'
+logo: img/logo.png
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: email
+    url: mailto:chainclouddotcom@gmail.com
+
+ 
