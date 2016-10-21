@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download/ios/bitpie_ios_1.0.0.plist" afterPath="$PROJECT_DIR$/download/ios/bitpie_ios_1.0.0.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/download/ios/bitpie_ios_1.0.0.plist" afterPath="$PROJECT_DIR$/download/ios/bitpie_ios.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/down.html" afterPath="$PROJECT_DIR$/_layouts/down.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bitpiedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/_layouts/down.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5244755">
-              <caret line="20" column="220" selection-start-line="20" selection-start-column="220" selection-end-line="20" selection-end-column="220" />
+              <caret line="20" column="208" selection-start-line="20" selection-start-column="208" selection-end-line="20" selection-end-column="208" />
               <folding />
             </state>
           </provider>
@@ -94,8 +95,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bitpie_ios_1.0.0.plist" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/download/ios/bitpie_ios_1.0.0.plist">
+      <file leaf-file-name="bitpie_ios.plist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/download/ios/bitpie_ios.plist">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
@@ -169,7 +170,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="503" />
+    <option name="y" value="79" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
   </component>
@@ -229,6 +231,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitpiedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitpiedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="download" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,10 +358,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
-    <editor active="true" />
+    <frame x="503" y="79" width="1280" height="714" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27402702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27402702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -666,7 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download/ios/bitpie_ios_1.0.0.plist">
+    <entry file="file://$PROJECT_DIR$/download/ios/bitpie_ios.plist">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
@@ -693,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/_layouts/down.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5244755">
-          <caret line="20" column="220" selection-start-line="20" selection-start-column="220" selection-end-line="20" selection-end-column="220" />
+          <caret line="20" column="208" selection-start-line="20" selection-start-column="208" selection-end-line="20" selection-end-column="208" />
           <folding />
         </state>
       </provider>
