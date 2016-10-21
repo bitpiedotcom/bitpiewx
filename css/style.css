@@ -29,6 +29,7 @@
 /*.slideBox .bd img{ /!*width:450px; height:230px; *!/display:block;  }*/
 @media (min-width:300px) and (max-width:530px) {
   #title-hide{padding:15px 0px !important;}
+  .navbar-brand{padding:15px 5px!important;}
   .tro-social-buttons > li  {display: none !important;}
 
 }
