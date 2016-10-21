@@ -27,7 +27,7 @@
 /*.slideBox .bd li{ zoom:1; vertical-align:middle; }*/
 /*.slideBox .bd img{ /!*width:450px; height:230px; *!/display:block;  }*/
 @media (min-width:300px) and (max-width:530px) {
-  #title-hide{display: none !important;}
+  /*#title-hide{display: none !important;}*/
   .tro-social-buttons > li  {display: none !important;}
-  #mobile-center{padding:0 20%}
+
 }
