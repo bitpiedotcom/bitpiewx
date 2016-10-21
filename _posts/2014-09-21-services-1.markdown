@@ -2,7 +2,7 @@
 layout: default
 img: ipone6_front.png
 category: Services
-title: Send and Receive functions:<br>Essence Wallet
+title: Wallets:<br/>Simpliest Bitcoin Wallet Ever!
 description: |
 ---
- For a mature user community has technical team to develop a trading bitcoins tools, security is no doubt , the better we make the experience easier , send and receive faster, more convenient to use .
+As a bitcoin wallet, bitpie means you control your private keys, and nobody can touch your assets. With our special design, you do not need to sync the blockchain data with the bitcon network, and sending/receiving bitcoins are processed so quickly. Also bitpie supports dynamic transaction fee model, that means your transaction can easily go through even when network congestion.

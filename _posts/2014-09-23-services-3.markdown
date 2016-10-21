@@ -2,7 +2,7 @@
 layout: default
 img: phones.png
 category: Services
-title: Bither team<br>Secure 
+title: Security:<br/>
 description: |
 ---
-Bitcoin security protection. Customer first
+Bither team has so many reputations in the past, and Bither wallet has been recommended by <a href="https://bitcoin.org">Bitcoin.org</a> for a long time. We know how to make secured bitcoin wallet, and how to protect your blockchain assets. The bitpie wallet is totally based on Bither technology, so it is robust and trustable.

@@ -2,7 +2,7 @@
 layout: default
 img: n6p_front.png
 category: Services
-title: Buy and Sell functions:<br>User control
+title: P2P Exchange:<br/>Easiest Way to Buy/Sell Bitcoins with Other Peers!
 description: |
 ---
-  Do not worry about the terms of Overlord platform and cumbersome certification procedures , user OTC advertising orders , and then determine whether the transaction portrait of young secretary service , multi-signature technology to protect the security , the transaction is completed in real-time arrival. So simple.
+Bitpie has built-in escrow function based on Multisig technology, so you can easily buy/sell bitcoins with the dealers all over the world in a secured environment.
