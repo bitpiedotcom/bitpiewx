@@ -15,6 +15,7 @@
 #about{
   text-align: left !important;
 }
+
 /* super slider style */
 
 /*.slideBox{ /!*width:450px; height:230px;*!/ overflow:hidden; position:relative; }*/
@@ -27,7 +28,7 @@
 /*.slideBox .bd li{ zoom:1; vertical-align:middle; }*/
 /*.slideBox .bd img{ /!*width:450px; height:230px; *!/display:block;  }*/
 @media (min-width:300px) and (max-width:530px) {
-  /*#title-hide{display: none !important;}*/
+  #title-hide{padding:15px 0px !important;}
   .tro-social-buttons > li  {display: none !important;}
 
 }
