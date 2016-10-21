@@ -29,3 +29,21 @@ social:
   - title: email
     url: mailto:bitpiedotcom@gmail.com
  
+# ----------------------- #
+#   download index.html   #
+# ----------------------- #
+downtitle: 比特派
+downsoftname: 比特派
+downsoftversion: 1.0.0
+downsoftdate: 2016-10-11
+downqr: '/img/qr.png'
+downlogo: '/img/logo.png'
+lesson: bitpie iOS安装教程
+downmobilefirsttitle: 1.第一次打开bitpie的时候会弹出如下框
+downmobilefirst: '/img/MobileIOSStep1.png'
+downmobilesecondtitle: 2.在手机的设置-通用-描述文件与设备管理，信任下面的文件
+downmobilesecond: '/img/MobileIOSStep2.png'
+downmobilethreetitle: 3.信任下面的证书就可以启动bitpie了
+downmobilethree: '/img/MobileIOSStep3.png'
+downhttps: 'https://bitpiedotcom.github.io'
+
