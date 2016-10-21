@@ -31,5 +31,6 @@
   #title-hide{padding:15px 0px !important;}
   .navbar-brand{padding:15px 5px!important;}
   .tro-social-buttons > li  {display: none !important;}
+  .list-inline{padding-left: 20%}
 
 }
