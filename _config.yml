@@ -32,12 +32,12 @@ social:
 # ----------------------- #
 #   download index.html   #
 # ----------------------- #
-downtitle: 比特派下载
+downtitle: 比特派
 downsoftname: 比特派
 downsoftversion: 1.0.0
-downsoftdate: 2016-10-11
-downqr: '/img/qr.png'
-downlogo: '/img/logo.png'
+downsoftdate: 2016-10-23
+downqr: '/img/ios_qr.png'
+downlogo: '/img/bitpie_ios_144.png'
 lesson: bitpie iOS安装教程
 downmobilefirsttitle: 1.第一次打开bitpie的时候会弹出如下框
 downmobilefirst: '/img/MobileIOSStep1.png'
@@ -47,6 +47,13 @@ downmobilethreetitle: 3.信任下面的证书就可以启动bitpie了
 downmobilethree: '/img/MobileIOSStep3.png'
 downhttps: 'https://bitpiedotcom.github.io'
 
+# ----------------------- #
+# android download.index   #
+# ----------------------- #
+androidsoftname: 'Bitpie Android'
+androidqr: '/img/android_qr.png'
+androidlogo: '/img/logo.png'
+androidsha: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/download/android/SHA256SUMS'
 
 # ----------------------- #
 #   download link   #

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include down_header.html %}
+<body>
+<div class="row-fluid breadcrumbs margin-bottom-20">
+    <div class="container">
+        <h1 class="pull-left">{{site.androidsoftname}}</h1>
+        <ul class="pull-right breadcrumb">
+            <li>版本 {{site.downsoftversion}}</li>
+            <li>{{site.downsoftdate}}</li>
+        </ul>
+    </div>
+</div>
+<div class="container content">
+    <div id="" class="view row">
+        <div class="span12" style="text-align:center;">
+            <a href="javascript:void(0);" onclick="javascript:install();"><img src="{{site.androidlogo}}" class="appicon" /></a>
+            <div>
+            </div>
+        </div>
+    </div>
+
+    <div id="" class="view row" style="margin-top:30px;">
+
+        <div class="span12 margin-bottom-20" style="text-align:center;">
+            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i>Download</a>
+        </div>
+
+        <div class="span12" style="text-align:center;">
+            <span class="label label-info" id="spanlabel"><a class="downloada" href="{{site.androidsha}}" target="_blank">SHA256SUMS</a></span>
+        </div>
+    </div>
+
+    <hr class="devider devider-dotted">
+    <div id="" class="view row margin-bottom-30">
+        <div class="span12" style="text-align:center;">
+            或者用手机扫描下面的二维码安装 <br />
+            <br />
+            <img src="{{site.androidqr}}" />
+        </div>
+    </div>
+  </div>
+<script>
+    function isMobile() {
+        return true
+    }
+    function install() {
+        if(!isMobile()){
+            alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
+            return;
+        }
+        url = "{{site.apkdown}}";
+        window.location.href = url;
+    }
+</script>
+</body>
+</html>
