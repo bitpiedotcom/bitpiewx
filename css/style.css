@@ -27,16 +27,24 @@
 /*.slideBox .bd ul{ overflow:hidden; zoom:1; float:left; list-style:none }*/
 /*.slideBox .bd li{ zoom:1; vertical-align:middle; }*/
 /*.slideBox .bd img{ /!*width:450px; height:230px; *!/display:block;  }*/
-@media (min-width:330px) and (max-width:530px) {
+@media (min-width:376px) and (max-width:530px) {
   #title-hide{padding:15px 0px 15px 20px !important;}
-  .navbar-brand{padding:15px 5px!important;}
+  .navbar-brand{padding:15px 15px!important;}
   .tro-social-buttons > li  {display: none !important;}
   .list-inline-down{padding-left: 20% !important;}
 
 }
+@media(min-width:360px) and (max-width:375px){
+  .list-inline-down{padding-left:15% !important;}
+  .navbar-brand{padding:15px 8px!important;}
+}
 @media(max-width:320px){
   .list-inline-down{padding-left:10% !important;}
-  #title-hide{display: none}
+  .navbar-brand{padding:15px 0 15px 5px  !important;}
+  #title-hide{padding: 15px 0 !important;}
+  .navbar-toggle{margin-right:5px !important;}
   /*.navbar-brand{padding:15px 0px!important;}*/
-
+}
+@media(max-width:319px){
+  #title-hide{display:none}
 }
