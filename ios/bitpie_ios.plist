@@ -18,13 +18,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://bitpiedotcom.github.io/bitpie_ios_58.png</string>
+					<string>https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/ios/bitpie_ios_58.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://bitpiedotcom.github.io/bitpie_ios_144.png</string>
+					<string>https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/ios/bitpie_ios_144.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
