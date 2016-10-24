@@ -53,10 +53,10 @@ downhttps: 'https://bitpiedotcom.github.io'
 androidsoftname: 'Bitpie Android'
 androidqr: '/img/android_qr.png'
 androidlogo: '/img/logo.png'
-androidsha: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/download/android/SHA256SUMS'
+androidsha: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/android/SHA256SUMS'
 
 # ----------------------- #
 #   download link   #
 # ----------------------- #
-apkdown: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/download/android/bitpie.apk'
+apkdown: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/android/bitpie.apk'
 apkdownq: 'https://dn-bither.qbox.me/bitpie.apk'
