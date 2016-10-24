@@ -30,7 +30,9 @@
 @media(min-width:531px) and (max-width:767px){
   ul.intro-social-buttons > li{
     display: inline-block  !important;
+
   }
+  .intro-divider{width:60% !important;}
 
 }
 @media (min-width:376px) and (max-width:530px) {
@@ -38,6 +40,7 @@
   .navbar-brand{padding:15px 15px!important;}
   .tro-social-buttons > li  {display: none !important;}
   .list-inline-down{padding-left: 20% !important;}
+  .intro-divider{width:80% !important;}
 
 }
 @media(min-width:360px) and (max-width:375px){
