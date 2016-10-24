@@ -26,7 +26,10 @@
     <div id="" class="view row" style="margin-top:30px;">
 
         <div class="span12 margin-bottom-20" style="text-align:center;">
-            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i>Download</a>
+            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i>Download(China)</a>
+        </div>
+        <div class="span12 margin-bottom-20" style="text-align:center;">
+            <a href="javascript:void(0);" onclick="javascript:installs();" class="btn-u btn-u-lg"><i class="fa fa-download"></i>Download(World)</a>
         </div>
 
         <div class="span12" style="text-align:center;">
@@ -47,12 +50,20 @@
     function isMobile() {
         return true
     }
-    function install() {
+    function installs() {
         if(!isMobile()){
             alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
             return;
         }
         url = "{{site.apkdown}}";
+        window.location.href = url;
+    }
+    function install() {
+        if(!isMobile()){
+            alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
+            return;
+        }
+        url = "{{site.apkdownq}}";
         window.location.href = url;
     }
 </script>
