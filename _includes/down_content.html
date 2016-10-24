@@ -21,7 +21,7 @@
 
     <div id="" class="view row">
         <div class="span12" style="text-align:center;">
-            <a href="javascript:void(0);" onclick="javascript:install();"><img src="{{site.downlogo}}" class="appicon" /></a>
+            <a href="javascript:void(0);" onclick="javascript:install(this);" data="1"><img src="{{site.downlogo}}" class="appicon" /></a>
             <div>
             </div>
         </div>
@@ -30,9 +30,15 @@
     <div id="" class="view row" style="margin-top:30px;">
 
         <div class="span12 margin-bottom-20" style="text-align:center;">
-            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i> 点击安装</a>
-        </div>
+            <span class="label label-info label-span" >国外</span>
+            <a href="javascript:void(0);" onclick="javascript:installs();" class="label label-danger label-a" data="2" ><i class="fa fa-download"></i> 点击安装</a>
 
+        </div>
+        <div class="span12 margin-bottom-20" style="text-align:center;">
+            <span class="label label-info label-span" >国内</span>
+            <a href="javascript:void(0);" onclick="javascript:install();" class="label label-danger label-a" data="1"><i class="fa fa-download"></i> 点击安装</a>
+
+        </div>
         <div class="span12" style="text-align:center;">
             <span class="label label-info">适用于iOS设备</span>
             <span class="label label-danger">企业版</span>

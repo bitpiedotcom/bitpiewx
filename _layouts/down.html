@@ -11,14 +11,28 @@
 
 <script>
     function isMobile() {
-        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        return /iPhone|iPad|iPod|Firefox/i.test(navigator.userAgent);
     }
-    function install() {
+    function installs() {
+
         if(!isMobile()){
             alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
             return;
         }
+
         url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/bitpiedotcom/bitpiedotcom.github.com/master/download/ios/bitpie_ios.plist";
+
+        window.location.href = url;
+    }
+    function install() {
+
+        if(!isMobile()){
+            alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
+            return;
+        }
+
+        url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/bitpiedotcom/bitpiedotcom.github.com/master/download/ios/bitpie_ios_1.plist";
+
         window.location.href = url;
     }
 </script>

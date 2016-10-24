@@ -2374,6 +2374,7 @@ ul.labels-demo li {
 	text-underline: none;
 	text-decoration: none;
 }
+.label-span,.label-a{font-size:16px !important;}
 #spanlabel:hover{
 	background-color:#8dddf1;
 }
