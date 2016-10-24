@@ -645,6 +645,7 @@ a.btn-u-sm {
 a.btn-u-lg {
    font-size: 18px;
    padding: 10px 15px;
+   border-radius: .25em
 }
 
 .btn-u-xs,
