@@ -34,8 +34,8 @@ social:
 # ----------------------- #
 downtitle: 比特派
 downsoftname: 比特派
-downsoftversion: 1.0.0
-downsoftdate: 2016-10-23
+downsoftversion: 1.1.0
+downsoftdate: 2016-11-9
 downqr: '/img/ios_qr.png'
 downlogo: '/img/bitpie_ios_144.png'
 lesson: bitpie iOS安装教程
