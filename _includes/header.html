@@ -10,19 +10,19 @@
                 <span class="icon-bar"></span>
             </button>
             <a  class="navbar-brand" href="{{site.url}}" title="{{site.title}}"><img class="logoheight" src="{{site.logo}}"/></a>
-            <a class="navbar-brand page-scroll " id="title-hide" href="#home">{{ site.title }}</a>
+            <a class="navbar-brand page-scroll " id="title-hide" href="#home" lang="en">{{ site.title }}</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">  
             	<li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about" lang="en">About</a>
                 </li>            
                 <li>
-                    <a class="page-scroll" href="#services">Features</a>
+                    <a class="page-scroll" href="#services" lang="en">Features</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact" lang="en">Contact</a>
                 </li>
             </ul>
         </div>
@@ -40,8 +40,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="intro-message">
-						<h1>{{ page.title }}</h1>
-						<h3>{{ page.subTitle }}</h3>
+						<h1 lang="en">{{ page.title }}</h1>
+						<h3 lang="en">{{ page.subTitle }}</h3>
 						<hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons list-inline-down">
 
@@ -51,12 +51,12 @@
 
                                   <button class="btn btn-default dropdown-toggle select-btn" type="button" id="dropdownMenu1" data-toggle="dropdown" >
                                     <i class="fa fa-android fa-fw"></i>
-                                     Android
+                                     <span lang="en">Android</span>
                                     <span class="caret"></span>
                                   </button>
                                   <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.url}}/android/">Download</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.googleplay}}">Google Play</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.url}}/android/" lang="en">Download</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.googleplay}}" lang="en">Google Play</a></li>
                                    
                                   </ul>
                                 </div>
@@ -66,12 +66,12 @@
 
                                   <button class="btn btn-default dropdown-toggle select-btn" type="button" id="dropdownMenu1" data-toggle="dropdown">
                                     <i class="fa fa-apple fa-fw"></i> 
-                                    iOS
+                                    <span lang="en">iOS</span>
                                     <span class="caret"></span>
                                   </button>
                                   <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                                     <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Download</a></li>-->
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.appstore}}">App Store</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.appstore}}" lang="en">App Store</a></li>
                                    
                                   </ul>
                                 </div>

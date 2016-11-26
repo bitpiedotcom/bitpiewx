@@ -2,7 +2,7 @@
 <script src="js/jquery-1.11.0.js"></script>
 
 <!-- Plugin JavaScript -->
-    <script src="{{ "js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.easing.min.js' | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
@@ -14,3 +14,26 @@
 
 <!-- my javascript -->
 <script type="text/javascript" src="js/common.js"></script>
+<script src="js/jquery-lang.js" type="text/javascript"></script>
+<script src="js/js.cookie.js" type="text/javascript"></script>
+<script src="js/dynamicLang.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var lang = new Lang();
+    lang.init({
+        defaultLang: 'en',
+        currentLang: 'en',
+        cookie: {
+            name: 'langCookie',
+            expiry: 365,
+            path: '/'
+        },
+        allowCookieOverride: true
+    });
+    $(function(){
+        if(navigator.language == "zh-CN"){
+                window.lang.change("zh")
+        }else{
+                window.lang.change("en")
+        }
+    })
+</script>

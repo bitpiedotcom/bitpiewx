@@ -6,12 +6,10 @@ url: http://bitpie.com
 title: bitpie - Best Bitcoin Wallet!
 email: bitpiedotcom@gmail.com
 author: getcai
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
+description:  bitpie - Best Bitcoin Wallet!
 copyright: '&copy; 2016 bitpie.com'
-credits: 'The bitpie wallet is based on <a href="https://bither.net/">Bither</a> technology.'
+credits: 'The bitpie wallet is based on'
+creditss: "technology."
 logo: img/logo.png
 # ----------------------- #
 #    Jekyll & Plugins     #
