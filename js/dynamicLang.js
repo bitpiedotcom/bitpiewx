@@ -25,7 +25,7 @@ Lang.prototype.pack.zh = {
         "As a bitcoin wallet, bitpie means you control your private keys, and nobody can touch your assets. With our special design, you do not need to sync the blockchain data with the bitcon network, and sending/receiving bitcoins are processed so quickly. Also bitpie supports dynamic transaction fee and transaction accelerator, that means your transaction can easily go through even when network congestion.":
             "作为钱包，比特派意味着您自己掌握私钥，其他人无法触碰您的财产。通过我们的优化，您可以快捷的收发比特币，并且比特派还支持动态矿工费及交易加速器，这意味着即便是遇到了网络大拥堵，您的交易也能迅速得到确认。",
         "P2P Exchange:Easiest Way to Buy/Sell Bitcoins with Other Peers!":"P2P 交易：轻松的与其他人买卖比特币！",
-        "Bitpie has built-in escrow function based on Multisig technology, so you can easily buy/sell bitcoins with the dealers all over the world in a secured environment.":"比特派内置了给予多重签名技术的托管功能，因此您可以安全的与世界各地的交易员买卖比特币。",
+        "Bitpie has built-in escrow function based on Multisig technology, so you can easily buy/sell bitcoins with the dealers all over the world in a secured environment.":"比特派内置了基于多重签名技术的托管功能，因此您可以安全的与世界各地的交易员买卖比特币。",
         "Security":"安全：",
         "Bither team has so many reputations in the past, and Bither wallet has been recommended by Bitcoin.org for a long time. We know how to make secured bitcoin wallet, and how to protect your blockchain assets. The bitpie wallet is totally based on Bither technology, so it is robust and trustable.":
             "比太团队在安全方面一直享有良好的声誉，比太钱包也是中国唯一一个被 Bitcoin.org 官方推荐的比特币钱包，我们懂得如何开发安全的比特币钱包以及如何保护您的区块链资产，比特派钱包完全基于比太技术，值得信赖。",
@@ -38,7 +38,7 @@ Lang.prototype.pack.zh = {
         "Home":"首页",
         "The bitpie wallet is based on":"比特派钱包基于",
         "Bither":"比太",
-        "technology.":"技术。"
+        "technology.":"技术."
 
     }
 }
