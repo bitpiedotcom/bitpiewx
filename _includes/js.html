@@ -30,7 +30,7 @@
         allowCookieOverride: true
     });
     $(function(){
-        if(navigator.language.indexOf("zh") > -1){
+        if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
                 window.lang.change("zh")
         }else{
                 window.lang.change("en")
