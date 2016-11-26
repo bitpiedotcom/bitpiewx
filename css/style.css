@@ -53,6 +53,9 @@
     display: inline-block  !important;
   }
 }
+@media(min-width:320px) and (max-width:365px){
+  .navbar-brand{font-size: 17px !important;}
+}
 @media(max-width:320px){
   .list-inline-down{padding-left:10% !important;}
   .navbar-brand{padding:15px 0 15px 5px  !important;}

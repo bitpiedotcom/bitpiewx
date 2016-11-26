@@ -8,7 +8,7 @@ Lang.prototype.pack.zh = {
         "Features":"特色",
         "Contact":"联系我们",
         "bitpie":"比特派",
-        "Wallet & P2P Exchange":"钱包 和 P2P 交易",
+        "Wallet & P2P Exchange":"钱包 & P2P 交易",
         "Android":"安卓",
         "Download":"下载",
         "Google Play":"谷歌商店",
