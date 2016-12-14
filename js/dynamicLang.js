@@ -38,7 +38,11 @@ Lang.prototype.pack.zh = {
         "Home":"首页",
         "The bitpie wallet is based on":"比特派钱包基于",
         "Bither":"比太",
-        "technology.":"技术."
+        "technology.":"技术.",
+        "Bitpie Android":"比特派 安卓",
+        "Version:":"版本：",
+        "Download":"下载",
+        "Installation or use his cell phone to scan the qr code below":"或者用手机扫描下面的二维码安装"
 
     }
 }
