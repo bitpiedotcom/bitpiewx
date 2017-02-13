@@ -2343,12 +2343,12 @@ ul.labels-demo li {
 .recent .titles  a.selected {
     color:#72c02c;
 }
-#down{
+#down,.lesson {
 	width:33%;
 	margin:0 auto;
 	text-align: left;
 }
-#down h3{text-align: center}
+#down h3,.lesson h3{text-align: center}
 .limg{
 	width:100%;
 	max-width: 280px;
