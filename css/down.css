@@ -2380,6 +2380,6 @@ ul.labels-demo li {
 }
 
 @media (min-width:300px) and (max-width:530px) {
-	#down{width:80% !important;}
+	#down,.lesson{width:80% !important;}
 
 }
