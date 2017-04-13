@@ -37,10 +37,10 @@ social:
 # ----------------------- #
 downtitle: 比特派
 downsoftname: 比特派
-iosdownsoftversion: 1.2.2
-iosdownsoftdate: 2017-04-06
-anddownsoftversion: 1.2.2
-anddownsoftdate: 2017-04-10
+iosdownsoftversion: 1.2.3
+iosdownsoftdate: 2017-04-13
+anddownsoftversion: 1.2.3
+anddownsoftdate: 2017-04-13
 
 downqr: '/img/ios_qr.png'
 downlogo: '/img/bitpie_ios_144.png'
