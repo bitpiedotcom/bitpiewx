@@ -44,7 +44,7 @@ Lang.prototype.pack.zh = {
         "Version:":"版本：",
         "Download":"下载",
         "Use your cell phone  to install by scaning the qr code":"或者用手机扫描下面的二维码安装",
-        "Doc":"帮助文档"
+        "Doc":"帮助"
 
     }
 }
