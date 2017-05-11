@@ -2378,8 +2378,10 @@ ul.labels-demo li {
 #spanlabel:hover{
 	background-color:#8dddf1;
 }
-
+#downloading{width:25%;margin:0 auto}
 @media (min-width:300px) and (max-width:530px) {
-	#down,.lesson{width:80% !important;}
+	#down,.lesson,#downloading{width:50% !important;}
+	#downloading{margin:0 auto}
+
 
 }
