@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/down.html" afterPath="$PROJECT_DIR$/_layouts/down.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bitpiedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +26,10 @@
       <file leaf-file-name="down.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/down.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42105263">
-              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.68421054">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
-                <marker date="1495158074000" expanded="true" signature="1831:1849" placeholder="..." />
+                <marker date="1495159072000" expanded="true" signature="1831:1849" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -868,10 +867,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/down.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42105263">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.68421054">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
-            <marker date="1495158074000" expanded="true" signature="1831:1849" placeholder="..." />
+            <marker date="1495159072000" expanded="true" signature="1831:1849" placeholder="..." />
           </folding>
         </state>
       </provider>
