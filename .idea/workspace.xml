@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alipaylimit.html" afterPath="$PROJECT_DIR$/alipaylimit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bitpiedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,8 +112,8 @@
       <file leaf-file-name="alipaylimit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alipaylimit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36842105">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.55263156">
+              <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -196,8 +195,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="231" />
-    <option name="y" value="90" />
+    <option name="x" value="14" />
+    <option name="y" value="69" />
     <option name="width" value="1280" />
     <option name="height" value="712" />
   </component>
@@ -363,7 +362,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="90" width="1280" height="712" extended-state="0" />
+    <frame x="14" y="69" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21286735" sideWeight="0.414791" order="0" side_tool="false" content_ui="combo" />
@@ -817,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alipaylimit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36842105">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.55263156">
+          <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
           <folding />
         </state>
       </provider>
