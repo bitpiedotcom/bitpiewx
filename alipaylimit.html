@@ -8,18 +8,25 @@
     body{
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         /*font-size: 14px;*/
-        /*line-height: 1.42857143;*/
+        line-height: 1.42857143;
         color: #333;
         background-color: #fff;
         padding:10px 20px;
     }
     dl dt{font-weight: 500}
-    dl dd{line-height: 25px;padding-bottom: 20px}
+    dl dd{
+        -webkit-margin-start:0px !important;
+        -webkit-margin-end:0px !important;
+        -moz-margin-start: 0px !important;
+        -moz-margin-end:0px !important;
+
+        line-height:1.5
+    }
     h3{text-align: center}
     .imgcenter{display:block;width:80%;text-align: center;margin:0 auto;padding-bottom: 20px}
 
     @media (min-width:320px) and (max-width:642px){
-        dl dd,dl dt,h3{width:90%}
+        dl dt,h3{width:90%}
         .imgcenter{width:50% !important;}
     }
     
