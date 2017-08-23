@@ -15,7 +15,10 @@
 #about{
   text-align: left !important;
 }
-
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
 /* super slider style */
 
 /*.slideBox{ /!*width:450px; height:230px;*!/ overflow:hidden; position:relative; }*/
