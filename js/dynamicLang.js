@@ -35,7 +35,7 @@ Lang.prototype.pack.zh = {
         "Easiest Way to Buy/Sell Bitcoins with Other Peers!":"轻松的与其他人买卖比特币！",
         "Email":"邮箱",
         "QQ group 1:493077876":"QQ群1：493077876(未满)",
-        "QQ group 2:431191173":"QQ群2：431191173(未满)",
+        "QQ group 2:431191173":"QQ群2：431191173(已满)",
         "Home":"首页",
         "The bitpie wallet is based on":"比特派钱包基于",
         "Bither":"比太",
