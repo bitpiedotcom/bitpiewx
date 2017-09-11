@@ -46,7 +46,7 @@ Lang.prototype.pack.zh = {
         "Download":"下载",
         "Use your cell phone  to install by scaning the qr code":"或者用手机扫描下面的二维码安装",
         "Doc":"帮助",
-        "BITPIE LIMITED at Republic of Seychelles":"BITPIE LIMITED 塞舌尔共和国"
+        "BITPIE LIMITED registered at Republic of Seychelles":"BITPIE LIMITED 注册于塞舌尔共和国"
 
     }
 }
