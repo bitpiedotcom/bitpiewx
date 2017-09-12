@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>
-   比特派－最好用的比特币钱包
+    <title lang="en">
+        bitpie - Best Bitcoin Wallet!
     </title>
 
     <!-- CSS -->
@@ -18,11 +18,11 @@
 <nav class="nav">
     <div class="nav-container">
         <a href="{{ site.baseurl }}/">
-            <h2 class="nav-title">比特派－最好用的比特币钱包</h2>
+            <h2 class="nav-title" lang="en">bitpie - Best Bitcoin Wallet!</h2>
         </a>
         <ul>
             <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
-            <li><a href="{{site.baseurl}}/blog/" >博客</a></li>
+            <li><a href="{{site.baseurl}}/blog/" lang="en">blog</a></li>
             <!--<li>-->
                 <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
             <!--</li>-->
@@ -88,9 +88,7 @@
 <script src="/js/jquery-1.11.0.js"></script>
 
 
-
-<!-- Bootstrap Core JavaScript -->
-
+<script src="/js/dynamicLang.js" type="text/javascript"></script>
 <script type="text/javascript">
     var lang = new Lang();
     lang.init({
@@ -106,7 +104,7 @@
     $(function(){
 
         if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
-            //$("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
+           // $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
             window.lang.change("zh");
 
         }else{
@@ -114,5 +112,7 @@
         }
     })
 </script>
+
+
 </body>
 </html>
