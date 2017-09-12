@@ -75,3 +75,17 @@ googleplay: 'https://play.google.com/store/apps/details?id=com.bitpie'
 # ----------------------- #
 apkdown: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/android/bitpie.apk'
 apkdownq: 'https://dn-bither.qbox.me/bitpie.apk'
+
+# Gems
+gems:
+  - jekyll-paginate
+
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+
+paginate:       5
+
+# Build settings
+markdown:       kramdown
