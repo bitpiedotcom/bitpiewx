@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        bitpie - Best Bitcoin Wallet!
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/blogstyles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+</head>
+
+<body>
+<nav class="nav">
+    <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+            <h2 class="nav-title">bitpie - Best Bitcoin Wallet!</h2>
+        </a>
+        <ul>
+            <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
+            <li><a href="{{site.baseurl}}/blog/" >blog</a></li>
+            <!--<li>-->
+                <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a class="btn btn-sm set_cn"><img src="/img/China.png" height="16px" width="16px"></a>-->
+            <!--</li>-->
+        </ul>
+    </div>
+</nav>
+
+<main>
+<!--<div class="row">-->
+    <!--<div class="col-lg-12 text-center">-->
+        <!--<div class="navy-line"></div>-->
+        <!--<h1>Latest Blog</h1>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div class="row">-->
+    <!--<div class="col-lg-8 col-lg-offset-2">-->
+        <!--<div class="wrapper wrapper-content animated fadeInRight">-->
+
+            <!--&lt;!&ndash; latest 10 blog &ndash;&gt;-->
+            <!--{% for post in site.posts limit:10 %}-->
+            <!--<div class="vote-item">-->
+                <!--{% if post.layout != "default" %}-->
+
+
+                <!--<div class="row">-->
+                    <!--<div class="col-md-10">-->
+                        <!--<div class="vote-actions">-->
+                        <!--</div>-->
+                        <!--<a href="{{ post.url }}" class="vote-title">-->
+                            <!--{{ post.title }}-->
+                        <!--</a>-->
+                        <!--<div class="vote-info">-->
+
+
+                            <!--<i class="fa fa-clock-o"></i> <a>{{ post.date | date: "%-d %b %Y" }}</a>-->
+                            <!--<i class="fa fa-user"></i> <a>WenHao</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-2 ">-->
+                        <!--<div class="vote-icon">-->
+                            <!--{% if post.icon %}<i class="fa {{ post.icon }}"> </i>{% endif %}-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--{% endif %}-->
+            <!--</div>-->
+
+            <!--{% endfor %}-->
+
+        <!--</div>-->
+    <!--</div>-->
+
+<!--</div>-->
+
+
+{{content}}
+</main>
+
+<script src="/js/jquery-1.11.0.js"></script>
+
+
+
+<!-- Bootstrap Core JavaScript -->
+
+<script type="text/javascript">
+    var lang = new Lang();
+    lang.init({
+        defaultLang: 'en',
+        currentLang: 'en',
+        cookie: {
+            name: 'langCookie',
+            expiry: 365,
+            path: '/'
+        },
+        allowCookieOverride: true
+    });
+    $(function(){
+
+        if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
+            //$("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
+            window.lang.change("zh");
+
+        }else{
+            window.lang.change("en")
+        }
+    })
+</script>
+</body>
+</html>

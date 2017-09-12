@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://bitpie.com
+url: http://127.0.0.1:4000
 title: bitpie - Best Bitcoin Wallet!
 email: bitpiedotcom@gmail.com
 author: getcai
