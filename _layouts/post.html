@@ -1,10 +1,67 @@
----
-layout: blog
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if  page.lang == "en" %}
+    bitpie - Best Bitcoin Wallet!
+    {% else %}
+    比特派－最好用的比特币钱包！
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/blogstyles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+</head>
+
+<body>
+<nav class="nav">
+  <div class="nav-container">
+    <a href="{{ site.baseurl }}/">
+      <h2 class="nav-title">
+        {% if  page.lang == "en" %}
+        bitpie - Best Bitcoin Wallet!
+        {% else %}
+        比特派－最好用的比特币钱包！
+        {% endif %}
+
+      </h2>
+    </a>
+    <ul>
+      <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
+      <li><a href="{{site.baseurl}}/blog/" >
+
+        {% if  page.lang == "en" %}
+        Blog
+        {% else %}
+        博客
+        {% endif %}
+
+      </a></li>
+      <!--<li>-->
+      <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
+      <!--</li>-->
+      <!--<li>-->
+      <!--<a class="btn btn-sm set_cn"><img src="/img/China.png" height="16px" width="16px"></a>-->
+      <!--</li>-->
+    </ul>
+  </div>
+</nav>
+
+<main>
 
 <div class="post">
   <div class="post-info">
-    <span lang="en">Written by</span>&nbsp;{{ page.author }}
+    <span >
+      {% if  page.lang == "en" %}
+    Written by
+    {% else %}
+    作者
+    {% endif %}</span>&nbsp;{{ page.author }}
     {% if page.date %}
     <br>
     <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
@@ -28,3 +85,37 @@ layout: blog
 
   <a href="#" class="top">Top</a>
 </div>
+
+</main>
+
+<script src="/js/jquery-1.11.0.js"></script>
+
+
+<script src="/js/dynamicLang.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var lang = new Lang();
+  lang.init({
+    defaultLang: 'en',
+    currentLang: 'en',
+    cookie: {
+      name: 'langCookie',
+      expiry: 365,
+      path: '/'
+    },
+    allowCookieOverride: true
+  });
+  $(function(){
+
+    if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
+      // $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
+      window.lang.change("zh");
+
+    }else{
+      window.lang.change("en")
+    }
+  })
+</script>
+
+
+</body>
+</html>

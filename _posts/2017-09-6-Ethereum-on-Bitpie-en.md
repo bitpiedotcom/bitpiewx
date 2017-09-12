@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bitpie + ETH"
+title: "Bitpie + ETH"
 author: "Wenhao"
 lang: "en"
 ---
