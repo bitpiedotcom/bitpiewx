@@ -24,11 +24,19 @@
             <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
             <li><a href="{{site.baseurl}}/blog/" >博客</a></li>
             <!--<li>-->
-                <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
+                <!--<a href="{{site.baseurl}}/blog/" >CN</a>-->
             <!--</li>-->
+
             <!--<li>-->
-                <!--<a class="btn btn-sm set_cn"><img src="/img/China.png" height="16px" width="16px"></a>-->
+                <!--<a href="{{site.baseurl}}/blog/en/" >EN</a>-->
             <!--</li>-->
+
+            <li>
+                <a class="btn btn-sm set_en" href="{{site.baseurl}}/blog/en/"><img src="/img/United-States.png" height="16px" width="16px" ></a>
+            </li>
+            <li>
+                <a class="btn btn-sm set_cn" href="{{site.baseurl}}/blog/"><img src="/img/China.png" height="16px" width="16px"></a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -87,7 +95,7 @@
 
 <script src="/js/jquery-1.11.0.js"></script>
 
-
+<script src="/js/jquery-lang.js"></script>
 <script src="/js/dynamicLang.js" type="text/javascript"></script>
 <script type="text/javascript">
     var lang = new Lang();
@@ -97,7 +105,7 @@
         cookie: {
             name: 'langCookie',
             expiry: 365,
-            path: '/'
+           path: '/'
         },
         allowCookieOverride: true
     });

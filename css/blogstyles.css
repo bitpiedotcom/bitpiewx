@@ -584,3 +584,10 @@ footer span {
     display: block;
     width: 2rem
 }
+@media (min-width:320px) and (max-width:530px) {
+
+    .nav-title,a{font-size: 1rem !important;}
+    .catalogue-title,.post-title{font-size: 0.8rem !important;}
+    p{font-size: 0.6rem !important;}
+
+}

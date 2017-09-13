@@ -70,21 +70,49 @@
 
   <h1 class="post-title">{{  page.title }}</h1>
   <div class="post-line"></div>
-  <div lang="en">
+  <div>
+{{post.url}}
   {{ content }}
   </div>
 </div>
-
 <div class="pagination">
-  {% if page.next.url %}
-  <a href="{{ page.next.url | prepend: site.url }}" class="left arrow">&#8592;</a>
+  {% for post in site.posts %}
+  {% if post.lang == page.lang %}
+  {% if prev %}
+  <a href="{{ post.url }}" class="left arrow">&#8592;</a>
   {% endif %}
-  {% if page.previous.url %}
-  <a href="{{ page.previous.url | prepend: site.url }}" class="right arrow">&#8594;</a>
+  {% assign prev = false %}
+  {% if post.id == page.id %}
+  {% assign prev = true %}
   {% endif %}
+  {% endif %}
+  {% endfor %}
 
+
+  {% for post in site.posts reversed %}
+  {% if post.lang == page.lang %}
+  {% if next %}
+  <a href="{{ post.url }}" class="right arrow">&#8594;</a>
+  {% break %}
+  {% endif %}
+  {% assign next = false %}
+  {% if post.id == page.id %}
+  {% assign next = true %}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
   <a href="#" class="top">Top</a>
 </div>
+<!--<div class="pagination">-->
+  <!--{% if page.next.url %}-->
+  <!--<a href="{{ page.next.url | prepend: site.url }}" class="left arrow"></a>-->
+  <!--{% endif %}-->
+  <!--{% if page.previous.url %}-->
+  <!--<a href="{{ page.previous.url | prepend: site.url }}" class="right arrow"></a>-->
+  <!--{% endif %}-->
+
+  <!--<a href="#" class="top">Top</a>-->
+<!--</div>-->
 
 </main>
 

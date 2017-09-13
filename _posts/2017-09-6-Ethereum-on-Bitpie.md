@@ -2,7 +2,8 @@
 layout: post
 title: "比特派 + ETH"
 author: "文浩"
-lang: "cn"
+lang: "zh"
+ref: eth
 ---
 
 ![eth图片](/image/eth.jpg "比特派支持ETH")

@@ -3,6 +3,7 @@ layout: post
 title: "Bitpie + Zcash"
 author: "Wenhao"
 lang: "en"
+ref: "zcash"
 ---
 Today, we are very happy to announce Bitpie v2.2.1 will support Zcash (ZEC)!
 

@@ -2,7 +2,8 @@
 layout: post
 title: "比特派 + Zcash"
 author: "文浩"
-lang: "cn"
+lang: "zh"
+ref: "zcash"
 ---
 今天，我们很高兴的宣布比特派 v2.2.1 版将支持 Zcash (ZEC)！
 

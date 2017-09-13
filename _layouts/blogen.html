@@ -22,13 +22,13 @@
         </a>
         <ul>
             <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
-            <li><a href="{{site.baseurl}}/blog/" >Blog</a></li>
-            <!--<li>-->
-                <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
-            <!--</li>-->
-            <!--<li>-->
-                <!--<a class="btn btn-sm set_cn"><img src="/img/China.png" height="16px" width="16px"></a>-->
-            <!--</li>-->
+            <li><a href="{{site.baseurl}}/blog/en/" >Blog</a></li>
+            <li>
+                <a class="btn btn-sm set_en" href="{{site.baseurl}}/blog/en/"><img src="/img/United-States.png" height="16px" width="16px" ></a>
+            </li>
+            <li>
+                <a class="btn btn-sm set_cn" href="{{site.baseurl}}/blog/"><img src="/img/China.png" height="16px" width="16px"></a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -90,7 +90,7 @@
 
 
 <!-- Bootstrap Core JavaScript -->
-
+<script src="/js/jquery-lang.js"></script>
 <script type="text/javascript">
     var lang = new Lang();
     lang.init({
