@@ -5,7 +5,7 @@ author: "Wenhao"
 lang: "en"
 ---
 
-![eth image](/image/eth.en.jpg "Bitpie")
+![eth image](/image/ethen.png "Bitpie")
 
 Bitpie Team
 
