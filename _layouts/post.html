@@ -33,15 +33,15 @@
     </a>
     <ul>
       <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
-      <li><a href="{{site.baseurl}}/blog/" >
+      <li>
 
         {% if  page.lang == "en" %}
-        Blog
+       <a href="{{site.baseurl}}/blog/en/" >Blog</a>
         {% else %}
-        博客
+        <a href="{{site.baseurl}}/blog/" >博客</a>
         {% endif %}
 
-      </a></li>
+      </li>
       <!--<li>-->
       <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
       <!--</li>-->
