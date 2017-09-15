@@ -34,7 +34,7 @@ Lang.prototype.pack.zh = {
         "Wallets":"钱包：",
         "Easiest Way to Buy/Sell Bitcoins with Other Peers!":"轻松的与其他人买卖比特币！",
         "Email":"邮箱",
-        "QQ group 1:493077876":"QQ群1：493077876(未满)",
+        "QQ group 1:493077876":"QQ群1：493077876(已满)",
         "QQ group 2:431191173":"QQ群2：431191173(已满)",
         "QQ group 3:616697070":"QQ群3：616697070(未满)",
         "Home":"首页",
