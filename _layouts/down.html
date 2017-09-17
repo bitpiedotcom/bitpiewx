@@ -46,11 +46,11 @@
         }
 
         function run(){
-            document.getElementById("weixinDisplay").style = "display:none";
-            document.getElementById("browser").style = "text-align:center;display:block";
+            document.getElementById("weixinDisplay").style = "text-align:center;display:block";
+            //document.getElementById("browser").style = "text-align:center;display:block";
         }
         //console.log(window.navigator.userAgent.toLowerCase());
-        if (!is_weixin()) {
+        if (is_weixin()) {
             //console.log("11");
            run();
         }
