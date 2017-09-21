@@ -8,7 +8,8 @@ Lang.prototype.pack.zh = {
         "Features":"特色",
         "Contact":"联系我们",
         "bitpie":"比特派",
-        "Wallet & P2P Exchange":"钱包 & P2P 交易",
+        "Wallet & Ｍultisig Service":"钱包 & 多重签名服务",
+        "Multisig Service":"多重签名服务",
         "Android":"安卓",
         "Download":"下载",
         "Google Play":"谷歌商店",
@@ -16,8 +17,8 @@ Lang.prototype.pack.zh = {
         "App Store":"苹果商店",
         "Bitpie is developed by":"比特派是由",
         "Bither":"比太",
-        "team. With bitpie, you can have a secured bitcoin wallet as simple as possible, and you can also buy/sell bitcoins in an easy way.":
-            "团队研发的比特币钱包，它能让您轻松安全的使用比特币，并且还能方便的买卖比特币。",
+        "team. With bitpie, you can have a secured bitcoin wallet as simple as possible, and you can also buy/sell bitcoins in an easy way(not available in China).":
+            "团队研发的比特币钱包，它能让您轻松安全的使用比特币，并且还能方便的买卖比特币(不支持中国大陆)。",
         "Bitpie will also support other blockchain assets in the future, so it will be the wallet for everything, and you should try it now!":
             "比特派还将支持多种区块链资产，未来您可以使用一个钱包来管理一切，赶紧试试吧！",
         "Wallets":"钱包",
