@@ -2779,7 +2779,7 @@ img.img-circle {
     .url-content{font-size: 15px}
 
 }
-.list-inline > li{
-    margin-top:10px;
+.list-inline>li{
+    margin-top: 10px !important;
 }
 

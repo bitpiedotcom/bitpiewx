@@ -38,7 +38,7 @@ Lang.prototype.pack.zh = {
         "QQ group 1:493077876":"QQ群1：493077876(已满)",
         "QQ group 2:431191173":"QQ群2：431191173(已满)",
         "QQ group 3:616697070":"QQ群3：616697070(未满)",
-        "QQ group 4:602675609":"QQ群3：602675609(未满)",
+        "QQ group 4:602675609":"QQ群4：602675609(未满)",
         "Home":"首页",
         "The bitpie wallet is based on":"比特派钱包基于",
         "Bither":"比太",
