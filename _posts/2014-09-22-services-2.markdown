@@ -3,7 +3,7 @@ layout: default
 img: n6p_front.png
 category: Services
 title: Multisig Service
-titleDescription: Easiest Way to Buy/Sell Bitcoins with Other Peers!
-contents: Bitpie has built-in escrow function based on Multisig technology, so you can easily buy/sell bitcoins with the dealers all over the world in a secured environment.
+titleDescription: Easiest Way To Exchange Bitcoins With Other Peers!
+contents: Bitpie has built-in escrow function based on Multisig technology services, so you can easily exchange bitcoins with the dealers all over the world in a secured environment.
 description: |
 ---
