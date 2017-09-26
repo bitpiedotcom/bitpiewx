@@ -13,7 +13,13 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading"><span lang="en">{{ post.title }}</span><br/><span lang="en">{{post.titleDescription}}</span></h2>
-                    <div class="lead"><p lang="en">{{ post.contents }}</p></div>
+                    {% if post.title == 'Security' %}
+                    <div class="lead">
+                        <span lang="en">{{ post.contents_before }}</span>&nbsp;<a href="{{ post.link }}" target="_blank">Bitcoin.org</a>&nbsp;<span lang="en">{{ post.contents_after }}</span>
+                    </div>
+                    {% else %}
+                    <div class="lead" lang="en">{{ post.contents }}</div>
+                    {% endif %}
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
@@ -36,7 +42,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading"><span lang="en">{{ post.title }}</span><br/><span lang="en">{{post.titleDescription}}</span></h2>
-                    <div class="lead" lang="en">{{ post.contents }}</div>
+                    <div class="lead"><p lang="en">{{ post.contents }}</p></div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
