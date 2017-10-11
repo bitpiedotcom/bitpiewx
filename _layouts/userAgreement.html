@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include userAgree.html %}
+<style>
+    body{
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        /*font-size: 14px;*/
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+        padding:10px 20px;
+    }
+    .catalogue{
+        font-weight: 400;
+        line-height:1.5;
+        margin:0 auto;
+        padding: 0 2rem;
+
+    }
+    .span12 span{color:#555}
+    .span12>span+span:before{
+        padding: 0 5px;
+        color: #ccc;
+        content: "/\00a0";
+    }
+
+
+
+
+    html {
+        font-size: 62.5%
+    }
+
+</style>
+<body>
+<div class="row-fluid breadcrumbs margin-bottom-20">
+    <div class="container">
+        <h1 class="pull-left" >{{site.downtitle}}</h1>
+
+        <ul class="pull-right breadcrumb">
+            <li><span>Version:</span> {{site.anddownsoftversion}}</li>
+            <li>{{site.anddownsoftdate}}</li>
+        </ul>
+    </div>
+</div>
+<div class="container content" style="padding-bottom:0px; ">
+    <div  class="view row">
+        <div class="span12 lessonimg "  style="text-align:center;">
+            <h3 style="color: #d9534f;">{{site.userAgreementName}}</h3>
+            <span>Version:{{site.userAgreementVersion}}</span>
+            <span>{{site.userAgreementDate}}</span>
+
+        </div>
+
+
+    </div>
+    <hr class="devider devider-dotted" style="margin:20px 0">
+</div>
+
+<div class="container catalogue">
+    {% for post in site.posts %}
+    {% if post.layout != "default" %}
+    {% if post.ref == "useragreement" %}
+
+        <div>
+
+            <p>
+                {{ post.content  }}
+                <!--{{ post.content }}-->
+            </p>
+
+        </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="container">
+    <p class="copyright text-muted small center" style="background: transparent;text-align: center;margin: 0 auto; ">BITPIE LIMITED 注册于塞舌尔共和国</p>
+</div>
+</body>
+</html>

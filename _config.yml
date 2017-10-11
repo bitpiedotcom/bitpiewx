@@ -91,3 +91,10 @@ paginate:       5
 
 # Build settings
 markdown:       kramdown
+
+# ----------------------- #
+#   term index.html   #
+# ----------------------- #
+userAgreementName: 用户服务协议
+userAgreementVersion: 0.1.0
+userAgreementDate: 2017-10-10
