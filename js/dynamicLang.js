@@ -55,7 +55,9 @@ Lang.prototype.pack.zh = {
         "BITPIE LIMITED registered at Republic of Seychelles":"BITPIE LIMITED 注册于塞舌尔共和国",
         "Blog":"博客",
         "blog":"博客",
-        "Written by":"作者"
+        "Written by":"作者",
+        "Certificate":"证书",
+        "Close":"关闭"
 
     }
 }
