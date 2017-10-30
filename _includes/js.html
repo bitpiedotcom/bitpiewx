@@ -55,31 +55,35 @@
 
 
 
-        $("#qq").on("click",function(){
+        $("#qq").on("click",function(e){
+            e.stopPropagation();
             var flag = $(this).attr("data");
           if(flag == "hide") {
               $(this).attr("data","show")
-              $("#group_show").attr("data","show");
+              $("#Contact").attr("data","show");
               $("#group_show").show();
 
           }else if(flag == "show") {
               $(this).attr("data","hide")
-              $("#group_show").attr("data","hide");
+              $("#Contact").attr("data","hide");
               $("#group_show").hide();
           }
         });
 
         $("#qq").mouseenter(function(){
             $("#group_show").show();
+            $("#qq").on("click",function(e){
+                $("#group_show").show();
+            })
         });
-        $("#qq").mouseleave(function(){
-            $("#group_show").hide();
-        });
+//        $("#qq").mouseleave(function(){
+//            $("#group_show").hide();
+//        });
 
 
         $(function () {
-            $("#language-li").on('click', function (e) {
-                e.stopPropagation();
+            $(document).on('click', function (e) {
+                $("#group_show").hide();
             });
 
         });
