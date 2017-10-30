@@ -58,7 +58,7 @@
 
 }
 @media (min-width:376px) and (max-width:530px) {
-  #title-hide{padding:15px 0px 15px 20px !important; font-size: 14px !important;}
+  #title-hide{padding:15px 0px 15px 5px !important; font-size: 14px !important;}
   .navbar-brand{padding:15px 15px!important;}
   .tro-social-buttons > li  {display: none !important;}
   .intro-divider{width:100% !important;}
@@ -79,7 +79,7 @@
 
 }
 @media(min-width:360px) and (max-width:375px){
-  .navbar-brand{padding:15px 8px!important; font-size: 13px !important;}
+  .navbar-brand{padding:15px 6px!important; font-size: 14px !important;}
 
   .modal-body{height: 254px}
   .navbar-toggle{margin-right:-20px !important;}
@@ -92,7 +92,7 @@
   .intro-divider{width:80% !important;}
 }
 @media(min-width:321px) and (max-width:359px){
-  .navbar-brand{padding:15px 0px!important;}
+  .navbar-brand{padding:15px 0px!important;font-size: 13px !important;}
   ul.intro-social-buttons > li{
     display: inline-block  !important;
   }
@@ -101,7 +101,7 @@
   #title-hide{padding: 15px 0 15px 0px !important;}
 }
 @media(min-width:320px) and (max-width:365px){
-  .navbar-brand{font-size: 10px !important;}
+  /*.navbar-brand{font-size: 14px !important;}*/
   .modal-body{height: 226px}
   .intro-message{
     padding-top: 80%;
@@ -117,6 +117,7 @@
   #title-hide{padding: 15px 0 15px 5px !important;}
   .navbar-toggle{margin-right:-20px !important;}
   /*.navbar-brand{padding:15px 0px!important;}*/
+  .navbar-brand{font-size: 12px !important;}
 
 }
 @media(max-width:319px){
