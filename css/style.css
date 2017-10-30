@@ -54,9 +54,11 @@
   }
 
 
+
+
 }
 @media (min-width:376px) and (max-width:530px) {
-  #title-hide{padding:15px 0px 15px 20px !important;}
+  #title-hide{padding:15px 0px 15px 20px !important; font-size: 14px !important;}
   .navbar-brand{padding:15px 15px!important;}
   .tro-social-buttons > li  {display: none !important;}
   .intro-divider{width:100% !important;}
@@ -73,6 +75,7 @@
   .intro-message>h3{
     font-size: 22px;
   }
+
 
 }
 @media(min-width:360px) and (max-width:375px){
