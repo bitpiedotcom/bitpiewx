@@ -1,6 +1,6 @@
 .selectbtn{
-  float:left;
-  margin-right:10px;
+  float:right;
+  margin-left:20px;
 }
 .select-btn{
   height:45px;
@@ -26,7 +26,7 @@
   /*padding-bottom:3px;*/
 }
 .registered:visited{
-  border:1px solid transparent !important;
+  border:none;
 }
 .modal-body{height: 423px}
 /* super slider style */
@@ -45,45 +45,83 @@
     display: inline-block  !important;
 
   }
-  .intro-divider{width:60% !important;}
+  .intro-divider{width:80% !important;}
 
   .modal-body{height: 375px;}
+  .navbar-toggle{margin-right:-20px !important;}
+  .intro-message{
+    padding-top: 52%;
+  }
+
 
 }
 @media (min-width:376px) and (max-width:530px) {
   #title-hide{padding:15px 0px 15px 20px !important;}
   .navbar-brand{padding:15px 15px!important;}
   .tro-social-buttons > li  {display: none !important;}
-  .list-inline-down{padding-left: 20% !important;}
-  .intro-divider{width:80% !important;}
+  .intro-divider{width:100% !important;}
 
   .modal-body{height: 265px}
+  .navbar-toggle{margin-right:-20px !important;}
+  ul.intro-social-buttons > li{
+    display: inline-block  !important;
+
+  }
+  .intro-message{
+    padding-top: 86%;
+  }
+  .intro-message>h3{
+    font-size: 22px;
+  }
 
 }
 @media(min-width:360px) and (max-width:375px){
-  .list-inline-down{padding-left:15% !important;}
   .navbar-brand{padding:15px 8px!important;}
 
   .modal-body{height: 254px}
+  .navbar-toggle{margin-right:-20px !important;}
+  .intro-message{
+    padding-top: 90%;
+  }
+  .intro-message>h3{
+    font-size: 16px;
+  }
+  .intro-divider{width:80% !important;}
 }
-@media(min-width:322px) and (max-width:359px){
+@media(min-width:321px) and (max-width:359px){
   .navbar-brand{padding:15px 0px!important;}
   ul.intro-social-buttons > li{
     display: inline-block  !important;
   }
   .modal-body{height: 226px}
+  .navbar-toggle{margin-right:-20px !important;}
+  #title-hide{padding: 15px 0 15px 0px !important;}
 }
 @media(min-width:320px) and (max-width:365px){
-  .navbar-brand{font-size: 17px !important;}
+  .navbar-brand{font-size: 10px !important;}
   .modal-body{height: 226px}
+  .intro-message{
+    padding-top: 80%;
+  }
+  .intro-message>h3{
+    font-size: 16px;
+  }
+  .intro-divider{width:95% !important;}
+
 }
 @media(max-width:320px){
-  .list-inline-down{padding-left:10% !important;}
   .navbar-brand{padding:15px 0 15px 5px  !important;}
-  #title-hide{padding: 15px 0 !important;}
-  .navbar-toggle{margin-right:5px !important;}
+  #title-hide{padding: 15px 0 15px 5px !important;}
+  .navbar-toggle{margin-right:-20px !important;}
   /*.navbar-brand{padding:15px 0px!important;}*/
+
 }
 @media(max-width:319px){
   #title-hide{display:none}
+}
+.about-content{
+  padding-top:100px;
+}
+.about-content p{
+  padding-top: 10px;
 }

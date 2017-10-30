@@ -7,7 +7,7 @@ Lang.prototype.pack.zh = {
         "About":"关于",
         "Features":"特色",
         "Contact":"联系我们",
-        "bitpie":"比特派",
+        "Bitpie":"比特派",
         "Wallet & Ｍultisig Service":"钱包 & 多重签名服务",
         "Multisig Service":"多重签名服务",
         "Android":"安卓",
@@ -57,7 +57,21 @@ Lang.prototype.pack.zh = {
         "blog":"博客",
         "Written by":"作者",
         "Certificate":"证书",
-        "Close":"关闭"
+        "Close":"关闭",
+        "BITPIE Terms of Service":"比特派用户协议",
+        "An easy-to-use wallet service, you can easily manage your multi-blockchain assets.":"易于使用的钱包服务使您可以轻松的管理多种区块链资产。",
+        "Trade your asset with users all over the world in the build-in OTC and exchange(3rd party services).":"内置OTC及交易所(第三方服务)，让您方便的与世界各地的用户进行币币交易及OTC交易。",
+        "By holding private key only by yourself, no one else can access your assets.":"通过您自己掌控私钥，没有其他人能够触碰您的资产。",
+        "Build-in professional KYC/anti-fraud system and commit to meet regulation and compliance.":"内置专业KYC及防欺诈系统，致力于遵守监管和法律合规。",
+        "Originate from Bither team, Bitpie team is made up of blockchain professionals and business experts from IT/ Financial industries based around the world.":"源自比太，比特派团队由来自世界多地的区块链技术专家和IT服务及金融行业的业务专家组成。",
+        "With strong technical strength on blockchain and years of experience from operate bither wallet, Bitpie is devoted to be a service provider to bring global users with safe asset management and broad blockchain application access. With Bitpie, users can trade assets with others or use their asset in more coming scenarios meanwhile keep their asset 100% self-controllable.":"基于对区块链技术的深入理解以及来自运营比太钱包的多年经验，比特派致力于为全球用户提供安全的资产管理以及丰富的区块链应用服务。使用比特派，用户可以在方便的进行交易及使用应用服务的同时确保资产100%由自己掌控。",
+        "By emphasizing the importance of asset safety, we put great effort on security and receive a good reputation in this respect. Therefore our bitcoin wallet“Bither”is listed on":"我们极为重视安全，在安全方面投入了大量的精力并享有良好的声誉。也正因此，我们开发的比特币钱包-比太(Bither)被作为推荐钱包列入",
+        "as recommended wallet.":"。",
+        "The world is adapting to blockchain quickly, but explore the blockchain world is not easy. We are working hard to make Bitpie as your key to the new world.":"世界正在加速向区块链转移,但想要探索这个世界并不容易。我们正在努力让比特派成为您通往新世界的钥匙。",
+        "Bitpie's main office place is located in Sydney.":"比特派办公室位于悉尼。",
+        "Address":"地址",
+        "About Us":"关于我们",
+        "a safe and easy way to manage and trade your multi-blockchain assets":"安全方便的管理和交易多种区块链资产"
 
     }
 }

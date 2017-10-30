@@ -2,8 +2,8 @@
 layout: default
 img: ipone6_front.png
 category: Services
-title: Wallets
-titleDescription: Simpliest Bitcoin Wallet Ever!
-contents: As a bitcoin wallet, bitpie means you control your private keys, and nobody can touch your assets. With our special design, you do not need to sync the blockchain data with the bitcon network, and sending/receiving bitcoins are processed so quickly. Also bitpie supports dynamic transaction fee and transaction accelerator, that means your transaction can easily go through even when network congestion.
+title: 
+titleDescription: 
+contents: An easy-to-use wallet service, you can easily manage your multi-blockchain assets.
 description: |
 ---

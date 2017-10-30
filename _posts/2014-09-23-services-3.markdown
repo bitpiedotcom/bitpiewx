@@ -2,9 +2,8 @@
 layout: default
 img: phones.png
 category: Services
-title: Security
-link: https://bitcoin.org/en/choose-your-wallet
-contents_before:  Bither team has so many reputations in the past, and Bither wallet has been recommended by
-contents_after: for a long time. We know how to make secured bitcoin wallet, and how to protect your blockchain assets. The bitpie wallet is totally based on Bither technology, so it is robust and trustable.
+title: 
+link: 
+contents: By holding private key only by yourself, no one else can access your assets.
 description: |
 ---

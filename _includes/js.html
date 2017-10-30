@@ -39,5 +39,49 @@
         }else{
                 window.lang.change("en")
         }
+
+        $("#zh").on("click",function(){
+            $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
+            $("#blogs").attr("href","http://bitpie.com/blog/")
+            window.lang.change("zh");
+        })
+
+        $("#en").on("click",function(){
+            $("#docs").attr("href","http://docs.bitpie.com/en/latest/")
+            $("#blogs").attr("href","http://bitpie.com/blog/en/")
+            window.lang.change("en");
+
+        })
+
+
+
+        $("#qq").on("click",function(){
+            var flag = $(this).attr("data");
+          if(flag == "hide") {
+              $(this).attr("data","show")
+              $("#group_show").attr("data","show");
+              $("#group_show").show();
+
+          }else if(flag == "show") {
+              $(this).attr("data","hide")
+              $("#group_show").attr("data","hide");
+              $("#group_show").hide();
+          }
+        });
+
+        $("#qq").mouseenter(function(){
+            $("#group_show").show();
+        });
+        $("#qq").mouseleave(function(){
+            $("#group_show").hide();
+        });
+
+
+        $(function () {
+            $("#language-li").on('click', function (e) {
+                e.stopPropagation();
+            });
+
+        });
     })
 </script>

@@ -1,41 +1,61 @@
 <!-- Footer -->
-<footer>
+<footer id="Contact">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <ul class="list-inline">
+            <div class="col-md-12">
+                <ul class="list-inline ul-img">
+                    {% for link in site.social %}
                     <li>
-                        <a href="#home" lang="en">Home</a>
+                        <a href="{{link.url}}" target="_blank" ><i style='display: inline-table;width:30px;height:30px;background-image: url("/img/{{ link.title }}.png");background-repeat: no-repeat;background-size: 100% auto'></i></a>
                     </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#about" lang="en">About</a>
+                    {% endfor %}
+                    <!--<li>-->
+                        <!--<a href="#about" ><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/{{ social.title }}.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>-->
+                    <!--</li>-->
+
+                    <!--<li>-->
+                        <!--<a href="#services"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/facebook.png');background-repeat: no-repeat;background-size: 100% auto"></i> </a>-->
+                    <!--</li>-->
+
+
+                    <!--<li>-->
+                        <!--<a href="#contact" ><i  style="display: inline-table;width:30px;height:30px;background-image: url('/img/reddit.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>-->
+                    <!--</li>-->
+
+                    <!--<li>-->
+                        <!--<a href="#contact" ><i  style="display: inline-table;width:30px;height:30px;background-image: url('/img/email.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>-->
+                    <!--</li>-->
+
+                    <li style="position: absolute">
+
+                        <a href="javascript:void(0)"  target="_blank" id="qq" data="hide"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/qq.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>
+                        <div  id="group_show" tabindex="-1" role="dialog" data-backdrop="static" style="display: none" data="hide">
+                            <ul class="list-inline">
+                                {% for social in site.qq %}
+                                <li style="margin-top: 10px">
+                                    <a href="{{ social.url }}" target="_blank" class=""><i class="{{ social.title }} fa-fw" lang="en"></i> <span class="span_qq" lang="en">{{ social.title }}</span></a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+
+                        </div>
+
                     </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#services" lang="en">Features</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="http://docs.bitpie.com" target="_blank" lang="en">Doc</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#contact" lang="en">Contact</a>
-                    </li>
+
                 </ul>
-                <p class="copyright text-muted small">{{ site.copyright }}</p>
-            </div>
-            <div class="col-md-4">
-                <!--<span lang="en">{{ site.credits}}</span>-->
-                <!--<a href="https://bither.net/" lang="en">Bither</a>-->
-
 
             </div>
+
+
+
+
+            <p class="copyright text-muted small">{{ site.copyright }}</p>
 
         </div>
         <div class="col-md-12">
-            <p class="copyright text-muted small center" ><a href="#myModal" role="button" class="registered" data-toggle="modal" data-target="#myModal" lang="en" >BITPIE LIMITED registered at Republic of Seychelles</a></p>
+            <p class="copyright text-muted small center" ><a href="#myModal" role="button" class="registered" data-toggle="modal" data-target="#myModal" lang="en" >BITPIE LIMITED registered at Republic of Seychelles</a> </p>
+            <p class="copyright text-muted small center" ><a class="registered" href="{{site.url}}/term/" lang="en">BITPIE Terms of Service</a> </p>
+
 
         </div>
 

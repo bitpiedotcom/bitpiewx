@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://bitpie.com
-title: bitpie - Best Bitcoin Wallet!
+title: Bitpie - Your key to the blockchain world
 email: bitpiedotcom@gmail.com
 author: getcai
 description:  bitpie - Best Bitcoin Wallet!
@@ -24,10 +24,20 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: Email
-    url: mailto:bitpiedotcom@gmail.com
-  - title: Telegram
+  - title: twitter
+    url: https://twitter.com/BitpieWallet
+  - title: telegram
     url: https://t.me/bitpie1
+  - title: facebook
+    url: https://www.facebook.com/Bitpie-131500567443401/
+  - title: reddit
+    url: https://www.reddit.com/user/BitpieWallet/
+  - title: email
+    url: mailto:bitpiedotcom@gmail.com
+
+
+
+qq:
   - title: QQ group 1:493077876
     url: //shang.qq.com/wpa/qunwpa?idkey=a81694d6b01e387306c7504f3448dd25eccbf9f74b652c3bf057e33afc59e1b4
   - title: QQ group 2:431191173
@@ -38,6 +48,8 @@ social:
     url: //shang.qq.com/wpa/qunwpa?idkey=f047f3284935d1893a9d3ffa33159cfad724d931078c8281aa4ef4f1548a7e40
   - title: QQ group 5:334102375
     url: //shang.qq.com/wpa/qunwpa?idkey=40abf680f7587b5a484985ebf14958dcb33977b3dac868d2e2e563f6240be42b
+
+
 
  
 # ----------------------- #
