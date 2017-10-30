@@ -252,6 +252,7 @@ p.copyright {
 
 }
 .ul-img{
+    margin-left: -30px;
     text-align: center;
 }
 .menu-l,.menu-l:hover,.menu-l:focus{background-color: transparent !important;color: #428bca !important;}
