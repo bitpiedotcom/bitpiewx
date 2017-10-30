@@ -65,7 +65,7 @@ Lang.prototype.pack.zh = {
         "Build-in professional KYC/anti-fraud system and commit to meet regulation and compliance.":"内置专业KYC及防欺诈系统，致力于遵守监管和法律合规。",
         "Originate from Bither team, Bitpie team is made up of blockchain professionals and business experts from IT/ Financial industries based around the world.":"源自比太，比特派团队由来自世界多地的区块链技术专家和IT服务及金融行业的业务专家组成。",
         "With strong technical strength on blockchain and years of experience from operate bither wallet, Bitpie is devoted to be a service provider to bring global users with safe asset management and broad blockchain application access. With Bitpie, users can trade assets with others or use their asset in more coming scenarios meanwhile keep their asset 100% self-controllable.":"基于对区块链技术的深入理解以及来自运营比太钱包的多年经验，比特派致力于为全球用户提供安全的资产管理以及丰富的区块链应用服务。使用比特派，用户可以在方便的进行交易及使用应用服务的同时确保资产100%由自己掌控。",
-        "By emphasizing the importance of asset safety, we put great effort on security and receive a good reputation in this respect. Therefore our bitcoin wallet“Bither”is listed on":"我们极为重视安全，在安全方面投入了大量的精力并享有良好的声誉。也正因此，我们开发的比特币钱包-比太(Bither)被作为推荐钱包列入",
+        "By emphasizing the importance of asset safety, we put great effort on security and receive a good reputation in this respect. Therefore our bitcoin wallet “Bither” is listed on":"我们极为重视安全，在安全方面投入了大量的精力并享有良好的声誉。也正因此，我们开发的比特币钱包-比太(Bither)被作为推荐钱包列入",
         "as recommended wallet.":"。",
         "The world is adapting to blockchain quickly, but explore the blockchain world is not easy. We are working hard to make Bitpie as your key to the new world.":"世界正在加速向区块链转移,但想要探索这个世界并不容易。我们正在努力让比特派成为您通往新世界的钥匙。",
         "Bitpie's main office place is located in Sydney.":"比特派主要办公地点位于澳大利亚悉尼市。",
