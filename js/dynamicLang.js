@@ -68,7 +68,7 @@ Lang.prototype.pack.zh = {
         "By emphasizing the importance of asset safety, we put great effort on security and receive a good reputation in this respect. Therefore our bitcoin wallet“Bither”is listed on":"我们极为重视安全，在安全方面投入了大量的精力并享有良好的声誉。也正因此，我们开发的比特币钱包-比太(Bither)被作为推荐钱包列入",
         "as recommended wallet.":"。",
         "The world is adapting to blockchain quickly, but explore the blockchain world is not easy. We are working hard to make Bitpie as your key to the new world.":"世界正在加速向区块链转移,但想要探索这个世界并不容易。我们正在努力让比特派成为您通往新世界的钥匙。",
-        "Bitpie's main office place is located in Sydney.":"比特派办公室位于悉尼。",
+        "Bitpie's main office place is located in Sydney.":"比特派主要办公地点位于澳大利亚悉尼市。",
         "Address":"地址",
         "About Us":"关于我们",
         "a safe and easy way to manage and trade your multi-blockchain assets":"安全方便的管理和交易多种区块链资产"
