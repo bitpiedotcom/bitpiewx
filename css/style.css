@@ -100,7 +100,7 @@
   .navbar-toggle{margin-right:-20px !important;}
   #title-hide{padding: 15px 0 15px 0px !important;}
 }
-@media(min-width:320px) and (max-width:365px){
+@media(min-width:320px) and (max-width:359px){
   .navbar-brand{font-size: 12px !important;}
   .modal-body{height: 226px}
   .intro-message{
