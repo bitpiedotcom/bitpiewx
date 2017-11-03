@@ -210,6 +210,7 @@ p.copyright {
 #group_show{
     padding: 10px;
     position: absolute;
+    text-align: left;
     top:-180px;
     left:-150px;
     z-index: 100;
@@ -258,6 +259,9 @@ p.copyright {
 .menu-l,.menu-l:hover,.menu-l:focus{background-color: transparent !important;color: #428bca !important;}
 .intro-message>.list-inline>li{
     display: inherit;
+}
+.qq-list{
+    padding-left: 10px;
 }
 .qq-list li{
     padding: 5px 0;

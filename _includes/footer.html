@@ -32,9 +32,16 @@
                         <div  id="group_show" tabindex="-1" role="dialog" data-backdrop="static" style="display: none" data="hide">
                             <ul class="list-inline qq-list">
                                 {% for social in site.qq %}
-                                <li>
-                                    <a href="{{ social.url }}" target="_blank" class=""><i class="{{ social.title }} fa-fw" lang="en"></i> <span class="span_qq" lang="en">{{ social.title }}</span></a>
+                                {% if forloop.index == 1 %}
+                                <li >
+                                    <a href="{{ social.url }}" target="_blank" class=""><i class="{{ social.title }} fa-fw" lang="en"></i> <span class="span_qq" lang="en">{{ social.title }}</span>&nbsp;&nbsp;<span lang="en" style="color:green">under</span></a>
                                 </li>
+                                {% else %}
+                                <li>
+                                    <a href="{{ social.url }}" target="_blank" class=""><i class="{{ social.title }} fa-fw" lang="en"></i> <span class="span_qq" lang="en">{{ social.title }}</span>&nbsp;&nbsp;<span lang="en" style="color:#d9534f">full</span> </a>
+                                </li>
+                                {% endif%}
+
                                 {% endfor %}
                             </ul>
 

@@ -38,11 +38,11 @@ Lang.prototype.pack.zh = {
         "Easiest Way To Exchange Bitcoins With Other Peers!":"轻松的与其他人兑换比特币！",
         "Email":"邮箱",
         "Telegram":"电报群(Telegram)",
-        "QQ group 1:493077876":"QQ群1：493077876(已满)",
-        "QQ group 2:431191173":"QQ群2：431191173(已满)",
-        "QQ group 3:616697070":"QQ群3：616697070(已满)",
-        "QQ group 4:602675609":"QQ群4：602675609(已满)",
-        "QQ group 5:334102375":"QQ群5：334102375(未满)",
+        "QQ group 1:493077876":"QQ群1：493077876",
+        "QQ group 2:431191173":"QQ群2：431191173",
+        "QQ group 3:616697070":"QQ群3：616697070",
+        "QQ group 4:602675609":"QQ群4：602675609",
+        "QQ group 5:334102375":"QQ群5：334102375",
         "Home":"首页",
         "The bitpie wallet is based on":"比特派钱包基于",
         "Bither":"比太",
@@ -71,7 +71,9 @@ Lang.prototype.pack.zh = {
         "Bitpie's main office place is located in Sydney.":"比特派主要办公地点位于澳大利亚悉尼市。",
         "Address":"地址",
         "About Us":"关于我们",
-        "a safe and easy way to manage and trade your multi-blockchain assets":"安全方便的管理和交易多种区块链资产"
+        "a safe and easy way to manage and trade your multi-blockchain assets":"安全方便的管理和交易多种区块链资产",
+        "full":"(已满)",
+        "under":"(未满)"
 
     }
 }
