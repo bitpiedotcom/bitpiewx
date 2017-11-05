@@ -84,7 +84,7 @@
         function loadHtml(){
             var div = document.createElement('div');
             div.id = 'weixin-tip';
-            div.innerHTML = '<p><img src="/img/live_weixin.png" style="display:block;width: 100%;max-width: 100%;height: auto;" styl alt="微信打开" /></p>';
+            div.innerHTML = '<p><img src="/img/live_weixin.png"  styl alt="微信打开" /></p>';
             document.body.appendChild(div);
         }
 
@@ -100,7 +100,7 @@
             var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
             head.appendChild(style);
         }
-        var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 50%; height:50%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
+        var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); max-width:100%; height:auto; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
         if(isWeixin){
             loadHtml();
             loadStyleText(cssText);
