@@ -20,9 +20,7 @@
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="/css/custom.css">
-    <style>
-        #ios,#andorid{display: none}
-    </style>
+
 </head>
 <body>
 <div id="ios">
@@ -194,34 +192,17 @@
         var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
         var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
         if(isAndroid){
-            document.getElementById("android").style = "display:block"
+            document.getElementById("ios").style = "display:none"
             // window.location.href = "http://bitpie.com/android/";
         }
         if(isiOS){
-            document.getElementById("ios").style = "display:block"
+            document.getElementById("android").style = "display:none"
             //window.location.href = "http://bitpie.com/ios/";
         }
         if(!isAndroid == true && !isiOS == true){
-            document.getElementById("ios").style = "display:block"
+            document.getElementById("ios").style = "display:none"
         }
     })
-    window.onload=function(){
-        var u = navigator.userAgent;
-        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
-        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-        if(isAndroid){
-            document.getElementById("android").style = "display:block"
-            // window.location.href = "http://bitpie.com/android/";
-        }
-        if(isiOS){
-            document.getElementById("ios").style = "display:block"
-            //window.location.href = "http://bitpie.com/ios/";
-        }
-        if(!isAndroid == true && !isiOS == true){
-            document.getElementById("ios").style = "display:block"
-        }
-
-    }
     $(function(){
         function isMobile() {
             return /iPhone|iPad|iPod/i.test(navigator.userAgent);
