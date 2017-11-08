@@ -64,12 +64,19 @@
 </head>
 <body>
 
-<dl>
-    <dt><h4>微信页面打开bitpie app下载方法</h4></dt>
-    <dd>1.点击右上角的按钮。</dd>
-    <dd>2.选择。</dd>
+<span>
 
-</dl>
+</span>
+<script>
+var u = navigator.userAgent;
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+var str = '是否是Android：'+isAndroid + '是否是iOS：'+isiOS;
+console.log(str);
+//console.log(document.getElementsByTagName('span'))
+document.getElementsByTagName('span')[0].innerHTML = str;
+</script>
 
 </body>
 </html>
