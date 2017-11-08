@@ -3,87 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">
-    <title>微信页面</title>
-    <style>
-        body{
-            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-            /*font-size: 14px;*/
-            line-height: 1.42857143;
-            color: #333;
-            background-color: #fff;
-            padding:10px 20px;
+    <title></title>
+    <script>
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if(isAndroid){
+            window.location.href = "http://bitpie.com/android/";
+        }else if(isiOS){
+            window.location.href = "http://bitpie.com/ios/";
+        }else{
+            window.location.href = "http://bitpie.com"
         }
-        dl dt{font-weight: 500}
-        dl dd{
-            -webkit-margin-start:0px !important;
-            -webkit-margin-end:0px !important;
-            -moz-margin-start: 0px !important;
-            -moz-margin-end:0px !important;
+    </script>
 
-            line-height:1.5
-        }
-        h3{text-align: center}
-        .imgcenter{display:block;width:80%;text-align: center;margin:0 auto;padding-bottom: 20px}
-
-        @media (min-width:320px) and (max-width:642px){
-            dl dt,h3{width:90%}
-            .imgcenter{width:50% !important;}
-        }
-
-
-        html {
-            font-size: 62.5%
-        }
-
-        @media only screen and (min-width: 481px) {
-            html {
-                font-size:70%!important
-            }
-        }
-
-        @media only screen and (min-width: 561px) {
-            html {
-                font-size:85%!important
-            }
-        }
-
-        @media only screen and (min-width: 641px) {
-            html {
-                font-size: 100% !important
-            }
-
-            body {
-                max-width: 640px;
-                margin: 0 auto;
-            }
-            .imgcenter{width:40% !important;}
-        }
-
-
-    </style>
 </head>
 <body>
-
-<span>
-
-</span>
-<script>
-var u = navigator.userAgent;
-var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
-var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-
-var str = '是否是Android：'+isAndroid + '是否是iOS：'+isiOS;
-console.log(str);
-//console.log(document.getElementsByTagName('span'))
-//document.getElementsByTagName('span')[0].innerHTML = str;
-if(isAndroid){
-    window.location.href = "http://bitpie.com/android/";
-}
-if(isiOS){
-    window.location.href = "http://bitpie.com/ios/";
-
-}
-</script>
-
 </body>
 </html>
