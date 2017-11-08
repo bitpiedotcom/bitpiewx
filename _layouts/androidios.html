@@ -263,7 +263,8 @@
             loadStyleText(cssText);
             run();
         }
-        if(u.match(/\sQQ/i) == " qq"){
+        var u = navigator.userAgent;
+        if(u.match(/\sQQ/i) !== null){
             loadHtml();
             loadStyleText(cssText);
             run();
