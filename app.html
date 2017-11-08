@@ -75,7 +75,14 @@ var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
 var str = '是否是Android：'+isAndroid + '是否是iOS：'+isiOS;
 console.log(str);
 //console.log(document.getElementsByTagName('span'))
-document.getElementsByTagName('span')[0].innerHTML = str;
+//document.getElementsByTagName('span')[0].innerHTML = str;
+if(isAndroid){
+    window.location.href = "http://bitpie.com/android/";
+}
+if(isiOS){
+    window.location.href = "http://bitpie.com/ios/";
+
+}
 </script>
 
 </body>
