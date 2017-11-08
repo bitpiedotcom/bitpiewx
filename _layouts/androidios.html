@@ -188,6 +188,23 @@
         },
         allowCookieOverride: true
     });
+
+    $(function(){
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if(isAndroid){
+            document.getElementById("android").style = "display:block"
+            // window.location.href = "http://bitpie.com/android/";
+        }
+        if(isiOS){
+            document.getElementById("ios").style = "display:block"
+            //window.location.href = "http://bitpie.com/ios/";
+        }
+        if(!isAndroid == true && !isiOS == true){
+            document.getElementById("ios").style = "display:block"
+        }
+    })
     window.onload=function(){
         var u = navigator.userAgent;
         var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
