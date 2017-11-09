@@ -204,6 +204,7 @@
                 return false;
             }
         }
+        var isWeixin = is_weixin();
         function isMobile() {
             return /iPhone|iPad|iPod/i.test(navigator.userAgent);
         }
@@ -258,7 +259,7 @@
         if(!isAndroid == true && !isiOS == true){
             document.getElementById("ios").style = "display:none"
         }
-        if (is_weixin) {
+        if (isWeixin) {
             loadHtml();
             loadStyleText(cssText);
             run();
