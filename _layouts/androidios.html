@@ -200,12 +200,13 @@
             document.getElementById("ios").style = "display:none"
         }
     })
-    $(function(){
+    $(function() {
         function isMobile() {
             return /iPhone|iPad|iPod/i.test(navigator.userAgent);
         }
+
         function installs() {
-            if(!isMobile()){
+            if (!isMobile()) {
                 alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
                 return;
             }
@@ -213,14 +214,15 @@
 
             window.location.href = url;
         }
+
         function androidinstall() {
             var url = "https://dn-bither.qbox.me/bitpie.apk";
             window.location.href = url;
         }
 
-        if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
+        if ((navigator.language || navigator.browserLanguage).indexOf("zh") > -1) {
             window.lang.change("zh")
-        }else{
+        } else {
             window.lang.change("en")
         }
 
@@ -232,9 +234,11 @@
                 return false;
             }
         }
+
         var isWeixin = is_weixin();
         var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
-        function loadHtml(){
+
+        function loadHtml() {
             var div = document.createElement('div');
             div.id = 'weixin-tip';
             div.innerHTML = '<p><img src="/img/live_weixin.png"  styl alt="微信打开" /></p>';
@@ -250,21 +254,24 @@
             } catch (e) {
                 style.styleSheet.cssText = cssText; //ie9以下
             }
-            var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
+            var head = document.getElementsByTagName("head")[0]; //head标签之间加上style样式
             head.appendChild(style);
         }
+
         var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width:100%; height:210%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5% 10% 5%;}";
+
         function run() {
             document.getElementById("weixinDisplay").style = "text-align:center;display:block";
 
         }
-        if(isWeixin){
+
+        if (isWeixin) {
             loadHtml();
             loadStyleText(cssText);
             run();
         }
         var u = navigator.userAgent;
-        if(u.match(/\sQQ/i) !== null){
+        if (u.match(/\sQQ/i) !== null) {
             loadHtml();
             loadStyleText(cssText);
             run();
@@ -274,9 +281,16 @@
             loadStyleText(cssText);
             run();
         }
+        if (navigator.userAgent.indexOf('QQ') > -1) {
+            loadHtml();
+            loadStyleText(cssText);
+            run();
 
-
+        }
     })
+
+
+
 </script>
 </body>
 </html>
