@@ -206,6 +206,14 @@
 
 
     }
+    function is_weixin() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     $(function(){
 
@@ -214,25 +222,10 @@
         } else {
             window.lang.change("en")
         }
-        function run() {
-            document.getElementById("weixinDisplay").style = "text-align:center;display:block";
-
-        }
-        function is_weixin() {
-            var ua = navigator.userAgent.toLowerCase();
-            if (ua.match(/MicroMessenger/i) == "micromessenger") {
-                return true;
-            } else {
-                return false;
-            }
-        }
         var isWeixin = is_weixin();
         function isMobile() {
             return /iPhone|iPad|iPod/i.test(navigator.userAgent);
         }
-
-
-
         function loadHtml(){
             var div = document.createElement('div');
             div.id = 'weixin-tip';
