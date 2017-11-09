@@ -265,14 +265,12 @@
             document.getElementById("weixinDisplay").style = "text-align:center;display:block";
 
         }
-
+        var iOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
         if (isWeixin) {
             loadHtml();
             loadStyleText(cssText);
             run();
-        }
-
-        if (navigator.userAgent.indexOf('QQ') > -1) {
+        }else if (iOS) {
             loadHtml();
             loadStyleText(cssText);
             run();
