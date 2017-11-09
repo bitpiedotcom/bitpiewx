@@ -200,27 +200,22 @@
         var url = "https://dn-bither.qbox.me/bitpie.apk";
         window.location.href = url;
     }
-    function run() {
-        document.getElementById("weixinDisplay").style = "text-align:center;display:block";
-        document.getElementById("aweixinDisplay").style = "text-align:center;display:block";
 
 
-    }
-    function is_weixin() {
-        var ua = navigator.userAgent.toLowerCase();
-        if (ua.match(/MicroMessenger/i) == "micromessenger") {
-            return true;
-        } else {
-            return false;
+    window.onload = function(){
+        function run() {
+            document.getElementById("weixinDisplay").style = "text-align:center;display:block";
+            document.getElementById("aweixinDisplay").style = "text-align:center;display:block";
+
+
         }
-    }
-
-    $(function(){
-
-        if ((navigator.language || navigator.browserLanguage).indexOf("zh") > -1) {
-            window.lang.change("zh")
-        } else {
-            window.lang.change("en")
+        function is_weixin() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
         }
         var isWeixin = is_weixin();
         function isMobile() {
@@ -266,6 +261,17 @@
             loadStyleText(cssText);
             run();
         }
+
+    }
+    $(function(){
+
+        if ((navigator.language || navigator.browserLanguage).indexOf("zh") > -1) {
+            window.lang.change("zh")
+        } else {
+            window.lang.change("en")
+        }
+
+
     })
 
 
