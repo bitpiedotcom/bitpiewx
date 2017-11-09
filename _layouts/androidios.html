@@ -136,6 +136,8 @@
     </div>
     <div class="container content">
         <div class="view row">
+            <div class="span12 lessonimg " id="aweixinDisplay" style="text-align:center;display: none">
+            </div>
             <div class="span12" style="text-align:center;">
                 <a href="javascript:void(0);" onclick="javascript:androidinstall();"><img src="{{site.androidlogo}}" class="appicon" /></a>
                 <div>
@@ -184,6 +186,26 @@
         },
         allowCookieOverride: true
     });
+    function install() {
+        if (!isMobile()) {
+            alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
+            return;
+        }
+        var url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/ios/bitpie_ios.plist";
+
+        window.location.href = url;
+    }
+
+    function androidinstall() {
+        var url = "https://dn-bither.qbox.me/bitpie.apk";
+        window.location.href = url;
+    }
+    function run() {
+        document.getElementById("weixinDisplay").style = "text-align:center;display:block";
+        document.getElementById("aweixinDisplay").style = "text-align:center;display:block";
+
+
+    }
 
     $(function(){
 
@@ -209,20 +231,7 @@
             return /iPhone|iPad|iPod/i.test(navigator.userAgent);
         }
 
-        function install() {
-            if (!isMobile()) {
-                alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
-                return;
-            }
-            var url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/ios/bitpie_ios.plist";
 
-            window.location.href = url;
-        }
-
-        function androidinstall() {
-            var url = "https://dn-bither.qbox.me/bitpie.apk";
-            window.location.href = url;
-        }
 
         function loadHtml(){
             var div = document.createElement('div');
