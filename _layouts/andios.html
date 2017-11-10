@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if(isAndroid){
+            window.location.href = "http://bitpie.com/android/";
+        }
+        if(isiOS){
+            window.location.href = "http://bitpie.com/ios/";
+        }
+        if(!isAndroid == true && !isiOS == true){
+            window.location.href = "http://bitpie.com/";
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

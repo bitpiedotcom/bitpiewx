@@ -247,15 +247,18 @@
         var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
         var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
         if(isAndroid){
-            document.getElementById("ios").style = "display:none"
+            //document.getElementById("ios").style = "display:none"
+            $("#ios").fadeOut("slow");
             // window.location.href = "http://bitpie.com/android/";
         }
         if(isiOS){
-            document.getElementById("android").style = "display:none"
+            $("#android").fadeOut("slow");
+            //document.getElementById("android").style = "display:none"
             //window.location.href = "http://bitpie.com/ios/";
         }
         if(!isAndroid == true && !isiOS == true){
-            document.getElementById("ios").style = "display:none"
+            //document.getElementById("ios").style = "display:none"
+            $("#ios").slideUp("slow");
         }
         if (isWeixin) {
             loadHtml();
