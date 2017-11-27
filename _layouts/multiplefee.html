@@ -96,10 +96,13 @@
         var url="https://bitpie.getcai.com/api/v1/ex/otc/fee?coin_code=BTC";
         $.get(url,function(result){
             if(result.discount) {
-                $("#vip").html("BTC:"+(Decimal(result.vip).mul(100))+"%");
-                $("#vip2vip").html("BTC:"+(Decimal(result.vip2vip).mul(100))+"%");
+                var vip = Decimal(result.vip).mul(100);
+                var vip2vip = Decimal(result.vip2vip).mul(100);
+                var normal = Decimal(result.normal).mul(100);
+                $("#vip").html(vip+ (vip == 0 ? "" : "%"));
+                $("#vip2vip").html(vip2vip+(vip2vip == 0 ? "":"%"));
 
-                $("#normal").html(("BTC:"+Decimal(result.normal).mul(100))+"%");
+                $("#normal").html(normal+(normal == 0 ?"":"%"));
             }
 
 
