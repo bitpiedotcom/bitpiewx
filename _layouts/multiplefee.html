@@ -79,6 +79,7 @@
 
 </dl>
 <script src="js/jquery-1.11.0.js"></script>
+<script src="js/decimal.min.js"></script>
 
 <script>
     $(function(){
@@ -88,10 +89,10 @@
         var url="https://bitpie.getcai.com/api/v1/ex/otc/fee";
         $.get(url,function(result){
             if(result.discount) {
-                $("#vip").html((result.vip * 100000 / 1000)+"%");
-                $("#vip2vip").html((result.vip2vip * 100000 / 1000)+"%");
+                $("#vip").html((Decimal(result.vip).div(100))+"%");
+                $("#vip2vip").html((Decimal(result.vip2vip).div(100))+"%");
 
-                $("#normal").html((result.normal * 100000 / 1000)+"%");
+                $("#normal").html((Decimal(result.normal).div(100))+"%");
             }
 
 
