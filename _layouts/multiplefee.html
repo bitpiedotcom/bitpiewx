@@ -66,10 +66,17 @@
 <body>
 <h3>多重签名服务费率</h3>
 <dl>
-    <dt><h4>服务费率列表：</h4></dt>
+    <dt><h4>BTC服务费率列表：</h4></dt>
     <dd>1、VIP与VIP之间的交易 <span id="vip2vip" ></span></dd>
     <dd>2、VIP与普通用户之间的交易 <span id="vip"></span></dd>
     <dd>3、押金用户与普通用户之间的交易 <span id="normal"></span></dd>
+</dl>
+
+<dl>
+    <dt><h4>其它币种服务费率列表：</h4></dt>
+    <dd>1、VIP与VIP之间的交易 <span id="othervip2vip" ></span></dd>
+    <dd>2、VIP与普通用户之间的交易 <span id="othervip"></span></dd>
+    <dd>3、押金用户与普通用户之间的交易 <span id="othernormal"></span></dd>
 </dl>
 
 <dl style="color:#d9534f">
@@ -86,13 +93,25 @@
 //        $.get("https://bitpie.getcai.com/api/v1/ex/otc/fee", function(result){
 //            console.log(result);
 //        });
+        var url="https://bitpie.getcai.com/api/v1/ex/otc/fee?coin_code=BTC";
+        $.get(url,function(result){
+            if(result.discount) {
+                $("#vip").html("BTC:"+(Decimal(result.vip).mul(100))+"%");
+                $("#vip2vip").html("BTC:"+(Decimal(result.vip2vip).mul(100))+"%");
+
+                $("#normal").html(("BTC:"+Decimal(result.normal).mul(100))+"%");
+            }
+
+
+
+        });
         var url="https://bitpie.getcai.com/api/v1/ex/otc/fee";
         $.get(url,function(result){
             if(result.discount) {
-                $("#vip").html((Decimal(result.vip).mul(100))+"%");
-                $("#vip2vip").html((Decimal(result.vip2vip).mul(100))+"%");
+                $("#othervip").html((Decimal(result.vip).mul(100))+"%");
+                $("#othervip2vip").html((Decimal(result.vip2vip).mul(100))+"%");
 
-                $("#normal").html((Decimal(result.normal).mul(100))+"%");
+                $("#othernormal").html((Decimal(result.normal).mul(100))+"%");
             }
 
 
