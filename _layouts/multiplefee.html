@@ -88,10 +88,10 @@
         var url="https://bitpie.getcai.com/api/v1/ex/otc/fee";
         $.get(url,function(result){
             if(result.discount) {
-                $("#vip").html((result.vip * 10000 / 100)+"%");
-                $("#vip2vip").html((result.vip2vip * 10000 / 100)+"%");
+                $("#vip").html((result.vip * 100000 / 1000)+"%");
+                $("#vip2vip").html((result.vip2vip * 100000 / 1000)+"%");
 
-                $("#normal").html((result.normal * 10000 / 100)+"%");
+                $("#normal").html((result.normal * 100000 / 1000)+"%");
             }
 
 
