@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{% if page.ref == ad%}
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -106,54 +106,11 @@
 <!--</div>-->
 
 </main>
-{% else %}
-
-{% include head.html %}
-<style>
-    .catalogue-item{
-      text-align: center;
-    }
-    .text-center{
-        padding-top: 90px;
-    }
-    .content-p{
-        font-weight: 200;
-    }
-</style>
-
-<body>
-{% include menu.html %}
-<!-- About Section -->
-
-<section  class="container content-section text-center" >
-<div class="catalogue">
-    {% for post in site.posts %}
-    {% if post.layout != "default" %}
-    {% if post.ref == "ad" %}
-
-    <a href="{{site.url}}/note/index.html#id={{post.post_id}}" class="catalogue-item " ><h5>{{ post.title }}</h5></a>
-    <div style="clear:both"></div>
-
-    <div class="content-p" style="padding: 30px 0 50px 0;width:60%;margin:0 auto;text-align: left">
-    {{ post.content}}
-
-    </div>
-    </div>
-
-    {% endif %}
-    {% endif %}
-
-    {% endfor %}
-</div>
-</section>
 
 
 
 
-{% include footer.html %}
 
-
-{% endif%}
 <script src="/js/jquery-1.11.0.js"></script>
 
 
