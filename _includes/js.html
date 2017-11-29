@@ -34,7 +34,7 @@
         if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
                 $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
                 $("#blogs").attr("href","http://bitpie.com/blog/")
-                $("#ids").attr("href","http://bitpie.com/announcement/");
+                $("#ads").attr("href","http://bitpie.com/announcement/");
                 window.lang.change("zh");
 
         }else{
@@ -44,7 +44,7 @@
         $("#zh").on("click",function(){
             $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
             $("#blogs").attr("href","http://bitpie.com/blog/")
-            $("#ids").attr("href","http://bitpie.com/announcement")
+            $("#ads").attr("href","http://bitpie.com/announcement")
             if(location.href.indexOf("announcement") > -1){
                window.location.href = "http://bitpie.com/announcement"
             }
@@ -54,7 +54,7 @@
         $("#en").on("click",function(){
             $("#docs").attr("href","http://docs.bitpie.com/en/latest/")
             $("#blogs").attr("href","http://bitpie.com/blog/en/")
-            $("#ids").attr("href","http://bitpie.com/announcement/en");
+            $("#ads").attr("href","http://bitpie.com/announcement/en");
 
 
             if(location.href.indexOf("announcement") > -1){
