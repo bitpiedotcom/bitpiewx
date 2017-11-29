@@ -1,0 +1,27 @@
+<script>
+$("#zh").on("click",function(){
+    console.log(window.lang)
+            $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
+            $("#blogs").attr("href","http://bitpie.com/blog/")
+            $("#ads").attr("href","http://bitpie.com/announcement")
+            if(location.href.indexOf("announcement") > -1){
+               window.location.href = "http://bitpie.com/announcement"
+            }
+            window.lang.change("zh");
+        })
+
+        $("#en").on("click",function(){
+            console.log(window.lang)
+            $("#docs").attr("href","http://docs.bitpie.com/en/latest/")
+            $("#blogs").attr("href","http://bitpie.com/blog/en/")
+            $("#ads").attr("href","http://bitpie.com/announcement/en");
+
+
+            if(location.href.indexOf("announcement") > -1){
+               window.location.href = "http://bitpie.com/announcement/en"
+            }
+
+            window.lang.change("en");
+
+        })
+</script>
