@@ -1,140 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+{% include head.html %}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>
-    Bitpie - Your key to the blockchain world
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/blogstyles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-</head>
 
 <body>
-<nav class="nav">
-  <div class="nav-container">
-    <a href="{{ site.baseurl }}/">
-      <h2 class="nav-title">
-        Bitpie - Your key to the blockchain world
-      </h2>
-    </a>
-    <ul>
-      <!--<li><a href="{{ '/about' | prepend: site.url }}">About</a></li>-->
-      <li>
+{% include menu.html %}
+<!-- About Section -->
 
-        {% if  page.lang == "en" %}
-       <a href="{{site.baseurl}}/blog/en/" >Blog</a>
-        {% else %}
-        <a href="{{site.baseurl}}/blog/" >博客</a>
-        {% endif %}
+<section  class="container content-section text-center" >
+<div class="catalogue" id="content">
 
-      </li>
-      <!--<li>-->
-      <!--<a class="btn btn-sm set_en"><img src="/img/United-States.png" height="16px" width="16px" ></a>-->
-      <!--</li>-->
-      <!--<li>-->
-      <!--<a class="btn btn-sm set_cn"><img src="/img/China.png" height="16px" width="16px"></a>-->
-      <!--</li>-->
-    </ul>
-  </div>
-</nav>
 
-<main>
 
-<div class="post">
-  <div class="post-info">
-    <span >
-      {% if  page.lang == "en" %}
-    Written by
-    {% else %}
-    作者
-    {% endif %}</span>&nbsp;{{ page.author }}
-    {% if page.date %}
-    <br>
-    <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
-  </div>
 
-  <h1 class="post-title">{{  page.title }}</h1>
-  <div class="post-line"></div>
-  <div>
-{{post.url}}
-  {{ content }}
-  </div>
+
+
+    <h5>{{ page.title }}</h5>
+    <div style="clear:both"></div>
+
+    <div class="content-p">
+    {{ page.content}}
+
+    </div>
+    </div>
+
+
+
+
+
 </div>
-<div class="pagination">
-  {% for post in site.posts %}
-  {% if post.lang == page.lang %}
-  {% if prev %}
-  <a href="{{ post.url }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% assign prev = false %}
-  {% if post.id == page.id %}
-  {% assign prev = true %}
-  {% endif %}
-  {% endif %}
-  {% endfor %}
+</section>
 
 
-  {% for post in site.posts reversed %}
-  {% if post.lang == page.lang %}
-  {% if next %}
-  <a href="{{ post.url }}" class="right arrow">&#8594;</a>
-  {% break %}
-  {% endif %}
-  {% assign next = false %}
-  {% if post.id == page.id %}
-  {% assign next = true %}
-  {% endif %}
-  {% endif %}
-  {% endfor %}
-  <a href="#" class="top">Top</a>
-</div>
-<!--<div class="pagination">-->
-  <!--{% if page.next.url %}-->
-  <!--<a href="{{ page.next.url | prepend: site.url }}" class="left arrow"></a>-->
-  <!--{% endif %}-->
-  <!--{% if page.previous.url %}-->
-  <!--<a href="{{ page.previous.url | prepend: site.url }}" class="right arrow"></a>-->
-  <!--{% endif %}-->
-
-  <!--<a href="#" class="top">Top</a>-->
-<!--</div>-->
-
-</main>
-
-<script src="/js/jquery-1.11.0.js"></script>
 
 
-<script src="/js/dynamicLang.js" type="text/javascript"></script>
-<script type="text/javascript">
-  var lang = new Lang();
-  lang.init({
-    defaultLang: 'en',
-    currentLang: 'en',
-    cookie: {
-      name: 'langCookie',
-      expiry: 365,
-      path: '/'
-    },
-    allowCookieOverride: true
-  });
-  $(function(){
-
-    if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
-      // $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
-      window.lang.change("zh");
-
-    }else{
-      window.lang.change("en")
-    }
-  })
+{% include footer.html %}
+{% include js.html %}
+<script>
+    $(function(){
+        $("#en").click(function(){
+            var html = "{{page.lang}}";
+            if(html != "en"){
+                 window.location.href = "http://bitpie.com/announcement/en"
+            }
+        })
+    })
 </script>
 {% include tongji.html %}
-
 </body>
 </html>

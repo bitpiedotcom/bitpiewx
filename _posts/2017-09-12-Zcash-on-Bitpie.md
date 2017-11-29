@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "比特派 + Zcash"
 author: "文浩"
 lang: "zh"

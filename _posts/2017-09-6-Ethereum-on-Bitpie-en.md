@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Bitpie + ETH"
 author: "Wenhao"
 lang: "en"

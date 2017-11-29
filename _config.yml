@@ -10,7 +10,7 @@ description:  Bitpie - Your key to the blockchain world
 copyright: '&copy; 2017 bitpie.com'
 credits: 'The bitpie wallet is based on'
 creditss: "technology."
-logo: img/logo.png
+logo: /img/logo.png
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #

@@ -73,7 +73,8 @@ Lang.prototype.pack.zh = {
         "About Us":"关于我们",
         "a safe and easy way to manage and trade your multi-blockchain assets":"安全方便的管理和交易多种区块链资产",
         "full":"(已满)",
-        "under":"(未满)"
+        "under":"(未满)",
+        "Announcement":"公告"
 
     }
 }

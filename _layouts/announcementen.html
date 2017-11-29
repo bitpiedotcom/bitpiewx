@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+{% include menu.html %}
+<!-- About Section -->
+
+<section  class="container content-section text-center annou-list" >
+<div class="catalogue">
+    {% for post in site.posts %}
+    {% if post.layout != "default" %}
+    {% if post.ref == "ad" %}
+    {% if post.lang == "en"%}
+
+    <a href="{{post.url | prepend: site.url }}" class="catalogue-item aclick" style="float:left"><h5>{{ post.title }}</h5></a>
+    <div style="clear:both" id="page"></div>
+    <p class="content-list">
+    {{ post.content | truncatewords: 4 | strip_html }}</p>
+    <span class="time">{{post.data}}</span>
+    <div class="clear"></div>
+    <hr>
+    </div>
+
+    {% endif %}
+
+    {% endif %}
+    {% endif %}
+
+    {% endfor %}
+</div>
+</section>
+
+
+
+
+{% include footer.html %}
+{% include js.html %}
+{% include tongji.html %}
+</body>
+</html>
