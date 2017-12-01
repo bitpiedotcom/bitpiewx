@@ -88,6 +88,52 @@
             }
             .imgcenter{width:40% !important;}
         }
+        .table{
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        table {
+            display: table;
+            border-collapse: separate;
+            border-spacing: 2px;
+            border-color: grey;
+        }
+        thead {
+            display: table-header-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+
+        .table>tbody>tr>th,.table>tbody>tr>td,.table>thead>tr>th {
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border: 1px solid #dedede;
+
+        }
+        .table tr{
+            /*background-color: #f1f1f1;*/
+        }
+
+        /*.table>tbody>tr:nth-of-type(odd) {*/
+            /*background-color: #fafafa;*/
+        /*}*/
+        .table td{text-align: center}
+        .trs{
+             border-top: 1px solid #ddd;
+        }
+        td span{
+            font-weight: normal;
+            padding:0 3px;
+        }
+        td[rowspan]{
+            vertical-align: inherit !important;
+        }
+
+
 
 
     </style>
@@ -96,11 +142,58 @@
 <h3>派银行充值提现说明</h3>
 <dl class="d">
     <dt><h4>派银行充值</h4></dt>
-    <dd>1、BTC充值<span>1</span>个确认后到账。</dd>
-    <dd>2、BTG充值<span>6</span>个确认后到账。</dd>
-    <dd>3、BCH充值<span>3</span>个确认后到账。</dd>
-    <dd>4、LTC充值<span>1</span>个确认后到账。</dd>
-    <dd>5、ETH充值<span>3</span>个确认后到账。</dd>
+    <!--<dd>1、BTC充值<span>1</span>个确认后到账。</dd>-->
+    <!--<dd>2、BTG充值<span>6</span>个确认后到账。</dd>-->
+    <!--<dd>3、BCH充值<span>3</span>个确认后到账。</dd>-->
+    <!--<dd>4、LTC充值<span>1</span>个确认后到账。</dd>-->
+    <!--<dd>5、ETH充值<span>3</span>个确认后到账。</dd>-->
+    <table  class="table" border="0" cellspacing="0" cellpadding="0">
+        <thead>
+        <tr class="trs"><th>充值币种</th><th>数量描述</th><th>确认数</th></tr>
+        </thead>
+        <tbody>
+        <tr><td rowspan="5">BTC</td><td>&le;&nbsp;10BTC</td><td>1</td></tr>
+        <tr><td>&gt;&nbsp;10BTC<span>且</span>&le;&nbsp;50BTC</td><td>2</td></tr>
+        <tr><td>&gt;&nbsp;50BTC<span>且</span>&le;&nbsp;200BTC</td><td>5</td></tr>
+        <tr><td>&gt;&nbsp;200BTC<span>且</span>&le;&nbsp;1000BTC</td><td>8</td></tr>
+        <tr><td>&gt;&nbsp;1000BTC<span>且</span>&le;&nbsp;10000BTC</td><td>10</td></tr>
+        <tr class="trs"><td rowspan="6">LTC</td><td>&le;&nbsp;200LTC</td><td>1</td></tr>
+        <tr><td>&gt;&nbsp;200LTC<span>且</span>&le;&nbsp;500LTC</td><td>2</td></tr>
+        <tr><td>&gt;&nbsp;500LTC<span>且</span>&le;&nbsp;1000LTC</td><td>5</td></tr>
+        <tr><td>&gt;&nbsp;1000LTC<span>且</span>&le;&nbsp;5000LTC</td><td>8</td></tr>
+        <tr><td>&gt;&nbsp;5000LTC<span>且</span>&le;&nbsp;10000LTC</td><td>10</td></tr>
+        <tr><td>&gt;&nbsp;10000LTC<span>且</span>&le;&nbsp;100000LTC</td><td>12</td></tr>
+        <tr class="trs"><td rowspan="7">BCC</td><td>&le;&nbsp;2BCC</td><td>1</td></tr>
+        <tr><td>&gt;&nbsp;2BCC<span>且</span>&le;&nbsp;10BCC</td><td>2</td></tr>
+        <tr><td>&gt;&nbsp;10BCC<span>且</span>&le;&nbsp;20BC</td><td>5</td></tr>
+        <tr><td>&gt;&nbsp;20BCC<span>且</span>&le;&nbsp;100BCC</td><td>8</td></tr>
+        <tr><td>&gt;&nbsp;100BCC<span>且</span>&le;&nbsp;600BCC</td><td>10</td></tr>
+        <tr><td>&gt;&nbsp;600BCC<span>且</span>&le;&nbsp;1000BCC</td><td>12</td></tr>
+        <tr><td>&gt;&nbsp;1000BCC<span>且</span>&le;&nbsp;10000BCC</td><td>16</td></tr>
+        <tr class="trs"><td rowspan="7">BTG</td><td>&le;&nbsp;2BTG</td><td>2</td></tr>
+        <tr><td>&gt;&nbsp;2BTG<span>且</span>&le;&nbsp;10BTG</td><td>3</td></tr>
+        <tr><td>&gt;&nbsp;10BTG<span>且</span>&le;&nbsp;20BTG</td><td>5</td></tr>
+        <tr><td>&gt;&nbsp;20BCC<span>且</span>&le;&nbsp;50BTG</td><td>8</td></tr>
+        <tr><td>&gt;&nbsp;50BCC<span>且</span>&le;&nbsp;100BTG</td><td>10</td></tr>
+        <tr><td>&gt;&nbsp;100BCC<span>且</span>&le;&nbsp;1000BTG</td><td>12</td></tr>
+        <tr><td>&gt;&nbsp;1000BCC<span>且</span>&le;&nbsp;10000BTG</td><td>16</td></tr>
+        <tr class="trs"><td rowspan="7">ETH</td><td>&le;10ETH</td><td>3</td></tr>
+        <tr><td>&gt;&nbsp;10ETH<span>且</span>&le;&nbsp;20ETH</td><td>5</td></tr>
+        <tr><td>&gt;&nbsp;20ETH<span>且</span>&le;&nbsp;50ETH</td><td>10</td></tr>
+        <tr><td>&gt;&nbsp;50ETH<span>且</span>&le;&nbsp;100ETH</td><td>12</td></tr>
+        <tr><td>&gt;&nbsp;100ETH<span>且</span>&le;&nbsp;500ETH</td><td>18</td></tr>
+        <tr><td>&gt;&nbsp;500ETH<span>且</span>&le;&nbsp;1000ETH</td><td>24</td></tr>
+        <tr><td>&gt;&nbsp;1000ETH<span>且</span>&le;&nbsp;10000ETH</td><td>32</td></tr>
+
+
+
+        </tbody>
+
+
+
+
+
+    </table>
 
 </dl>
 <dl style="color:#F46100">
