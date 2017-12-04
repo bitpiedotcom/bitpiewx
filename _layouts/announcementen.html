@@ -16,7 +16,7 @@
     <a href="{{post.url | prepend: site.url }}" class="catalogue-item aclick" style="float:left"><h5>{{ post.title }}</h5></a>
     <div style="clear:both" id="page"></div>
     <p class="content-list">
-    {{ post.content | truncatewords: 4 | strip_html }}</p>
+    {{ post.content | truncatewords: 40 | strip_html }}</p>
     <span class="time">{{post.data}}</span>
     <div class="clear"></div>
     <hr>
@@ -35,7 +35,13 @@
 
 
 {% include footer.html %}
-{% include jslang.html %}
+{% include js.html %}
+<script>
+     $(function(){
+          window.lang.change("en")
+     })
+</script>
+
 {% include tongji.html %}
 </body>
 </html>
