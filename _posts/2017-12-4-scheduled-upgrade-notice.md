@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scheduled Server Upgrade Notification
+title: 服务器计划升级通知
 author: 
 lang: zh
 data: 2017-12-4
@@ -10,9 +10,8 @@ ref: ad
 time: 
 ---
 
+为了向用户提供更加优质的服务和交易体验，比特派将在香港时间 2017年12月5日00:30 - 2:30期间进行服务器升级。届时，您将不能进行收发币、一键买卖、派银行转入转出、点对点交易等操作。
 
-<p lang="en">In order to provide better service quality and trading experience, Bitpie will conduct server upgrade on 14:30, Dec. 4th, 2017 (UTC +0).  During the upgrade, wallet function will not be accessible, trading will be suspended. The estimated upgrade time can be as long as 2 hours, the service resume time will be 16:30, Dec. 4th, 2017 (UTC +0).</p> 
+请您提前做好相关规划，感谢您的理解与支持。
 
-<p lang="en">We apologize for any inconvenience this upgrade may cause and appreciate your patience.</p>
-
-<p lang="en">Bitpie Team</p>
+比特派团队

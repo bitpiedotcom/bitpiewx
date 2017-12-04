@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+<style>
+      table{
+     width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+    border-collapse: collapse;
+          display: table;
+    border-spacing: 2px;
+    border-color: grey;
+      }
+    tr>th,tr>td{
+        text-align: center;
+        padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #dedede;
+    }
+</style>
 
 
 <body>
@@ -15,7 +34,7 @@
 
 
 
-    <h5 lang="en">{{ page.title }}</h5>
+    <h5>{{ page.title }}</h5>
     <div style="clear:both"></div>
 
     <div class="content-p">
@@ -37,17 +56,54 @@
 {% include footer.html %}
 {% include js.html %}
 <script>
-    $(function(){
-        $("#en").click(function(){
-            var html = "{{page.lang}}";
-            if(html != "en"){
-                 window.location.href = "http://bitpie.com/announcement/en"
-            }
-        })
 
+
+window.onload =function() {
+     if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
+                $("#docs").attr("href","http://docs.bitpie.com/zh_CN/latest/")
+                $("#blogs").attr("href","http://bitpie.com/blog/")
+                $("#ads").attr("href","http://bitpie.com/announcement/");
+                window.lang.change("zh");
+
+        }else{
+              if(location.href.indexOf("en") == -1){
+                  window.location.href = location.href+"-en";
+              }
+                window.lang.change("en")
+        }
+
+    $("#zh").on("click", function () {
+
+        window.lang.change("zh");
+        $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
+        $("#blogs").attr("href", "http://bitpie.com/blog/")
+        $("#ads").attr("href", "http://bitpie.com/announcement")
+        if (location.href.indexOf("en") > -1) {
+            window.location.href = location.href.replace(/\-en/, "");
+        }
+        window.lang.change("zh");
+
+    })
+
+    $("#en").on("click", function () {
+
+        $("#docs").attr("href", "http://docs.bitpie.com/en/latest/")
+        $("#blogs").attr("href", "http://bitpie.com/blog/en/")
+        $("#ads").attr("href", "http://bitpie.com/announcement/en");
+        if (location.href.indexOf("en") == -1) {
+            if(location.href.indexOf("scheduled") > -1) {
+                window.location.href = location.href + "-en";
+            }
+        }
+        window.lang.change("en");
 
 
     })
+}
+
+if(location.href.indexOf("en") >-1){
+     window.lang.change("en");
+}
 
 </script>
 {% include tongji.html %}
