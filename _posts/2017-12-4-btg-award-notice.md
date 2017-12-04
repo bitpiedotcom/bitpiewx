@@ -34,7 +34,6 @@ time:
 <p style="text-align:center;color:#3ECFAF"><strong>二重礼  充值及交易送币</strong></p>
 
 香港时间2017年11月27日 6：00 PM至 2017年 12月 3日6:00 PM期间内在比特派app“派银行”中进行BTG充值以及BTG交易的前1000名用户均可以获得0,01(充值赠送)以及0.03(交易赠送)。
-（由于BTG交易以及BTG充值活动获奖人数众多，以下仅截取部分获奖用户名单，前1000位参与活动的用户获得的BTG都将在24小内发放至派银行余额。）
 
 
 <p style="text-align:center">BTG交易 部分获奖用户 （0.03 BTG）</p>
