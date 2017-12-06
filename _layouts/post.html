@@ -67,7 +67,7 @@ window.onload =function() {
 
         }else{
               if(location.href.indexOf("en") == -1){
-                  if(location.href.indexOf("scheduled") > -1) {
+                  if(location.href.indexOf("scheduled") > -1 || location.href.indexOf("on-venus-airdrop") > -1) {
                       window.location.href = location.href + "-en";
                   }
               }
@@ -93,7 +93,7 @@ window.onload =function() {
         $("#blogs").attr("href", "http://bitpie.com/blog/en/")
         $("#ads").attr("href", "http://bitpie.com/announcement/en");
         if (location.href.indexOf("en") == -1) {
-          
+
 
                 window.location.href = location.href + "-en";
 
