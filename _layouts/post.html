@@ -66,11 +66,12 @@ window.onload =function() {
                 window.lang.change("zh");
 
         }else{
-              if(location.href.indexOf("en") == -1){
-                  if(location.href.indexOf("scheduled") > -1 || location.href.indexOf("on-venus-airdrop") > -1) {
+              if(location.href.indexOf("en") == -1) {
+                  if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1) {
                       window.location.href = location.href + "-en";
                   }
               }
+
                 window.lang.change("en")
         }
 

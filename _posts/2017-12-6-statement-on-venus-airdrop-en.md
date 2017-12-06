@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Statement about Airdrop of Venus project
+title: Statement on The Airdrop of Venus Project
 author: 
 lang: en
 data: 2017-12-6
