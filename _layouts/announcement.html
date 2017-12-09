@@ -69,6 +69,15 @@
         allowCookieOverride: true
     });
     $(function(){
+        if ((navigator.language || navigator.browserLanguage).indexOf("zh") > -1) {
+            $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
+            $("#blogs").attr("href", "http://bitpie.com/blog/")
+            $("#ads").attr("href", "http://bitpie.com/announcement/");
+            window.lang.change("zh");
+
+        } else {
+            window.location.href = "http://bitpie.com/announcement/en/";
+        }
 
         $("#en").on("click",function(){
             window.location.href = "http://bitpie.com/announcement/en/";
