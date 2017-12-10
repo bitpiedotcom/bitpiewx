@@ -101,10 +101,8 @@ gems:
 
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-
-
-paginate:       5
+permalink: /:year-:month-:day/:title
+paginate:  10
 
 # Build settings
 markdown:       kramdown
@@ -116,5 +114,3 @@ userAgreementName: 用户服务协议
 userAgreementVersion: 1.1
 userAgreementDate: 2017-11-23
 
-ad: 比特派送礼季 - BTG
-adtime: 2017-11-27
