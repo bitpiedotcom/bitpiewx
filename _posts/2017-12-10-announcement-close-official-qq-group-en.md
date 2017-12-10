@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcement about disband QQ chatgroup
+title: Announcement About Close QQ Chatgroup Support Service in China
 author: 
 lang: en
 data: 2017-12-10
