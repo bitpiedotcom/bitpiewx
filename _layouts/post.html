@@ -105,6 +105,13 @@ window.onload =function() {
         var expires = "expires="+d.toGMTString();
         document.cookie = cname + "=" + cvalue + "; " + expires;
     }
+    function change_lang(){
+        if (location.href.indexOf("-en") == -1) {
+            if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1 || location.href.indexOf("announcement-close-official-qq-group") > -1) {
+                window.location.href = location.href + "-en";
+            }
+        }
+    }
 
     console.log(!getCookie("name"));
         if(getCookie("langCookie") == "en" || !getCookie("langCookie")) {
@@ -116,11 +123,7 @@ window.onload =function() {
 
             } else {
 
-                if (location.href.indexOf("-en") == -1) {
-                    if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1) {
-                        window.location.href = location.href + "-en";
-                    }
-                }
+                change_lang();
 
                 window.lang.change("en")
             }
@@ -147,7 +150,7 @@ window.onload =function() {
 
 
 
-              if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1) {
+              if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1 || location.href.indexOf("announcement-close-official-qq-group") > -1) {
                     console.log(location.href);
                   window.location.href = location.href.indexOf("-en") > -1 ? location.href : location.href + "-en";
               }
