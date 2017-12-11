@@ -76,13 +76,17 @@
     font-weight: 400;
 }
 .aclick h5{font-size: 22px;font-weight:400;color:#333}
-.aclick:hover{
+.link_app,.aclick:hover{
     text-decoration: none !important;
+}
+.link_app{
+    cursor:pointer;
 }
 .aclick h5:hover{
     color:#F46100;
     text-decoration: none !important;
 }
+
 
  #page p{
      margin:13px 0  !important;

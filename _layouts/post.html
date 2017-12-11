@@ -86,7 +86,19 @@
         },
         allowCookieOverride: true
     });
+    $(function(){
+    var url = location.href;
+    var url_str = url.substr(url.indexOf("?"));
+    $($(".android")[0]).attr("href",$($(".android")[0]).attr("href")+url_str);
+    $($(".ios")[0]).attr("href",$($(".ios")[0]).attr("href")+url_str);
+    })
+
 window.onload =function() {
+    var url = location.href;
+    var url_str = url.substr(url.indexOf("?"));
+    $($(".android")[0]).attr($($(".android")[0]).attr("href")+url_str);
+    $($(".ios")[0]).attr($($(".ios")[0]).attr("href")+url_str);
+    var change = location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1 || location.href.indexOf("announcement-close-official-qq-group") > -1 || location.href.indexOf("btg-lucky-draw") > -1;
     function getCookie(cname)
     {
         var name = cname + "=";
@@ -107,8 +119,8 @@ window.onload =function() {
     }
     function change_lang(){
         if (location.href.indexOf("-en") == -1) {
-            if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1 || location.href.indexOf("announcement-close-official-qq-group") > -1) {
-                window.location.href = location.href + "-en";
+            if (change) {
+                window.location.href = location.href.indexOf("?") > -1  ? location.href.split("?")[0] + "-en?" + location.href.split("?")[1] :location.href + "-en";
             }
         }
     }
@@ -150,9 +162,9 @@ window.onload =function() {
 
 
 
-              if (location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1 || location.href.indexOf("announcement-close-official-qq-group") > -1) {
-                    console.log(location.href);
-                  window.location.href = location.href.indexOf("-en") > -1 ? location.href : location.href + "-en";
+              if (change) {
+                    console.log(location.href.split("?")[0])
+                  window.location.href = location.href.indexOf("-en") > -1 ? location.href : ((location.href.indexOf("?") > -1 ) ? location.href.split("?")[0] + "-en" :location.href + "-en");
               }
 
 
