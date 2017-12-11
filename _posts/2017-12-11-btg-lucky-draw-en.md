@@ -12,7 +12,7 @@ time: 2017-12-11
 
 To encourage our users to experience new released in-wallet BTG/BTC exchange. Bitpie will start a lucky draw event to reward some lucky users who use BTG/BTC exchange inside Bitpie Wallet.
 
-Event Time：2017-12-11 0:30 am – 2017-12-16 0:30 am（UTC +0）
+Event Time：2017-12-11 02:00 am – 2017-12-16 02:00 am（UTC +0）
 
 There will be 20 winners amount users who has total trading volume between 1 BTG to 10 BTG, each will receive 0.25 BTG.
 
