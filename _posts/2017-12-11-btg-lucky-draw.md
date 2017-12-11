@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 比特派送礼季 – BTG币币兑换抽奖派送活动
+title: 比特派送礼季 – BTC/BTG币币兑换抽奖派送活动
 author: 
 lang: zh
 data: 2017-12-11
