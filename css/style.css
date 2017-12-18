@@ -95,7 +95,16 @@
         padding-top: 5px ;
         text-align: left;font-size:15px;font-weight:300 !important;
     }
+.bch_ads{
+  width:96px;
+  height:96px;
+}
+@media(min-width:320px) and (max-width:767px){
 
+.aclick h5{font-size: 15px;text-align: left}
+.content-list
+
+}
 
 
 @media(min-width:531px) and (max-width:767px){
@@ -171,7 +180,7 @@
     }
 }
 @media(min-width:321px) and (max-width:330px){
-  .navbar-brand{font-size: 12px !important;}
+  .navbar-brand{font-size: 12px !important;padding: 15px 5px}
   #title-hide{padding: 15px 0 15px 0px !important;}
   .modal-body{height: 226px}
   .intro-message{
