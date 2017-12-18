@@ -4,7 +4,7 @@
 .box_1{
 padding: 0px 20px;	
 border-width: 0px;
-height: 380px;
+height: auto;
 background: inherit;
     background-color: inherit;
 background-color: rgba(255, 255, 255, 1);
