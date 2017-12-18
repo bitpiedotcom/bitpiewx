@@ -11,7 +11,7 @@ time: 2017-12-18
 ---
 
 <div class="content-bch">
-<p class="content-bch-h"><strong>活动时间</strong> 香港时间  2017年12月18日 20 ：00 至 12月25日 20 ：00</p>
+<p class="content-bch-h"><strong>活动时间</strong>香港时间  2017年12月18日 20：00 至 12月25日 20：00</p>
 
 <h5 style="display:inline-block;text-align:center;margin:10px auto"><span class="bch_ads" style="background:url('/img/bch_ad.png') no-repeat;display:block;background-size:100% 100%;float:left"></span><span class="h5-bch-span">限时加息 2 - 5 倍，最高19.8%</span>
 <div style="clear:both"></div>
