@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BTG/BTC exchange Lucky Draw Has Now Concluded
+title: BTG/BTC Exchange Lucky Draw Has Now Concluded
 author: 
 lang: en
 data: 2017-12-19
