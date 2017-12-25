@@ -99,6 +99,27 @@
   width:96px;
   height:96px;
 }
+.join-content h5{
+    padding:8px 0;
+}
+.join-content{
+    padding:0 5% 5% 5%;
+}
+.join-title{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-bottom:20px ;
+}
+
+
+.jobs{
+    padding-bottom: 15px;
+}
+.join-content p,.join-content ul,.join-footer{
+    font-weight: 300;
+}
+.join-content h3{padding-bottom: 40px}
 @media(min-width:320px) and (max-width:767px){
 
 .aclick h5{font-size: 15px;text-align: left}
