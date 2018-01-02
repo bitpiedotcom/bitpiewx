@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2018第一弹 BCH 一键买卖开通
+title: 2018第一弹 BCH 一键买卖开通 (参与即可瓜分 BCH 大奖，更有 iPhoneX 等你来抢)
 author: 
 lang: zh
 data: 2018-01-02
@@ -9,8 +9,6 @@ id: 8
 ref: ad
 time: 
 ---
-
-<p style="text-align:center"> <strong>参与即可瓜分 BCH 大奖，更有 iPhoneX 等你来抢</strong></p>
 
 一直以来，比特派专注于将“一键买卖”打磨成世界上易用性最强的点对点交易服务，这期间我们收到了无数用户的迫切需求，希望比特派能支持除 BTC 外更多币种的一键买卖。
 
