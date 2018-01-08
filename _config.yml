@@ -58,10 +58,10 @@ qq:
 # ----------------------- #
 downtitle: 比特派
 downsoftname: 比特派
-iosdownsoftversion: 2.6.2
-iosdownsoftdate: 2018-01-03
-anddownsoftversion: 2.6.1
-anddownsoftdate: 2018-01-02
+iosdownsoftversion: 2.6.3
+iosdownsoftdate: 2018-01-08
+anddownsoftversion: 2.6.3
+anddownsoftdate: 2018-01-08
 
 downqr: '/img/ios_qr.png'
 downlogo: '/img/bitpie_ios_144.png'
