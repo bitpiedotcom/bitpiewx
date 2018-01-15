@@ -1,6 +1,9 @@
 .selectbtn{
-  float:left;
+  float:right;
   margin-left:20px;
+}
+.intro-messages .select-btn{
+    float:left;
 }
 .select-btn{
   height:45px;
