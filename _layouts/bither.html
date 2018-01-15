@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include menu.html %}
+
+
+<section id="home">
+<!-- Header -->
+	<div class="intro-headers">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="intro-messages">
+						<h1 lang="en">{{ page.title }}</h1>
+						<h3 lang="en">{{ page.subTitle }}</h3>
+						<hr class="intro-dividers">
+						<ul class="list-inline intro-social-buttons list-inline-down">
+
+							<li id="mobile-center">
+
+
+                                <div class="dropdown selectbtn">
+
+                                  <button class="btn btn-default dropdown-toggle select-btn" type="button" id="dropdownMenu1" data-toggle="dropdown" >
+                                    <i class="fa fa-android fa-fw"></i>
+                                     <span lang="en">Android</span>
+                                    <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.url}}/bither/android/" lang="en">Download</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.bithergoogleplay}}" lang="en">Google Play</a></li>
+
+                                  </ul>
+                                </div>
+
+
+                                <div class="dropdown selectbtn">
+
+                                  <button class="btn btn-default dropdown-toggle select-btn" type="button" id="dropdownMenu3" data-toggle="dropdown">
+                                    <i class="fa fa-apple fa-fw"></i>
+                                    <span lang="en">iOS</span>
+                                    <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.url}}/bither/ios/" lang="en">Download</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.bitherappstore}}" lang="en">App Store</a></li>
+
+                                  </ul>
+                                </div>
+
+
+                                      <div class="dropdown selectbtn">
+
+                                  <button class="btn btn-default dropdown-toggle select-btn" type="button" id="dropdownMenu4" data-toggle="dropdown">
+                                    <i class="fa fa-desktop fa-fw"></i>
+                                    <span lang="en">Desktop</span>
+                                    <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.bitherwin64}}" >Windows64</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.bitherwin32}}" >Windows32</a></li>
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.bithermacos}}" >MacOSX64</a></li>
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="{{site.bitherlinux}}" >Linux64</a></li>
+                                  </ul>
+                                </div>
+
+
+
+                                <div class="clearfix"></div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /.container -->
+
+	</div>
+	<!-- /.intro-header -->
+</section>
+
+{% include footer.html %}
+		{% include js.html %}
+		{% include tongji.html %}
+	</body>
+</html>

@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>{{site.bitherdowntitle}}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no minimal-ui">
+
+    <!-- CSS Global Compulsory-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="/css/default.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/down.css">
+
+</head>
+
+<body>
+
+<div class="row-fluid breadcrumbs margin-bottom-20">
+    <div class="container">
+        <h1 class="pull-left">{{site.bitherdownsoftname}}</h1>
+        <ul class="pull-right breadcrumb">
+            <li>版本：{{site.bitherios}}</li>
+            <li>{{site.bitheriosdate}}</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container content">
+
+
+
+
+
+    <div id="" class="view row">
+        <div class="span12" style="text-align:center;">
+            <a href="javascript:void(0);" onclick="javascript:install();"><img src="https://dn-bither.qbox.me/bither_ios_144.png" class="appicon" /></a>
+            <div>
+            </div>
+        </div>
+    </div>
+
+    <div id="" class="view row" style="margin-top:30px;">
+
+        <div class="span12 margin-bottom-20" style="text-align:center;">
+            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i> 点击安装</a>
+        </div>
+
+        <div class="span12" style="text-align:center;">
+            <span class="label label-info">适用于iOS设备</span>
+            <span class="label label-danger">企业版</span>
+        </div>
+    </div>
+
+    <hr class="devider devider-dotted">
+    <div id="" class="view row margin-bottom-30">
+        <div class="span12" style="text-align:center;">
+            或者用手机扫描下面的二维码安装 <br />
+            <br />
+            <img src="/img/bitherios.png" />
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    function isMobile() {
+        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+    function install() {
+        if(!isMobile()){
+            alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
+            return;
+        }
+        url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://dn-bither.qbox.me/bither_ios.plist";
+        window.location.href = url;
+    }
+</script>
+
+</body>
+</html>

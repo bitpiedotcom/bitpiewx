@@ -63,6 +63,20 @@ iosdownsoftdate: 2018-01-10
 anddownsoftversion: 2.6.4
 anddownsoftdate: 2018-01-10
 
+
+# ----------------------- #
+#   bither   download     #
+# ----------------------- #
+
+bitherdowntitle: 比太钱包
+bitherdownsoftname: 比太
+bitherios: 1.7.9
+bitheriosdate: 2018-01-04
+bitheranddownversion: 1.7.9
+bitheranddate: 2018-01-04
+
+
+bitherandroidlogo: '/img/logo_bither.jpg'
 downqr: '/img/ios_qr.png'
 downlogo: '/img/bitpie_ios_144.png'
 lesson: bitpie iOS安装教程
@@ -90,10 +104,24 @@ googleplay: 'https://play.google.com/store/apps/details?id=com.bitpie'
 
 
 # ----------------------- #
-#   download link   #
+#   download link         #
 # ----------------------- #
 apkdown: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/android/bitpie.apk'
 apkdownq: 'https://dn-bither.qbox.me/bitpie.apk'
+
+
+# ----------------------- #
+#   bither download link  #
+# ----------------------- #
+bitherappstore: 'https://itunes.apple.com/us/app/bither/id899478936'
+bithergoogleplay: 'https://play.google.com/store/apps/details?id=net.bither'
+bitherandroidsha: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/bither/android/SHA256SUMS'
+bitherwin64: 'https://dn-bither.qbox.me/Bither-windows64.exe'
+bitherwin32: 'https://dn-bither.qbox.me/Bither-windows32.exe'
+bithermacos: 'https://dn-bither.qbox.me/Bither-macos64.dmg'
+bitherlinux: 'https://dn-bither.qbox.me/Bither-linux64.tar'
+
+
 
 # Gems
 gems:
