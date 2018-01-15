@@ -44,6 +44,9 @@
 
 
     <div id="" class="view row">
+          <div class="span12 lessonimg " id="aweixinDisplay" style="text-align:center;display: none">
+                <img src="/img/androidweixin.jpg" id="downloading">
+            </div>
         <div class="span12" style="text-align:center;">
             <a href="javascript:void(0);" onclick="javascript:install();"><img src="https://dn-bither.qbox.me/bither_ios_144.png" class="appicon" /></a>
             <div>
@@ -86,6 +89,70 @@
         }
         url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://dn-bither.qbox.me/bither_ios.plist";
         window.location.href = url;
+    }
+        window.onload = function(){
+        function run() {
+            document.getElementById("weixinDisplay").style = "text-align:center;display:block";
+            document.getElementById("aweixinDisplay").style = "text-align:center;display:block";
+
+
+        }
+        function is_weixin() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        var isWeixin = is_weixin();
+        function isMobile() {
+            return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        }
+        function loadHtml(){
+            var div = document.createElement('div');
+            div.id = 'weixin-tip';
+            div.innerHTML = '<p><img src="/img/live_weixin.png"  styl alt="微信打开" /></p>';
+            document.body.appendChild(div);
+        }
+
+        function loadStyleText(cssText) {
+            var style = document.createElement('style');
+            style.rel = 'stylesheet';
+            style.type = 'text/css';
+            try {
+                style.appendChild(document.createTextNode(cssText));
+            } catch (e) {
+                style.styleSheet.cssText = cssText; //ie9以下
+            }
+            var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
+            head.appendChild(style);
+        }
+        var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width:100%; height:210%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5% 10% 5%;}";
+
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if(isAndroid){
+            //document.getElementById("ios").style = "display:none"
+            $("#ios").fadeOut("slow");
+            // window.location.href = "http://bitpie.com/android/";
+        }
+        if(isiOS){
+            $("#android").fadeOut("slow");
+            //document.getElementById("android").style = "display:none"
+            //window.location.href = "http://bitpie.com/ios/";
+        }
+        if(!isAndroid == true && !isiOS == true){
+            //document.getElementById("ios").style = "display:none"
+            $("#ios").slideUp("slow");
+        }
+        if (isWeixin) {
+            loadHtml();
+            loadStyleText(cssText);
+            run();
+        }
+
     }
 </script>
 
