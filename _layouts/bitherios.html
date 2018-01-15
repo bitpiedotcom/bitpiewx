@@ -87,7 +87,7 @@
             alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
             return;
         }
-        url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://dn-bither.qbox.me/bither_ios.plist";
+        var url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://dn-bither.qbox.me/bither_ios.plist";
         window.location.href = url;
     }
         window.onload = function(){
@@ -133,20 +133,7 @@
         var u = navigator.userAgent;
         var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
         var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-        if(isAndroid){
-            //document.getElementById("ios").style = "display:none"
-            $("#ios").fadeOut("slow");
-            // window.location.href = "http://bitpie.com/android/";
-        }
-        if(isiOS){
-            $("#android").fadeOut("slow");
-            //document.getElementById("android").style = "display:none"
-            //window.location.href = "http://bitpie.com/ios/";
-        }
-        if(!isAndroid == true && !isiOS == true){
-            //document.getElementById("ios").style = "display:none"
-            $("#ios").slideUp("slow");
-        }
+
         if (isWeixin) {
             loadHtml();
             loadStyleText(cssText);
