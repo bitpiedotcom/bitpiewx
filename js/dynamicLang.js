@@ -82,7 +82,8 @@ Lang.prototype.pack.zh = {
         "We apologize for any inconvenience this upgrade may cause and appreciate your patience.":"请您提前做好相关规划，感谢您的理解与支持。",
         "jobs":"加入我们",
         "New":"相关报道",
-        "Bither Download":'比太下载'
+        "Bither Download":'比太下载',
+        "Desktop":"桌面版",
 
     }
 }
