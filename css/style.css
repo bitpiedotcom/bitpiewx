@@ -247,6 +247,9 @@
         .content-p {
             width: 81% !important;
         }
+        .intro-messages .selectbtn{
+            margin-left: 20px;
+        }
     }
     @media (min-width: 331px) and (max-width: 359px) {
         .navbar-brand {
@@ -272,6 +275,9 @@
 
         .content-p {
             width: 81% !important;
+        }
+         .intro-messages .selectbtn{
+            margin-left: 10px;
         }
     }
     @media (min-width: 321px) and (max-width: 330px) {
