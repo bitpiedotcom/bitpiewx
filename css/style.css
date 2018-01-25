@@ -75,6 +75,7 @@
 
      color: #aaa;
     float:left;
+    text-align: left !important
     display: inline-block;
     font-weight: 400;
 }
