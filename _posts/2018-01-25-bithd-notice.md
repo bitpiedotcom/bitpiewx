@@ -3,7 +3,7 @@ layout: post
 title: 比特派新品发布会 — 获奖名单公布
 author: 
 lang: zh
-data: 2018-01-16
+data: 2018-01-25
 post_id: 8
 id: 8
 ref: ad
