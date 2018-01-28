@@ -86,7 +86,7 @@ time:
 
 </table>
 
-<p style="color:#F46100">恭喜以上用户，月利益收益已经进入您的派银行余额。</p>
+<p style="color:#F46100">恭喜以上用户，月利率收益已经进入您的派银行余额。</p>
 
 如有疑问请关注微博<a href="https://weibo.com/bitpiewallet" target="_blank">@比特派社区</a>或“比特派社区”微信公众号与比特派工作人员联系。
 
