@@ -177,13 +177,15 @@
 
             if(data && data.length){
                 var data = JSON.parse(data);
+                if(data && data.length) {
 
-              //  console.log(data[0]);
-                var html = "";
-                for(var i= 0,l=data.length;i<l;i++){
-                    html+="<tr><td>"+data[i].name+"</td><td>"+Decimal(data[i].taker_fee_rate).mul(100)+"%"+"</td></tr>";
+                    //  console.log(data[0]);
+                    var html = "";
+                    for (var i = 0, l = data.length; i < l; i++) {
+                        html += "<tr><td>" + data[i].name + "</td><td>" + Decimal(data[i].taker_fee_rate).mul(100) + "%" + "</td></tr>";
+                    }
+                    $("tbody").append(html);
                 }
-                $("tbody").append(html);
             }
 
         });
