@@ -19,8 +19,8 @@ To reward our supporters and encourage more users to experience the in-wallet ex
 
 
 <p class="paragraph">1st Place to receive a two persons trip to Silicon Valley - Blockchain Exploratory (or equivalent BCH)</p>
-<p class="paragraph">2nd Place to receive 2 BCH and an iPhone X</p>
-<p class="paragraph">3rd Place to receive 1 BCH and an iPhone X</p>
+<p class="paragraph">2nd Place to receive 2 BCH and an iPhoneX </p>
+<p class="paragraph">3rd Place to receive 1 BCH and an iPhoneX </p>
 <p class="paragraph">4th - 10th Place: each to receive 1 BCH</p>
 <p class="paragraph">11th - 20th Place: each to receive 0.5 BCH</p>
 

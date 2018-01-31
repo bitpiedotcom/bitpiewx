@@ -18,8 +18,8 @@ time:
 <p>奖励一：交易排名赛</p>
 <p class="paragraph">活动期间在比特派钱包交易所内参与 BCH/BTC 交易的用户，将根据交易量（买入加卖出）进行排名，排名靠前者将获得奖品。</p>
 <p class="paragraph">第1名：美国硅谷区块链双人考察之旅</p>
-<p class="paragraph">第2名：2 BCH + iphoneX</p>
-<p class="paragraph">第3名：1 BCH + iphoneX</p>
+<p class="paragraph">第2名：2 BCH + iPhoneX</p>
+<p class="paragraph">第3名：1 BCH + iPhoneX</p>
 <p class="paragraph">第4-10名：1 BCH</p> 
 <p class="paragraph">第11-20名：0.5 BCH</p>
 
