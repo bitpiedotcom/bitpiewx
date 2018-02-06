@@ -58,10 +58,10 @@ qq:
 # ----------------------- #
 downtitle: 比特派
 downsoftname: 比特派
-iosdownsoftversion: 3.0.4
-iosdownsoftdate: 2018-01-31
-anddownsoftversion: 3.0.4
-anddownsoftdate: 2018-01-31
+iosdownsoftversion: 3.0.5
+iosdownsoftdate: 2018-02-06
+anddownsoftversion: 3.0.5
+anddownsoftdate: 2018-02-06
 
 
 # ----------------------- #
@@ -70,10 +70,10 @@ anddownsoftdate: 2018-01-31
 
 bitherdowntitle: 比太钱包
 bitherdownsoftname: 比太
-bitherios: 1.8.1
-bitheriosdate: 2018-01-22
-bitheranddownversion: 1.8.1
-bitheranddate: 2018-01-22
+bitherios: 1.8.2
+bitheriosdate: 2018-02-06
+bitheranddownversion: 1.8.2
+bitheranddate: 2018-02-06
 
 
 bitherandroidlogo: '/img/logo_bither.jpg'
