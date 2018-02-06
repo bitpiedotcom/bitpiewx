@@ -182,7 +182,10 @@
                     //  console.log(data[0]);
                     var html = "";
                     for (var i = 0, l = data.length; i < l; i++) {
-                        html += "<tr><td>" + data[i].name + "</td><td>" + Decimal(data[i].taker_fee_rate).mul(100) + "%" + "</td></tr>";
+                        var str = data[i].name;
+                        var end = str.lastIndexOf("BTC");
+                        var result = str.substr(0,end)+"/BTC";
+                        html += "<tr><td>" + result + "</td><td>" + Decimal(data[i].taker_fee_rate).mul(100) + "%" + "</td></tr>";
                     }
                     $("tbody").append(html);
                 }
