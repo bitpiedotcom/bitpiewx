@@ -183,6 +183,9 @@
                     var html = "";
                     for (var i = 0, l = data.length; i < l; i++) {
                         var str = data[i].name;
+                        if(str.indexOf("BCC") > -1){
+                            str = str.replace(/BCC/,"BCH");
+                        }
                         var end = str.lastIndexOf("BTC");
                         var result = str.substr(0,end)+"/BTC";
                         html += "<tr><td>" + result + "</td><td>" + Decimal(data[i].taker_fee_rate).mul(100) + "%" + "</td></tr>";
