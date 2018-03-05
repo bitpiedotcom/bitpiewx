@@ -49,6 +49,7 @@ Lang.prototype.pack.zh = {
         "Bither":"比太",
         "technology.":"技术.",
         "Bitpie Android":"比特派 安卓",
+        "Bitpie iOS":'比特派 iOS',
         "Version:":"版本：",
         "Download":"下载",
         "Use your cell phone  to install by scaning the qr code":"或者用手机扫描下面的二维码安装",
@@ -84,6 +85,25 @@ Lang.prototype.pack.zh = {
         "New":"相关报道",
         "Bither Download":'比太下载',
         "Desktop":"桌面版",
+        "Settings-General-Device Management":"2.在手机的设置-通用-描述文件与设备管理，信任下面的文件",
+        "Settings-Cellular":"1.进入设置-蜂窝移动网络-使用无线局域网与蜂窝移动的应用，随便找款App(例：这里选择的是比太)",
+        "Please save this URL:":"请记住此下载网址:",
+        "Please open this address in Safari.":"微信请点击右上角(三点),选择用Safari浏览器打开",
+        "(only for company internal personnel)":"（本版本仅限于公司内部人员使用)",
+        "Tap the button below('install'), the App will be installed automatically":"点击下方(点击安装)按钮,系统将自动安装",
+        "This version is same as App Store version.":"此版本与 App Store 版本一致",
+        "Install":'点击安装',
+        "for iOS device":"适用于iOS设备",
+        "or Scan QR Code as below":"或者用手机扫描下面的二维码安装",
+        "Bitpie iOS Installation Tutorial":"bitpie iOS安装教程",
+        "1.Open Bitpie for the first time, you’ll see this:":"1.第一次打开bitpie的时候会弹出如下框：",
+        "2.Settings-General-Device Management, trust the file below:":"2.在手机的设置-通用-描述文件与设备管理，信任下面的文件：",
+        "3.Trust the following certificate, then you can successfully launch Bitpie App.":"3.信任下面的证书就可以启动bitpie了。",
+        "Solution for no prompt in iOS 10 (allowing App using WLAN & Cellular), App cannot be used:":"iOS 10 不提示(是否允许应用访问数据)，导致应用无法使用的解决方案",
+        "1.Settings-WLAN-Apps Using WLAN & Cellular":"1.进入设置-蜂窝移动网络-使用无线局域网与蜂窝移动的应用，随便找款App(例：这里选择的是比太)",
+        "2.Choose an App (any one is OK): hereby we choose Bither":"2.更改一下设置即可(任意更改)。",
+        "3.Trust the following certificate, then you can successfully launch Bitpie App.":"3.然后进入bitpie App就会提示是否允许使用数据。选择是就可以了。"
+
 
     }
 }

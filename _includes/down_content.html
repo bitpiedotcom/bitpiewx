@@ -1,15 +1,15 @@
 <div class="row-fluid breadcrumbs margin-bottom-20">
     <div class="container">
         <div class="col-md-4 col-sm-4">
-        <h1 class="pull-left">{{site.downsoftname}}</h1>
+        <h1 class="pull-left" lang="en">{{site.iOSsoftname}}</h1>
             </div>
         <div class="col-md-4 col-sm-4">
-        <p class=" url-p">请记住此下载网址:<span class="url-content">bitpie.com/ios</span></p>
+        <p class=" url-p"><span lang="en">Please save this url:</span><span class="url-content">bitpie.com/ios</span></p>
             </div>
         <div class="col-md-4 col-sm-4">
         <ul class="pull-right breadcrumb">
             <li></li>
-            <li>版本 {{site.iosdownsoftversion}}</li>
+            <li><span lang="en">Version:</span>{{site.iosdownsoftversion}}</li>
             <li>{{site.iosdownsoftdate}}</li>
         </ul>
             </div>
@@ -19,14 +19,14 @@
 <div class="container content">
     <div id="" class="view row">
         <div class="span12 lessonimg " id="weixinDisplay" style="text-align:center;display: none">
-            <h5>微信请点击右上角(三点),选择用Safari浏览器打开</h5>
-            <span>（本版本仅限于公司内部人员使用)</span>
+            <h5 lang="en">Please open this address in Safari.</h5>
+            <span lang="en">(only for company internal personnel)</span>
             <img src="{{site.winxin}}" id="downloading"/>
-            <span>点击下方(点击安装)按钮,系统将自动安装</span>
+            <span lang="en">Tap the button below('install'), the App will be installed automatically</span>
         </div>
         <div class="span12 lessonimg " id="browser" style="text-align:center;display: block">
-            <p>此版本与 App Store 版本一致</p>
-            <p style="font-size:12px">(仅限于公司内部人员使用)</p>
+            <p lang="en">This version is same as App Store version.</p>
+            <p style="font-size:12px" lang="en">(only for company internal personnel)</p>
         </div>
 
     </div>
@@ -44,7 +44,7 @@
     <div id="" class="view row" style="margin-top:30px;">
         <div class="span12 margin-bottom-20" style="text-align:center;">
             <!--<span class="label label-info label-span" >国内</span>-->
-            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg" data="1"><i class="fa fa-download"></i>点击安装</a>
+            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg" data="1"><i class="fa fa-download"></i><span lang="en">Install</span></a>
 
         </div>
 
@@ -55,7 +55,7 @@
         <!--</div>-->
 
         <div class="span12" style="text-align:center;">
-            <span class="label label-info">适用于iOS设备</span>
+            <span class="label label-info" lang="en">for iOS device</span>
             <!--<span class="label label-danger">企业版</span>-->
         </div>
     </div>
@@ -63,37 +63,37 @@
     <hr class="devider devider-dotted">
     <div id="" class="view row margin-bottom-30">
         <div class="span12" style="text-align:center;">
-            或者用手机扫描下面的二维码安装 <br />
+            <span lang="en">or Scan QR Code as below</span><br />
             <br />
             <img src="{{site.downqr}}" />
         </div>
     </div>
     <hr class="devider devider-dotted">
     <div id="down" class="view row" style="margin-top:30px;">
-        <h3>{{site.lesson}}</h3>
+        <h3 lang="en">Bitpie iOS Installation Tutorial</h3>
         <div class="lessonimg">
-            <p>{{site.downmobilefirsttitle}}</p>
-            <img class="limg" src="{{site.downmobilefirst}}"/>
+            <p lang="en">1.Open Bitpie for the first time, you’ll see this:</p>
+            <img class="limg" src="/img/MobileIOSStep1.jpg" data-url="/img/MobileIOSStep1.png"/>
         </div>
         <div class="lessonimg">
-            <p>{{site.downmobilesecondtitle}}</p>
-            <img class="limg" src="{{site.downmobilesecond}}"/>
+            <p lang="en">2.Settings-General-Device Management, trust the file below:</p>
+            <img class="limg" src="/img/MobileIOSStep2.jpg" data-url="/img/MobileIOSStep2.png"/>
         </div>
         <div class="lessonimg">
-            <p>{{site.downmobilethreetitle}}</p>
-            <img class="limg" src="{{site.downmobilethree}}"/>
+            <p lang="en">3.Trust the following certificate, then you can successfully launch Bitpie App.</p>
+            <img class="limg" src="/img/MobileIOSStep3.jpg" data-url="/img/MobileIOSStep3.png"/>
         </div>
 
     </div>
     <div class="lesson view row" style="margin-top:30px">
-        <h3>iOS 10 不提示(是否允许应用访问数据)，导致应用无法使用的解决方案</h3>
+        <h3 lang="en">Solution for no prompt in iOS 10 (allowing App using WLAN & Cellular), App cannot be used:</h3>
         <div class="lessonimg">
-            <p>1.进入设置-蜂窝移动网络-使用无线局域网与蜂窝移动的应用，随便找款App(例：这里选择的是比太)</p>
-            <img class="limg" src="{{site.step1}}">
-            <p>2.更改一下设置即可(任意更改)。</p>
-            <img class="limg" src="{{site.step2}}">
-            <p>3.然后进入bitpie App就会提示是否允许使用数据。选择是就可以了。</p>
-            <img class="limg" src="{{site.step3}}">
+            <p lang="en">1.Settings-WLAN-Apps Using WLAN & Cellular</p>
+            <img class="limg" src="/img/step1.jpg" data-url="/img/step1.png">
+            <p lang="en">2.Choose an App (any one is OK): hereby we choose Bither</p>
+            <img class="limg" src="/img/step2.jpg" data-url="/img/step2.png">
+            <p lang="en">3.Trust the following certificate, then you can successfully launch Bitpie App.</p>
+            <img class="limg" src="/img/step3.jpg" data-url="/img/step3.png">
         </div>
     </div>
 </div>

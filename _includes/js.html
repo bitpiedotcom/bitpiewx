@@ -35,6 +35,9 @@
                 $("#blogs").attr("href", "http://bitpie.com/blog/")
                 $("#ads").attr("href", "http://bitpie.com/announcement/");
                 window.lang.change("zh");
+                $(".limg").each(function(i,v){
+                    $(v).attr("src",$(v).attr("data-url"));
+                })
 
             } else {
                 window.lang.change("en")

@@ -75,7 +75,7 @@ bitheriosdate: 2018-02-06
 bitheranddownversion: 1.8.2
 bitheranddate: 2018-02-06
 
-
+iOSsoftname: 'Bitpie iOS'
 bitherandroidlogo: '/img/logo_bither.jpg'
 downqr: '/img/ios_qr.png'
 downlogo: '/img/bitpie_ios_144.png'
