@@ -143,12 +143,12 @@
     </style>
 </head>
 <body>
-<h3>ExPie 交易费率</h3>
+<h3 lang="en">ExPie transaction fees</h3>
 <dl class="d">
-    <dt><h4>交易费率列表</h4></dt>
+    <dt><h4 lang="en">Transaction fees list</h4></dt>
     <table  class="table" border="0" cellspacing="0" cellpadding="0">
         <thead>
-        <tr class="trs"><th>交易对</th><th>交易费率</th></tr>
+        <tr class="trs"><th lang="en">Transaction pairs</th><th lang="en">Transaction fees</th></tr>
         </thead>
         <tbody>
 
@@ -164,11 +164,11 @@
 </dl>
 
 <dl style="color:#d9534f">
-    <dt><h4>备注：</h4></dt>
-    <dd>（交易费）扣除收取到的资产。VIP用户交易费率5折。</dd>
+    <dt><h4 lang="en">Note:</h4></dt>
+    <dd lang="en">Tranacrion fees will be deducted from the received assets. 50% of fees for VIP users.</dd>
 
 </dl>
-<script src="/js/jquery-1.11.0.js"></script>
+{% include js.html %}
 <script src="/js/decimal.min.js"></script>
 
 <script>
@@ -203,9 +203,7 @@
     })
 </script>
 
-<script type="text/javascript">
 
-</script>
 {% include tongji.html %}
 </body>
 </html>

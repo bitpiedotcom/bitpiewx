@@ -102,7 +102,13 @@ Lang.prototype.pack.zh = {
         "Solution for no prompt in iOS 10 (allowing App using WLAN & Cellular), App cannot be used:":"iOS 10 不提示(是否允许应用访问数据)，导致应用无法使用的解决方案",
         "1.Settings-WLAN-Apps Using WLAN & Cellular":"1.进入设置-蜂窝移动网络-使用无线局域网与蜂窝移动的应用，随便找款App(例：这里选择的是比太)",
         "2.Choose an App (any one is OK): hereby we choose Bither":"2.更改一下设置即可(任意更改)。",
-        "3.Trust the following certificate, then you can successfully launch Bitpie App.":"3.然后进入bitpie App就会提示是否允许使用数据。选择是就可以了。"
+        "3.Trust the following certificate, then you can successfully launch Bitpie App.":"3.然后进入bitpie App就会提示是否允许使用数据。选择是就可以了。",
+        "ExPie transaction fees":"ExPie 交易费率",
+        "Transaction fees list":"交易费率列表",
+        "Transaction pairs":"交易对",
+        "Transaction fees":"交易费率",
+        "Note:":"备注:",
+        "Tranacrion fees will be deducted from the received assets. 50% of fees for VIP users.":"(交易费）扣除收取到的资产。VIP用户交易费率5折。"
 
 
     }
