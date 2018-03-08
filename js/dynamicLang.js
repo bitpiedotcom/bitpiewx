@@ -108,7 +108,25 @@ Lang.prototype.pack.zh = {
         "Transaction pairs":"交易对",
         "Transaction fees":"交易费率",
         "Note:":"备注:",
-        "Tranacrion fees will be deducted from the received assets. 50% of fees for VIP users.":"(交易费）扣除收取到的资产。VIP用户交易费率5折。"
+        "Tranacrion fees will be deducted from the received assets. 50% of fees for VIP users.":"(交易费）扣除收取到的资产。VIP用户交易费率5折。",
+        "Withdrawal":"提现",
+        "The above manual review, audit will be completed within 24 hours.":"以上需进行人工审核，审核会在24小时内完成。",
+        "If you want to receive the coins immediately, pls do not withdraw coins over the limits. If withdrawal amount is over the limit, we will carry out the manual verifications.":"如果您需要提现即时到账，请不要超过对应币种的提现数量，不用人工审核。",
+        "Pie Bank Withdrawal":"派银行提现",
+        "Deposits are On-Chain transactions, so you need to wait for confirmations.":"充值是链上交易，所以需要等待确认。",
+        "Confirmations":"确认数",
+        "Amount":'数量',
+        "Deposit Currency":"充值币种",
+        "1.Trades between VIP ":"1、VIP与VIP之间的交易 ",
+        "2.Trades between VIPs and common users ":"2、VIP与普通用户之间的交易 ",
+        "3.Trades between users who paid deposit and common users ":"3、押金用户与普通用户之间的交易 ",
+        "fees only on users who post advertisements, no fees on common users":"只对广告方收取服务费(单方向)，普通用户不收取。",
+        "BTC Fees":"BTC服务费率列表",
+        "Other Coins Fees":"其它币种服务费率列表",
+        "OTC Trade Fees":"OTC 服务费率",
+        "Instructions for Pie Bank Withdrawal":"派银行充值提现说明",
+        "and":"且",
+
 
 
     }
