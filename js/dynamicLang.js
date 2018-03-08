@@ -116,7 +116,7 @@ Lang.prototype.pack.zh = {
         "Deposits are On-Chain transactions, so you need to wait for confirmations.":"充值是链上交易，所以需要等待确认。",
         "Confirmations":"确认数",
         "Amount":'数量',
-        "Deposit Currency":"充值币种",
+        "Deposits coin":"充值币种",
         "1.Trades between VIP ":"1、VIP与VIP之间的交易 ",
         "2.Trades between VIPs and common users ":"2、VIP与普通用户之间的交易 ",
         "3.Trades between users who paid deposit and common users ":"3、押金用户与普通用户之间的交易 ",
@@ -126,6 +126,7 @@ Lang.prototype.pack.zh = {
         "OTC Trade Fees":"OTC 服务费率",
         "Instructions for Pie Bank Withdrawal":"派银行充值提现说明",
         "and":"且",
+        "Pie Bank Deposits":"派银行充值"
 
 
 
