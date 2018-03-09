@@ -4,31 +4,32 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="list-inline ul-img">
+
+
                     {% for link in site.social %}
                     <li>
                         <a href="{{link.url}}" target="_blank" ><i style='display: inline-table;width:30px;height:30px;background-image: url("/img/{{ link.title }}.png");background-repeat: no-repeat;background-size: 100% auto'></i></a>
                     </li>
                     {% endfor %}
-                    <!--<li>-->
-                        <!--<a href="#about" ><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/{{ social.title }}.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>-->
-                    <!--</li>-->
-
-                    <!--<li>-->
-                        <!--<a href="#services"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/facebook.png');background-repeat: no-repeat;background-size: 100% auto"></i> </a>-->
-                    <!--</li>-->
-
-
-                    <!--<li>-->
-                        <!--<a href="#contact" ><i  style="display: inline-table;width:30px;height:30px;background-image: url('/img/reddit.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>-->
-                    <!--</li>-->
-
-                    <!--<li>-->
-                        <!--<a href="#contact" ><i  style="display: inline-table;width:30px;height:30px;background-image: url('/img/email.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>-->
-                    <!--</li>-->
-
+                    <li>
+                        <a href="http://bitpie.com/2017-12-10/announcement-close-official-qq-group"  target="_blank" id="qq" data="hide"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/qq.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>
+                    </li>
                     <li style="position: absolute">
 
-                        <a href="http://bitpie.com/2017-12-10/announcement-close-official-qq-group"  target="_blank" id="qq" data="hide"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/qq.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>
+                        <a href="javascript:void(0)"  target="_blank" id="telegram" data="hide"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/telegram.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>
+                        <div  id="group_show" tabindex="-1" role="dialog" data-backdrop="static" style="display: none" data="hide">
+                            <ul class="list-inline qq-list">
+                                {% for social in site.telegram %}
+
+                                <li >
+                                    <span class="telegram">{{social.title}}</span><a href="{{ social.url }}" target="_blank" class=""><i class="{{ social.title }} fa-fw" ></i> <span class="span_qq" lang="en">{{ social.url}}</span></a>
+                                </li>
+
+
+                                {% endfor %}
+                            </ul>
+
+                        </div>
 
 
                     </li>

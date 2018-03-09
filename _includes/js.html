@@ -64,7 +64,7 @@
 
 
 
-        $("#qq").on("click",function(e){
+        $("#telegram").on("click",function(e){
             e.stopPropagation();
             var flag = $(this).attr("data");
           if(flag == "hide") {
@@ -79,9 +79,9 @@
           }
         });
 
-        $("#qq").mouseenter(function(){
+        $("#telegram").mouseenter(function(){
             $("#group_show").show();
-            $("#qq").on("click",function(e){
+            $("#telegram").on("click",function(e){
                 $("#group_show").show();
             })
         });

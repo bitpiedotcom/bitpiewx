@@ -242,13 +242,17 @@ p.copyright {
     padding: 10px;
     position: absolute;
     text-align: left;
-    top:-180px;
-    left:-150px;
+    top:-100px;
+    left:-240px;
     z-index: 100;
-    width:218px;
+    width:280px;
     background: white;
     border-radius: 5px;
     -moz-box-shadow:2px 2px 5px #333333; -webkit-box-shadow:2px 2px 5px #333333; box-shadow:2px 2px 5px #333333;
+}
+.telegram{
+    width:50px;
+    display: inline-block;
 }
 .span_qq{
     font-size: 14px;
