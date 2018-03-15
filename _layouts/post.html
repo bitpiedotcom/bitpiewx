@@ -132,7 +132,20 @@ window.onload =function() {
     var url_str = url.substr(url.indexOf("?"));
     $($(".android")[0]).attr($($(".android")[0]).attr("href")+url_str);
     $($(".ios")[0]).attr($($(".ios")[0]).attr("href")+url_str);
-    var change = location.href.indexOf("scheduled") > -1 || location.href.indexOf("venus") > -1 || location.href.indexOf("announcement-close-official-qq-group") > -1 || location.href.indexOf("btg-lucky-draw") > -1 || location.href.indexOf("bch_financial_plan") > -1 || location.href.indexOf("btg-exchange-luckydraw-winners") > -1 || location.href.indexOf("bch-lucky-draw") > -1 || location.href.indexOf("bch-trading-rewards") > -1 || location.href.indexOf("btv-notice") > -1 || location.href.indexOf("Bitpie-copying-the-private-key") > -1;
+    var change = url.indexOf("scheduled") > -1 || url.indexOf("venus") > -1 || url.indexOf("announcement-close-official-qq-group") > -1 || url.indexOf("btg-lucky-draw") > -1 || url.indexOf("bch_financial_plan") > -1 || url.indexOf("btg-exchange-luckydraw-winners") > -1 || url.indexOf("bch-lucky-draw") > -1 || url.indexOf("bch-trading-rewards") > -1 || url.indexOf("btv-notice") > -1 || url.indexOf("Bitpie-copying-the-private-key") > -1;
+    var jp = ["scheduled-upgrade-notice","statement-on-venus-airdrop","bch-lucky-draw-jp","bithd-notice","bch-interest-earnings","bch-trading-luckydraw-winners","bch-trading-rewards","btv-notice"];
+    function changejp(jp){
+        var flag = false;
+        for(var i in jp){
+            if (location.href.indexOf(jp[i]) > -1){
+                flag = true;
+                break;
+            }else{
+                flag = false;
+            }
+        }
+        return flag;
+    }
     function getCookie(cname)
     {
         var name = cname + "=";
@@ -154,12 +167,17 @@ window.onload =function() {
     function change_lang(){
         if (location.href.indexOf("-en") == -1) {
             if (change) {
-                window.location.href = location.href.indexOf("?") > -1  ? location.href.split("?")[0] + "-en?" + location.href.split("?")[1] :location.href + "-en";
+                if(location.href.indexOf("-jp") >-1){
+                    window.location.href = location.href.substring(0,location.href.lastIndexOf("-jp"))+"-en"
+                }else {
+                    window.location.href = location.href.indexOf("?") > -1 ? location.href.split("?")[0] + "-en?" + location.href.split("?")[1] : location.href + "-en";
+                }
             }
         }
     }
 
     console.log(!getCookie("name"));
+    console.log(getCookie("langCookie"));
         if(getCookie("langCookie") == "en" || !getCookie("langCookie")) {
             if ((navigator.language || navigator.browserLanguage).indexOf("zh") > -1) {
                 $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
@@ -167,11 +185,24 @@ window.onload =function() {
                 $("#ads").attr("href", "http://bitpie.com/announcement/");
                 window.lang.change("zh");
 
-            } else {
+            } else if((navigator.language || navigator.browserLanguage).indexOf("en") > -1) {
 
                 change_lang();
 
                 window.lang.change("en")
+            }else{
+                change_lang();
+
+                window.lang.change("en")
+            }
+        }else if(getCookie("langCookie") == "jp"){
+
+            if(changejp(jp)) {
+                if(location.href.indexOf("jp") == -1) {
+                    var url = location.href + "-jp";
+                    window.location.href =  url;
+                }
+
             }
         }
 
@@ -181,24 +212,30 @@ window.onload =function() {
         $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
         $("#blogs").attr("href", "http://bitpie.com/blog/")
         $("#ads").attr("href", "http://bitpie.com/announcement")
-        if (location.href.indexOf("en") > -1) {
+        if (location.href.indexOf("en") > -1 ) {
             window.location.href = location.href.replace(/\-en/, "");
+        }else if( location.href.indexOf("jp") > -1){
+            window.location.href = location.href.replace(/\-jp/, "");
+        }else{
+            window.location.href = "http://bitpie.com/announcement"
         }
         window.lang.change("zh");
 
     })
 
     $("#en").on("click", function () {
-
-        $("#docs").attr("href", "http://docs.bitpie.com/en/latest/")
+        var enads = "http://docs.bitpie.com/en/latest/";
+        var url = location.href;
+        $("#docs").attr("href",enads)
         $("#blogs").attr("href", "http://bitpie.com/blog/en/")
         $("#ads").attr("href", "http://bitpie.com/announcement/en");
 
 
 
               if (change) {
-                    console.log(location.href.split("?")[0])
-                  window.location.href = location.href.indexOf("-en") > -1 ? location.href : ((location.href.indexOf("?") > -1 ) ? location.href.split("?")[0] + "-en" :location.href + "-en");
+                 window.location.href = url.indexOf("jp")> -1 ? url.substring(0,url.lastIndexOf("-jp"))+"-en" : (url.indexOf("-en") > -1 ? url : url+"-en");
+              }else{
+                  window.location.href = enads;
               }
 
 
@@ -207,14 +244,33 @@ window.onload =function() {
 
 
     })
+    $("#jp").on("click",function(){
+        var ads = "http://bitpie.com/announcement/jp";
+        $("#ads").attr("href",ads);
+        var url = location.href;
+        if(changejp(jp)){
+            if(url.indexOf("-en") > -1){
+                window.location.href = url.substring(0,url.indexOf("-en"))+"-jp";
+            }else{
+                window.location.href = url+"-jp";
+            }
+        }else{
+            window.location.href = ads;
+        }
+
+
+    })
     if(location.href.indexOf("-en") >-1){
         window.lang.change("en");
+    }
+    if(location.href.indexOf("-jp") >-1){
+        window.lang.change("jp");
     }
 
 }
     $(function(){
 
-        $("#qq").on("click",function(e){
+        $("#telegram").on("click",function(e){
             e.stopPropagation();
             var flag = $(this).attr("data");
             if(flag == "hide") {
@@ -229,7 +285,7 @@ window.onload =function() {
             }
         });
 
-        $("#qq").mouseenter(function(){
+        $("#telegram").mouseenter(function(){
             $("#group_show").show();
             $("#qq").on("click",function(e){
                 $("#group_show").show();

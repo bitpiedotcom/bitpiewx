@@ -89,8 +89,10 @@
 
         if((navigator.language || navigator.browserLanguage).indexOf("zh") > -1){
             window.lang.change("zh")
-        }else{
-            window.lang.change("en")
+        }else if((navigator.language || navigator.browserLanguage).indexOf("ja") > -1){
+            window.lang.change("jp")
+        }else if((navigator.language || navigator.browserLanguage).indexOf("en") > -1){
+            window.lang.change('en')
         }
 
         function is_weixin() {
