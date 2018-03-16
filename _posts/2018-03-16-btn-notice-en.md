@@ -12,7 +12,7 @@ time:
 
 
 
-BTV team will upgrade the mainnet on 18th-19th March, 2018, the upgrade duration might result in the invalidity of on-chain transferring. Therefore, Bitpie will take the following measures during the upgrade:
+BTN team will upgrade the mainnet on 18th-19th March, 2018, the upgrade duration might result in the invalidity of on-chain transferring. Therefore, Bitpie will take the following measures during the upgrade:
 ```
 1.BTN wallet will suspend the transfer service from 0:00a.m. 17th March, 2018. It is strongly 
 recommended that not to transfer BTN; otherwise you may encounter the loss of assets.
