@@ -126,7 +126,8 @@ Lang.prototype.pack.zh = {
         "OTC Trade Fees":"OTC 服务费率",
         "Instructions for Pie Bank Withdrawal":"派银行充值提现说明",
         "and":"且",
-        "Pie Bank Deposits":"派银行充值"
+        "Pie Bank Deposits":"派银行充值",
+        "Test":"企业版",
     }
 }
 
@@ -221,6 +222,7 @@ Lang.prototype.pack.jp = {
         "Instructions for Pie Bank Withdrawal":"派银行充值提现说明",
         "and":"また",
         "Pie Bank Deposits":"パイ銀行お預入",
-        "Bither - a simple and secure Bitcoin Wallet!":"Bither-シンプル、安全的なビットコインウォレット"
+        "Bither - a simple and secure Bitcoin Wallet!":"Bither-シンプル、安全的なビットコインウォレット",
+        "Test":"企業版"
     }
 }
