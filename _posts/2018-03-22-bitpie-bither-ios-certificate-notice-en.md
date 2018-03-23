@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Urgent Announcement
+title: Urgent notification about app access on IOS device
 author: 
 lang: en
 data: 2018-03-22
@@ -10,19 +10,25 @@ ref: ad
 time: 
 ---
 
+
+
 Since now Apple Inc. is not friendly to cryptocurrencies, this morning we found Bitpie App iOS version and Bither App iOS version cannot be opened. Therefore, we are notifying you the following information so as to ensure your assets safety.
 
-<span style="color:red">1.Please do not uninstall Bitpie and Bither App and reserve well your seed or private key, otherwise you may not recover your assets in your wallet.</span><br/>
-<span>2.If you have backed up your seed and private key, you can recover it in an android device.</span><br/>
-<span>3.There is no influence on Android users.</span><br/>
+
+1.All users’ assets are safe. If you have saved the seed or private key, you can install Bitpie or Bither apps in an android device and recover your wallet.<br/>
+<span style="coloir:red">2.If you are not sure if the seed or private key were backed up correctly, please DO NOT uninstall app and wait for further notification.</span> <br/>
+3.Users with Android devices are not influenced.<br>
 
 
 
-Now we are actively dealing with Apple Inc. for recovering your iOS version access a.s.a.p. Please wait patiently. Your support is appreciated.
+Now we are actively dealing with Apple Inc. to re-enable the iOS version access A.S.A.P. Please wait patiently. Your support is highly appreciated.
+
+
 
 
 Bitpie Team<br/>
 22nd March, 2018
+
 
 <style>
 #content h5{
