@@ -3,7 +3,7 @@ layout: post
 title: 关于比特派 iOS 版企业证书的说明，看看您属于那种情况，应如何恢复资产哈
 author: 
 lang: zh
-data: 2018-03-22
+data: 2018-03-26
 post_id: 15
 id: 15
 ref: ad
