@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于比特派 iOS 版企业证书的说明，看看您属于那种情况，应如何恢复资产哈
+title: 关于比特派 iOS 版企业证书的说明
 author: 
 lang: zh
 data: 2018-03-26
