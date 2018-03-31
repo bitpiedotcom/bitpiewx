@@ -21,7 +21,7 @@ BITHD 视频教程：<a href="http://v.youku.com/v_show/id_XMzQ2ODEwMTUwNA==.htm
 BITHD 使用文档：<a href="http://docs.bithd.com" target="_blank" style="color:red">点击</a>
 
 
-祝您使用 BITHD 愉快！如有疑问请关注微博<a href="https://weibo.com/bitpiewallet" target="_blank">@比特派社区</a>或“比特派社区”微信公众号与比特派工作人员联系。
+祝您使用 BITHD 愉快！如有疑问请关注微博<a href="https://weibo.com/bitpiewallet" target="_blank">@比特派钱包</a>或“比特派社区”微信公众号与比特派工作人员联系。
 
 
 
