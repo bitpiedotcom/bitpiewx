@@ -21,7 +21,7 @@ We are committed to create such a Hardware Wallet that even newbies can easily p
 
 Pay balance: <a href="http://docs.bitpie.com/zh_CN/latest/piestore/index.html" target="_blank" style="color:red">Click</a><br/>
 BitHD Video: <a href="http://v.youku.com/v_show/id_XMzQ2ODEwMTUwNA==.html" target="_blank" style="color:red">Click</a><br/>
-<span style="display:none">BitHD Manual: <a href="http://doc.bithd.com" target="_blank" style="color:red">Click</a></span>
+BitHD Manual: <a href="http://docs.bithd.com" target="_blank" style="color:red">Click</a>
 
 
 Hope you enjoy the unforgettable and ultimate using experience of BitHD! 

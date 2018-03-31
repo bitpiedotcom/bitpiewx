@@ -18,7 +18,7 @@ BITHD 比特护盾你值的拥有，一个真正做到能让大妈也能轻松�
 
 付尾款教程：<a href="http://docs.bitpie.com/zh_CN/latest/piestore/index.html" target="_blank" style="color:red">点击</a><br/>
 BITHD 视频教程：<a href="http://v.youku.com/v_show/id_XMzQ2ODEwMTUwNA==.html" target="_blank" style="color:red">点击</a><br/>
-<span style="display:none">BITHD 使用文档：<a href="http://docs.bithd.com" style="color:red">点击</a></span>
+BITHD 使用文档：<a href="http://docs.bithd.com" target="_blank" style="color:red">点击</a>
 
 
 祝您使用 BITHD 愉快！如有疑问请关注微博<a href="https://weibo.com/bitpiewallet" target="_blank">@比特派社区</a>或“比特派社区”微信公众号与比特派工作人员联系。
