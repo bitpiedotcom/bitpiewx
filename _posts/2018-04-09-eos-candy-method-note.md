@@ -17,7 +17,7 @@ EOS 其生态特性决定了，在 EOS 生态不断建立的过程中会产生�
 1、需要先进行 EOS 映射的空投方式。<br/>
 比特派一键映射教程：<a href="http://docs.bitpie.com/zh_CN/latest/commonContract/index.html#eos-register" target="_blank">进入</a><br/>
 2、在 EOS 主网上线前进行快照，空投者选取一个时间对 EOS 持有者的数字资产进行快照，并根据相应比例和规则进行糖果发放。如 eosDAC等<br/>
-作为 bitpie 用户您无需担心，现有的两种空投方式，比特派都可以帮助您领取到。
+作为 Bitpie 用户您无需担心，现有的两种空投方式，比特派都可以帮助您领取到。
 
 EOS 存放在钱包中：
 ```
