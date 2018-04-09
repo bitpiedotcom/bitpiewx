@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在 bitpie 钱包内领取 EOS 糖果方法
+title: 在 Bitpie 钱包内领取 EOS 糖果方法
 author: 
 lang: zh
 data: 2018-04-09
