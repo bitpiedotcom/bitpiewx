@@ -4,8 +4,8 @@ title: iOS 用户无法支付比特护盾尾款的解决方案
 author: 
 lang: zh
 data: 2018-04-03
-post_id: 17
-id: 17
+post_id: 18
+id: 18
 ref: ad
 time: 
 ---

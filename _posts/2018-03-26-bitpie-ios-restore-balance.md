@@ -4,8 +4,8 @@ title: 关于比特派 iOS 版企业证书的说明
 author: 
 lang: zh
 data: 2018-03-26
-post_id: 15
-id: 15
+post_id: 16
+id: 16
 ref: ad
 time: 
 ---

@@ -4,8 +4,8 @@ title: Announcement on BitHD Delivery and 2nd Round of Sales
 author: 
 lang: en
 data: 2018-03-30
-post_id: 16
-id: 16
+post_id: 17
+id: 17
 ref: ad
 time: 
 ---
