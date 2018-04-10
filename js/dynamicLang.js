@@ -129,6 +129,7 @@ Lang.prototype.pack.zh = {
         "and":"且",
         "Pie Bank Deposits":"派银行充值",
         "Test":"企业版",
+        "Enterprise Version is unavailable Now":"企业版暂时无法使用"
     }
 }
 
