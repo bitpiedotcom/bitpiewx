@@ -19,7 +19,7 @@ time:
 <strong>月产品</strong>：额度有限售完为止，年化利率 5%（按整月计算，回报率高）
 
 <strong>购买理财</strong><br/>
-下载比特派 APP v3.1.7，在派银行中参与 USDT理财计划，流程如下：<a href="http://docs.bitpie.com/zh_CN/latest/financialPlan/index.html" target="_blank">理财流程</a><br/>
+下载比特派 APP v3.1.7，在派银行中参与 USDT 理财计划，流程如下：<a href="http://docs.bitpie.com/zh_CN/latest/financialPlan/index.html" target="_blank">理财流程</a><br/>
 100 USDT 起投，单账户上限为 100,000 USDT。
 
 <strong>理财产品提现</strong><br/>
