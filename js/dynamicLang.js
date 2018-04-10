@@ -129,7 +129,7 @@ Lang.prototype.pack.zh = {
         "and":"且",
         "Pie Bank Deposits":"派银行充值",
         "Test":"企业版",
-        "Enterprise Version is unavailable Now":"企业版暂时无法使用"
+        "Enterprise Version is Unavailable Temporarily. Please Install Bitpie App from App Store":"Bitpie 企业版不可用，请通过海外的 App Store 账户安装 Bitpie"
     }
 }
 
