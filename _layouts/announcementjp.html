@@ -8,26 +8,7 @@
 
 <section  class="container content-section text-center annou-list" >
 <div class="catalogue">
-    {% for post in site.posts %}
-    {% if post.layout != "default" %}
-    {% if post.ref == "ad" %}
-    {% if post.lang == "jp"%}
 
-    <a href="{{post.url | prepend: site.url }}" class="catalogue-item aclick" style="float:left"><h5>{{ post.title }}</h5></a>
-    <div style="clear:both" id="page"></div>
-    <p class="content-list">
-    {{ post.content | truncatewords: 40 | strip_html }}</p>
-    <span class="time">{{post.data}}</span>
-    <div class="clear"></div>
-    <hr>
-    </div>
-
-    {% endif %}
-
-    {% endif %}
-    {% endif %}
-
-    {% endfor %}
 </div>
 </section>
 
@@ -39,5 +20,54 @@
 
 
 {% include tongji.html %}
+<script>
+$(function(){
+    function doList(){
+
+        $.getJSON("/post_jp.json",function(result,status,xhr){
+
+            var arr = [];
+            var arr1 = [];
+            var results = [];
+            var html = "";
+            var host = "http://bitpie.com";
+            if(result){
+                for(var i=0,l=result.length;i<l;i++){
+                    if(result[i].top){
+                        arr1.push(result[i])
+                    }else{
+                        arr.push(result[i]);
+                    }
+
+                }
+            }
+            results = arr1.concat(arr);
+
+
+            for(var j=0,q=results.length;j<q;j++){
+                  html += "<a href=\""+host+results[j].url+ "\"   class=\"catalogue-item aclick\" style=\"float:left\"><h5>"+results[j].title+"</h5></a>"+"<div style=\"clear:both\" id=\"page\"></div><p class=\"content-list\">"+results[j].describe+"</p>"
+                      +"<span class=\"time\" style=\"width:100%;text-align:left\"> "+results[j].date+" </span><div class=\"clear\"></div><hr></div>";
+            }
+
+
+            $(".catalogue").html(html);
+
+
+
+            
+
+
+            
+        
+        });
+         
+          
+
+    }
+    doList();
+
+
+})
+</script>
 </body>
 </html>

@@ -1,0 +1,120 @@
+[
+{
+	"title":"Pie Finance—USDT Financial Plan",
+	"url":"/2018-04-10/pie-finance-usdt-financial-plan-en",
+	"describe":"Start Time: Apr. 10th 2018(UTC+8) Pie Finance is a series of financial products brought by Bitpie Wallet. The previous BCH and ETH financial plan were greatly welcomed and broadly pursued by the cryptocurrency investors. Now Bitpie Wallet offers the USDT (ERC20) financial plan. Interest accrual begins immediately after subscription. Early termination causes a deduction of earnings. USDT Daily Plan: subject to availability; annualized interest rate:1% (on a daily basis, withdrawal on demand) USDT Monthly Plan: subject to availability; annualized interest rate:5% (on a monthly basis) How to Subscribe Install Bitpie App v3.1.7, select USDT “financial plan” in Pie Bank. Subscribing tutorial: click Threshold: 100USDT, single-account upper limit: 100,000USDT How to Withdraw Withdrawal amount will be due within ...",
+	"date":"2018-04-09"
+},
+{
+	"title":"How to Receive EOS Airdrops in Bitpie Wallet",
+	"url":"/2018-04-09/eos-candy-method-note-en",
+	"describe":"Due to the design idea of EOS ecosystem, in the process of building the EOS architecture, many giveaways will be produced and airdropped to EOS holders. There are majorly two approaches to secure EOS giveaways: Approach 1: You need to accomplish the EOS public key mapping; Tutorial on How to Carry Out EOS Mapping: Click Approach 2: Snapshots to EOS holders’ addresses will be taken before the launch of the EOS mainnet, airdropping will be carried out as per the EOS numbers at the moment of snapshots, e.g., eosDAC. Bitpie Wallet enables you to secure the airdropped tokens through the above either way: 1.For EOS holders whose EOS in the wallet account: Regarding Approach 1: please accomplish EOS mapping, giveaways will be airdropped to your account. Regarding Approach 2: please ensure you have EOS in Bitpie Wallet ...",
+	"date":"2018-04-09"
+},
+{
+	"title":"Announcement on BitHD Delivery and 2nd Round of Sales",
+	"url":"/2018-03-30/bithd-delivery-sale-notice-en",
+	"describe":"Dear customers BitHD delivery now starts! We are sending out the commodities as per the sequence of the balance payments. The shipment was delayed due to the suspension of OEMs producing during the Chinese Spring Festival (15th Feb-2nd Mar.). We appreciate your patience and understanding. The 2nd batch is under producing now, and soon will be up for sale publicly. We are committed to create such a Hardware Wallet that even newbies can easily pick up. BitHD is the first wearable device that brings infinite possibilities to blockchain world! Pay balance: Click BitHD Video: Click BitHD Manual: Click Hope you enjoy the unforgettable and ultimate using experience of BitHD! Join in us on telegram: t.me/BitpieInternational; twitter: @BitpieWallet. Please feel free to contract us. ",
+	"date":"2018-03-30"
+},
+{
+	"title":"Notification to affected iOS users",
+	"url":"/2018-03-26/bitpie-ios-restore-balance-en",
+	"describe":"Dear users As a decentralized wallet, Bitpie Wallet do not hold any users’ assets, which are all taken care of by users themselves. Users assets are in blockchain network, only when a user takes good care of the SEED phrase/mnemonic can he guarantee assets safety. Therefore, we have reminded users repeatedly to backup and keep the SEED phrases/mnemonics well（the latest reminder was pushed by sticking on the top of Bitpie App a week before the certificate issue）. After the revocation of the certificate by Apple Inc., we immediately released a notification informing the users not to uninstall the Bitpie App and advising users to recover the account in Android devices. Unfortunately, there are still some users failed to follow the announcement. As a follow-up, we are releasing this document to help users who failed to do so...",
+	"date":"2018-03-26",
+	"top":"true"
+
+},
+
+{
+	"title":"Urgent notification about app access on IOS device",
+	"url":"/2018-03-22/bitpie-bither-ios-certificate-notice-en",
+	"describe":"Since now Apple Inc. is not friendly to cryptocurrencies, this morning we found Bitpie App iOS version and Bither App iOS version cannot be opened. Therefore, we are notifying you the following information so as to ensure your assets safety. 1.All users’ assets are safe. If you have saved the seed or private key, you can install Bitpie or Bither apps in an android device and recover your wallet. 2.If you are not sure if the seed or private key were backed up correctly, please DO NOT uninstall app and wait for further notification. 3.Users with Android devices are not influenced. Now we are actively dealing with Apple Inc. to re-enable the iOS version access A.S.A.P. Please wait patiently. Your support is highly appreciated. Bitpie Team 22nd March, 2018 ",
+	"date":"2018-03-22"
+},
+
+{
+	"title":"BCH/BTC Trading Contest and Giveaways Winner List",
+	"url":"/2018-03-21/bch-exchange-luckydraw-winners-en",
+	"describe":"BCH/BTC Trading Giveaways activity time ended at 0:00 February 28th 2018(UTC+8). This activity is greatly welcomed and participated by the vast majority of community users. It is appreciated so much that we have so many participants supporting our activity, in the future we will bring more similar trading giveaway activities to reward our users. The following is the winner list of BCH/BTC trading contest: UID prizes phone 102039 Place to receive a two persons trip to Silicon Valley - Blockchain Exploratory (or equivalent BCH)   199869 2 BCH + iPhone 1520**164 272390 1 BCH + iPhone 1881**821 156104 1 BCH 1527**361 198458 1 BCH 1860**265 104614 1 BCH 1866**510 259304 1 BCH 1761**456 101958 1 BCH 1860**616 101942 1 BCH 1393**796 117398 1 BCH 1860**360 140540 0.5 BCH **** ...",
+	"date":"2018-03-21"
+},
+
+{
+	"title":"Announcement of Suspension on BTN Transfer, Deposit and Withdrawal",
+	"url":"/2018-03-16/btn-notice-en",
+	"describe":"BTN team will upgrade the mainnet on 18th-19th March, 2018, the upgrade duration might result in the invalidity of on-chain transferring. Therefore, Bitpie will take the following measures during the upgrade: 1.BTN wallet will suspend the transfer service from 0:00a.m. 17th March, 2018. It is strongly recommended that not to transfer BTN; otherwise you may encounter the loss of assets. 2.Pie Bank will suspend the deposit and withdrawal service from 0:00a.m. 17th March, 2018. The resumption time depends on the time when the BTN mainnet upgrade completes. 3.BTN in ExPie will not be affected on trading. Official Announcement of BTN:http://www.btn.org/download/Announcement.pdf Bitpie Team 17th March 2018 ",
+	"date":"2018-03-16"
+},
+
+{
+	"title":"Have you Backed Up Your 12-word Seed Phrase?",
+	"url":"/2018-03-13/Bitpie-copying-the-private-key-en",
+	"describe":"Bitpie reminds you to backup 12 words. Did you do that? What will happen if you don’t backup the seed phrase? In the cases that the seed phrase is lost, the seed phrase is backed up inappropriately or the phone installed Bitpie is lost, the cryptocurrencies will not be restored, simply speaking, the cryptocurrencies are lost! If the seed phrase is disclosed or acquired by others, it is very possible the cryptocurrencies get transferred. Bitcoin is irreversible and anonymous. Once bitcoins are transferred, the probability to recover the coin is basically zero. … What’s your Bitpie account seed phrase? While creating your account, it is required to back up 12 words, which are your seed phrase. It’s equivalent to your private key. Who has these 12 words...",
+	"date":"2018-03-13"
+},
+
+{
+	"title":"Urgent notification regards potential replay attack of BTV hard-fork",
+	"url":"/2018-02-07/btv-notice-en",
+	"describe":"Dear users, We just found there is an issue in BTV hard fork code might cause potential replay attack. To protect users’ asset safety, Bitpie has already shutdown the BTV wallet function. As of now, 3 users’ addresses were affected, but user’s asset are safe since Bitpie’s hard-fork support solution has already considered scenario like this. Bitpie will help users to recovery their assets in technical ways. If you have already claimed BTV, you don’t have to worry about your asset safety, but make following operation in Bitpie is highly suggested to avoid potential issue: Open Bitpie app and switch to BTC. At BTC Main menu, click “Receive” and copy your current BTC receive address. Back to Main menu, click “Send”, send all your BTC asset to the receive address and confirm to send...",
+	"date":"2018-02-07"
+},
+
+{
+	"title":"BCH Trading Competition and Lucky Draw",
+	"url":"/2018-01-31/bch-trading-rewards-en",
+	"describe":"Event Time: Feb.1st – Feb 28th 2018 Bitpie in-wallet exchange went live since V3.0.0. The in-wallet exchange has gained extraordinary popularity in our users and reached 8,000 peak concurrent users at very first day. To reward our supporters and encourage more users to experience the in-wallet exchange, we have compiled some amazing prizes for our users to win in the BCH trading competition. We will rank users from 1 to 20 in terms of the total BCH volume traded on your account (includes both buys & sells) in the BCH/BTC trading pair during the competition period. The reward program will be as follows: 1st Place to receive a two persons trip to Silicon Valley - Blockchain Exploratory (or equivalent BCH) 2nd Place to receive 2 BCH and an iPhoneX 3rd Place to receive 1 BCH and an ...",
+	"date":"2018-01-30"
+},
+
+{
+	"title":"Launch of BCH “one click buy/sell” service",
+	"url":"/2018-01-02/bch-lucky-draw-en",
+	"describe":"“One click buy/sell” is a very popular service that Bitpie launched in Jan. 2017. Compares to traditional OTC model, “one click buy/sell” will lead user’s request to Bitpie screened 3rd party traders who can provide professional trading service. Users don’t need to worry about fraud and are guaranteed to strike a bargain. To make a better user experience, our one click service only support BTC trade in 2017. Now we are very happy to announce that BCH “one click buy/sell” has just launched on Bitpie v.2.6.1. Please be aware that user must to pass the phone verification and finish KYC 5-level verification to use “one click buy/sell” services. If the phone verification has not covered your area, please stay tuned. We are working hard to support all major countries very soon. If you are not currently a Bitpie user...",
+	"date":"2018-01-02"
+},
+
+{
+	"title":"BTG/BTC Exchange Lucky Draw Has Now Concluded",
+	"url":"/2017-12-19/btg-exchange-luckydraw-winners-en",
+	"describe":"Dear Bitpie users, the BTG/BTC exchange lucky draw has now concluded. Below are winner lists of each group: Top Price-- highest trading volume user（3 BTG） User IDUser namePhonetrading valume 202001 noname-376398456680 091****8626580.00 10 - 50 BTG trading volume winners（1 BTG each） User IDUser namePhone 138649noname-280608344439 189****7277 159452noname-921489879966*********** 121276zzproxyss138****6464 144452laohua189****0555 114682xuhaif139****5761 1 - 10 BTG trading volume winners（0.25 BTG each） User IDUser namePhone 174901noname-267600409186159****5666 132022lamdeng14138****4663 201521wuxin555177****8283  157521twoapples136****5752 167449woxinfeiyang156****2322 103781btcwin136****6280 150531wy-20171010153****8027 105425noname-251861544547186****6480 196555yusufy138****9077 144889zhongxun137****2999 ...",
+	"date":"2017-12-19"
+},
+
+{
+	"title":"Launch of Cryptocurrency Financial Product and Award Program on BCH Financial Plan",
+	"url":"/2017-12-18/bch_financial_plan-en",
+	"describe":"We are glad to announce that our first cryptocurrency financial product BCH-Financial Plan has just launched on Bitpie v2.4.1 . The first financial plan is a 1-month recyclable plan for BCH. Within Piebank menu, user can find the “Financial plan” button next to BCH balance where user can click to check available plan. The basis annual interest rate for 1- month plan is 3.88%, interest will be paid by BCH. Click here to learn about the process. We will launch plans for more cryptocurrencies very soon. All plans are limited offers. Join us early before they are gone. To encourage users to experience the innovative financial program. We have an award program for early participants . Time : 2017-12-18 12:00pm (UTC+0) - 2017-12-25 12:00pm (UTC+0） Program details: Invest 1-5 BCH, get 7.76% interest rate for first month...",
+	"date":"2017-12-18"
+},
+
+{
+	"title":"Lucky draw event on BTG/BTC exchange",
+	"url":"/2017-12-11/btg-lucky-draw-en",
+	"describe":"To encourage our users to experience new released in-wallet BTG/BTC exchange. Bitpie will start a lucky draw event to reward some lucky users who use BTG/BTC exchange inside Bitpie Wallet. Event Time：2017-12-11 02:00 am – 2017-12-16 02:00 am（UTC +0） There will be 20 winners amount users who has total trading volume between 1 BTG to 10 BTG, each will receive 0.25 BTG. There will be 5 winners amount users who has total trading volume between 10 BTG to 50 BTG, each will receive 1 BTG. The user who has highest trading volume during promotion time will receive 3 BTG. Rules： The first 5 BTG block hash values after the end of the event time will be used to do complementation for each eligible user ID, all results will be put into a ranking pool and the top-ranking users are winning users. The user who has highest trading volume will receive 3 BTG...",
+	"date":"2017-12-11"
+},
+
+{
+	"title":"Announcement About Close QQ Chatgroup Support Service in China",
+	"url":"/2017-12-10/announcement-close-official-qq-group-en",
+	"describe":"In past weeks, there are a number of users reported there were criminals reached out our user via official QQ Chat group. They said they are technical support from Bitpie , asked for seed and steal user assets. We made a lot of attempts to resolve this but those threats are still existing. To protect our users from being scammed, we decide to disband all official QQ chat Group from now. For technical support you can reach us via in-APP support page( Home - Settings – Feedback ) , our service team will reach out you soon. Last but not least: 1.There will be no official chatgroup from now no, all so called Bitpie official QQ chat group are scam. 2.It is very important for you to write down your recovery seed and to store it safely, away from prying eyes. Beware that anyone with access to your seed can steal your assets...",
+	"date":"2017-12-10"
+},
+
+{
+	"title":"Statement on The Airdrop of Venus Project",
+	"url":"/2017-12-06/statement-on-venus-airdrop-en",
+	"describe":"AMT is a technical community that focuses on innovation in blockchain area. Venus is their first project which aims to create new distributed DNS service system, distributed web service system, and storage sharing system. Venus project team will deliver VNS to cryptocurrency community by an innovative Airdrop. The airdrop detail is as follow： （1） BTC: VNS=1:1000 （2） ETH: VNS=1:50 （3） LTC: VNS=1:9 （4） DASH: VNS=1:65 （5） ETC: VNS=1:3 （6） XMR: VNS=1:17 As an onchain blockchain asset wallet, our users are managing their private keys by themselves. Therefore, we are not able to claim VNS on behalf of users. But we will work with project team to provide tutorials to help our users to claim VNS by themselves after the detail airdrop claiming plan is released. In future, Bitpie will update our wallet to support VNS. Thanks for your support. Bitpie Team ",
+	"date":"2017-12-6"
+},
+
+{
+	"title":"Scheduled Server Upgrade Notification",
+	"url":"/2017-12-04/scheduled-upgrade-notice-en",
+	"describe":"In order to provide better service quality and trading experience, Bitpie will conduct server upgrade on 14:30, Dec. 4th, 2017 (UTC +0). During the upgrade, wallet function will not be accessible, trading will be suspended. The estimated upgrade time can be as long as 2 hours, the service resume time will be 16:30, Dec. 4th, 2017 (UTC +0). We apologize for any inconvenience this upgrade may cause and appreciate your patience. Bitpie Team ",
+	"date":"2017-12-4"
+}
+
+]
