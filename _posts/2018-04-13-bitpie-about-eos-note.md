@@ -4,8 +4,8 @@ title: 比特派关于 EOS 生态规划
 author: 
 lang: zh
 data: 2018-04-13
-post_id: 20
-id: 20
+post_id: 21
+id: 21
 ref: ad
 time: 
 ---
