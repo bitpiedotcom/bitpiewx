@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 比特派关于 EOS 生态规划
+title: 比特派关于 EOS 生态的规划
 author: 
 lang: zh
 data: 2018-04-13
