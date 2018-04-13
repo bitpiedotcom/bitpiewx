@@ -17,7 +17,8 @@ BITHD 比特护盾您值得拥有，一个真正做到能让大妈也能轻松�
 
 
 付尾款教程：<a href="http://docs.bitpie.com/zh_CN/latest/piestore/index.html" target="_blank" style="color:red">点击</a><br/>
-BITHD 视频教程：<a href="http://v.youku.com/v_show/id_XMzQ2ODEwMTUwNA==.html" target="_blank" style="color:red">点击</a><br/>
+BITHD 视频教程：<a href="http://v.youku.com/v_show/id_XMzQ2ODEwMTUwNA==.html" target="_blank" style="color:red">点击</a><br/> 
+Bitpie 比特派 iOS 版终结解决方案 BITHD 视频：<a href="http://www.miaopai.com/show/g~wivMcjvOjyAZx0XMthZfBcR9ORwimSNqPXXQ__.htm" target="_blank" style="color:red" >点击</a><br/> 
 BITHD 使用文档：<a href="http://docs.bithd.com" target="_blank" style="color:red">点击</a>
 
 
