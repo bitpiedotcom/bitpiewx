@@ -30,7 +30,7 @@ EOS 存放在派银行中：
 两种空投方式比特派都会帮您领取，无需担心。
 ```
 
-现有糖果 eosDAC 空投规则：<a href="https://www.jianshu.com/p/0ae929e3fdd4" target="_blank">英文</a>
+现有糖果 eosDAC 空投规则：<a href="https://www.jianshu.com/p/0ae929e3fdd4" target="_blank">点击</a>
 
 
 随着 EOS 主网上线时间越来越近，有一些骗子开始利用 EOS 的火热来诈骗您的币。比特派再次提醒您任何让您输入私钥领取空投的方式都可能是骗局，极有可能对您的资产造成损失，请不要进行此操作！
