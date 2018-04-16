@@ -129,7 +129,8 @@ Lang.prototype.pack.zh = {
         "and":"且",
         "Pie Bank Deposits":"派银行充值",
         "Test":"企业版",
-        "Enterprise Version is Unavailable Temporarily. Please Install Bitpie App from App Store":"Bitpie 企业版不可用，请通过海外的 App Store 账户安装 Bitpie"
+        "Enterprise Version is Unavailable Temporarily. Please Install Bitpie App from App Store":"Bitpie 企业版不可用，请通过海外的 App Store 账户安装 Bitpie",
+        "Viewed:":"阅读："
     }
 }
 
@@ -226,6 +227,7 @@ Lang.prototype.pack.jp = {
         "and":"また",
         "Pie Bank Deposits":"パイ銀行お預入",
         "Bither - a simple and secure Bitcoin Wallet!":"Bither-シンプル、安全的なビットコインウォレット",
-        "Test":"企業版"
+        "Test":"企業版",
+        "Viewed:":"閲読:"
     }
 }

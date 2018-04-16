@@ -57,7 +57,7 @@
     }
     .content-p{
         font-weight: 200;
-        padding: 30px 0 50px 0;width:60%;margin:0 auto;text-align: left;
+        padding: 5px 0 50px 0;width:60%;margin:0 auto;text-align: left;
       min-height:300px;
     }
     .catalogue>p{
@@ -124,6 +124,8 @@
     font-weight: 300;
 }
 .join-content h3{padding-bottom: 40px}
+.content-p hr{margin-top: 25px !important}
+#content h5{margin-bottom: 30px}
 @media(min-width:320px) and (max-width:767px) {
 
     .aclick h5 {

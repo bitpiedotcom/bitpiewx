@@ -67,11 +67,16 @@
 
 
 
-    <h5>{{ page.title }}</h5>
+    <h5>{{ page.title }}</span></h5>
+    
     <div style="clear:both"></div>
 
     <div class="content-p">
+
+
     {{ page.content}}
+    <hr>
+    <span id="statistic" style="font-size:12px;font-weight: 200;color: gray;float:right">
 
     </div>
     </div>
@@ -299,6 +304,18 @@ window.onload =function() {
             });
 
         });
+
+        $.post("http://www.pieotc.com/api/statistic",{statisticUrl:location.href},function(data){
+            console.log(data);
+            if(data.code == 4000){
+            }else{
+                $("#statistic").html("<span lang='en'>Viewed:</span>"+data.statisticCount);
+            }
+
+        });
+
+
+
     })
 
 
