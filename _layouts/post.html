@@ -264,14 +264,15 @@ window.onload =function() {
 
     })
     $("#jp").on("click",function(){
+        delCookie("langCookie");
         var ads = "http://bitpie.com/announcement/jp";
         $("#ads").attr("href",ads);
         var url = location.href;
         if(changejp(jp)){
             if(url.indexOf("-en") > -1){
                 window.location.href = url.substring(0,url.indexOf("-en"))+"-jp";
-            }else{
-                window.location.href = url+"-jp";
+            }else if(url.indexOf("-jp") > -1){
+                window.location.href = url
             }
         }else{
             window.location.href = ads;
