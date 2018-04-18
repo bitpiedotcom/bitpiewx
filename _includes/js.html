@@ -36,6 +36,14 @@
         var expires = "expires="+d.toGMTString();
         document.cookie = cname + "=" + cvalue + "; " + expires;
     }
+    function delCookie(name)
+    {
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval=getCookie(name);
+    if(cval!=null)
+    document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+    }
 
 
     var lang = new Lang();
@@ -61,6 +69,7 @@
             }
             var langs = (navigator.language || navigator.browserLanguage).toLowerCase();
             if (langs.indexOf("zh") > -1) {
+        
                 $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
                 $("#blogs").attr("href", "http://bitpie.com/blog/")
                 $("#ads").attr("href", "http://bitpie.com/announcement/");
