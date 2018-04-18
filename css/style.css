@@ -148,6 +148,12 @@
     .intro-messages  .btn{
         padding: 6px !important;
     }
+    #mobile_bither span{
+        display:inline-block;
+        width:80%;
+        margin: 0 auto;
+        text-align: left;
+    }
 }
 
     @media (min-width: 531px) and (max-width: 767px) {

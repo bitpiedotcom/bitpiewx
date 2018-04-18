@@ -130,7 +130,9 @@ Lang.prototype.pack.zh = {
         "Pie Bank Deposits":"派银行充值",
         "Test":"企业版",
         "Enterprise Version is Unavailable Temporarily. Please Install Bitpie App from App Store":"Bitpie 企业版不可用，请通过海外的 App Store 账户安装 Bitpie",
-        "Viewed:":"阅读："
+        "Viewed:":"阅读：",
+        "Bither":"比太",
+        "The certificate of Bither App is not available now. We are now actively negotiating with Apple Inc., yet DO NOT uninstall your App. Android version is not affected.":"Bither 企业证书版已不可用，请勿卸载您的应用。我们正在积极与苹果官方进行沟通，建议使用安卓版。"
     }
 }
 

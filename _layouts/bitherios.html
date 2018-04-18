@@ -29,11 +29,11 @@
 
 <div class="row-fluid breadcrumbs margin-bottom-20">
     <div class="container">
-        <h1 class="pull-left">{{site.bitherdownsoftname}}</h1>
-        <ul class="pull-right breadcrumb">
+        <h1 class="pull-left" style="text-align:center;float:none !important" lang="en">{{site.bitherdownsoftname}}</h1>
+   <!--      <ul class="pull-right breadcrumb">
             <li>版本：{{site.bitherios}}</li>
             <li>{{site.bitheriosdate}}</li>
-        </ul>
+        </ul> -->
     </div>
 </div>
 
@@ -44,29 +44,30 @@
 
 
     <div id="" class="view row">
-          <div class="span12 lessonimg " id="aweixinDisplay" style="text-align:center;display: none">
+<!--           <div class="span12 lessonimg " id="aweixinDisplay" style="text-align:center;display: none">
                 <img src="/img/androidweixin.jpg" id="downloading">
             </div>
         <div class="span12" style="text-align:center;">
             <a href="javascript:void(0);" onclick="javascript:install();"><img src="https://dn-bither.qbox.me/bither_ios_144.png" class="appicon" /></a>
             <div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div id="" class="view row" style="margin-top:30px;">
 
         <div class="span12 margin-bottom-20" style="text-align:center;">
-            <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i> 点击安装</a>
+          <!--   <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i> 点击安装</a> -->
         </div>
 
-        <div class="span12" style="text-align:center;">
-            <span class="label label-info">适用于iOS设备</span>
-            <span class="label label-danger">企业版</span>
+        <div class="span12" style="text-align:center;color:#333" id="mobile_bither">
+<!--             <span class="label label-info">适用于iOS设备</span> -->
+            <span lang="en">The certificate of Bither App is not available now. We are now actively negotiating with Apple Inc., yet DO NOT uninstall your App. Android version is not affected.</span>
+<!--             <span class="label label-danger">企业版</span> -->
         </div>
     </div>
 
-    <hr class="devider devider-dotted">
+<!--     <hr class="devider devider-dotted">
     <div id="" class="view row margin-bottom-30">
         <div class="span12" style="text-align:center;">
             或者用手机扫描下面的二维码安装 <br />
@@ -101,13 +102,13 @@
             <p>3、然后进入 Bither App 就会提示是否允许使用数据。选择是就可以了。</p>
 
         </div>
-    </div>
+    </div> -->
 </div>
 
 
 </div>
 
-
+{% include js.html %}
 <script>
     function isMobile() {
         return /iPhone|iPad|iPod/i.test(navigator.userAgent);
