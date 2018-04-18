@@ -4,6 +4,6 @@ img: kyc.png
 category: Services
 title: 
 titleDescription: 
-contents: Build-in professional KYC/anti-fraud system and commit to meet regulation and compliance.
+contents: Built-in professional KYC/anti-fraud system to comply with laws and regulations.
 description: |
 ---

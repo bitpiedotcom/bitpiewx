@@ -27,12 +27,19 @@ social:
   - title: twitter
     url: https://twitter.com/BitpieWallet
   - title: facebook
-    url: https://www.facebook.com/BitpieWallet/
+    url: https://www.facebook.com/bitpiewalletofficial/
   - title: reddit
     url: https://www.reddit.com/user/bitpie-wallet
   - title: email
     url: mailto:bitpiedotcom@gmail.com
-
+  - title: Medium
+    url: https://medium.com/@Bitpie/ 
+  - title: Steemit
+    url: https://steemit.com/@bitpiewallet
+  - title: sina
+    url: http://weibo.com/bitpiewallet
+  - title: youtube
+    url: https://www.youtube.com/channel/UCX8I3Xyr2y80MWnJBsz1P0g
 
 telegram:
   - title: China

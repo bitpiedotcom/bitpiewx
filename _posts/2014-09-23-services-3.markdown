@@ -4,6 +4,6 @@ img: phones.png
 category: Services
 title: 
 link: 
-contents: By holding private key only by yourself, no one else can access your assets.
+contents: Private key only in your hand, no access by others.
 description: |
 ---
