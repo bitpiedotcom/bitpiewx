@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bitpie Wallet v3.2.0 Launched
+title: [Significant Update] Bitpie Wallet v3.2.0 Launched
 author: 
 lang: en
 data: 2018-04-17
