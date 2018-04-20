@@ -111,7 +111,7 @@ Lang.prototype.pack.zh = {
         "Note:":"备注:",
         "Tranacrion fees will be deducted from the received assets. 50% of fees for VIP users.":"(交易费）扣除收取到的资产。VIP用户交易费率5折。",
         "Withdrawal":"提现",
-        "The above manual review, audit will be completed within 24 hours.":"以上需进行人工审核，审核会在24小时内完成。",
+        "The above manual review, audit will be completed within 168 hours.":"以上需进行人工审核，审核会在168小时内完成。",
         "If you want to receive the coins immediately, pls do not withdraw coins over the limits. If withdrawal amount is over the limit, we will carry out the manual verifications.":"如果您需要提现即时到账，请不要超过对应币种的提现数量，不用人工审核。",
         "Pie Bank Withdrawal":"派银行提现",
         "Deposits are On-Chain transactions, so you need to wait for confirmations.":"充值是链上交易，所以需要等待确认。",
