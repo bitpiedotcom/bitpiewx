@@ -1,5 +1,12 @@
 [
 {
+	"title":"Server Upgrade Notification (April 24, 2018)",
+	"url":"/2018-04-24/bitpie-server-scheduled-upgrade-notice-en",
+	"describe":"Dear users,Due to the surge of our user volume recently, slow access to the server occurred in some areas. In order to provide better service quality and trading experience, Bitpie will perform server upgrade from 0:00-1:00a.m., April 25th, 2018 (UTC+8). During the upgrade, wallet function will not be accessible and the trading will be suspended.",
+	"date":"2018-04-24"
+
+},
+{
 	"title":"[Significant Update] Bitpie Wallet v3.2.0 Launched",
 	"url":"/2018-04-17/app-store-overseas-update-bitpie-en",
 	"describe":"Bitpie App is operated by Bitpie Technology (Canada) Inc. Bitpie Wallet is a global leading wallet in the blockchain world. Since foundation in 2014, Bitpie has helped hundreds of thousands of users manage bitcoin assets and other cryptocurrencies. Originated from Bither team, Bitpie team is made up of blockchain professionals and business experts from IT/ Financial industries based around the world. ",
