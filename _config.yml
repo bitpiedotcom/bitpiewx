@@ -27,7 +27,7 @@ social:
   - title: twitter
     url: https://twitter.com/BitpieWallet
   - title: facebook
-    url: https://www.facebook.com/bitpiewalletofficial/
+    url: https://www.facebook.com/BitpieOfficial
   - title: reddit
     url: https://www.reddit.com/user/bitpie-wallet
   - title: email
@@ -40,6 +40,8 @@ social:
     url: http://weibo.com/bitpiewallet
   - title: youtube
     url: https://www.youtube.com/channel/UCX8I3Xyr2y80MWnJBsz1P0g
+  - title: biyong
+    url: https://0.plus/#/bitpie1
 
 telegram:
   - title: China

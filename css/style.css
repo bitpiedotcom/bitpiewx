@@ -34,7 +34,7 @@
 .modal-body{height: 423px}
 .annou-list{height:100%;padding-top: 80px;min-height: 600px;height:auto}
 .clear{clear:both;height:0px;overflow:hidden;}
-
+.weixin_qr{display:none;width:100px; height:100px;position: absolute; top:-120px;left:-40px; border-radius: 5px;-moz-box-shadow: 2px 2px 5px #333333; -webkit-box-shadow: 2px 2px 5px #333333;  box-shadow: 2px 2px 5px #333333;}
 /* super slider style */
 
 /*.slideBox{ /!*width:450px; height:230px;*!/ overflow:hidden; position:relative; }*/
@@ -153,6 +153,12 @@
         width:80%;
         margin: 0 auto;
         text-align: left;
+    }
+    #group_show{
+        left:-225px;
+    }
+    .ul-img{
+        margin-left: 0px;
     }
 }
 

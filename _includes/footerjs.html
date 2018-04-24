@@ -91,6 +91,7 @@
         });
 
         $("#telegram").mouseenter(function(){
+             $("#wechat img").hide();
             $("#group_show").show();
             $("#qq").on("click",function(e){
                 $("#group_show").show();
@@ -99,11 +100,45 @@
 //        $("#qq").mouseleave(function(){
 //            $("#group_show").hide();
 //        });
+         $("#wechat").on("click",function(e){
+            e.stopPropagation();
+
+            var flag = $("#wechat img").attr("data");
+            console.log(flag);
+            if(flag == "hide"){
+            $("#wechat img").show();
+            $("#wechat img").attr("data","show");
+
+            }else if(flag == "show"){
+                $("#wechat img").hide();
+                $("#wechat img").attr("data","hide");
+
+            }
+
+        })
+        $("#wechat img").on("click",function(e){
+             e.stopPropagation();
+             $("#wechat img").hide();
+            $("#wechat img").attr("data","hide");
+
+
+        })
+
+        $("#wechat").mouseenter(function(){
+            $("#group_show").hide();
+            $("#wechat img").show();
+            
+            $("#wechat").on("click",function(e){
+                 $("#wechat img").show();
+                 
+            })
+        });
 
 
         $(function () {
             $(document).on('click', function (e) {
                 $("#group_show").hide();
+                  $("#wechat img").hide();
             });
 
         });
