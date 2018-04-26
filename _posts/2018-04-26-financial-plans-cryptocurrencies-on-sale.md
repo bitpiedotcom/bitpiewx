@@ -35,7 +35,7 @@ time:
 
 <p class="content-bch-p">
 <strong >购买理财</strong><br/>
-	下载比特派 ，在派银行中参与 BCH 理财计划，流程如下：<a href="http://docs.bitpie.com/zh_CN/latest/financialPlan/index.html" target="_blank">理财流程</a></p>
+	下载比特派 ，在派银行中参与理财计划，流程如下：<a href="http://docs.bitpie.com/zh_CN/latest/financialPlan/index.html" target="_blank">理财流程</a></p>
     
 
 <p class="content-bch-p">

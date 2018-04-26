@@ -22,9 +22,8 @@ time:
 
 <table style="margin-top:20px;" class="bch-post" >
 <tr><th>Cryptocurrencies</th><th>Threshold</th><th>single-account upper limit
-</th><th>Daily Plan annualized interest rate
-</th><th>Monthly Plan
-annualized interest rate</th></tr>
+</th><th>Daily plan: xx%(annualized)
+</th><th>Monthly plan:xx%(annualized)</th></tr>
 <tr><td>BTC</td><td>0.2</td><td>2</td><td>1%</td><td>3.88%</td></tr>
 <tr><td>BCH</td><td>1</td><td>10</td><td>1%</td><td>3.88%</td></tr>
 <tr><td>ETH</td><td>2</td><td>20</td><td>1%</td><td>3.88%</td></tr>
