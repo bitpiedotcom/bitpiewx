@@ -8,7 +8,7 @@
 
                     {% for link in site.social %}
                     <li>
-                        <a href="{{link.url}}" target="_blank" ><i style='display: inline-table;width:30px;height:30px;background-image: url("/img/{{ link.title }}.png");background-repeat: no-repeat;background-size: 100% auto'></i></a>
+                        <a href="{{link.url}}" target="_blank" ><i style='display: inline-table;width:24px;height:24px;background-image: url("/img/{{ link.title }}.png");background-repeat: no-repeat;background-size: 100% auto'></i></a>
                     </li>
                     {% endfor %}
                     <!--<li>-->
@@ -17,7 +17,7 @@
                     <li>
 
                         <a href="javascript:void(0)"  target="_blank" id="wechat" data="hide" style="position:relative">
-                            <i style="display: inline-table;width:30px;height:30px;background-image: url('/img/wechat.png');background-repeat: no-repeat;background-size: 100% auto"></i>
+                            <i style="display: inline-table;width:24px;height:24px;background-image: url('/img/wechat.png');background-repeat: no-repeat;background-size: 100% auto"></i>
                             <img src="/img/weixin_qr.png" class= "weixin_qr"  data="hide"/>
                         </a>
 
@@ -29,7 +29,7 @@
                     </li>
                     <li style="position: absolute">
 
-                        <a href="javascript:void(0)"  target="_blank" id="telegram" data="hide"><i style="display: inline-table;width:30px;height:30px;background-image: url('/img/telegram.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>
+                        <a href="javascript:void(0)"  target="_blank" id="telegram" data="hide"><i style="display: inline-table;width:24px;height:24px;background-image: url('/img/telegram.png');background-repeat: no-repeat;background-size: 100% auto"></i></a>
                         <div  id="group_show" tabindex="-1" role="dialog" data-backdrop="static" style="display: none" data="hide">
                             <ul class="list-inline qq-list">
                                 {% for social in site.telegram %}
