@@ -11,7 +11,7 @@ time:
 ---
 
 <div class="content-bch" >
-<p class="content-bch-h">开售时间： 香港时间  2018年04月26日 20：00</p>
+<p class="text-align:left !important;line-height:16px;padding-top:10">开售时间： 香港时间  2018年04月26日 20：00</p>
 
 <p style="text-align:left;line-height:16px;padding-top:10">比特派六大币种理财全开提供定期&活期理财！</p>
 
@@ -91,7 +91,5 @@ time:
 <p class="content-bch-p">如果您还不是比特派用户，请在手机浏览器打开下方链接下载安装使用。</p>
 
 <p class="content-bch-p bch-download">安卓: <a class="link_app android" href="http://bitpie.com/android/" target="_blank">http://bitpie.com/andriod/</a><br/>
-
-iOS : <a class="link_app ios" href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a>
 </p>
 </div>

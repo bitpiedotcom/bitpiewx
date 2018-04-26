@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Financial Plans (6 Cryptocurrencies) on Sale!!
+title: Financial Plans (6 Cryptocurrencies) on Sale!
 author: 
 lang: en
 data: 2018-04-26
@@ -10,8 +10,8 @@ ref: ad
 time: 
 ---
 
-<div class="content-bch div-post-content" style="width:800px" >
-<p class="content-bch-h">Start Time: Apr. 26th 2018(UTC+8) 8:00 PM</p>
+<div class="content-bch div-post-content" >
+<p style="text-align:left !important;line-height:16px;padding-top:10">Start Time: Apr. 26th 2018(UTC+8) 8:00 PM</p>
 
 <p style="text-align:left;line-height:16px;padding-top:10">Now Bitpie Wallet offers the Financial Plans (6 Cryptocurrencies).</p>
 
