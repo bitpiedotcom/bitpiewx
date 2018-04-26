@@ -116,6 +116,7 @@ body{
 @media(min-width:320px) and (max-width:767px){
 
 
+
 .list-span-mar strong{
 	padding: 0 2px;
 }
@@ -149,11 +150,11 @@ body{
 .content-bch-h{
 	text-align: left
 }
-.bch-post tr>td{
+.bch-post tr>td,.bch-post-en tr>td{
 	padding: 4px;
 	font-size: 10px;
 }
-.bch-post tr>th{
+.bch-post tr>th,.bch-post-en tr>th{
 	padding: 4px;
 	font-weight: 300;
 	font-size: 12px;
@@ -162,8 +163,12 @@ body{
 	width:100% !important;
 	overflow: scroll;
 }
-.bch-post{
-	width:100% !important;}
+.div-post-content-en{
+	overflow: scroll;
+}
+.bch-post-en{
+	width:650px !important;
+}
 
 
 }

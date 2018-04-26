@@ -10,7 +10,7 @@ ref: ad
 time: 
 ---
 
-<div class="content-bch div-post-content" >
+<div class="div-post-content-en " >
 <p style="text-align:left !important;line-height:16px;padding-top:10">Start Time: Apr. 26th 2018(UTC+8) 8:00 PM</p>
 
 <p style="text-align:left;line-height:16px;padding-top:10">Now Bitpie Wallet offers the Financial Plans (6 Cryptocurrencies).</p>
@@ -20,7 +20,7 @@ time:
 <p style="text-align:left;line-height:16px;padding-top:0"><strong>Daily Plan：</strong>subject to availability (on a daily basis, withdrawal on demand)</p>
 <p style="text-align:left;line-height:16px;padding-top:0"><strong>Monthly Plan：</strong>subject to availability (on a monthly basis)</p>
 
-<table style="margin-top:20px;" class="bch-post" >
+<table style="margin-top:20px;" class="bch-post-en" >
 <tr><th>Cryptocurrencies</th><th>Threshold</th><th>single-account upper limit
 </th><th>Daily plan: xx%(annualized)
 </th><th>Monthly plan:xx%(annualized)</th></tr>
@@ -66,4 +66,13 @@ No earnings to unsubscribing within one month.(Bitpie reserves the right to fina
 
 <p class="content-bch-p">Pie Finance–Making equal, simple and credible financial service available to every user!
 </p>
+
+
+<p class="bch-p">
+If you are not currently a Bitpie user, please use following link to download and install Bitpie App.<br/>
+Android: <a href="http://bitpie.com/andriod/" target="_blank">http://bitpie.com/andriod/</a><br/>
+
+iOS : <a href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a><br/>
+</p>
+
 </div>
