@@ -11,7 +11,7 @@ time:
 ---
 
 <div class="content-bch" >
-<p class="text-align:left !important;line-height:16px;padding-top:10">开售时间： 香港时间  2018年04月26日 20：00</p>
+<p style="text-align:left !important;line-height:16px;padding-top:10">开售时间： 香港时间  2018年04月26日 20：00</p>
 
 <p style="text-align:left;line-height:16px;padding-top:10">比特派六大币种理财全开提供定期&活期理财！</p>
 
