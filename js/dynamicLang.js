@@ -74,7 +74,7 @@ Lang.prototype.pack.zh = {
         "Bitpie's main office place is located in Sydney.":"比特派主要办公地点位于澳大利亚悉尼市。",
         "Address":"地址",
         "About Us":"关于我们",
-        "a safe and easy way to manage and trade your multi-blockchain (Bitcoin) assets":"安全方便的管理和交易多种区块链（比特币）资产",
+        "a safe and easy way to manage and trade your multi-blockchain assets":"安全方便的管理和交易多种区块链资产",
         "full":"(已满)",
         "under":"(未满)",
         "Announcement":"公告",
