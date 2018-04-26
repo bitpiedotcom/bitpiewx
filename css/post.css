@@ -109,6 +109,9 @@ body{
 .content-p p{
 	padding-top:10px;
 }
+.content-bch-p strong{
+	font-weight: 700
+}
 
 @media(min-width:320px) and (max-width:767px){
 
@@ -146,8 +149,21 @@ body{
 .content-bch-h{
 	text-align: left
 }
-
-
+.bch-post tr>td{
+	padding: 4px;
+	font-size: 10px;
+}
+.bch-post tr>th{
+	padding: 4px;
+	font-weight: 300;
+	font-size: 12px;
+}
+.div-post-content{
+	width:100% !important;
+	overflow: scroll;
+}
+.bch-post{
+	width:700px !important;}
 
 
 }
