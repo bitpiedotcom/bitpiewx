@@ -1,5 +1,12 @@
 [
 {
+	"title":"【Reminder】On Recovery Failure Due to Incorrect Seed-Backup",
+	"url":"/2018-04-28/about-ios-version-user-error-seeds-note-en",
+	"describe":"Dear iOS users,Recently, Bitpie has received frequent help-seeking from users regarding the failures of wallet account recovery. In accordance with our statistics, most of the users did not follow the instructions when applying for new accounts and carried out screenshots to the generated Twelve-word Seed Phrase, resulting in failure of assets recovery.",
+	"date":"2018-04-28"
+
+},
+{
 	"title":"Financial Plans (6 Cryptocurrencies) on Sale!",
 	"url":"/2018-04-26/financial-plans-cryptocurrencies-on-sale-en",
 	"describe":"Start Time: Apr. 26th 2018(UTC+8) 8:00 PM Now Bitpie Wallet offers the Financial Plans (6 Cryptocurrencies).Interest accrual begins immediately after subscription. Early termination causes a deduction of earnings.Daily Plan: subject to availability (on a daily basis, withdrawal on demand),Monthly Plan: subject to availability (on a monthly basis)",
