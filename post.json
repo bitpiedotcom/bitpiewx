@@ -1,4 +1,12 @@
-[
+[    
+    {
+            "title":"【温馨提示】关于iOS版用户使用错误种子无法恢复资产的提醒",
+            "url":"/2018-04-28/about-ios-version-user-error-seeds-note",
+            "date":"2018-04-28",
+            "describe":"亲爱的比特派iOS版用户：近期，我们频繁接到用户求助，反映种子密语恢复钱包账户失败的问题。经统计，绝大多数用户在首次生成钱包账户的时候未仔细阅读App引导指令，对12个密语单词采取错误的截屏操作，导致备份密语失败。",
+            "id":31
+
+    },
     {
             "title":"六大币种,理财全开",
             "url":"/2018-04-26/financial-plans-cryptocurrencies-on-sale",
