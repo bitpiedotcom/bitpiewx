@@ -16,7 +16,7 @@ Dear iOS users,
 
 Recently, Bitpie has received frequent help-seeking from users regarding the failures of wallet account recovery. In accordance with our statistics,<span style="color:red"> most of the users did not follow the instructions when applying for new accounts and carried out screenshots to the generated Twelve-word Seed Phrase</span>, resulting in failure of assets recovery.
 
-<strong>Tip:</strong> as per iOS software protection mechanism, App will generate a new Twelve-word Seed Phrase/Mnemonic as soon as it detects a screenshot and pop up a tip asserting the previous seed is discarded. Android version has no such issue since the software has the authority to reject the screenshot.
+<strong>Tip:</strong> as per iOS software protection mechanism, Bitpie have clearly instructions that “Screenshot is forbidden, Bitpie will create a new series of mnemonics“ to iOS users while they are having screenshot option. But still few users think the new series of mnemonics is their original one when they trying to find their mnemonics. Android version has no such issue since the software has the authority to reject the screenshot.
 
 
 In order to guarantee users’ assets safety, Bitpie urged users repeatedly that do not screenshot, take photo, upload to network disk/email inbox or electronic device and so on. Unfortunately, many users still failed to draw sufficient attention to back up well the seeds/ Mnemonic and suffered the failure of assets recovery.
