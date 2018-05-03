@@ -1,5 +1,12 @@
 [
 {
+	"title":"[Version Update] On LBTC Support and Bookkeeping Node Campaign",
+	"url":"/2018-05-03/on-lbtc-support-and-bookkeeping-node-campaign-en",
+	"describe":"Dear users,Bitpie v3.2.4 now added LBTC (Lightning Bitcoin); meanwhile, Bitpie Team announces the bid for LBTC block producer.Moreover, Bitpie will support the LBTC related trading pairs on ExPie exchange platform and pieotc.com.",
+	"date":"2018-05-03"
+
+},
+{
 	"title":"【Reminder】On Recovery Failure Due to Incorrect Seed-Backup",
 	"url":"/2018-04-28/about-ios-version-user-error-seeds-note-en",
 	"describe":"Dear iOS users,Recently, Bitpie has received frequent help-seeking from users regarding the failures of wallet account recovery. In accordance with our statistics, most of the users did not follow the instructions when applying for new accounts and carried out screenshots to the generated Twelve-word Seed Phrase, resulting in failure of assets recovery.",
