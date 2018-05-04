@@ -19,4 +19,4 @@ Moreover, Bitpie will support the LBTC related trading pairs on ExPie exchange p
  
 About LBTC:<br/>
 With DPoS consensus mechanism, voting and bookkeeping rights can be separated, which prevents abuse or control of the system by any party. Users can maintain the policy discourse as long as they possess coins, thus achieve the true autonomy.<br/>
-LBTC’s fork height: December 18, 2018; block generation time: 3 second, block rewards: 0.0625LBTC. Official Website: <a href="http://lightningbitcoin.io/" target="_blank">http://lightningbitcoin.io/</a>.
+LBTC’s fork height: December 18, 2017; block generation time: 3 second, block rewards: 0.0625LBTC. Official Website: <a href="http://lightningbitcoin.io/" target="_blank">http://lightningbitcoin.io/</a>.
