@@ -1,4 +1,12 @@
 [ 
+   {
+            "title":"服务器升级通知",
+            "url":"/2018-05-15/bitpie-server-scheduled-upgrade-notice",
+            "date":"2018-05-15",
+            "describe":"通知亲爱的 Bitpie 用户：由于近期用户量激增，导致部分地区访问缓慢。为了给大家带来更加快捷舒适的体验，因此需要服务器硬件升级，您将不能进行收发、交易等操作。",
+            "id":34
+
+    }, 
      {
             "title":"比特派宣布针对基于 EOS.IO 软件的多个主网提供钱包支持 ",
             "url":"/2018-05-08/multiple-eosio-mainnets-supports",
