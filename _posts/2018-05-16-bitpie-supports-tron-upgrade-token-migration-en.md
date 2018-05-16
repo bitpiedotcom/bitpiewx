@@ -19,10 +19,10 @@ TRX/SCNY, TRX/ETH trading pairs are now available on the built-in exchange platf
 
 
 
-Risk warning: cryptocurrency investment is subject to high market risk. Please make your investments cautiously. Binance will make best efforts to choose high quality coins, but will not be responsible for your investment losses.
+Risk warning: cryptocurrency investment is subject to high market risk. Please make your investments cautiously. Bitpie will make best efforts to choose high quality coins, but will not be responsible for your investment losses.
 
 
-Learn more: tron.network<br/>
+Learn more: <a href="https://tron.network/" target="_blank">tron.network</a><br/>
 Thanks for your support!
 
 
