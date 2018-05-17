@@ -16,7 +16,7 @@ Fellow Bitpiers,<br/>
 Bitpie and TRON have announced deep ecological cooperation in all aspects.
 
 
-It is reported, TRON will launch virtual machine on May 25, mainnet on May 31(UTC+8), token migration on June 21 and the first 27 super representative elections on June 26(UTC+8). With this date approaching, today Bitpie Wallet announced that it would support the TRON blockchain upgrade and token migration. By then, investors only need to deposit TRX’s ERC-20 tokens to Bitpie Wallet and will receive the equivalent TRX token. For TRX holders who deposit TRX in Bitpie Wallet after June 21st, there will be a weekly exchange. 
+It is reported, TRON will launch virtual machine on May 25, mainnet on May 31(UTC+8), token migration on June 21 and the first 27 super representative elections on June 26(UTC+8). With this date approaching, today Bitpie Wallet announced that it would support the TRON blockchain upgrade and token migration. By then, investors only need to deposit TRX’s ERC-20 tokens to Bitpie Pie Bank and will receive the equivalent TRX token. For TRX holders who deposit TRX in Bitpie Pie Bank after June 21st, there will be a weekly exchange. 
 
 
 TRX/SCNY, TRX/ETH trading pairs are now available on the built-in exchange platform ExPie for trading. You can start depositing and trading TRX now. 
