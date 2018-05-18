@@ -24,7 +24,7 @@ Bitpie 内置交易所现已上线 TRON（TRX），并开通 TRX/SCNY、TRX/ETH 
 风险提示：数字货币是一种高风险的投资方式，请投资者谨慎购买，并注意投资风险。Bitpie 会遴选优质币种，但不对投资行为承担担保、赔偿等责任。
 
 
-波场TRON官网： <a href="https://tron.network/" target="_blank">tron.network</a>了解更多信息！<br/>
+波场 TRON 官网： <a href="https://tron.network/" target="_blank">tron.network</a>了解更多信息！<br/>
 感谢您对比特派Bitpie的支持！
 
 
