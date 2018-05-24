@@ -1,4 +1,12 @@
 [ 
+  {
+            "title":"【重要】如何进行EOS主网映射(register)",
+            "url":"/2018-05-24/common-contract-eos-main-chain-register",
+            "date":"2018-05-17",
+            "describe":"注意！EOS 存在派钱包中的用户，请在2018年6月2日6:59:59前手动完成映射。目前 EOS 是 ERC20 代币，可以理解为 “临时 EOS”。如果不进行 EOS 主网映射，将无法在 EOS 主网上获得相对应的 “真 EOS”。经派钱包官方检测，目前仍有大量的用户尚未进行 EOS 映射，其中不乏有持有上百万 EOS 资产的用户。",
+            "id":38
+
+   }, 
    {
             "title":"关于电话通知比特派用户进行 EOS 映射的公告",
             "url":"/2018-05-17/eos-main-chain-register-note",
