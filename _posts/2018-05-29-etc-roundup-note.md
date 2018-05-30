@@ -18,7 +18,7 @@ time:
 
 为保证用户资产安全，比特派将暂停派银行中 ETC 充提及派钱包中 ETC 收发服务。待 ETC 硬分叉稳定后，我们将会第一时间恢复其充提及收发业务，具体时间请您及时关注公告。为此造成的不便，敬请谅解！
 
-ETC官方公告：<a href="https://ethereumclassic.github.io/blog/2018-03-12-etc-roundup/" target="_blank">点击</a>
+ETC官方公告：<a href="https://ethereumclassic.github.io/blog/2018-03-12-etc-roundup/" target="_blank" style="color:red">点击</a>
 
 
 比特派团队<br/>
