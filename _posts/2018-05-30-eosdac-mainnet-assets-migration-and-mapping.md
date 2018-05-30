@@ -14,7 +14,7 @@ time:
 
 近日，eosDAC 社区宣布：eosDAC 将会在 EOS 启动主网后，将资产迁移至 EOS 主网。持有 eosDAC 的用户需要在香港时间2018年6月2日06:59:59前对 eosDAC 进行映射，否则账户上的 eosDAC 将会被锁定，无法顺利迁移到主网，有资产“归零”的风险。
 
-为保障广大用户能够如期获得等量的 eosDAC 资产，比特派特此通知广大用户，比特派支持 eosDAC 主网映射。
+为保障广大用户能够如期获得等量的 eosDAC 资产，比特派特此通知广大用户，比特派支持 eosDAC 主网映射。映射教程：<a href="http://docs.bitpie.com/zh_CN/latest/commonContract/index.html#eos-register" target="_blank" style="color:red">请点击</a>）
 
 获取 eosDAC 在 EOS 的主网资产有如下两种方式：<br/>
 1、在香港时间2018年6月2日06:59:59之前，将您的 eosDAC（ERC20代币）放在派钱包的 ETH 地址里，请确定该地址已经完成了EOS映射（映射教程：<a href="http://docs.bitpie.com/zh_CN/latest/commonContract/index.html#eos-register" target="_blank" style="color:red">请点击</a>）<br/>
