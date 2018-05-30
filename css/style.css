@@ -160,6 +160,8 @@
     .ul-img{
         margin-left: 0px;
     }
+    #content h5{margin:0 auto;width:95%;}
+
 }
 
     @media (min-width: 531px) and (max-width: 767px) {
