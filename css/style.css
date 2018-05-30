@@ -48,7 +48,7 @@
 /*.slideBox .bd img{ /!*width:450px; height:230px; *!/display:block;  }*/
 
 /*ad*/
- .catalogue h5{font-size: 22px;font-weight:400;color:#333}
+ .catalogue h5{font-size: 22px;font-weight:400;color:#333;text-align: left}
     .catalogue-item{
       text-align: center;
     }
@@ -79,7 +79,7 @@
     display: inline-block;
     font-weight: 400;
 }
-.aclick h5{font-size: 22px;font-weight:400;color:#333}
+.aclick h5{font-size: 22px;font-weight:400;color:#333;text-align: left;}
 .link_app,.aclick:hover{
     text-decoration: none !important;
 }
