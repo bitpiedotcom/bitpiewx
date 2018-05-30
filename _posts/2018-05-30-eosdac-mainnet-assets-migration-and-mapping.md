@@ -18,8 +18,7 @@ time:
 
 获取 eosDAC 在 EOS 的主网资产有如下三种方式：<br/>
 1、在香港时间2018年6月2日06:59:59之前，将您的 eosDAC（ERC20代币）放在派钱包的 ETH 地址里，请确定该地址已经完成了EOS映射（映射教程：<a href="http://docs.bitpie.com/zh_CN/latest/commonContract/index.html#eos-register" target="_blank" style="color:red">请点击</a>）<br/>
-2、在香港时间2018年6月1日24点前将您的 eosDAC 放在派银行，派银行随后将会帮您完成映射和基于 EOS 主网的 eosDAC 资产的领取，并发放到您的派银行账户中；<br/>
-3、若您的 eosDAC （ERC20代币）放在一个未经映射的 ETH 地址里，您仍可获得基于 EOS 主网的 eosDAC 资产，只是这一过程可能会花费一些时间，需等待 eosDAC 官方提出具体操作步骤。
+2、若您的 eosDAC （ERC20代币）放在一个未经映射的 ETH 地址里，您仍可获得基于 EOS 主网的 eosDAC 资产，只是这一过程可能会花费一些时间，需等待 eosDAC 官方提出具体操作步骤。
 
 比特派团队建议所有人进行映射。
 
