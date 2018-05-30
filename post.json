@@ -1,4 +1,12 @@
 [ 
+   {
+            "title":"【EOS相关】关于支持eosDAC主网资产迁移及映射的公告",
+            "url":"/2018-05-30/eosdac-mainnet-assets-migration-and-mapping",
+            "date":"2018-05-30",
+            "describe":"亲爱的用户：近日，eosDAC 社区宣布：eosDAC 将会在 EOS 启动主网后，将资产迁移至 EOS 主网。持有 eosDAC 的用户需要在香港时间2018年6月2日06:59:59前对 eosDAC 进行映射，否则账户上的 eosDAC 将会被锁定，无法顺利迁移到主网，有资产“归零”的风险。为保障广大用户能够如期获得等量的 eosDAC 资产，比特派特此通知广大用户，比特派支持 eosDAC 主网映射。",
+            "id":40
+
+   }, 
   {
             "title":"比特派暂停 ETC 相关充提及收发业务",
             "url":"/2018-05-29/etc-roundup-note",
