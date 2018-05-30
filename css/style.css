@@ -125,7 +125,7 @@
 }
 .join-content h3{padding-bottom: 40px}
 .content-p hr{margin-top: 25px !important}
-#content h5{margin-bottom: 30px}
+#content h5{margin-bottom: 30px;margin:0 auto;width:60%;}
 @media(min-width:320px) and (max-width:767px) {
 
     .aclick h5 {
