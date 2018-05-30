@@ -41,7 +41,7 @@ For users who keep EOS in Bitpie Wallet, please register by yourself before 06:5
 
 
 Bitpie Team<br/>
-29 May, 2018
+30 May, 2018
 
 
 

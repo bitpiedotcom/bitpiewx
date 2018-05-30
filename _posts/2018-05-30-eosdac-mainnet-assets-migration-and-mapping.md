@@ -35,7 +35,7 @@ time:
 
 
 比特派团队<br/>
-2018年05月29日
+2018年05月30日
 
 Bitpie 社群:<br/>
 新浪微博：@比特派钱包 <a href="https://weibo.com/bitpiewallet" target="_blank">weibo.com/bitpiewallet</a><br/>

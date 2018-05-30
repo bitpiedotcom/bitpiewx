@@ -1,5 +1,11 @@
 [
  {
+    "title":"Bitpie will Suspend EOS Deposit and Withdrawals and its Sending and Receiving Services at 24:00 on June 1st 2018(GMT+8) for EOS Mainnet Switch",
+    "url":"/2018-05-30/bitpie-eos-mainnet-switch-note-en",
+    "date":"2018-05-30",
+    "describe":"Dear Bitpiers: EOS will stop mapping at 06:59:59 on June 2nd, 2018(GMT+8) and then take a snapshot. After that all EOS tokens based on Ethereum ERC20 will be frozen and not able to be transferred. To ensure that Bitpie users can take a snapshot and get their assets on the EOS Main Net, Bitpie will suspend EOS deposit and withdrawals and its sending and receiving services at 24:00 on June 1st 2018(GMT+8). We will resume the deposit and withdrawal promptly after the EOS Mainnet runs stably. Please pay attention to our announcement for the specific time. Your support for Bitpie is greatly appreciated!"
+ },
+ {
     "title":" Notice of Supporting eosDAC Token Migration and Mapping ",
     "url":"/2018-05-30/eosdac-mainnet-assets-migration-and-mapping-en",
     "date":"2018-05-30",
