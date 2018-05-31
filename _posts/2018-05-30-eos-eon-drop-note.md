@@ -16,9 +16,11 @@ time:
 
 
 Bitpie 将会支持 EON 的空投。按照 EON 官方规则，EON 将会对持有100个以上 EOS 的用户进行1:1空投，快照时间为香港时间2018年6月1日12:00:00点，请确保快照时你的 EOS 数量符合要求。
+
  
 对于 EOS 存放在派银行的用户，我们将在空投结束后将统一安排发放，您无需操作。
  
+
 EOS 存放在派钱包中的用户点击链接：<a href="http://docs.bitpie.com/zh_CN/latest/commonContract/index.html#eon-claim" style="color:red" target="_blank">点击</a>获取手动操作教程。
 
 
