@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  派银行 eosDAC 已发放，EXPIE 交易所同时开通 eosDAC/ETH 交易对公告
+title:  派钱包内置交易所上市 eosDAC
 author: 
 lang: zh
 data: 2018-06-01
@@ -11,13 +11,22 @@ time:
 ---
 
 
-尊敬的比特派用户您好：
+亲爱的用户：
+
+Bitpie 内置交易所ExPie现已上线eosDAC，并开通 eosDAC/ETH 交易市场，邀您体验！
+派银行 eosDAC 充值通道现已开放，同时派银行 eosDAC 已发放完毕，请至派银行中查看。
 
 
-EXPIE 交易所已开通 eosDAC/ETH 交易对，同时派银行 eosDAC 已发放完毕，请至派银行中查看。
+风险提示：数字货币是一种高风险的投资方式，请投资者谨慎购买，并注意投资风险。Bitpie 会遴选优质币种，但不对投资行为承担担保、赔偿等责任。
 
 
-bitpie.com<br/>
+eosDAC 官网：<a href="https://eosdac.io/" target="_blank">https://eosdac.io/ </a>了解更多信息！
+ 
+
+感谢您对比特派 Bitpie 的支持！
+
+
+比特派 Bitpie 团队<br/>
 2018年06月01日
 
 

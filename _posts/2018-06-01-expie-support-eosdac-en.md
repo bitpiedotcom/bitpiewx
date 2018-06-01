@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  EXPIE exchange has listed trading pairs  eosDAC/ETH, and Pie Bank has already finished the distribution of eosDAC
+title:  Bitpie Lists eosDAC
 author: 
 lang: en
 data: 2018-06-01
@@ -10,13 +10,26 @@ ref: ad
 time: 
 ---
 
-Dear Bitpiers:
+Fellow Bitpiers,
+
+ 
+eosDAC/ETH trading pairs are now available on the built-in exchange platform ExPie for trading. You can start depositing and trading eosDAC now. 
 
 
-EXPIE exchange has listed trading pairs  eosDAC/ETH, and Pie Bank has already finished the distribution of eosDAC, please check your eosDAC in Pie Bank.
+Meanwhile, eosDAC deposit and withdrawal Channel is open in Pie Bank, and Pie Bank has already finished the distribution of eosDAC, please check your eosDAC in Pie Bank.
 
 
-bitpie.com<br/>
+
+Risk warning: cryptocurrency investment is subject to high market risk. Please make your investments cautiously. Bitpie will make best efforts to choose high quality coins, but will not be responsible for your investment losses.
+
+
+Learn more: <a href="https://eosdac.io/" target="_blank">https://eosdac.io/</a>
+
+
+Thanks for your support!
+
+
+Bitpie Team<br/>
 1th June, 2018
 
 
