@@ -22,9 +22,9 @@ time:
 新 logo 整体的设计按照苹果标准尺寸规范，结合异义词“pie”外形，色彩上使用代表安全稳重且具有科技感的深蓝色，外加简洁大气的白色，带以渐变跟阴影做辅助，整体以交叉线条（即：“井”）设计，体现了派钱包“通存通兑，四通八达，去中心化的开放理念”。<br/>
 VI展示图如下：<br/>
 
-<img src="/img/bitpie_v1.png" style="width:60%;display:block;margin:0 auto" />
+<img src="/img/bitpie_v1.jpg" style="width:60%;display:block;margin:0 auto" />
 <p style="text-align:center">图1 手绘效果</p>
-<img src="/img/bitpie_v2.png" style="width:60%;display:block;margin:0 auto" />
+<img src="/img/bitpie_v2.jpg" style="width:60%;display:block;margin:0 auto" />
 <p style="text-align:center">图2 宣传册效果</p>
 
 
