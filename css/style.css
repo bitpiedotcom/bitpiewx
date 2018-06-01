@@ -28,6 +28,7 @@
   /*border-bottom: 1px solid #2a6496;*/
   /*padding-bottom:3px;*/
 }
+.bitpie_logo_note{width:60%;display:block;margin:0 auto}
 .registered:visited{
   border:none;
 }
@@ -161,6 +162,7 @@
         margin-left: 0px;
     }
     #content h5{margin:0 auto;width:95%;}
+    .bitpie_logo_note{width:75%;display:block;margin:0 auto}
 
 }
 
