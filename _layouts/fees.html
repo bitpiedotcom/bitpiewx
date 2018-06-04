@@ -173,27 +173,45 @@
 
 <script>
     $(function(){
-        $.get("https://bitpie.getcai.com/api/v1/x/markets", function(data){
+        $.ajax({
+            url: 'https://bitpie.getcai.com/api/v1/x/markets',
+            type: 'GET',
+            dataType:'json',
+            success: function (data) {
+                if(data && data.length){
+                    //var data = JSON.parse(data);
+                    if(data && data.length) {
 
-            if(data && data.length){
-                var data = JSON.parse(data);
-                if(data && data.length) {
+                        //console.log(data);
+                        var html = "";
+                        for (var i = 0, l = data.length; i < l; i++) {
+                            var str = data[i].name;
+                            if(str.indexOf("BCC") > -1){
+                                str = str.replace(/BCC/,"BCH");
+                            }
+                            var end;
+                            var result;
+                            if(str.lastIndexOf("BTC") > -1 && str.lastIndexOf("SCNY") == -1) {
+                                end = str.lastIndexOf("BTC");
+                                result = str.substr(0,end)+"/BTC";
+                            }else if(str.lastIndexOf("SCNY") > -1){
+                                end = str.lastIndexOf("SCNY");
+                                result = str.substr(0,end)+"/SCNY";
+                            }else if(str.lastIndexOf("ETH") > -1){
+                                end = str.lastIndexOf("ETH");
+                                result = str.substr(0,end)+"/ETH";
+                            }
 
-                    //  console.log(data[0]);
-                    var html = "";
-                    for (var i = 0, l = data.length; i < l; i++) {
-                        var str = data[i].name;
-                        if(str.indexOf("BCC") > -1){
-                            str = str.replace(/BCC/,"BCH");
+
+                            html += "<tr><td>" + result + "</td><td>" + Decimal(data[i].taker_fee_rate).mul(100) + "%" + "</td></tr>";
                         }
-                        var end = str.lastIndexOf("BTC");
-                        var result = str.substr(0,end)+"/BTC";
-                        html += "<tr><td>" + result + "</td><td>" + Decimal(data[i].taker_fee_rate).mul(100) + "%" + "</td></tr>";
+                        $("tbody").append(html);
                     }
-                    $("tbody").append(html);
                 }
-            }
+            },
+            error: function (error) {
 
+            }
         });
 
 
