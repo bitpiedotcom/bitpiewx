@@ -90,7 +90,7 @@ time:
 
 <p class="content-bch-p">如果您还不是比特派用户，请在手机浏览器打开下方链接下载安装使用。</p>
 
-<p class="content-bch-p bch-download">安卓: <a class="link_app android" href="http://bitpie.com/android/" target="_blank">http://bitpie.com/andriod/</a><br/>
-iOS : <a class="link_app ios" href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a>
+<p class="content-bch-p bch-download">安卓: <a class="link_app android" href="https://bitpie.com/android/" target="_blank">https://bitpie.com/andriod/</a><br/>
+iOS : <a class="link_app ios" href="https://bitpie.com/ios/" target="_blank">https://bitpie.com/ios/</a>
 </p>
 </div>

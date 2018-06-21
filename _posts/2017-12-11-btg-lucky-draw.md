@@ -32,9 +32,9 @@ time: 2017-12-11
 
 如果您还不是比特派用户，请在手机浏览器打开下方链接下载安装使用。
 
-安卓: <a class="link_app android" href="http://bitpie.com/android/" target="_blank">http://bitpie.com/andriod/</a>
+安卓: <a class="link_app android" href="https://bitpie.com/android/" target="_blank">https://bitpie.com/andriod/</a>
 
-iOS : <a class="link_app ios" href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a>
+iOS : <a class="link_app ios" href="https://bitpie.com/ios/" target="_blank">https://bitpie.com/ios/</a>
 
 使用帮助: <a class="link_app" href="http://docs.bitpie.com/zh_CN/latest/" target="_blank">http://docs.bitpie.com/zh_CN/latest/</a>
 

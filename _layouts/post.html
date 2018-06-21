@@ -198,8 +198,8 @@ window.onload =function() {
         if(getCookie("langCookie") == "en" || !getCookie("langCookie")) {
             if ((navigator.language || navigator.browserLanguage).indexOf("zh") > -1) {
                 $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
-                $("#blogs").attr("href", "http://bitpie.com/blog/")
-                $("#ads").attr("href", "http://bitpie.com/announcement/");
+                $("#blogs").attr("href", "https://bitpie.com/blog/")
+                $("#ads").attr("href", "https://bitpie.com/announcement/");
                 window.lang.change("zh");
 
             } else if((navigator.language || navigator.browserLanguage).indexOf("en") > -1) {
@@ -228,14 +228,14 @@ window.onload =function() {
         delCookie("langCookie");
         setCookie("langCookie","zh",7);
         $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
-        $("#blogs").attr("href", "http://bitpie.com/blog/")
-        $("#ads").attr("href", "http://bitpie.com/announcement")
+        $("#blogs").attr("href", "https://bitpie.com/blog/")
+        $("#ads").attr("href", "https://bitpie.com/announcement")
         if (location.href.indexOf("en") > -1 ) {
             window.location.href = location.href.replace(/\-en/, "");
         }else if( location.href.indexOf("jp") > -1){
             window.location.href = location.href.replace(/\-jp/, "");
         }else{
-            window.location.href = "http://bitpie.com/announcement"
+            window.location.href = "https://bitpie.com/announcement"
         }
         window.lang.change("zh");
 
@@ -245,11 +245,11 @@ window.onload =function() {
         delCookie("langCookie");
         setCookie("langCookie","en",7);
         var enads = "http://docs.bitpie.com/en/latest/";
-        var ens = "http://bitpie.com/announcement/en";
+        var ens = "https://bitpie.com/announcement/en";
         var url = location.href;
         $("#docs").attr("href",enads)
-        $("#blogs").attr("href", "http://bitpie.com/blog/en/")
-        $("#ads").attr("href", "http://bitpie.com/announcement/en");
+        $("#blogs").attr("href", "https://bitpie.com/blog/en/")
+        $("#ads").attr("href", "https://bitpie.com/announcement/en");
 
 
 
@@ -267,7 +267,7 @@ window.onload =function() {
     })
     $("#jp").on("click",function(){
         delCookie("langCookie");
-        var ads = "http://bitpie.com/announcement/jp";
+        var ads = "https://bitpie.com/announcement/jp";
         $("#ads").attr("href",ads);
         var url = location.href;
         if(changejp(jp)){
@@ -291,8 +291,8 @@ window.onload =function() {
 
     if(getCookie('langCookie') == "zh"){
         $("#docs").attr("href", "http://docs.bitpie.com/zh_CN/latest/")
-        $("#blogs").attr("href", "http://bitpie.com/blog/")
-        $("#ads").attr("href", "http://bitpie.com/announcement")
+        $("#blogs").attr("href", "https://bitpie.com/blog/")
+        $("#ads").attr("href", "https://bitpie.com/announcement")
 
     }
 

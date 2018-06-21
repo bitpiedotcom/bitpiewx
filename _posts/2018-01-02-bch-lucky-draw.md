@@ -38,9 +38,9 @@ So ,应召广大 BCH 拥护者的迫切需求，比特派从即日起正式开�
 
 奖励发放：BCH奖励将于活动结束后的7个工作日内发放，请获奖用户在“派银行”中查看奖励；实物礼品将与您电话沟通，请保持手机畅通。
 
-安卓: <a class="link_app android" href="http://bitpie.com/android/" target="_blank">http://bitpie.com/andriod/</a>
+安卓: <a class="link_app android" href="https://bitpie.com/android/" target="_blank">https://bitpie.com/andriod/</a>
 
-iOS : <a class="link_app ios" href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a>
+iOS : <a class="link_app ios" href="https://bitpie.com/ios/" target="_blank">https://bitpie.com/ios/</a>
 
 使用帮助: <a class="link_app" href="http://docs.bitpie.com/zh_CN/latest/" target="_blank">http://docs.bitpie.com/zh_CN/latest/</a>
 

@@ -49,7 +49,7 @@ Early termination is available if a user has urgent need and balance will be tra
 
 <p class="bch-p">
 If you are not currently a Bitpie user, please use following link to download and install Bitpie App.<br/>
-Android: <a href="http://bitpie.com/andriod/" target="_blank">http://bitpie.com/andriod/</a><br/>
+Android: <a href="https://bitpie.com/andriod/" target="_blank">https://bitpie.com/andriod/</a><br/>
 
-iOS : <a href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a><br/>
+iOS : <a href="https://bitpie.com/ios/" target="_blank">https://bitpie.com/ios/</a><br/>
 </p>

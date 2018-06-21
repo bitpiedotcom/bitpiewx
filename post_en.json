@@ -18,7 +18,7 @@
     "describe":"Dear Bitpiers: EOS will stop mapping at 06:59:59 on June 2nd, 2018(GMT+8) and then take a snapshot. After that all EOS tokens based on Ethereum ERC20 will be frozen and not able to be transferred. To ensure that Bitpie users can take a snapshot and get their assets on the EOS Main Net, Bitpie will suspend EOS deposit and withdrawals and its sending and receiving services at 24:00 on June 1st 2018(GMT+8). We will resume the deposit and withdrawal promptly after the EOS Mainnet runs stably. Please pay attention to our announcement for the specific time. Your support for Bitpie is greatly appreciated!"
  },
  {
-    "title":" Notice of Supporting eosDAC Token Migration and Mapping ",
+    "title":"Notice of Supporting eosDAC Token Migration and Mapping ",
     "url":"/2018-05-30/eosdac-mainnet-assets-migration-and-mapping-en",
     "date":"2018-05-30",
     "describe":"Fellow Bitpiers,The eosDAC community recently declared that eosDAC tokens will be migrated to the EOS mainnet once launched. The eosDAC holders should move their assets to the EOS mainnet before 06:59:59(GMT+8) June 2nd 2018, or else they may lose their eosDAC.To ensure you get your eosDAC on the EOS mainnet as scheduled, we hereby announce that Bitpie supports the EOS public key mapping."

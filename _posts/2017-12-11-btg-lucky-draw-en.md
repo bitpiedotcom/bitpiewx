@@ -32,9 +32,9 @@ To participate the event, just make BTG/BTC exchange or BTC/BTG exchange within 
 
 If you are not currently a Bitpie users, please use following link to download and install Bitpie App.
 
-Android: <a class="link_app android" href="http://bitpie.com/android/" target="_blank">http://bitpie.com/andriod/</a>
+Android: <a class="link_app android" href="http://bitpie.com/android/" target="_blank">https://bitpie.com/andriod/</a>
 
-iOS : <a class="link_app ios" href="http://bitpie.com/ios/" target="_blank">http://bitpie.com/ios/</a>
+iOS : <a class="link_app ios" href="https://bitpie.com/ios/" target="_blank">https://bitpie.com/ios/</a>
 
 Help:  <a class="link_app" href="http://docs.bitpie.com/en/latest/" target="_blank">http://docs.bitpie.com/en/latest/</a>
 
