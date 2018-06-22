@@ -331,7 +331,7 @@ window.onload =function() {
 
         });
 
-        $.post("http://www.pieotc.com/api/statistic",{statisticUrl:location.href.replace(/https:\/\//,"http://")},function(data){
+        $.post("//www.pieotc.com/api/statistic",{statisticUrl:location.href.replace(/https:\/\//,"http://")},function(data){
             console.log(data);
             if(data.code == 4000){
             }else{
