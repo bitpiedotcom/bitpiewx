@@ -1,5 +1,11 @@
 [
   {
+	"title":"Notice of Suspending the Service of Sending Zcash (ZEC)",
+	"url":"/2018-06-25/notice-of-suspending-the-service-of-sending-zcash-en",
+	"date":"2018-06-25",
+	"describe":"Dear Bitpiers:Zcash (ZEC) will have a hard fork at block height 347500 at 05:00 on June 26, 2018(GMT+8). For the sake of your interests, Bitpie will suspend the service of sending Zcash (ZEC) at 21:00 June 25, 2018(GMT+8).We will resume the sending service promptly after Zcash (ZEC) completes its hard fork and runs stably. "
+  },
+  {
 	"title":"Supplement to the Notice of Bitpie Wallet Supporting BYTOM Blockchain Upgrade and Token Migration",
 	"url":"/2018-06-21/bytom-updating-main-migration-note-en",
 	"date":"2018-06-21",
