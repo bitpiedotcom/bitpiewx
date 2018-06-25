@@ -16,7 +16,7 @@ time:
 
 派钱包将会在 Zcash（ZEC）硬分叉完成且运行稳定后，重新开放 ZEC 发币功能。
 
-请注意，充提服务暂停期间：<span style="color:red">请不要收发Zcash（ZEC），以免造成不必要的资产损失！</span>
+请注意，充提服务暂停期间：<span style="color:red">请不要收发 Zcash（ZEC），以免造成不必要的资产损失！</span>
 
 感谢您对比特派 Bitpie 的支持，不便之处，敬请谅解。
 
