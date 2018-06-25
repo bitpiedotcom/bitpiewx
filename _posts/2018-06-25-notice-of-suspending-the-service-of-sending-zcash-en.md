@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  关于暂停 Zcash（ZEC）发币功能的公告
+title:  Notice of Suspending the Service of Sending Zcash (ZEC) 
 author: 
-lang: zh
+lang: en
 data: 2018-06-25
 post_id: 40
 id: 40
@@ -10,22 +10,20 @@ ref: ad
 time: 
 ---
 
-亲爱的派友：
+Dear Bitpiers:
 
-由于 Zcash（ZEC）将于区块高度 347500 进行硬分叉(预计为香港时间2018年6月26日05:00)，为了保证平台用户利益，比特派钱包将于2018年6月25日21:00暂停ZEC发币功能。
+Zcash (ZEC) will have a hard fork at block height 347500 at 05:00 on June 26, 2018(GMT+8). For the sake of your interests, Bitpie will suspend the service of sending Zcash (ZEC) at 21:00 June 25, 2018(GMT+8).
 
-派钱包将会在 Zcash（ZEC）硬分叉完成且运行稳定后，重新开放ZEC发币功能。
+We will resume the sending service promptly after Zcash (ZEC) completes its hard fork and runs stably. 
 
-请注意，充提服务暂停期间：请不要在暂停充提期间向比特派钱包充值 Zcash，以免造成不必要的资产损失！
+Attention: Please do not deposit Zcash in your Bitpie wallet during the suspension of Zcash deposit and withdrawal, or else you may lose your assets. 
 
-感谢您对比特派 Bitpie 的支持，不便之处，敬请谅解。
+Your support for Bitpie is greatly appreciated!
 
-比特派团队<br/>
-2018年06月25日
+Bitpie Team<br/>
+June 25, 2018
 
-Bitpie 社群:<br/>
-新浪微博：@比特派钱包 <a href="https://weibo.com/bitpiewallet" target="_blank">weibo.com/bitpiewallet</a><br/>
-微信公众号：公众号搜索“比特派钱包”<br/>
-Telegram：<a href="https://t.me/bitpie1" target="_blank">t.me/bitpie1</a>
-
+Find us on<br/>
+Telegram：<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>
+Twitter： <a href="https://twitter.com/BitpieWallet" target="_blank">twitter.com/BitpieWallet</a>
 
