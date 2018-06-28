@@ -1,5 +1,12 @@
 [
   {
+    "title":"关于 SHOW 推出 ShowCoin 智能合约2.0",
+    "url":"/2018-06-28/show-Intelligent-contract",
+    "date":"2018-06-28",
+    "describe":"尊敬的用户：SHOW 团队将在2018年6月28日18:00:00-2018年6月29日16:00:00（GMT+8）对秀币代码进行升级，合约代码 name 升级为 ShowCoin2.0。针对此次合约升级，SHOW 团队将在2018年6月29日00:00:00（GTM+8）对现有持币地址进行快照，新的合约正式启用后会按照完全映射（1:1空投）给用户。原合约将会被弃用，对应的代币也将不再作为价值凭证。",
+    "id":47
+  },
+  {
             "title":"关于暂停 Zcash（ZEC）发币功能的公告",
             "url":"/2018-06-25/notice-of-suspending-the-service-of-sending-zcash",
             "date":"2018-06-25",
