@@ -1,6 +1,15 @@
 [
   {
 
+    "title":"派钱包已经支持波场TRON主网",
+    "url":"/2018-07-09/supporting-tron-mainnet-note",
+    "date":"2018-07-09",
+    "describe":"目前，比特派Bitpie已经完成对波场TRON的主网更新和支持。主网代币TRX的收发功能已经开启，用户即日起可以使用派钱包收发TRX。",
+    "id":50
+
+  },
+  {
+
     "title":"派钱包关于恢复BTG充提的公告",
     "url":"/2018-07-09/bitcoin-gold-withdraw-note",
     "date":"2018-07-09",
