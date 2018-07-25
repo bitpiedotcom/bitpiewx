@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>{{page.title}}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no minimal-ui">
+
+    <!-- CSS Global Compulsory-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="/css/default.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/down.css">
+
+</head>
+
+<body>
+
+<div class="row-fluid breadcrumbs margin-bottom-20">
+    <div class="container">
+        <h1 class="pull-left" style="text-align:center;float:none !important" lang="en">{{site.bitherdownsoftname}}</h1>
+   <!--      <ul class="pull-right breadcrumb">
+            <li>版本：{{site.bitherios}}</li>
+            <li>{{site.bitheriosdate}}</li>
+        </ul> -->
+    </div>
+</div>
+
+<div class="container content">
+
+
+
+
+
+    <div id="" class="view row">
+<!--           <div class="span12 lessonimg " id="aweixinDisplay" style="text-align:center;display: none">
+                <img src="/img/androidweixin.jpg" id="downloading">
+            </div>
+        <div class="span12" style="text-align:center;">
+            <a href="javascript:void(0);" onclick="javascript:install();"><img src="https://dn-bither.qbox.me/bither_ios_144.png" class="appicon" /></a>
+            <div>
+            </div>
+        </div> -->
+    </div>
+
+    <div id="" class="view row" style="margin-top:30px;">
+
+        <div class="span12 margin-bottom-20" style="text-align:center;">
+          <!--   <a href="javascript:void(0);" onclick="javascript:install();" class="btn-u btn-u-lg"><i class="fa fa-download"></i> 点击安装</a> -->
+        </div>
+
+        <div class="span12" style="text-align:center;color:#333" id="mobile_bither">
+<!--             <span class="label label-info">适用于iOS设备</span> -->
+            <span lang="en">The certificate of Bither App is not available now. We are now actively negotiating with Apple Inc., yet DO NOT uninstall your App. Android version is not affected.</span>
+<!--             <span class="label label-danger">企业版</span> -->
+        </div>
+    </div>
+
+<!--     <hr class="devider devider-dotted">
+    <div id="" class="view row margin-bottom-30">
+        <div class="span12" style="text-align:center;">
+            或者用手机扫描下面的二维码安装 <br />
+            <br />
+            <img src="/img/bitherios.png" />
+        </div>
+    </div>
+    <hr class="devider devider-dotted">
+    <div id="down" class="view row" style="margin-top:30px;">
+        <h3>Bither iOS 安装教程</h3>
+        <div class="lessonimg">
+            <p>1、第一次打开 Bither 的时候会弹出如下框。</p>
+            <img class="limg" src="{{site.downmobilefirst}}"/>
+        </div>
+        <div class="lessonimg">
+            <p>2､在手机的设置-通用-描述文件与设备管理，信任下面的文件。</p>
+            <img class="limg" src="{{site.downmobilesecond}}"/>
+        </div>
+        <div class="lessonimg">
+            <p>3､信任下面的证书就可以启动 Bither 了。</p>
+            <img class="limg" src="{{site.downmobilethree}}"/>
+        </div>
+
+    </div>
+    <div class="lesson view row" style="margin-top:30px">
+        <h3>iOS 10 不提示(是否允许应用访问数据)，导致应用无法使用的解决方案</h3>
+        <div class="lessonimg">
+            <p>1、进入设置-蜂窝移动网络-使用无线局域网与蜂窝移动的应用，随便找款App(例：这里选择的是比太)。</p>
+            <img class="limg" src="{{site.step1}}">
+            <p>2、更改一下设置即可(任意更改)。</p>
+            <img class="limg" src="{{site.step2}}">
+            <p>3、然后进入 Bither App 就会提示是否允许使用数据。选择是就可以了。</p>
+
+        </div>
+    </div> -->
+</div>
+
+
+</div>
+
+{% include js.html %}
+<script>
+    function isMobile() {
+        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+    function install() {
+        if(!isMobile()){
+            alert('请在手机上使用浏览器打开本页面，或者扫描下面的二维码，即可安装');
+            return;
+        }
+        var url = "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://dn-bither.qbox.me/bither_ios.plist";
+        window.location.href = url;
+    }
+        window.onload = function(){
+        function run() {
+            document.getElementById("weixinDisplay").style = "text-align:center;display:block";
+            document.getElementById("aweixinDisplay").style = "text-align:center;display:block";
+
+
+        }
+        function is_weixin() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        var isWeixin = is_weixin();
+        function isMobile() {
+            return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        }
+        function loadHtml(){
+            var div = document.createElement('div');
+            div.id = 'weixin-tip';
+            div.innerHTML = '<p><img src="/img/live_weixin.png"  styl alt="微信打开" /></p>';
+            document.body.appendChild(div);
+        }
+
+        function loadStyleText(cssText) {
+            var style = document.createElement('style');
+            style.rel = 'stylesheet';
+            style.type = 'text/css';
+            try {
+                style.appendChild(document.createTextNode(cssText));
+            } catch (e) {
+                style.styleSheet.cssText = cssText; //ie9以下
+            }
+            var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
+            head.appendChild(style);
+        }
+        var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width:100%; height:210%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5% 10% 5%;}";
+
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+        if (isWeixin) {
+            loadHtml();
+            loadStyleText(cssText);
+            run();
+        }
+
+    }
+</script>
+
+</body>
+</html>
