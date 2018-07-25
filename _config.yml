@@ -115,7 +115,7 @@ bithergoogleplay: 'https://play.google.com/store/apps/details?id=net.bither'
 bitherandroidsha: 'https://github.com/bitpiedotcom/bitpiedotcom.github.com/raw/master/bither/android/SHA256SUMS'
 bitherwin64: 'https://dn-bither.qbox.me/Bither-windows64.exe'
 bitherwin32: 'https://dn-bither.qbox.me/Bither-windows32.exe'
-bithermacos: 'https://dn-bither.qbox.me/Bither-macos64.dmg'
+bithermacos: 'https://dn-bither.qbox.me/bither-desktop.jar'
 bitherlinux: 'https://dn-bither.qbox.me/Bither-linux64.tar'
 
 

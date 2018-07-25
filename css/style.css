@@ -155,6 +155,12 @@
         margin: 0 auto;
         text-align: left;
     }
+    #mobile_span_macos span{
+        display:inline-block;
+        width:50%;
+        margin: 0 auto;
+        text-align: center;
+    }
     #group_show{
         left:-225px;
     }
