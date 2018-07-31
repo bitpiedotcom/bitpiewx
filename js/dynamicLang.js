@@ -130,6 +130,7 @@ Lang.prototype.pack.zh = {
         "Pie Bank Deposits":"派银行充值",
         "Test":"企业版",
         "Enterprise Version is Unavailable Temporarily. Please Install Bitpie App from App Store":"Bitpie 企业版不可用，请通过海外的 App Store 账户安装 Bitpie",
+        "Enterprise Version is Unavailable Temporarily. Please Install Bither App from App Store":"Bither 企业版不可用，请通过海外的 App Store 账户安装 Bither",
         "Viewed:":"阅读：",
         "Bither":"比太",
         "Chinese":"中文",
