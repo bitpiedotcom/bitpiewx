@@ -26,7 +26,7 @@ SHOW 团队将在2018年6月28日18:00:00-2018年6月29日16:00:00（GMT+8）对
 比特派团队<br/>
 2018年06月28日
 
-Bitpie 社群:<br/>
+Bitpie 社群：<br/>
 新浪微博：@比特派钱包 <a href="https://weibo.com/bitpiewallet" target="_blank">weibo.com/bitpiewallet</a><br/>
 微信公众号：公众号搜索“比特派钱包”<br/>
 Telegram：<a href="https://t.me/bitpie1" target="_blank">t.me/bitpie1</a>
