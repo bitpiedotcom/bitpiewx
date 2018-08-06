@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  比特派钱包内交易所上线 ADD/EOS 和 CHL/EOS 交易对及 ADD 交易大赛公告
+title:  比特派钱包内交易所上线 ADD/EOS 和 CHL/EOS 交易
 author: 
 lang: zh
 data: 2018-08-06
@@ -9,6 +9,8 @@ id: 48
 ref: ad
 time: 
 ---
+
+<h5 style="color:red;margin:0 auto;display:block;text-align:center;margin-top:10px">ADD 交易大赛公告</h5>
 
 亲爱的派友：
 
@@ -28,7 +30,7 @@ time:
 交易大赛活动规则： 
 
 1、每日实力排名奖：<br/>
-在比特派参与 ADD / EOS 交易的用户将根据「净买入量（买入-卖出）」进行每日排名，根据排名可分别获得一下奖励：<br/>
+在比特派参与 ADD/EOS 交易的用户将根据「净买入量（买入-卖出）」进行每日排名，根据排名可分别获得一下奖励：<br/>
 第1名：50,000 ADD<br/>
 第2名：20,000 ADD<br/>
 第3名：10,000 ADD<br/>
@@ -36,7 +38,7 @@ time:
 第11-50名： 每位用户500 ADD<br/>
 
 2、每日阳光普照奖：<br/>
-<span style="color:red">参与交易的用户交易量每达到100 EOS，即可获得100 ADD奖励。例如，交易量达1200EOS可获得1200ADD。<br/>注：木之仅限交易量（买入+卖出）大于100EOS且排名前100的用户领取</span>。
+参与交易的用户交易量每达到100 EOS，即可获得100 ADD 奖励。例如，交易量达1200 EOS可获得1200 ADD。<br/>注：仅限交易量（买入+卖出）大于100 EOS 且排名前100的用户领取。
 
 <span class="fontstyle">二、空投奖励人人乐！</span>
 
@@ -58,7 +60,10 @@ time:
 祝您交易愉快！
 
 
-<span class="fontstyle">ADD项目简介：<br/></span>
+
+
+<span class="fontstyle">ADD项目简介：</span>
+
 ADD 将致力于建设基于 EOS 数据与应用生态，提供从“互联网+”到“区块链+” 的转型的数据中枢与应用平台。<br/>
 数据流动、数据分析与数据存储将不可阻挡的形成跨域趋势 ，ADD 试图打造的 ADD 数据银行是基于 EOS 的全球超级计算机与超级节点的实时数据中枢与应用平台，这是一个可扩展、低延迟、高交互、并拥有可扩安全链域护栏的分布式网络平台。<br/>
 在同步拥有不同链域来源的数据后，ADD 将使用自建的数据模型、数据引擎与引索机制为生态用户提供可视化、便捷的自设更细颗粒度的分析、提供专项维度与行业报告与评级体系，同时提供为用户提供一站式的去中心化应用平台级解决方案。<br/>
@@ -70,7 +75,8 @@ ADD 将致力于建设基于 EOS 数据与应用生态，提供从“互联网+�
 空投时间：英国伦敦当地时间2018年6月22日零时起（夏令时UTC+1）<br/>
 项目官网：<a href="https://eosadd.com" target="_blank">https://eosadd.com</a>
 
-<span class="fontstyle">CHALLENGE项目简介：<br/></span>
+<span class="fontstyle">CHALLENGE项目简介：</span>
+
 CHALLENGE （挑战）旨在利用区块链技术开发DAPP，通过使用代币经济和智能合约技术将任务游戏化，让人们参与积极行为。CHALLENGE DAPP将是我们首次亮相的DAPP。它的目的是激励和奖励进行锻炼并且被众人承认其保持健康的行为的玩家。CHALLENGE 代币总量为27亿个，我们将在2018年夏季以2比1的比例向EOS代币持有者空投20亿个代币。<br/>
 产品：CHALLENGE DAPP<br/>
 代币：CHL<br/>
