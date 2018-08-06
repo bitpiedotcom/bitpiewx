@@ -10,7 +10,7 @@ ref: ad
 time: 
 ---
 
-<h5 style="color:red;margin:0 auto;display:block;text-align:center;margin-top:10px">ADD 交易大赛公告</h5>
+<h5 style="margin:0 auto;display:block;text-align:center;margin-top:10px">ADD 交易大赛公告</h5>
 
 亲爱的派友：
 

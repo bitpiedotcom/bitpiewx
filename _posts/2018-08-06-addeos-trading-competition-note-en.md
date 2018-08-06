@@ -11,7 +11,7 @@ time:
 ---
 
 
-<h5 style="color:red;margin:0 auto;display:block;text-align:center;margin-top:10px"> ADD/EOS Trading Competition </h5>
+<h5 style="margin:0 auto;display:block;text-align:center;margin-top:10px"> ADD/EOS Trading Competition </h5>
 
 
 Dear Bitpiers:<br/>

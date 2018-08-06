@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  比特派钱包关于支持 HCASH 主链升级并暂停充提的公告
+title:  比特派钱包关于支持 HCASH 主链升级并暂停 HSR 充提的公告
 author: 
 lang: zh
 data: 2018-08-05
