@@ -17,9 +17,9 @@ time:
 Dear Bitpiers:<br/>
 
 
-Bitpie’s Pie Bank has opened the deposit and withdrawal of ADD and CHL on August 6, 2018 at 16:00:00 (Hong Kong time).<span style="color:red">Please update to the latest verstion 3.4.5 to operate.</a>
+Bitpie’s Pie Bank has opened the deposit and withdrawal of ADD and CHL on August 6, 2018 at 16:00:00 (Hong Kong time).<span style="color:red">Please update to the latest verstion 3.4.5 to operate.</span>
 
-Bitpie Android:<a href="https://bitpie.com/android/" target="_blank" style="color:red">Click</a><br/>
+Bitpie Android: <a href="https://bitpie.com/android/" target="_blank" style="color:red">Click</a><br/>
 Bitpie iOS: Search "bitpie" in AppStore
 
 Bitpie’s built-in exchange will list ADD/EOS and CHL/EOS trading pairs on August 8, 2018 at 16:00:00 (Hong Kong time).
