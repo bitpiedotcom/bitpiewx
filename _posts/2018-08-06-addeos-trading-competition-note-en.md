@@ -17,7 +17,7 @@ time:
 Dear Bitpiers:<br/>
 
 
-Bitpie’s Pie Bank has opened the deposit and withdrawal of ADD and CHL on August 6, 2018 at 16:00:00 (Hong Kong time).
+Bitpie’s Pie Bank has opened the deposit and withdrawal of ADD and CHL on August 6, 2018 at 16:00:00 (Hong Kong time).<span style="color:red">Please update to the latest verstion 3.4.5 to operate.</a>
 
 Bitpie’s built-in exchange will list ADD/EOS and CHL/EOS trading pairs on August 8, 2018 at 16:00:00 (Hong Kong time).
 
@@ -56,13 +56,18 @@ Tips:<br/>
 •	The rankings will be updated on Bitpie.com before 20:00 (Hong Kong time) on each working day, and the final list will be published within FIVE working days after the end of the campaign. If no winners are reported within three working days after the final list is published, the list will be deemed as valid and final.<br/>
 •	Digital assets are innovative investment products, and their prices fluctuate greatly. Please judge your investment ability rationally and make investment decisions prudently.<br/>
 
+
+How to Create a New EOS Account: <a href="http://docs.bitpie.com/en/latest/eosaccount/index.html" target="_blank" style="color:red">Click</a><br/>
+How to Import an Existing EOS Account to Bitpie: <a href="http://docs.bitpie.com/en/latest/privateKeyImport/index.html" target="_blank" style="color:red">Click</a>
+
+
 Enjoy your trading!
 
 
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 <strong>About ADD</strong>
 
 ADD is committed to building a data hub and application platform that help users transform from “Internet +” to “Blockchain+” based on EOS data and application ecosystem. <br/>

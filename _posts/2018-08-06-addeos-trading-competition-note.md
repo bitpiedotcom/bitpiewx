@@ -14,7 +14,7 @@ time:
 
 亲爱的派友：
 
-比特派 Bitpie 的派银行已于2018年8月6日16:00:00（香港时间）开通 ADD 和 CHL 充值提现通道。
+比特派 Bitpie 的派银行已于2018年8月6日16:00:00（香港时间）开通 ADD 和 CHL 充值提现通道。<span style="color:red">请将比特派 APP 升级至最新版 v3.4.5 即可操作。</span>
 
 比特派 Bitpie 内置合作交易所 EXPIE 将于 2018年8月8日16:00:00  (香港时间)  在 EOS 交易区上线 ADD/EOS 交易对以及 CHL/EOS 交易对。
 
@@ -57,11 +57,17 @@ time:
 •	数字资产是创新的投资产品，价格波动较大，请您理性判断自己的投资能力，审慎做出投资决策。<br/>
 
 
+创建账户教程：<a href="http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html" target="_blank" style="color:red">点击</a><br/>
+如果您在其它钱包有EOS账户，也可以导入比特派。导入教程：<a href="http://docs.bitpie.com/zh_CN/latest/privateKeyImport/index.html" target="_blank" style="color:red">点击</a>
+
+
 祝您交易愉快！
 
 
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 <span class="fontstyle">ADD项目简介：</span>
 
 ADD 将致力于建设基于 EOS 数据与应用生态，提供从“互联网+”到“区块链+” 的转型的数据中枢与应用平台。<br/>
