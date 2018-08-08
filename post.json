@@ -1,6 +1,14 @@
 [
   {
 
+    "title":"服务器升级通知",
+    "url":"/2018-08-08/bitpie-piebank-service-upgrade-note",
+    "date":"2018-08-08",
+    "describe":"亲爱的派友：比特派服务器正在进行升级，预计1小时完成。升级期间请您避免执行收发、交易等操作。请耐心等待，感谢您的理解与支持。",
+    "id":55
+  },
+  {
+
     "title":"比特派钱包内交易所上线 ADD/EOS 和 CHL/EOS 交易对及 ADD 交易大赛公告",
     "url":"/2018-08-06/addeos-trading-competition-note",
     "date":"2018-08-06",
