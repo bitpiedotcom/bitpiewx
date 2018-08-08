@@ -1,5 +1,11 @@
 [
   {
+	"title":"Server Upgrade Notification",
+	"url":"/2018-08-08/bitpie-piebank-service-upgrade-note-en",
+	"date":"2018-08-08",
+	"describe":"Dear Bitpie users:Due to the recent surge in the number of users, the visits to some regions have been slow. In order to bring you a more convenient and comfortable experience, we need to upgrade the server hardware. You will not be able to send, receive, and trade during updating from 13:00 to 14:00 (UTC+8).Please wait patiently，thank you for your understanding and support."
+  },
+  {
 	"title":"Bitpie Built-in Exchange Lists ADD/EOS and CHL/EOS Trading Pairsand ADD/EOS Trading Competition",
 	"url":"/2018-08-06/addeos-trading-competition-note-en",
 	"date":"2018-08-06",
