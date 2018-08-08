@@ -16,6 +16,9 @@ time:
 
 比特派 Bitpie 的派银行已于2018年8月6日16:00:00（香港时间）开通 ADD 和 CHL 充值提现通道。<span style="color:red">请将比特派 APP 升级至最新版 v3.4.5 即可操作。</span>
 
+比特派安卓版下载：<a href="https://bitpie.com/android/" target="_blank" style="color:red">点击</a><br/>
+比特派苹果版：苹果用户请通过香港或美国 ID 登录 App Store 搜索（比特派或者 Bitpie）更新下载。
+
 比特派 Bitpie 内置合作交易所 EXPIE 将于 2018年8月8日16:00:00  (香港时间)  在 EOS 交易区上线 ADD/EOS 交易对以及 CHL/EOS 交易对。
 
 同时，比特派将于2018年8月8日16:00:00  (香港时间) 开启 ADD/EOS 交易排名赛活动，同时进行空投和充值奖励活动，联合项目方豪掷200万 ADD，回馈广大派友。
