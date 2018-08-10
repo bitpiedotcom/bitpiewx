@@ -1,6 +1,14 @@
 [
   {
 
+    "title":"关于恢复 Zcash（ZEC）发币功能的公告",
+    "url":"/2018-08-10/resumption-sending-zcash-note",
+    "date":"2018-08-10",
+    "describe":"亲爱的派友：Zcash（ZEC）的 Overwinter 主网升级已经完成，比特派钱包目前已经针对 Zcash 新主网完成了调试和升级，现在已经重新开放 ZEC 发币功能，请升级 App 至最新版 v3.4.6即可使用。感谢您对比特派 Bitpie 的支持。",
+    "id":57
+  },
+  {
+
     "title":"关于派银行发放ADD、CHL糖果并开通交易的公告",
     "url":"/2018-08-08/piebank-addchl-candy-note",
     "date":"2018-08-08",
