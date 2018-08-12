@@ -15,7 +15,7 @@ At 16:00 8th August, Bitpie listed the ADD/EOS trading pair in its built-in exch
 
 <strong style="color:red">I Daily Giveaway</strong>
 
-1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 8th -16:00 9th Aug.
+1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 9th -16:00 10th Aug.
 The winning UIDs are:<br/>
 19986＊,25928＊,27239＊,19186＊,151550＊<br/>
 29207＊,10195＊,10253＊,27205＊,155334＊<br/>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ADD/EOS 交易竞赛获奖名单（第一期 8月9日 - 10日）
+title:  ADD/EOS 交易竞赛获奖名单（第二期 8月9日 - 10日）
 author: 
 lang: zh
 data: 2018-08-11
@@ -10,11 +10,11 @@ ref: ad
 time: 
 ---
 
-2018 年 8 月9 日 16：00， 比特派 Bitpie 正式开通 ADD/EOS 交易对，为感谢平台用户的支持和信任，连同 ADD 同步上线交易大赛以及三重奖励，花样送好礼，详情可<a href="https://bitpie.com/2018-08-06/addeos-trading-competition-note" target="_blank" style="color:red">点击</a>了解。
+2018 年 8 月 8 日 16：00， 比特派 Bitpie 正式开通 ADD/EOS 交易对，为感谢平台用户的支持和信任，连同 ADD 同步上线交易大赛以及三重奖励，花样送好礼，详情可<a href="https://bitpie.com/2018-08-06/addeos-trading-competition-note" target="_blank" style="color:red">点击</a>了解。
 
 <strong style="color:red">一、交易大赛赢壕礼！</strong>
 
-其中交易竞赛活动，通过统计每日用户交易量进行排名，并发放奖励。现将第一期的交易竞赛即交易时间段为：8 月 9 日 16:00 – 10日16:00 的中奖明细公示如下：
+其中交易竞赛活动，通过统计每日用户交易量进行排名，并发放奖励。现将第二期的交易竞赛即交易时间段为：8 月 9 日 16:00 – 10日16:00 的中奖明细公示如下：
 
 1、每日实力排名奖：<br/>
 中奖账户为：<br/>
