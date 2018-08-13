@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ADD/EOS Trading Competition Winner Lists (Day Two 8th -9th Aug.)
+title:  ADD/EOS Trading Competition Winner Lists (Day Two 9th -10th Aug.)
 author: 
 lang: en
 data: 2018-08-10
@@ -38,11 +38,6 @@ Top 11-50: 500 ADD per user<br/>
 2.For the FIRST 100 traders whose trading volume (24h) exceed 100 EOS, 100 ADD giveaways for every 100-EOS-equivalent volume will be awarded pursuant to their TOTAL trading volume (buying plus selling).
 The winning UIDs are:<br>
 133259＊,26410＊,277412＊ 
-
-<strong style="color:red">II Airdrop to Every ADD HODLers</strong><br/>
-The winning UIDs are:<br/>
-222769＊,28176＊,31175＊
-
 
 
 

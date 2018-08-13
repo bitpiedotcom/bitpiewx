@@ -48,12 +48,6 @@ time:
 
 中奖者均可获得100 ADD 奖励。
 
-<strong style="color:red">二、空投奖励人人乐！</strong>
-
-中奖账户为：<br/>
-222769＊,28176＊,31175＊
-
-
 
 <span style="color:red">恭喜中奖用户，交易活动仍在持续进行，欢迎大家前来参与！</span>
 
