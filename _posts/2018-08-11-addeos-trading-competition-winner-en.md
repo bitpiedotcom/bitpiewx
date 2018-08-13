@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ADD/EOS Trading Competition Winner Lists (Day One 8th -9th Aug.)
+title:  ADD/EOS Trading Competition Winner Lists (Day Two 8th -9th Aug.)
 author: 
 lang: en
 data: 2018-08-10
@@ -66,7 +66,7 @@ Enjoy your trading!
 
 
 Bitpie Team<br/>
-August 10, 2018
+August 11, 2018
 
 Find us on<br/>
 Telegram：<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>
