@@ -64,5 +64,5 @@ Bitpie Team<br/>
 August 11, 2018
 
 Find us on<br/>
-Telegram：<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>
-Twitter： <a href="https://twitter.com/BitpieWallet" target="_blank">twitter.com/BitpieWallet</a>
+Telegram:<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>
+Twitter:<a href="https://twitter.com/BitpieWallet" target="_blank">twitter.com/BitpieWallet</a>
