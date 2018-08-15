@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ADD/EOS Trading Competition Winner Lists (Day Two 9th -10th Aug.)
+title:  ADD/EOS Trading Competition Winner Lists (Day Five 12th -13th Aug.)
 author: 
 lang: en
 data: 2018-08-10
@@ -15,17 +15,16 @@ At 16:00 8th August, Bitpie listed the ADD/EOS trading pair in its built-in exch
 
 <strong style="color:red">I Daily Giveaway</strong>
 
-1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 9th -16:00 10th Aug.
+1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 12th -16:00 13th Aug.
 The winning UIDs are:<br/>
-151550＊,155367＊,27205＊,27205*,155382＊<br/>
-28580＊,10195＊,23726＊,22754＊,155334＊<br/>
-28580＊,155382＊,35644＊,23726＊,36613＊<br/>
-155367＊,36454＊,155367＊,14171＊,154763＊<br/>
-33080＊,23864＊,19868＊,26642＊,32719＊,23889＊<br/>
-21281＊,12261＊,18385＊,10198＊,14474＊,27527＊<br/>
-32669＊,21106＊,11364＊,10198＊,31719＊,33591＊<br/>
-24634＊,17925＊,30610＊,35422＊,32103＊,23549＊<br/>
-30433＊,23522＊,11247＊,16586＊,31298＊,29500＊<br/>
+19986＊,14445＊,155367＊,155367＊,28580＊,19186＊,27239＊,<br/>
+21746＊,26959＊,13161＊,24289＊,17219＊,25810＊,12443＊,<br/>
+28954＊,19807＊,28247＊,27103＊,15357＊,13031＊,35375＊<br/>
+21750＊,17018＊,32185＊,21812＊,35111＊,12305＊,14585＊,<br/>
+11752＊,18626＊,23797＊,24641＊,33139＊,14631＊,19815＊,<br/>
+23039＊,33756＊,24168＊,31626＊,22837＊,22245＊,30537＊,<br/>
+29909＊,30063＊,17829＊,12191＊,20869＊,19141＊,13018＊,<br/>
+20906＊
 
 
 
@@ -39,7 +38,7 @@ Top 11-50: 500 ADD per user<br/>
 
 2.For the FIRST 100 traders whose trading volume (24h) exceed 100 EOS, 100 ADD giveaways for every 100-EOS-equivalent volume will be awarded pursuant to their TOTAL trading volume (buying plus selling).
 The winning UIDs are:<br>
-133259＊,26410＊,277412＊ 
+13879＊
 
 
 
@@ -63,7 +62,7 @@ Enjoy your trading!
 
 
 Bitpie Team<br/>
-August 11, 2018
+August 14, 2018
 
 Find us on<br/>
 Telegram:<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>

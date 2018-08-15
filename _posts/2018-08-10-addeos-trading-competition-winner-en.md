@@ -17,14 +17,16 @@ At 16:00 8th August, Bitpie listed the ADD/EOS trading pair in its built-in exch
 
 1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 8th -16:00 9th Aug.
 The winning UIDs are:<br/>
-19986＊,25928＊,27239＊,13376＊ ,19186＊,<br/>
-19986＊,36338＊,155337* ,151550＊ ,29207＊ <br/>
-155334＊,155324＊,10195＊,27205＊,155346＊,28580＊,<br/>
+19986＊,25928＊,27239＊,19186＊,151550＊,29207＊<br/>
+10195＊,10253＊,27205＊,155334＊28580＊,155382＊<br/>
+35644＊,23726＊,36613＊,155367＊<br/>
+36454＊,155367＊,14171＊,154763＊,155346＊,28580＊,<br/>
 155382＊,35644＊,23726＊,10253＊,35644＊,36613＊,<br/>
 18042＊,155367＊,36454＊,155367＊,12791＊,18387＊,<br/>
 155351＊,25930＊,19932＊,10194＊,19186＊,18799＊,<br/>
 28310＊,14171＊,153299＊,154763＊,37260＊,10195＊,<br/>
 12791＊,25470＊,37104＊,17606＊,14237＊<br/>
+
 
 
 The rewards are:<br/>

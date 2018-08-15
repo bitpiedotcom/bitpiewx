@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ADD/EOS Trading Competition Winner Lists (Day Two 9th -10th Aug.)
+title:  ADD/EOS Trading Competition Winner Lists (Day Four 11th -12th Aug.)
 author: 
 lang: en
 data: 2018-08-10
@@ -15,18 +15,17 @@ At 16:00 8th August, Bitpie listed the ADD/EOS trading pair in its built-in exch
 
 <strong style="color:red">I Daily Giveaway</strong>
 
-1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 9th -16:00 10th Aug.
+1.Awards for largest daily trading volume. Users who participate in ADD/EOS trading in Bitpie’s built-in exchange will be ranked every 24 hours pursuant to the purchase volume (buying volume minus selling volume). The trading period is 16:00 11th -16:00 12th Aug.
 The winning UIDs are:<br/>
-151550＊,155367＊,27205＊,27205*,155382＊<br/>
-28580＊,10195＊,23726＊,22754＊,155334＊<br/>
-28580＊,155382＊,35644＊,23726＊,36613＊<br/>
-155367＊,36454＊,155367＊,14171＊,154763＊<br/>
-33080＊,23864＊,19868＊,26642＊,32719＊,23889＊<br/>
-21281＊,12261＊,18385＊,10198＊,14474＊,27527＊<br/>
-32669＊,21106＊,11364＊,10198＊,31719＊,33591＊<br/>
-24634＊,17925＊,30610＊,35422＊,32103＊,23549＊<br/>
-30433＊,23522＊,11247＊,16586＊,31298＊,29500＊<br/>
-
+19986＊,155367＊,155367＊ <br/>
+27239＊,19186＊,10195＊,15088＊,154970＊,28580＊,13732＊,<br/>
+34468＊,15109＊,20509＊,21169＊,25028＊,28083＊,19301＊,<br/>
+20851＊,22937＊,18054＊,23846＊,20231＊,23449＊,28393＊,<br/>
+19236＊,32343＊,18334＊,17317＊,20288＊,16133＊,23071＊,<br/>
+32989＊,24297＊,32396＊,28068＊,21205＊,20770＊,30125＊,<br/>
+25046＊,33328＊,27418＊,23136＊,17408＊,18993＊,20202＊,<br/>
+27184＊,11796＊,29043＊,21633＊,11063＊,11364＊,26611＊,<br/>
+18235＊,19624＊,27873＊,35395＊,24726＊,18463＊,16203＊<br/>
 
 
 The rewards are:<br/>
@@ -39,7 +38,8 @@ Top 11-50: 500 ADD per user<br/>
 
 2.For the FIRST 100 traders whose trading volume (24h) exceed 100 EOS, 100 ADD giveaways for every 100-EOS-equivalent volume will be awarded pursuant to their TOTAL trading volume (buying plus selling).
 The winning UIDs are:<br>
-133259＊,26410＊,277412＊ 
+43879＊,26460＊,195612＊ 
+
 
 
 
@@ -63,7 +63,7 @@ Enjoy your trading!
 
 
 Bitpie Team<br/>
-August 11, 2018
+August 13, 2018
 
 Find us on<br/>
 Telegram:<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>
