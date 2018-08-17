@@ -15,8 +15,8 @@ time:
 比特派 Bitpie 钱包的 “派银行”已经为 EOS 持有者发放 ADD、CHL、IQ、EOX、HORUS、BLACK、EDNA 七个基于EOS主网的币种的空投。
 
 以下是 此次空投具体情况的介绍：
-
-<table class="table" border="0" cellspacing="0" cellpadding="0">
+
+<table class="table table-content" border="0" cellspacing="0" cellpadding="0">
 <tr><th>代币名称 </th><th>快照时间</th><th> 空投比例</th><th> 官方空投总量</th><th>发行总量</th><th>官方网站</th></tr>
 <tr><td>IQ</td><td>创世区块</td> <td> 5.1IQ:1EOS </td><td>51亿</td><td> 100亿 </td><td><a href="https://everipedia.org/" target="_blank">https://everipedia.org/</a></td></tr> 
 <tr><td>ADD</td><td>创世区块</td> <td> 0.5ADD:1EOS </td><td>5亿</td><td> 100亿 </td><td><a href="https://eosadd.com/" target="_blank">https://eosadd.com/</a></td></tr> 
@@ -27,6 +27,7 @@ time:
 <tr><td>EDNA</td><td>创世区块</td> <td>1EDNA:1EOS </td><td>10亿</td><td> 13亿 </td><td><a href="https://edna.life/" target="_blank">https://edna.life/</a></td></tr>
 <tr><td colspan="6">注：创世区块时间为 2018年 6 ⽉ 3 ⽇ 7 时（UTC+8）</td></tr>
 </table>
+
 
 注：本公告仅摘录基本项目信息供大家参考，不代表比特派Bitpie官方意见，且不构成任何投资建议
 
@@ -43,6 +44,14 @@ Telegram：<a href="https://t.me/bitpie1" target="_blank">t.me/bitpie1</a>
 <style>
 .content-p{
 width:70%;
+}
+@media(max-width:768px){
+.content-p{
+overflow-x:auto;
+}
+.table-content{
+    width:700px;
+}
 }
 </style>
 

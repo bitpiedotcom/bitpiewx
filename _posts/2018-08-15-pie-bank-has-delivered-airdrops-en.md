@@ -16,7 +16,7 @@ Pie Bank of Bitpie Wallet has already delivered ADD, CHL, IQ, EOX, HORUS, BLACK,
 
 Here are the detailed information.
 
-<table class="table" border="0" cellspacing="0" cellpadding="0">
+<table class="table table-content" border="0" cellspacing="0" cellpadding="0">
 <tr><th>Name of token </th><th>Snapshot date</th><th>Receivable</th><th> Airdrop supply</th><th>Total supply</th><th>Official website
 </th></tr>
 <tr><td>IQ</td><td>the Genesis Block</td> <td> 5.1IQ:1EOS </td><td>51billion</td><td> 100billion </td><td><a href="https://everipedia.org/" target="_blank">https://everipedia.org/</a></td></tr> 
@@ -46,7 +46,13 @@ Twitter:<a href="https://twitter.com/BitpieWallet" target="_blank">twitter.com/B
 .content-p{
 width:70%;
 }
+@media(max-width:768px){
+.content-p{
+overflow-x:auto;
+}
+.table-content{
+    width:700px;
+}
+}
 </style>
-
-
 
