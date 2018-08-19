@@ -65,16 +65,12 @@ Tips:<br/>
 • All the time above is Hong Kong Time (UTC+8).<br/>
 
 
-How to Create a New EOS Account: <a href="http://docs.bitpie.com/en/latest/eosaccount/index.html" target="_blank" style="color:red">Click</a><br/>
-How to Import an Existing EOS Account to Bitpie: <a href="http://docs.bitpie.com/en/latest/privateKeyImport/index.html" target="_blank" style="color:red">Click</a>
-
-
-Enjoy your trading!
-
 
 Bitpie Team<br/>
 August 19, 2018
 
 Find us on<br/>
 Telegram:<a href="https://t.me/BitpieInternational" target="_blank">t.me/BitpieInternational</a><br/>
-Twitter:<a href="https://twitter.com/BitpieWallet" target="_blank">twitter.com/BitpieWallet</a>
+Twitter:<a href="https://twitter.com/BitpieWallet" target="_blank">twitter.com/BitpieWallet</a><br/>
+Medium:<a href="https://medium.com/@Bitpie" target="_blank">medium.com/@Bitpie</a>
+

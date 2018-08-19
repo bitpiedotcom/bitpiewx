@@ -72,11 +72,6 @@ time:
 • 以上时间均为香港时间（UTC+8）。
 
 
-创建账户教程：<a href="http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html" target="_blank" style="color:red">点击</a><br/>
-如果您在其它钱包有EOS账户，也可以导入比特派。导入教程：<a href="http://docs.bitpie.com/zh_CN/latest/privateKeyImport/index.html" target="_blank" style="color:red">点击</a>
-祝您交易愉快！
-
-
 比特派团队<br/>
 2018年08月19日
 
