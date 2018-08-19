@@ -3,7 +3,7 @@ layout: post
 title:  ADD/EOS Trading Competition Winner Lists (Day Two 9th -10th Aug.)
 author: 
 lang: en
-data: 2018-08-10
+data: 2018-08-11
 post_id: 52
 id: 52
 ref: ad
