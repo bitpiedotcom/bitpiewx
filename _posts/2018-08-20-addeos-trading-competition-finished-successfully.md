@@ -19,7 +19,7 @@ time:
 
 本次交易大赛得奖名单：<br/>
 第一期：<a href="https://bitpie.com/2018-08-10/addeos-trading-competition-winner" target="_blank">点击</a><br/>
-第二期：<a href="https://bitpie.com/2018-08-11/addeos-trading-competition-winner" target="_blank">点击</a>>br/>
+第二期：<a href="https://bitpie.com/2018-08-11/addeos-trading-competition-winner" target="_blank">点击</a><br/>
 第三期：<a href="https://bitpie.com/2018-08-12/addeos-trading-competition-winner" target="_blank">点击</a><br/>
 第四期：<a href="https://bitpie.com/2018-08-13/addeos-trading-competition-winner" target="_blank">点击</a><br/>
 第五期：<a href="https://bitpie.com/2018-08-19/addeos-trading-competition-winner" target="_blank">点击</a><br/>
