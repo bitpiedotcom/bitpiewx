@@ -14,8 +14,9 @@ time:
 
 比特派 Bitpie 已完成2018年8月8日至8月13日 ADD/EOS 交易大赛奖励的派发工作。中奖用户可以打开比特派钱包，在派银行的流水记录中查询自己收到的分发数量。
 
-相关链接：<a href="https://bitpie.com/2018-08-20/addeos-trading-competition-finished-successfully" target="_blank">点击</a>
- 
+相关链接：<a href="https://bitpie.com/2018-08-20/addeos-trading-competition-finished-successfully" target="_blank">点击</a><br/>
+
+
 感谢您对比特派钱包的支持！
 
 比特派团队<br/>
