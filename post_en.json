@@ -18,12 +18,6 @@
 	"describe":"At 16:00 8th August, Bitpie listed the ADD/EOS trading pair in its built-in exchange. To extend the gratitude to our users’ trust and supports, Bitpie and ADD launched the trading competition of ADD/EOS with multiple rewards. For details, please click "
   },
   {
-	"title":"Pie Bank Has Delivered ADD, CHL, IQ, EOX, HORUS, BLACK, EDNA Airdrops",
-	"url":"/2018-08-15/pie-bank-has-delivered-airdrops-en",
-	"date":"2018-08-15",
-	"describe":"Dear Bitpiers:Pie Bank of Bitpie Wallet has already delivered ADD, CHL, IQ, EOX, HORUS, BLACK, EDNA Airdrops based on EOS mainnet to EOS holders."
-  },
-  {
 	"title":" ADD/EOS Trading Competition Winner Lists (Day Four 11th -12th Aug.)",
 	"url":"/2018-08-13/addeos-trading-competition-winner-en",
 	"date":"2018-08-13",
@@ -52,12 +46,6 @@
 	"url":"/2018-08-10/resumption-sending-zcash-note-en",
 	"date":"2018-08-10",
 	"describe":"Dear Bitpiers, The upgrade of Zcash mainnet, Overwinter, is completed and Bitpie Wallet has finished the testing and upgrade targeting Zcash mainnet. Now the sending service of Zcash is resumed. Please update your Bitpie Wallet to the latest version v3.4.6 and enjoy the sending service.Thanks for your support for Bitpie Wallet."
-  },
-  {
-	"title":"Announcement of ADD and CHL Airdrops and Open of ADD and CHL Trade in Pie Bank ",
-	"url":"/2018-08-08/piebank-addchl-candy-note-en",
-	"date":"2018-08-08",
-	"describe":"Dear Bitpiers,Pie Bank has opened the receiving of ADD and CHL airdrops. It has also launched ADD/EOS and CHL/EOS trading pairs and ADD trading competition"
   },
   {
 	"title":"Server Upgrade Notification",
@@ -126,12 +114,6 @@
     "describe":"With your support and encouragement, Bitpie has now become a wallet that supports the storing and trading of multiple blockchain assets such as Ethereum, Bitcoin and Litecoin.The logo with a lowercase letter b is not suitable for our current products, and it may result in a misunderstanding that Bitpie is a wallet just for Bitcoin, so we have upgraded the Bitpie logo.  Pie wallet will start to use new Logo in 1st July 2018."
  },
  {
-    "title":"Bitpie will Suspend EOS Deposit and Withdrawals and its Sending and Receiving Services at 24:00 on June 1st 2018(GMT+8) for EOS Mainnet Switch",
-    "url":"/2018-05-30/bitpie-eos-mainnet-switch-note-en",
-    "date":"2018-05-30",
-    "describe":"Dear Bitpiers: EOS will stop mapping at 06:59:59 on June 2nd, 2018(GMT+8) and then take a snapshot. After that all EOS tokens based on Ethereum ERC20 will be frozen and not able to be transferred. To ensure that Bitpie users can take a snapshot and get their assets on the EOS Main Net, Bitpie will suspend EOS deposit and withdrawals and its sending and receiving services at 24:00 on June 1st 2018(GMT+8). We will resume the deposit and withdrawal promptly after the EOS Mainnet runs stably. Please pay attention to our announcement for the specific time. Your support for Bitpie is greatly appreciated!"
- },
- {
     "title":"Notice of Supporting eosDAC Token Migration and Mapping ",
     "url":"/2018-05-30/eosdac-mainnet-assets-migration-and-mapping-en",
     "date":"2018-05-30",
@@ -185,23 +167,11 @@
 
 },
 {
-	"title":"Bitpie  Plan on EOS Ecosystem",
-	"url":"/2018-04-13/bitpie-about-eos-note-en",
-	"describe":"As the EOS mainnet launching is approaching, many candidates have published campaign plans for eos-block producers or airdrop programs. Bitpie is a firm supporter of EOS ecosystem and keeping updated for the development of the project as well as close contact with Block.one team. For the campaigns of the eos-block producers, we also maintain a keen interest in it and will gradually publish our plans as the case may be. Furthermore, we open our doors to all the eos-producer candidates in of hope of engaging in the community and ecosystem building...",
-	"date":"2018-04-13"
-},
-{
 	"title":"Notice of Compensation",
 	"url":"/2018-04-11/btv-notice-of-compensation-en",
 	"describe":"Dear users,This letter is to announce that the compensations to those users who suffered the loss of miner fees due to replay attack issue of BTV have been paid. Background：On Feb. 7th, 2018, it’s noted that the “replay attack” protection encountered some uncertain problems. To protect the safety of the users’ assets, Bitpie stopped the BTV transfer(send/receive) service in no time and reminded BTV users to transfer their BTC into a new address... ",
 	"date":"2018-04-11"
 
-},
-{
-	"title":"How to Receive EOS Airdrops in Bitpie Wallet",
-	"url":"/2018-04-09/eos-candy-method-note-en",
-	"describe":"Due to the design idea of EOS ecosystem, in the process of building the EOS architecture, many giveaways will be produced and airdropped to EOS holders. There are majorly two approaches to secure EOS giveaways: Approach 1: You need to accomplish the EOS public key mapping; Tutorial on How to Carry Out EOS Mapping: Click Approach 2: Snapshots to EOS holders’ addresses will be taken before the launch of the EOS mainnet, airdropping will be carried out as per the EOS numbers at the moment of snapshots, e.g., eosDAC. Bitpie Wallet enables you to secure the airdropped tokens through the above either way: 1.For EOS holders whose EOS in the wallet account: Regarding Approach 1: please accomplish EOS mapping, giveaways will be airdropped to your account. Regarding Approach 2: please ensure you have EOS in Bitpie Wallet ...",
-	"date":"2018-04-09"
 },
 {
 	"title":"Announcement on BitHD Delivery and 2nd Round of Sales",
@@ -246,12 +216,7 @@
 	"date":"2018-03-13"
 },
 
-{
-	"title":"Urgent notification regards potential replay attack of BTV hard-fork",
-	"url":"/2018-02-07/btv-notice-en",
-	"describe":"Dear users, We just found there is an issue in BTV hard fork code might cause potential replay attack. To protect users’ asset safety, Bitpie has already shutdown the BTV wallet function. As of now, 3 users’ addresses were affected, but user’s asset are safe since Bitpie’s hard-fork support solution has already considered scenario like this. Bitpie will help users to recovery their assets in technical ways. If you have already claimed BTV, you don’t have to worry about your asset safety, but make following operation in Bitpie is highly suggested to avoid potential issue: Open Bitpie app and switch to BTC. At BTC Main menu, click “Receive” and copy your current BTC receive address. Back to Main menu, click “Send”, send all your BTC asset to the receive address and confirm to send...",
-	"date":"2018-02-07"
-},
+
 
 {
 	"title":"BCH Trading Competition and Lucky Draw",
@@ -288,12 +253,6 @@
 	"date":"2017-12-10"
 },
 
-{
-	"title":"Statement on The Airdrop of Venus Project",
-	"url":"/2017-12-06/statement-on-venus-airdrop-en",
-	"describe":"AMT is a technical community that focuses on innovation in blockchain area. Venus is their first project which aims to create new distributed DNS service system, distributed web service system, and storage sharing system. Venus project team will deliver VNS to cryptocurrency community by an innovative Airdrop. The airdrop detail is as follow： （1） BTC: VNS=1:1000 （2） ETH: VNS=1:50 （3） LTC: VNS=1:9 （4） DASH: VNS=1:65 （5） ETC: VNS=1:3 （6） XMR: VNS=1:17 As an onchain blockchain asset wallet, our users are managing their private keys by themselves. Therefore, we are not able to claim VNS on behalf of users. But we will work with project team to provide tutorials to help our users to claim VNS by themselves after the detail airdrop claiming plan is released. In future, Bitpie will update our wallet to support VNS. Thanks for your support. Bitpie Team ",
-	"date":"2017-12-6"
-},
 
 {
 	"title":"Scheduled Server Upgrade Notification",
