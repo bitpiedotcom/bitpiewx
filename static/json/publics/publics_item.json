@@ -143,6 +143,26 @@
   ],
   "en":[
     {
+      "title":"Bitpie Wallet Will Support the Conversion into Mainnet BTM",
+      "intro":"Dear Bitpiers, Bitpie and Bytom have announced all-round cooperation in the ecology. The two parties will conduct deep cooperation in various areas in the future. Bitpie has just finished the connection to Bytom mainnet and will convert former BTM into mainnet BTM for Bitpiers. The detailed information are as follows.",
+      "data":"2018-09-17",
+      "watch":1,
+      "id":3,
+      "month":"September",
+      "day":"17",
+      "type":1
+    },
+    {
+      "title":"Bitpie Wallet Has Suspended the Deposit and Withdrawal of SAFE",
+      "intro":"Dear Bitpiers, Bitpie Wallet has closed the deposit and withdrawal functions due to the mainnet upgrade of SAFE for the security of the assets of Bitpiers. Please wait for the resumption.",
+      "data":"2018-09-10",
+      "watch":1,
+      "id":3,
+      "month":"September",
+      "day":"10",
+      "type":1
+    },
+    {
       "title":"Resumption of Sending Zcash(ZEC)",
       "intro":"Dear Bitpiers, The upgrade of Zcash mainnet, Overwinter, is completed and Bitpie Wallet has finished the testing and upgrade targeting Zcash mainnet. Now the sending service of Zcash is resumed. Please update your Bitpie Wallet to the latest version v3.4.6 and enjoy the sending service.Thanks for your support for Bitpie Wallet.",
       "data":"2018-08-10",
