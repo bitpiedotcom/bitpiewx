@@ -1,105 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bither/ad3/img_en.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bither/ad3/img_zh_CN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bither/ad3/img_zh_TW.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.87317d4273c78dca642acbff0dcb18a9.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.87317d4273c78dca642acbff0dcb18a9.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/element-icons.6f0a763.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/1514617885606490.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/438544_image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/bitpie_tron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/0X@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/8btc@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/AIcoin@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/BTCC@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/BYTOM@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/CASH@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/EOSCANNON@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/FBG@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/GXS@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/IMEOS@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/KCoin@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/TRON@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/aelf@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/blockone@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/coinbull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/delphy@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/hecaijing@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/helloeos@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/huobi@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/icon_bitmain@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/icon_okex@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/icon_ontology@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/jinse@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/slowmist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/newse1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/newse3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/newse4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a1.8d1f61f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a2.1779bd4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a3.a130cc9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a4.926f358.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a5.c0eeade.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a6.9e71ea7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a7.2fbba06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a8.0bb9637.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/aboutbg.377f4a6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b1.9818280.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b2.e8cdbe1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b3.76add12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b4.76d8c67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b5.70aa958.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b6.3a26696.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b7.c00a87c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b8.a5deaf0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner@2x.ae0be9d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner_bg.14a8bfe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bg@2x.3648014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bitcoin_banner_phone.715d9fd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bitpie_logo_blue.4f04de6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/business_banner_pic.f61639c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_blue.78dba88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_green.81348f0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_yellow.58af7d3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_da.333b420.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_you1.d1fa637.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_you2.f2e6497.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_zuo1.fd605cd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_zuo2.ff507e7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_en_b@2x.5dfd779.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_footer.1b3ca22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_main@2x.ce2cb3a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phone-banner-bg.990a26c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phone-banner-cn.61cae77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phone-shield-img.ab8e781.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_f@2x.163faa1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_o@2x.60330bc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_t@2x.9bca538.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_th@2x.82acf76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/rof.cae3e2a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/shu2.a5c3855.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/shu3.46e4d3b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/tree1.48eaeb9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.ae20a84ddb0a763f2336.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.ae20a84ddb0a763f2336.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c67b4b18bc5c680e8f23.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c67b4b18bc5c680e8f23.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bither/img_en.png" afterPath="$PROJECT_DIR$/bither/img_en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bither/img_zh_CN.png" afterPath="$PROJECT_DIR$/bither/img_zh_CN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bither/img_zh_TW.png" afterPath="$PROJECT_DIR$/bither/img_zh_TW.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bither/bither_ad.json" afterPath="$PROJECT_DIR$/bither/bither_ad.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="" />
     <ignored path="bitpiedemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -339,20 +241,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -772,13 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bither/download/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
