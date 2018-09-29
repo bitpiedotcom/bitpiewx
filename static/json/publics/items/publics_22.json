@@ -30,5 +30,37 @@
         "data":"Bitpie 社群：<br/>新浪微博：@比特派钱包<a href='weibo.com/bitpiewallet' target='_blank'> weibo.com/bitpiewallet</a><br/>微信公众号：公众号搜索“比特派钱包”<br/>Telegram：<a href='t.me/bitpie1' target='_blank'>t.me/bitpie1</a>"
       }
     ]
+  },
+  "en":{
+    "title":"Bitpie Wallet Will Support the Conversion into Mainnet BTM",
+    "data":"2018-09-17",
+    "id":22,
+    "watch":22,
+    "message":[
+      {
+        "type":0,
+        "data":"Dear Bitpiers,"
+      },
+      {
+        "type":0,
+        "data":"Bitpie and Bytom have announced all-round cooperation in the ecology. The two parties will conduct deep cooperation in various areas in the future. Bitpie has just finished the connection to Bytom mainnet and will convert former BTM into mainnet BTM for Bitpiers. The detailed information are as follows."
+      },
+      {
+        "type":0,
+        "data":" 1. From now on, Pie Bank will suspend the withdrawal of BTM-ERC20;<br/>2. The service for the former BTM withdrawal won’t be affected. Anyone who holds BTM based on ERC20 can deposit the ERC20 BTM at the Pie Bank for conversion;<br/>3. BTM-ERC20 of users of Pie Bank will be converted automatically without any operation from the users. Bitpie Wallet will do the conversion for the users;<br/>4. After the conversion, the function of withdrawal of mainnet BTM will be opened;<br/>5. Bitpie Wallet will do the conversion once a week. "
+      },
+      {
+        "type":0,
+        "data":"It is recommended that the Bitpiers who haven’t done the conversion follow this announcement and finish the conversion timely in case of assets loss.  "
+      },
+      {
+        "type":0,
+        "data":"Bitpie Team<br/>September 17, 2018"
+      },
+      {
+        "type":0,
+        "data":"Find us on<br/>Telegram：<a href='t.me/BitpieInternational' target='_blank'>t.me/BitpieInternational</a><br/>Twitter：<a href='twitter.com/BitpieWallet' target='_blank'>twitter.com/BitpieWallet</a><br>Medium :<a href='https://medium.com/@Bitpie' target='_blank'>https://medium.com/@Bitpie</a>"
+      }
+    ]
   }
 }
