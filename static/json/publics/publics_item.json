@@ -153,6 +153,16 @@
   ],
   "en":[
     {
+      "title":"Resumption of Sending SAFE cash",
+      "intro":"Dear Bitpiers, The upgrade of SAFE mainnet, is completed and Bitpie Wallet has finished the testing and upgrade targeting SAFE mainnet. Now the sending service of SAFE is resumed. Please upgrade your Bitpie Wallet to the latest version v3.4.6 and enjoy the sending service.",
+      "data":"2018-09-29",
+      "watch":1,
+      "id":23,
+      "month":"September",
+      "day":"29",
+      "type":1
+    },
+    {
       "title":"Bitpie Wallet Will Support the Conversion into Mainnet BTM",
       "intro":"Dear Bitpiers, Bitpie and Bytom have announced all-round cooperation in the ecology. The two parties will conduct deep cooperation in various areas in the future. Bitpie has just finished the connection to Bytom mainnet and will convert former BTM into mainnet BTM for Bitpiers. The detailed information are as follows.",
       "data":"2018-09-17",
