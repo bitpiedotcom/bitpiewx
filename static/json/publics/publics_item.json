@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"关于比特派暂停 LBTC 充提的公告",
+      "intro":"尊敬的派友：由于 LBTC 主网升级，为了保障平台用户利益，比特派将于香港时间2018年10月10日10:00关闭充提功能，恢复时间请关注后续通知。",
+      "data":"2018-10-10",
+      "watch":1,
+      "id":24,
+      "month":"October",
+      "day":"10",
+      "type":1
+    },
+    {
       "title":"关于恢复 SAFE 发币功能的公告",
       "intro":"亲爱的派友：SAFE 的主网升级已经完成，比特派钱包目前已经针对 SAFE 新主网完成了调试和升级，现在已经重新开放 SAFE 发币功能，请升级 App 至最新版 v3.5.8 即可使用。感谢您对比特派 Bitpie 的支持。",
       "data":"2018-09-29",
@@ -152,6 +162,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Bitpie Wallet Has Suspended the Deposit and Withdrawal of LBTC",
+      "intro":"Dear Bitpiers, Bitpie Wallet has closed the deposit and withdrawal functions due to the mainnet upgrade of LBTC for the security of the assets of Bitpiers. Please wait for the resumption.",
+      "data":"2018-10-10",
+      "watch":1,
+      "id":24,
+      "month":"October",
+      "day":"10",
+      "type":1
+    },
     {
       "title":"Resumption of Sending SAFE cash",
       "intro":"Dear Bitpiers, The upgrade of SAFE mainnet, is completed and Bitpie Wallet has finished the testing and upgrade targeting SAFE mainnet. Now the sending service of SAFE is resumed. Please upgrade your Bitpie Wallet to the latest version v3.4.6 and enjoy the sending service.",
