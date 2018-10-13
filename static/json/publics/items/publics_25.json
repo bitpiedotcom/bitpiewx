@@ -50,5 +50,57 @@
         "data":"Bitpie 社群：<br/>新浪微博：@比特派钱包<a href='weibo.com/bitpiewallet' target='_blank'> weibo.com/bitpiewallet</a><br/>微信公众号：公众号搜索“比特派钱包”<br/>Telegram：<a href='t.me/bitpie1' target='_blank'>t.me/bitpie1</a>"
       }
     ]
+  },
+  "en":{
+    "title":"The First Paid Placement is Coming",
+    "data":"2018-10-13",
+    "id":25,
+    "watch":25,
+    "message":[
+      {
+        "type":0,
+        "data":"In a long run, Bitpie always put the users experience at the first place—we refuse to provide any function that harm user experience, of course including Advertisement."
+      },
+      {
+        "type":0,
+        "data":"Nevertheless, as a leading multi-assets wallet, Bitpie is committed to recommend more better third-party products and services. The point is how would we achieve this?"
+      },
+      {
+        "type":0,
+        "data":"Owing to Uber, we got inspired from the design of its App. The first paid placement of Bitpie is designed at the coin-sending completion page. The followings are the seasons why we decide to do so:"
+      },
+      {
+        "type":0,
+        "data":"1.Minimal interference to the users: coin-sending success is a completion of a series of operations. Showing some related Ad will not interrupt user’s operation and hence bring no discomfort to user."
+      },
+      {
+        "type":0,
+        "data":"2.Being helpful to display Ad to target users: the users who completed the coin sending (regardless of btc, eth, eos or other coins or tokens) are the real blockchain assets owners. Showing Ad to them is a precise recommendation."
+      },
+      {
+        "type":0,
+        "data":"3.In the future, this paid placement will integrate AI strategies. For instance, we will push EOS DApp Ads to EOS senders, or push some high-quality projects’ Ad to eth senders."
+      },
+      {
+        "type":0,
+        "data":"4.In addition, this advertising position is also suitable to do some giveaways. On one hand, senders are free to receive some airdrops, on the other hand, it is a good way for projects to get close connections with their investors or users."
+      },
+      {
+        "type":0,
+        "data":"At present, heavy users account for a very high proportion in Bitpie Wallet; the assets scale, DAU, daily sending times and sending amounts are all at a leading place in the industry. Our users include a large number of OTC trader, miners ICO participants and DApp players, what are you waiting for?"
+      },
+      {
+        "type":0,
+        "data":"The first batch of partners collection for Bitpie’s first Paid Placement starts from now on to 20th October. Don’t hesitate to reach out to contact us for business collaboration: <a href='mailto:b@bitpie.com'> b@bitpie.com </a> ."
+      },
+      {
+        "type":0,
+        "data":"Bitpie Team<br/>October 13, 2018"
+      },
+      {
+        "type":0,
+        "data":"Find us on<br/>Telegram：<a href='t.me/BitpieInternational' target='_blank'>t.me/BitpieInternational</a><br/>Twitter：<a href='twitter.com/BitpieWallet' target='_blank'>twitter.com/BitpieWallet</a><br>Medium: <a href='https://medium.com/@Bitpie' target='_blank'>https://medium.com/@Bitpie</a>"
+      }
+    ]
   }
 }
