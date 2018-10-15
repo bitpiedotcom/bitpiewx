@@ -2,16 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.01021949c139163199c9.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.01021949c139163199c9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.5af8b52bd74a5e4f3244c43e6df5bda8.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.5af8b52bd74a5e4f3244c43e6df5bda8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.a9759f87831f1d254fb4.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.a9759f87831f1d254fb4.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.cf3826d2f00600f2aa4b24fc0d260a1c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.cf3826d2f00600f2aa4b24fc0d260a1c.css.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" afterPath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.5af8b52bd74a5e4f3244c43e6df5bda8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.5af8b52bd74a5e4f3244c43e6df5bda8.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/element-icons.6f0a763.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/1514617885606490.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/438544_image3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/bitpie_tron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/0X@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/8btc@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/AIcoin@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/BTCC@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/BYTOM@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/CASH@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/EOSCANNON@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/FBG@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/GXS@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/IMEOS@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/KCoin@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/TRON@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/aelf@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/blockone@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/coinbull.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/delphy@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/hecaijing@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/helloeos@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/huobi@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/icon_bitmain@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/icon_okex@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/icon_ontology@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/jinse@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/index_friend/slowmist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/news4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/newse1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/newse3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/news/newse4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a1.8d1f61f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a2.1779bd4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a3.a130cc9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a4.926f358.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a5.c0eeade.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a6.9e71ea7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a7.2fbba06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/a8.0bb9637.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/aboutbg.3c6a77b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b1.9818280.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b2.e8cdbe1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b3.76add12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b4.76d8c67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b5.70aa958.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b6.3a26696.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b7.c00a87c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/b8.a5deaf0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner@2x.ae0be9d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner_bg.0b922d7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bg@2x.3648014.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bg_en_phone.1942692.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bitcoin_banner_phone.715d9fd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bitpie_logo_blue.4f04de6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/business_banner_pic.f61639c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/download_en.120990e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_blue.78dba88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_green.81348f0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon_yellow.58af7d3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_da.333b420.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_you1.d1fa637.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_you2.f2e6497.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_zuo1.fd605cd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/join_banner_zuo2.ff507e7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_en_b@2x.5dfd779.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_footer.1b3ca22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_main@2x.ce2cb3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phone-banner-bg.990a26c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phone-banner-cn.61cae77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phone-shield-img.ab8e781.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_f@2x.163faa1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_o@2x.60330bc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_t@2x.9bca538.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pic_th@2x.82acf76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/rof.cae3e2a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/shu2.a5c3855.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/shu3.46e4d3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/tree1.48eaeb9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.01021949c139163199c9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.01021949c139163199c9.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.961ac792546fc2aa0ba5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.961ac792546fc2aa0ba5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.a9759f87831f1d254fb4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.a9759f87831f1d254fb4.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c67b4b18bc5c680e8f23.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c67b4b18bc5c680e8f23.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bitpiedemo.iws" />
@@ -38,91 +122,97 @@
         <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_21.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="222" selection-start-line="53" selection-start-column="222" selection-end-line="53" selection-end-column="222" />
+              <caret line="53" column="223" selection-start-line="53" selection-start-column="223" selection-end-line="53" selection-end-column="223" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="img_zh_CN.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bither/ad2/img_zh_CN.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="publics_20.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_20.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bither_ad.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bither/bither_ad.json">
+      <file leaf-file-name="publics_19.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_19.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publics_18.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_18.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publics_24.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_24.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="15" selection-start-line="28" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publics_25.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_25.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="184" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publics_23.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_23.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="223" selection-start-line="53" selection-start-column="223" selection-end-line="53" selection-end-column="223" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bither/index.html">
+        <entry file="file://$PROJECT_DIR$/expie/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publics_23.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_23.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36619717">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img_zh_CN.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bither/ad1/img_zh_CN.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="publics_22.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_22.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="34" column="8" selection-start-line="33" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="223" selection-start-line="61" selection-start-column="223" selection-end-line="61" selection-end-column="223" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publics_item.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="publics_item.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/json/publics/publics_item.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publics_12.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_12.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="15" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="214" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publics_11.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_11.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.5621806">
+              <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -146,8 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2018-08-08-bitpie-piebank-service-upgrade-note-en.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-08-piebank-addchl-candy-note.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-08-piebank-addchl-candy-note-en.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-10-sending-zcash-note.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-10-resumption-sending-zcash-note-en.md" />
@@ -192,11 +280,13 @@
         <option value="$PROJECT_DIR$/android/SHA256SUMS" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/bither/android/SHA256SUMS" />
+        <option value="$PROJECT_DIR$/bither/bither_ad.json" />
+        <option value="$PROJECT_DIR$/static/json/publics/items/publics_23.json" />
         <option value="$PROJECT_DIR$/static/json/publics/items/publics_22.json" />
         <option value="$PROJECT_DIR$/static/json/publics/items/publics_21.json" />
-        <option value="$PROJECT_DIR$/bither/bither_ad.json" />
+        <option value="$PROJECT_DIR$/static/json/publics/items/publics_24.json" />
+        <option value="$PROJECT_DIR$/static/json/publics/items/publics_25.json" />
         <option value="$PROJECT_DIR$/static/json/publics/publics_item.json" />
-        <option value="$PROJECT_DIR$/static/json/publics/items/publics_23.json" />
       </list>
     </option>
   </component>
@@ -209,10 +299,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="96" />
-    <option name="y" value="96" />
+    <option name="x" value="344" />
+    <option name="y" value="66" />
     <option name="width" value="1280" />
-    <option name="height" value="497" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -238,7 +328,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,88 +346,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitpiedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,28 +450,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="96" y="96" width="1280" height="497" extended-state="0" />
-    <editor active="true" />
+    <frame x="344" y="66" width="1280" height="729" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28038126" sideWeight="0.414791" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28038126" sideWeight="0.414791" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19777602" sideWeight="0.585209" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32598424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -501,52 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-03-on-lbtc-support-and-blockproducer-campaign-en.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-15-bitpie-server-scheduled-upgrade-notice.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-08-multiple-eosio-mainnets-supports.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/post.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/post_en.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -804,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_18.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_17.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -839,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_20.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_6.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -864,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="15" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,15 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_21.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="222" selection-start-line="53" selection-start-column="222" selection-end-line="53" selection-end-column="222" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,11 +838,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bither/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expie/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -912,24 +858,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_22.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="34" column="8" selection-start-line="33" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="223" selection-start-line="61" selection-start-column="223" selection-end-line="61" selection-end-column="223" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/json/publics/publics_item.json">
+    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_21.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="223" selection-start-line="53" selection-start-column="223" selection-end-line="53" selection-end-column="223" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_20.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_19.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_18.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_23.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36619717">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="223" selection-start-line="53" selection-start-column="223" selection-end-line="53" selection-end-column="223" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_24.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="15" selection-start-line="28" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/publics/items/publics_25.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/json/publics/publics_item.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5621806">
+          <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
           <folding />
         </state>
       </provider>
