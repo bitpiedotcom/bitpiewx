@@ -1,9 +1,0 @@
----
-layout: default
-img: phones.png
-category: Services
-title: 
-link: 
-contents: Private key only in your hand, no access by others.
-description: |
----

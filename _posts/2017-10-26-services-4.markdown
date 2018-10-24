@@ -1,9 +1,0 @@
----
-layout: default
-img: kyc.png
-category: Services
-title: 
-titleDescription: 
-contents: Built-in professional KYC/anti-fraud system to comply with laws and regulations.
-description: |
----

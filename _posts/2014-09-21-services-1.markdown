@@ -1,9 +1,0 @@
----
-layout: default
-img: ipone6_front.png
-category: Services
-title: 
-titleDescription: 
-contents: An easy-to-use wallet service, you can easily manage your multi-blockchain assets.
-description: |
----
