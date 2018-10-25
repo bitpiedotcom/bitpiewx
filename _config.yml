@@ -136,6 +136,6 @@ markdown:       kramdown
 #   term index.html   #
 # ----------------------- #
 userAgreementName: 用户服务协议
-userAgreementVersion: 1.1
-userAgreementDate: 2017-11-23
+userAgreementVersion: 2.0
+userAgreementDate: 2018-10-25
 
