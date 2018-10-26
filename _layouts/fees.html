@@ -185,24 +185,30 @@
                         //console.log(data);
                         var html = "";
                         for (var i = 0, l = data.length; i < l; i++) {
-                            var str = data[i].name;
-                            if(str.indexOf("BCC") > -1){
-                                str = str.replace(/BCC/,"BCH");
-                            }
-                            var end;
-                            var result;
-                            if(str.lastIndexOf("BTC") > -1 && str.lastIndexOf("SCNY") == -1) {
-                                end = str.lastIndexOf("BTC");
-                                result = str.substr(0,end)+"/BTC";
-                            }else if(str.lastIndexOf("SCNY") > -1){
-                                end = str.lastIndexOf("SCNY");
-                                result = str.substr(0,end)+"/SCNY";
-                            }else if(str.lastIndexOf("ETH") > -1){
-                                end = str.lastIndexOf("ETH");
-                                result = str.substr(0,end)+"/ETH";
-                            }else if(str.lastIndexOf("USDT") > -1){
-                                end = str.lastIndexOf("USDT");
-                                result = str.substr(0,end)+"/USDT";
+
+                            var names = data[i].name,start,end,result;
+                            if(names.lastIndexOf("USDT") > -1 && names.lastIndexOf("USDT") != 0){
+                                start = names.lastIndexOf("USDT");
+                                end = names.substr(0,start);
+                                result = end+"/"+"USDT";
+                            }else if(names.lastIndexOf("ETH") > -1 && names.lastIndexOf("ETH") != 0){
+                                start = names.lastIndexOf("ETH");
+                                end = names.substr(0,start);
+                                result = end+"/"+"ETH";
+
+                            }else if(names.lastIndexOf("BTC") > -1 && names.lastIndexOf("BTC") !=0){
+                                start = names.lastIndexOf("BTC");
+                                end = names.substr(0,start);
+                                result = end+"/"+"BTC";
+
+                            }else if(names.lastIndexOf("SCNY") > -1 && names.lastIndexOf("SCNY") !=0){
+                                start = names.lastIndexOf("SCNY");
+                                end = names.substr(0,start);
+                                result = end+"/"+"SCNY";
+                            }else if(names.lastIndexOf("EOS") > -1 && names.lastIndexOf("EOS") !=0){
+                                start = names.lastIndexOf("EOS");
+                                end = names.substr(0,start)
+                                result = end+"/"+"EOS";
                             }
 
 
