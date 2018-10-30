@@ -203,6 +203,16 @@
   ],
   "en":[
     {
+      "title":"Resumption of ZEC (Zcash) Sending",
+      "intro":"Dear Bitpiers, ZEC (Zcash) mainnet upgrade is completed, and Bitpie wallet has carried out the debugging and upgrading upon ZEC. Since now, the sending of ZEC is resumed. Please update to the newest version (android v3.7.1, iOS v3.6.8) on Bitpie.com.",
+      "data":"2018-10-30",
+      "watch":1,
+      "id":28,
+      "month":"October",
+      "day":"30",
+      "type":1
+    },
+    {
       "title":"Announcement on the Suspension of ZEC Withdrawal and Deposit Service",
       "intro":"Dear Bitpiers, According to ZEC official announcement, ZEC will have a hard fork at block height 419200. Hence, Bitpie will suspend ZEC's withdrawal and deposit service at 9:30 a.m. on October 28th (Hong Kong time). When the ZEC hard fork is completed and runs stable, we will resume the service immediately, the specific time will be informed as an announcement.",
       "data":"2018-10-25",
