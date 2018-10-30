@@ -90,5 +90,9 @@
   {
     "src":"/static/image/index_friend/icon_ontology@2x.png",
     "link":"https://www.bitmain.com/"
+  },
+  {
+    "src":"/static/image/index_friend/Chaince@2x.png",
+    "link":"https://chaince.com/"
   }
 ]
