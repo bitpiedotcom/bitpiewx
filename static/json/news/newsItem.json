@@ -1,6 +1,26 @@
 {
   "cn":[
     {
+      "title":"万万没想到，日本币圈这样评价『比特护盾』！",
+      "intro":"说到安全管理虚拟货币，不可缺少的工具就是「钱包」。随着交易所各种丢币事件的发生，币圈各个角落都开始重视起资产安全问题。2018年3月开始，『BITHD（比特护盾）』登陆日本。而这篇文章是日本知名媒体“BITDAYS”编集部绝密的入手了『BITHD（比特护盾）』后，与四个非常熟悉虚拟货币的大佬进行座谈后的交流记录。",
+      "data":"2018-08-09",
+      "type":2,
+      "url":"http://www.sohu.com/a/246093898_100129607",
+      "id":4,
+      "img":"/static/image/news/news4.jpg",
+      "watch":"481"
+    },
+    {
+      "title":"彩云评测：BitHD (比特护盾)钱包",
+      "intro":"BitHD(比特护盾)是一款智能手表样式的数字货币硬件钱包，由比特派钱包团队历时一年研发并推出，该团队开发项目之一比太钱包是国内唯一被比特币官网推荐的钱包，在过去几年时间为数十万用户安全保管了数十万比特币资产，无一起安全事故",
+      "data":"2018-08-06",
+      "type":2,
+      "url":"https://www.cybtc.com/article-3225-1.html",
+      "id":3,
+      "img":"/static/image/news/news2.jpg",
+      "watch":4436
+    },
+    {
       "title":"比特派香港办公室成立，作为Fin-Tech企业将受香港政府大力支持",
       "intro":"近日，比特派钱包入驻香港数码港，香港办公室正式成立。香港政府对于加密经济及区块链技术持较为开放的态度，公司作为Fin-Tech企业也将受到香港政府的大力支持。",
       "data":"2018-07-20",
@@ -29,16 +49,26 @@
       "type":2,
       "img":"/static/image/news/newse1.png",
       "url":"https://medium.com/@Bitpie/the-way-for-bitpie-to-eos-ecology-concentration-leads-to-profession-ba0ad0efad4c",
-      "id":1
+      "id":3
     },
     {
       "title":"Why Digital Wallets Need Omni USDT – Bitpie Wallet – Medium",
       "intro":"Some people in the blockchain industry said: the war among digital wallets is on the verge. They think that many start-ups have rushed into digital wallet field and wallet developers have sprung up.",
-      "data":"2017-08-09",
+      "data":"2018-08-09",
       "type":2,
       "img":"/static/image/news/newse3.png",
       "url":"https://medium.com/@Bitpie/why-digital-wallets-need-omni-usdt-200f24c5d00f",
-      "id":3
+      "id":2
+    },
+    {
+      "title":"Bitpie Hong Kong Office Founded as a FinTech Corporation",
+      "intro":"Recently, Bitpie wallet entered Cyberport of Hong Kong as Bitpie Hong Kong Office established. Giving that Hong Kong government holds an open attitude towards crypto economy and blockchain technology, and provides support for FinTech corporations, Bitpie, as a FinTech corporation, will probably gain the support from Hong Kong government.",
+      "data":"2018-07-20",
+      "type":2,
+      "url":"https://medium.com/@Bitpie/bitpie-hong-kong-office-set-up-and-is-supported-by-hong-kong-government-as-a-fin-tech-corporation-8bdd8a1f8a20",
+      "img":"/static/image/news/news1.png",
+      "id":1
+
     }
   ]
 }
