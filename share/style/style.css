@@ -192,6 +192,11 @@ body{
   transition:all 1s;
   top:0;
   left:-1000px;
+  opacity: 0;
+}
+.country-box.on{
+  left:0;
+  opacity: 1;
 }
 .country-list-box{
   margin-top:30px;
@@ -223,4 +228,31 @@ body{
   line-height:30px;
   background:#fff;
   outline:none;
+}
+.yz-btn.on{
+  color:#c8c8c8;
+  border:1px solid #c8c8c8;
+}
+.share-canvas-box{
+  /*display:none;*/
+  position: fixed;
+  left:-750px;
+  top:0;
+}
+.share-canvas{
+  position:relative;
+  width:750px;
+  height:1334px;
+}
+.share_bg{
+  position:absolute;
+  top:0;
+  left:0;
+}
+.share_qr{
+  width:100px;
+  height:100px;
+  position:absolute;
+  left:137px;
+  top:451px;
 }
