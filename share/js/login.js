@@ -86,16 +86,22 @@ $(function(){
       width: 750,
       height: 1334
     }
-    html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
-      canvas.id = 'share_png'
-      $('body').append(canvas)
-      var ctx = canvas.getContext("2d");
-      var img = document.getElementById('share_png').toDataURL('image/png')
-      console.log(img)
-    });
+    // html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
+    //   $('body').append(canvas)
+    //   var img = canvas.toDataURL('image/png')
+    //   console.log(img)
+    // });
     dsBridge.call("bp_interaction.getShareLink","",function (v) {
       console.log(v)
       new QRCode(document.getElementById('qrcode'), v);
+      html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
+        $('body').append(canvas)
+        var img = canvas.toDataURL('image/png')
+        console.log(img)
+        dsBridge.call("bp_interaction.openShareBase64Img",img, function (v) {
+          console.log(v)
+        })
+      });
 
     })
   })
