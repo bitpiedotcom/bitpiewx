@@ -93,15 +93,14 @@ $(function(){
     // });
     dsBridge.call("bp_interaction.getShareLink","",function (v) {
       console.log(v)
-      alert('0')
+      console.log('0')
       new QRCode(document.getElementById('qrcode'), v);
       html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
-        $('body').append(canvas)
         var img = canvas.toDataURL('image/png')
-        alert('1')
+        console.log('1')
         dsBridge.call("bp_interaction.openShareBase64Img",img, function (v) {
           console.log(v)
-          alert('2')
+          console.log('2')
         })
       });
 
