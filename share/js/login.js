@@ -86,14 +86,7 @@ $(function(){
       width: 750,
       height: 1334
     }
-    // html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
-    //   $('body').append(canvas)
-    //   var img = canvas.toDataURL('image/png')
-    //   console.log(img)
-    // });
     dsBridge.call("bp_interaction.getShareLink","",function (v) {
-      console.log(v)
-      console.log('0')
       $("#share_qr").html(' ')
       new QRCode(document.getElementById('share_qr'), v);
       html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
