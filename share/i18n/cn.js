@@ -1,16 +1,17 @@
 const cn = {
   login: {
     intro1: '* 领取此奖励需手机验证',
-    intro2: '请输入手机号',
+    phoneNum: '请输入手机号',
     intro3: '请输入短信验证码',
     intro4: '请输入正确的手机号',
     title1: '选择国家',
     title2: '手机号',
     title3: '短信验证码',
-    getCode1: '获取验证码',
+    getCode: '获取验证码',
     getCode2: '已发送',
     getCode3: '重新获取',
-    button: '领取'
+    button: '领取',
+    fail: '失败'
   },
   reward: {
     button: '立即领取',
@@ -29,4 +30,3 @@ const cn = {
     button: '立即下载比特派钱包'
   }
 }
-export default cn;

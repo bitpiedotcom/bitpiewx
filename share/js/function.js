@@ -22,3 +22,37 @@ function getlang(){
   }
   return lang;
 }
+function pageName() {
+  var strUrl=location.href;
+  var arrUrl=strUrl.split("/");
+  var strPage=arrUrl[arrUrl.length-1];
+  return strPage;
+}
+function i18npage(i18n, pageName){
+  var data;
+  if(pageName === 'login.html'){
+    data = i18n.login
+    $('#intro1').html(data.intro1)
+    $('#phoneNum').html(data.phoneNum)
+    $('#intro3').html(data.intro3)
+    $('#title1').html(data.title1)
+    $('#title2').html(data.title2)
+    $('#title3').html(data.title3)
+    $('#getCode').html(data.getCode)
+    $('#button').html(data.button)
+  }else if(pageName === 'get_reward.html'){
+    data = i18n.reward
+    $('#button').html(data.button)
+    $('#title').html(data.title)
+    $('#foot').html(data.foot)
+    var html = ''
+    for(var i in data.intro){
+      html += '<div>' + data.intro[i] + '</div>'
+    }
+    $('#intro').html(html)
+  }else if(pageName === 'success.html'){
+    data = i18n.success
+    $('#intro').html(data.intro)
+    $('#button').html(data.button)
+  }
+}

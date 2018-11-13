@@ -1,6 +1,18 @@
 $(function(){
-  var url = 'https://dealer.bitpie.songchenwen.com'
+  var url = 'https://pie.getcai.com'
   var win_height = parseInt($(document).height())
+
+  var lang = getlang()
+  var pangName = pageName()
+  console.log(pangName)
+  var i18n ;
+  if(lang === 'cn') {
+    i18n = cn
+  }else{
+    i18n = en
+  }
+  i18npage(i18n,pangName)
+  console.log(i18n)
   $('body').css({'minHeight':win_height})
   $("#change-country").click(function(){
     $('.country-box').addClass('on')
@@ -28,7 +40,7 @@ $(function(){
     var phoneNum = $("#phoneNum").val()
 
     if(!checkPhone(country,phoneNum)){
-      return alert("请输入正确的手机号");
+      return alert(i18n.login.intro4);
     }
     var self = $(this);
     self.attr('disabled',true);
@@ -48,18 +60,18 @@ $(function(){
           if(index<=1) {
             clearInterval(interval);
             $('#getCode').attr('disabled',false);
-            self.text('重新获取');
+            self.text(i18n.login.getCode3);
             $('#getCode').removeClass('on')
             return;
           }
-          self.html('<span lang="en">重新获取，</span>'+index);
+          self.html('<span lang="en">'+ i18n.login.getCode3+'，</span>'+index);
           index--;
         },1000);
 
-        self.text('已发送');
+        self.text(i18n.login.getCode2);
       },
       error:function(e){
-        return alert("失败");
+        return alert(i18n.login.fail);
       }
     })
   })
