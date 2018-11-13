@@ -1,5 +1,5 @@
 $(function(){
-  var url = 'https://pie.getcai.com'
+  var url = 'https://bitpie.songchenwen.com'
   var win_height = parseInt($(document).height())
 
   var lang = getlang()
@@ -46,7 +46,7 @@ $(function(){
     self.attr('disabled',true);
     $.ajax({
       type:'GET',
-      url:url+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
+      url:'https://dealer.bitpie.songchenwen.com'+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
       dataType:'json',
       success:function(data){
         if(data.code != 200) {
@@ -71,6 +71,7 @@ $(function(){
         self.text(i18n.login.getCode2);
       },
       error:function(e){
+        $('#getCode').attr('disabled',false);
         return alert(i18n.login.fail);
       }
     })
@@ -84,7 +85,7 @@ $(function(){
   $('.login-btn').click(function(){
     $.ajax({
       type:'POST',
-      url:url+'/api/v1/invite/user/gift/add',
+      url:url+'/api/v1/invite/user/record',
       dataType:'json',
       success:function(data){
         console.log(data)
