@@ -1,6 +1,17 @@
 {
   "cn":[
     {
+      "title":"关于比特派暂停 CDY 收发的公告",
+      "intro":"亲爱的派友：根据 CDY 官方消息，CDY 正在进行官方升级。为此比特派已在香港时间11月14日9：30暂停派钱包 ZEC 的收发及派银行 CDY 的充提功能。待 CDY 升级稳定后，我们会在第一时间恢复，具体时间将以公告另行通知。暂停期间为此带来的不便，敬请谅解！",
+      "data":"2018-11-14",
+      "watch":1,
+      "id":31,
+      "month":"November",
+      "day":"14",
+      "type":1
+
+    },
+    {
       "title":"比特派钱包关于支持 BCH 硬分叉的公告",
       "intro":"比特派将支持 BCH 的硬分叉，将于香港时间2018年11月16日 00:40:00 进行资产快照。并将于香港时间 2018年11月15日19:00 暂停比特派钱包中 BCH 的收发与派银行 BCH 充提功能。硬分叉完成且稳定后，我们会在第一时间恢复 BCH 相关功能，具体时间将以公告另行通知。暂停期间带来的不便，敬请谅解！",
       "data":"2018-11-06",
@@ -222,6 +233,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Announcement on the Suspension of CDY Sends and Receives Service",
+      "intro":"According to CDY official announcement, CDY is undergoing an official upgrade. Hence, Bitpie has suspended the sends and receives service of CDY in the Pie Wallet and CDY withdrawal and deposit service in Pie Bank at 9:30 a.m. on November 14th (Hong Kong time). When the CDY upgrade is completed and runs stable, we will resume the service immediately, the specific time will be informed as an announcement.",
+      "data":"2018-11-14",
+      "watch":1,
+      "id":31,
+      "month":"November",
+      "day":"14",
+      "type":1
+    },
     {
       "title":"Bitpie Wallet supports BCH Hard Fork Announcement",
       "intro":"Bitpie will support the hard fork of BCH and will take a snapshot on November 16, 2018, 00:40:00 Hong Kong time.",
