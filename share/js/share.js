@@ -2,7 +2,7 @@ $(function(){
   var btn = true
   $('#share').click(function(){
     var opts = {
-      scale: 3,
+      scale: 4,
       logging: true,
       width: 750,
       height: 1334
