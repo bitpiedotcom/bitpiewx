@@ -2,10 +2,10 @@ $(function(){
   var btn = true
   $('#share').click(function(){
     var opts = {
-      scale: 4,
+      scale: 1,
       logging: true,
-      width: 750,
-      height: 1334
+      width: 750*1.5,
+      height: 1334*1.5
     }
     if(btn){
       btn = false
