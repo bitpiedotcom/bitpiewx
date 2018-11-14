@@ -83,31 +83,30 @@ $(function(){
     $('.country-box').removeClass('on')
   })
   $('.login-btn').click(function(){
+    var invite_code = getQueryString('invite_code')
+    var account_name = getQueryString('account_name')
+    var area = $('#country').attr('data-num')
+    var phone = $('#phoneNum').val()
+    var vaildCode = $('#intro3').val()
+
     $.ajax({
       type:'POST',
-      url:url+'/api/v1/invite/user/record',
+      url:'https://dealer.bitpie.songchenwen.com/api/v1/invite/user/recode',
       dataType:'json',
+      data:{
+        area:area,
+        phone  :phone,
+        inviteCode:invite_code,
+        vaildCode   :vaildCode,
+        accountName:account_name
+      },
       success:function(data){
-        console.log(data)
+        if(data.result){
+          window.location = '/share/get_reward.html'
+        }else{
+          alert(data.rm)
+        }
       }
-    })
-  })
-  $('#share').click(function(){
-    var opts = {
-      scale: 2,
-      logging: true,
-      width: 750,
-      height: 1334
-    }
-    dsBridge.call("bp_interaction.getShareLink","",function (v) {
-      $("#share_qr").html(' ')
-      new QRCode(document.getElementById('share_qr'), v);
-      html2canvas(document.querySelector("#share-canvas"),opts).then(function(canvas) {
-        var img = canvas.toDataURL('image/png')
-        dsBridge.call("bp_interaction.openShareBase64Img",img, function (v) {
-        })
-      });
-
     })
   })
 })

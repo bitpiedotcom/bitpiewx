@@ -56,3 +56,8 @@ function i18npage(i18n, pageName){
     $('#button').html(data.button)
   }
 }
+function getQueryString(name) {
+  var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+  var r = window.location.search.substr(1).match(reg);
+  if (r != null) return unescape(r[2]); return null;
+}
