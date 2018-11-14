@@ -5,8 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>比特派</title>
-  <script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
   <script type="text/javascript" src="js/function.js"></script>
+  <script type="text/javascript" src="i18n/cn.js"></script>
+  <script type="text/javascript" src="i18n/en.js"></script>
   <script type="text/javascript" src="js/login.js"></script>
   <link rel="stylesheet" href="style/style.css">
 </head>
@@ -14,29 +16,29 @@
   <div class="rol img-rol">
     <img src="images/login_img.png" alt="">
   </div>
-  <div class="rol login-font">* 领取此奖励需手机验证</div>
+  <div id="intro1" class="rol login-font">* 领取此奖励需手机验证</div>
   <div class="rol input-box">
     <div class="rol input-div-box">
-      <div class="lt input-title">选择国家</div>
+      <div id="title1" class="lt input-title">选择国家</div>
       <div id="change-country" class="lt login-input">
         <span id="country" data-num="86">China</span>
       </div>
     </div>
     <div class="rol input-div-box">
-      <div class="lt input-title">手机号</div>
+      <div id="title2" class="lt input-title">手机号</div>
       <div class="lt login-input">
         <input id="phoneNum" type="text" placeholder="请输入手机号">
       </div>
     </div>
     <div class="rol input-div-box">
-      <div class="lt input-title">短信验证码</div>
+      <div id="title3" class="lt input-title">短信验证码</div>
       <div class="lt login-input">
-        <input type="text" placeholder="请输入短信验证码">
+        <input id="intro3" type="text" placeholder="请输入短信验证码">
       </div>
       <button id="getCode" class="yz-btn">获取验证码</button>
     </div>
   </div>
-  <div class="login-btn">登陆</div>
+  <div id="button" class="login-btn">领取</div>
   <div class="country-box">
     <img src="images/search-close.png" alt="" class="close-btn">
     <div class="rol country-list-box"></div>
