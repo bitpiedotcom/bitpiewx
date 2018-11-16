@@ -1,5 +1,5 @@
 body{
-  max-width:750px;
+  max-width:1200px;
   margin:0;
   padding:0;
   font-family: PingFangSC-Regular;
@@ -255,4 +255,41 @@ body{
   position:absolute;
   left:250px;
   top:810px;
+}
+.share-banner{
+  position:relative;
+}
+.share-footer-box{
+  position:fixed;
+  left:20%;
+  bottom:20px;
+  width:60%;
+}
+.share-footer-box div{
+  width:95px;
+  height:35px;
+  border-radius:35px;
+  background: #FF5525;
+  box-shadow: 0 2px 5px 0 #FDAD97;
+  text-align: center;
+  line-height:35px;
+  color:#fff;
+  font-size:13px;
+}
+#share-page{
+  background:#ffc433;
+}
+.share-intro-btn{
+  position:absolute;
+  right:0;
+  top:40px;
+  background: #FF5525;
+  width:40px;
+  height:20px;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+  line-height:20px;
+  color:#fff;
+  font-size:12px;
+  text-align: center;
 }
