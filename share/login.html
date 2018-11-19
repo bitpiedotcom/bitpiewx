@@ -7,10 +7,10 @@
   <title>比特派</title>
   <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
   <script type="text/javascript" src="js/jquery-confirm.js"></script>
-  <script type="text/javascript" src="js/function.js?v=3"></script>
-  <script type="text/javascript" src="i18n/cn.js?v=2"></script>
-  <script type="text/javascript" src="i18n/en.js?v=2"></script>
-  <script type="text/javascript" src="js/login.js?v=2"></script>
+  <script type="text/javascript" src="js/function.js"></script>
+  <script type="text/javascript" src="i18n/cn.js"></script>
+  <script type="text/javascript" src="i18n/en.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
   <link rel="stylesheet" href="style/jquery-confirm.css">
   <link rel="stylesheet" href="style/style.css">
 </head>
@@ -21,7 +21,9 @@
   <div id="intro1" class="rol login-font">* 领取此奖励需手机验证</div>
   <div class="rol input-box">
     <div class="rol input-div-box">
-      <div id="title1" class="lt input-title">选择国家</div>
+      <div class="lt input-title">
+        <span id="title1">选择国家</span><img src="images/downIcon.png" class="downIcon">
+      </div>
       <div id="change-country" class="lt login-input">
         <span id="country" data-num="86">China</span>
       </div>
@@ -49,6 +51,9 @@
 <script type="text/javascript">
   $(function(){
     i18npage('login')
+    $('.login-btn').click(function(){
+
+    })
   })
 </script>
 </html>
