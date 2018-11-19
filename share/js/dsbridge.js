@@ -131,4 +131,3 @@ var bridge = {
 
 module.exports = bridge;
 
-console.log("------这是一段注入的JS脚本------");

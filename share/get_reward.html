@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>领取奖励</title>
   <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
-  <script type="text/javascript" src="js/function.js"></script>
+  <script type="text/javascript" src="js/function.js?v=1"></script>
   <script type="text/javascript" src="i18n/cn.js"></script>
   <script type="text/javascript" src="i18n/en.js"></script>
   <script type="text/javascript" src="js/login.js"></script>
@@ -14,10 +14,10 @@
 </head>
 <body class="reward-body">
   <div class="rol reward-banner">
-    <img src="images/banner.png" alt="" class="rol">
+    <img id="reward-banner-img" src="images/banner.png" alt="" class="rol">
   </div>
   <div class="rol reward-white-rol">
-    <img src="images/banner222.png" class="reward-white" alt="">
+    <img id="reward-white" src="images/banner222.png" class="reward-white" alt="">
     <a href="/share/success.html" id="button" class="reward-btn">立即领取</a>
   </div>
   <div class="rol reward-word-rol">
@@ -36,5 +36,10 @@
   <div id="foot" class="rol reward-intro-box">
     * 在法律允许的范围内，比特派保留对本活动的最终解释权
   </div>
+  <script type="text/javascript">
+    $(function(){
+      i18npage('get_reward')
+    })
+  </script>
 </body>
 </html>
