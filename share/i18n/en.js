@@ -2,12 +2,12 @@ const en = {
   login: {
     intro1: '* Phone verification is required to receive this reward',
     phoneNum: 'Enter phone number',
-    intro3: 'Enter SMS verification code',
+    intro3: 'Enter code',
     intro4: 'Enter correct phone number',
     title1: 'Select country',
     title2: 'Phone number',
-    title3: 'SMS verification code',
-    getCode: 'Get verification code',
+    title3: 'SMS code',
+    getCode: 'Get code',
     getCode2: 'Sent',
     getCode3: 'Send again',
     button: 'Get',
@@ -17,16 +17,37 @@ const en = {
     button: 'Get now',
     title: 'Activity rules',
     intro: {
-      1: '1. Activity time: from 12 p.m. November 12, 2018 to 11.59 p.m. November 30, 2018;',
-      2: '2. Get reward: Register a Bitpie user account on this page to receive a free EOS account or a EOS resource package',
-      3: '3. Activate reward: In Bitpie App, go to “Me – Reward Center” to see your rewards status',
-      4: '4. About the free EOS account: only for users who don’t have EOS account in Bitpie APP',
-      5: '5. About EOS resources package: the resource package can be used to stake EOS CPU for yourself or others, 7 days after activation it will unstake.'
+      1: '1. Activity time: From November 15, 2018 12 p.m. to November 30, 2018 11.59 p.m. （HongKong Time）',
+      2: '2. How to get the rewards: After inviting a valid user, you can view the reward details in “Bitpie– Reward Centre”;',
+      3: '3. Rewards details：The invitee can get a free EOS account Coupon',
+      4: '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie; ',
+      5: '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
+      6: '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;'
     },
-    foot: '* To the extent permitted by law, Bitpie reserves the right of final interpretation of this activity.'
+    foot: '* To the extent permitted by law, Bitpie reserves the right of final interpretation of this activity.',
+    banner:'images/bg_en.png',
+    img:'images/bai_en.png'
   },
   success: {
-    intro: 'In Bitpie App, go to “Me – Reward Center” to see your rewards status.',
-    button: 'Download Bitpie Wallet App now'
+    intro: 'In Bitpie App, go to “Me–Reward Center”</br> to see your rewards status.',
+    button: 'Download Bitpie App',
+    successBg: 'images/chenggong_en.png'
+  },
+  share:{
+    banner:'images/share_en.png',
+    intro: [
+      'Activity rules:',
+      '1. Activity time: From November 15, 2018 12 p.m. to November 30, 2018 11.59 p.m. （HongKong Time）',
+      '2. Rewards details ',
+      '【1】Channel Rewards: By inviting valid users, the inviter can get all EOS DApp rewards on Bitpie from the invitees. No ceiling for Invitation times, no ceiling for Rewards; ',
+      '【2】Resource Rewards: By inviting valid users, both the inviter and the invitee can get a free EOS account Coupon or an EOS-Resource-Help Coupon;',
+      '3. How to get the rewards: After inviting a valid user, you can view the reward details in “Bitpie– Reward Centre”;',
+      '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie;',
+      '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
+      '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;',
+      '* To the extent permitted by law, Bitpie reserves the right of final interpretation of this activity.'
+
+
+    ]
   }
 }

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f68f787e-519b-4d63-ae74-0c4299efe94d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/share/js/share.js" beforeDir="false" afterPath="$PROJECT_DIR$/share/js/share.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/share/share.html" afterDir="false" />
     </list>
     <ignored path="bitpiedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="share.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/share/js/share.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -349,12 +348,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476941323738</updated>
-      <workItem from="1541650463807" duration="77606000" />
+      <workItem from="1541650463807" duration="80811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77606000" />
+    <option name="totallyTimeSpent" value="80811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +366,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87586206" visible="true" weight="0.1952079" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32692307" />
@@ -711,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/share/js/share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>

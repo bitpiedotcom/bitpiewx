@@ -14,12 +14,13 @@ function checkPhone(code,str){
 function getlang(){
   var lang = navigator.language||navigator.userLanguage;//常规浏览器语言和IE浏览器
   lang = lang.substr(0, 2);//截取lang前2位字符
+  console.log(lang)
   if (lang == 'zh'){
     lang = 'cn';
-  }
-  if (lang != 'cn' && lang != 'en' && lang != 'jp'){
+  }else {
     lang = 'en'
   }
+
   return lang;
 }
 function pageName() {
@@ -28,19 +29,29 @@ function pageName() {
   var strPage=arrUrl[arrUrl.length-1];
   return strPage;
 }
-function i18npage(i18n, pageName){
+function i18npage(pageName){
   var data;
-  if(pageName === 'login.html'){
+  var lang = getlang()
+  var i18n ;
+  console.log(lang)
+  if(lang === 'cn') {
+    i18n = cn
+  }else{
+    i18n = en
+  }
+  i18n = en
+  if(pageName === 'login.html' || pageName === 'login'){
     data = i18n.login
+    console.log(data)
     $('#intro1').html(data.intro1)
-    $('#phoneNum').html(data.phoneNum)
-    $('#intro3').html(data.intro3)
+    $('#phoneNum').attr('placeholder',data.phoneNum)
+    $('#intro3').attr('placeholder',data.intro3)
     $('#title1').html(data.title1)
     $('#title2').html(data.title2)
     $('#title3').html(data.title3)
     $('#getCode').html(data.getCode)
     $('#button').html(data.button)
-  }else if(pageName === 'get_reward.html'){
+  }else if(pageName === 'get_reward.html' || pageName === 'get_reward'){
     data = i18n.reward
     $('#button').html(data.button)
     $('#title').html(data.title)
@@ -50,14 +61,38 @@ function i18npage(i18n, pageName){
       html += '<div>' + data.intro[i] + '</div>'
     }
     $('#intro').html(html)
-  }else if(pageName === 'success.html'){
+    $('#reward-white').attr('src',data.img)
+    $('#reward-banner-img').attr('src',data.banner)
+  }else if(pageName === 'success.html' || pageName === 'success'){
     data = i18n.success
     $('#intro').html(data.intro)
-    $('#button').html(data.button)
+    $('#successButton').html(data.button)
+    $('#successBg').attr('src',data.successBg)
+  }else if(pageName === 'share' || pageName === 'share.html'){
+    data = i18n.share
+    var html ='';
+    for(var i = 0;i<data.intro.length; i++){
+      html+= '<div>'+data.intro[i] +'</div>'
+    }
+    console.log(data)
+    console.log(data.banner)
+    $('#shareBg').attr('src',data.banner)
+    $('#share-intro').html(html)
   }
 }
 function getQueryString(name) {
   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
   var r = window.location.search.substr(1).match(reg);
   if (r != null) return unescape(r[2]); return null;
+}
+function system(){
+  var u = navigator.userAgent, app = navigator.appVersion;
+  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+  var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+  if (isAndroid) {
+    return 'android'
+  }
+  if (isIOS) {
+    return 'ios'
+  }
 }
