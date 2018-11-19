@@ -1,6 +1,17 @@
 {
   "cn":[
     {
+      "title":"比特派将支持 Infiniverse（INF）空投",
+      "intro":"亲爱的派友：比特派钱包以及派银行将支持 Infiniverse项目代币 INF的空投。",
+      "data":"2018-11-19",
+      "watch":1,
+      "id":32,
+      "month":"November",
+      "day":"19",
+      "type":1
+
+    },
+    {
       "title":"关于比特派暂停 CDY 收发的公告",
       "intro":"亲爱的派友：根据 CDY 官方消息，CDY 正在进行官方升级。为此比特派已在香港时间11月14日9：30暂停派钱包 ZEC 的收发及派银行 CDY 的充提功能。待 CDY 升级稳定后，我们会在第一时间恢复，具体时间将以公告另行通知。暂停期间为此带来的不便，敬请谅解！",
       "data":"2018-11-14",
@@ -233,6 +244,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Bitpie will Support Infiniverse（INF） Airdrop",
+      "intro":"Dear Bitpiers,Bitpie Pie Bank will support Infiniverse（INF） Airdrop Project.",
+      "data":"2018-11-19",
+      "watch":1,
+      "id":32,
+      "month":"November",
+      "day":"19",
+      "type":1
+    },
     {
       "title":"Announcement on the Suspension of CDY Sends and Receives Service",
       "intro":"According to CDY official announcement, CDY is undergoing an official upgrade. Hence, Bitpie has suspended the sends and receives service of CDY in the Pie Wallet and CDY withdrawal and deposit service in Pie Bank at 9:30 a.m. on November 14th (Hong Kong time). When the CDY upgrade is completed and runs stable, we will resume the service immediately, the specific time will be informed as an announcement.",
