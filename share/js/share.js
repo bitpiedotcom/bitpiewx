@@ -6,8 +6,15 @@ $(function(){
     })
   })
   $('#copy-url').click(function(){
+    var lang = getlang()
+    var i18n ;
+    if(lang === 'cn') {
+      i18n = cn
+    }else{
+      i18n = en
+    }
     dsBridge.call("bp_interaction.getShareLink","",function (v) {
-      var url ="Bitpie 全球最安全的钱包,没有之一" + v
+      var url =i18n.share.font + v
       dsBridge.call('bp_interaction.openShareText',url, function (v) {
 
       })

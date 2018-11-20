@@ -33,16 +33,13 @@ function i18npage(pageName){
   var data;
   var lang = getlang()
   var i18n ;
-  console.log(lang)
   if(lang === 'cn') {
     i18n = cn
   }else{
     i18n = en
   }
-  i18n = en
   if(pageName === 'login.html' || pageName === 'login'){
     data = i18n.login
-    console.log(data)
     $('#intro1').html(data.intro1)
     $('#phoneNum').attr('placeholder',data.phoneNum)
     $('#intro3').attr('placeholder',data.intro3)
@@ -74,10 +71,11 @@ function i18npage(pageName){
     for(var i = 0;i<data.intro.length; i++){
       html+= '<div>'+data.intro[i] +'</div>'
     }
-    console.log(data)
-    console.log(data.banner)
     $('#shareBg').attr('src',data.banner)
     $('#share-intro').html(html)
+    $('#copy-url').html(data.btn1)
+    $('#share').html(data.btn2)
+
   }
 }
 function getQueryString(name) {

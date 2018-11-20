@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>领取奖励</title>
   <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
-  <script type="text/javascript" src="js/function.js?v=1"></script>
+  <script type="text/javascript" src="js/function.js"></script>
   <script type="text/javascript" src="i18n/cn.js"></script>
   <script type="text/javascript" src="i18n/en.js"></script>
   <script type="text/javascript" src="js/login.js"></script>
@@ -18,7 +18,7 @@
   </div>
   <div class="rol reward-white-rol">
     <img id="reward-white" src="images/banner222.png" class="reward-white" alt="">
-    <a href="/share/success.html" id="button" class="reward-btn">立即领取</a>
+    <div  id="button" class="reward-btn">立即领取</div>
   </div>
   <div class="rol reward-word-rol">
     <div class="reward-title-rol">
@@ -38,7 +38,12 @@
   </div>
   <script type="text/javascript">
     $(function(){
-      i18npage('get_reward')
+      i18npage('get_reward');
+      $('.reward-btn').click(function(){
+        var url ='/share/login'+ window.location.search
+        console.log(url)
+        window.location.href =  url
+      })
     })
   </script>
 </body>

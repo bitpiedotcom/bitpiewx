@@ -1,13 +1,12 @@
 $(function(){
   var lang = getlang()
   var i18n ;
-  console.log(lang)
   if(lang === 'cn') {
     i18n = cn
   }else{
     i18n = en
   }
-  var url = 'https://bitpie-h5.getcai.com'
+  var url = 'https://bitpie.getcai.com'
   var win_height = parseInt($(document).height())
   $('body').css({'minHeight':win_height})
   $('.sussess-container').css({'minHeight':win_height})
@@ -24,7 +23,6 @@ $(function(){
       url:url+'/api/v1/country',
       dataType:'json',
       success:function(data){
-        console.log(data)
         $('.country-box').addClass('on')
       }
     })
@@ -109,7 +107,7 @@ $(function(){
       },
       success:function(data){
         if(data.result){
-          window.location = '/share/get_reward.html'
+          window.location = '/share/success.html'
         }else{
           $.alert({
             title: '提示',
