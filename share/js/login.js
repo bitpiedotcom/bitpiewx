@@ -6,7 +6,7 @@ $(function(){
   }else{
     i18n = en
   }
-  var url1 = 'https://api1.bitpie.com'
+  var url1 = 'https://bitpie.getcai.com'
   var url2 = 'https://api2.bitpie.com'
   var url3 = 'https://api3.bitpie.com'
   var win_height = parseInt($(document).height())
