@@ -8,8 +8,8 @@ $(function(){
     i18n = en
     lang = 'en'
   }
-  var url1 = 'https://api1.bitpie.com'
-  var url2 = 'https://api3.bitpie.com'
+  var url1 = 'https://api3.bitpie.com'
+  var url2 = 'https://api1.bitpie.com'
   var url3 = 'https://api2.bitpie.com'
   var win_height = parseInt($(document).height())
   $('body').css({'minHeight':win_height})
