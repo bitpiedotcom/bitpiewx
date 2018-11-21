@@ -6,10 +6,37 @@ $(function(){
   }else{
     i18n = en
   }
-  var url = 'https://bitpie.getcai.com'
+  var url1 = 'https://dealer.bitpie.songchenwen.com'
+  var url2 = 'https://bitpie.getcai.com'
+  var url3 = 'https://bitpie.getcai.com2'
   var win_height = parseInt($(document).height())
   $('body').css({'minHeight':win_height})
   $('.sussess-container').css({'minHeight':win_height})
+  var conutry =1;
+  function getcountry(type){
+    var url;
+    if(type === 1){
+      url = url1
+    }else if(type === 2){
+      url = url2
+    }else if(type === 3){
+      url = url3
+    }else if(type === 4){
+      return false
+    }
+    $.ajax({
+      type:'GET',
+      url:url+'/api/v1/country',
+      dataType:'json',
+      success:function(data){
+        $('.country-box').addClass('on')
+      },
+      error:function(){
+        conutry+=1
+        getcountry(conutry)
+      }
+    })
+  }
   $("#change-country").click(function(){
     $('.country-box').addClass('on')
     var data = [{"country_name": "Canada", "country_calling_code": "1", "currency_code": "CAD", "country_code": "CAN"}, {"country_name": "China", "country_calling_code": "86", "currency_code": "CNY", "country_code": "CHN"}, {"country_name": "Germany", "country_calling_code": "49", "currency_code": "EUR", "country_code": "DEU"}, {"country_name": "France", "country_calling_code": "33", "currency_code": "EUR", "country_code": "FRA"}, {"country_name": "United Kingdom", "country_calling_code": "44", "currency_code": "GBP", "country_code": "GBR"}, {"country_name": "Hong Kong", "country_calling_code": "852", "currency_code": "HKD", "country_code": "HKG"}, {"country_name": "Japan", "country_calling_code": "81", "currency_code": "JPY", "country_code": "JA"}, {"country_name": "Macao", "country_calling_code": "853", "currency_code": "MOP", "country_code": "MAC"}, {"country_name": "Taiwan", "country_calling_code": "886", "currency_code": "TWD", "country_code": "TWN"}, {"country_name": "United States of America", "country_calling_code": "1", "currency_code": "USD", "country_code": "USA"}];
@@ -18,30 +45,32 @@ $(function(){
       html += '<div class="country-list" data-num="'+data[i].country_calling_code+'">'+data[i].country_name+'</div>'
     }
     $(".country-list-box").html(html);
-    $.ajax({
-      type:'GET',
-      url:url+'/api/v1/country',
-      dataType:'json',
-      success:function(data){
-        $('.country-box').addClass('on')
-      }
-    })
+    getcountry(conutry)
   });
   $('.close-btn').click(function(){
     $('.country-box').removeClass('on')
-  });
-  $("#getCode").on("click",function(){
+  })
+
+
+  var getCodeNum = 1
+  function getCode (type){
     var country = parseInt($('#country').attr('data-num'))
     var phoneNum = $("#phoneNum").val()
-
-    if(!checkPhone(country,phoneNum)){
+    var url;
+    if(type === 1){
+      url = url1
+    }else if(type === 2){
+      url = url2
+    }else if(type === 3){
+      url = url3
+    }else if(type === 4){
+      $('#getCode').attr('disabled',false);
       return $.alert({
-        title: '提示',
-        content: i18n.login.intro4
+        title: 'fail',
+        content: i18n.login.fail
       });
+      return false
     }
-    var self = $(this);
-    self.attr('disabled',true);
     $.ajax({
       type:'GET',
       url:url+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
@@ -72,13 +101,25 @@ $(function(){
         self.text(i18n.login.getCode2);
       },
       error:function(e){
-        $('#getCode').attr('disabled',false);
-        return $.alert({
-          title: 'fail',
-          content: i18n.login.fail
-        });
+        getCodeNum+=1
+        getCode(getCodeNum)
       }
     })
+  }
+  $("#getCode").on("click",function(){
+    var country = parseInt($('#country').attr('data-num'))
+    var phoneNum = $("#phoneNum").val()
+
+    if(!checkPhone(country,phoneNum)){
+      return $.alert({
+        title: '提示',
+        content: i18n.login.intro4
+      });
+    }
+    var self = $(this);
+    self.attr('disabled',true);
+    getCode(getCodeNum)
+
   })
   $(".country-list-box").on("click",".country-list",function(){
     var data = $(this).attr('data-num')
@@ -86,13 +127,25 @@ $(function(){
     $('#country').html(name).attr('data-num',data)
     $('.country-box').removeClass('on')
   })
-  $('.login-btn').click(function(){
+
+  var recodeNum = 1
+  function recode(type){
+    var url;
     var invite_code = getQueryString('invite_code')
     var account_name = getQueryString('account_name')
     var area = $('#country').attr('data-num')
     var phone = $('#phoneNum').val()
     var vaildCode = $('#intro3').val()
     var activity_type = getQueryString('activity_type')
+    if(type === 1){
+      url = url1
+    }else if(type === 2){
+      url = url2
+    }else if(type === 3){
+      url = url3
+    }else if(type === 4){
+      return false
+    }
     $.ajax({
       type:'POST',
       url:url+'/api/v1/invite/user/recode',
@@ -114,7 +167,15 @@ $(function(){
             content: data.rm
           });
         }
+      },
+      error:function(){
+        recodeNum+=1
+        recode(recodeNum)
       }
     })
+  }
+  $('.login-btn').click(function(){
+
+    recode(recodeNum)
   })
 })

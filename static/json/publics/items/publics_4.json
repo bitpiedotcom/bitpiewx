@@ -15,7 +15,7 @@
       },
       {
         "type":0,
-        "data":"比特派安卓版下载：<a class='import' href='#/download'>点击</a><br/>比特派苹果版：苹果用户请通过香港或美国 ID 登录 App Store 搜索（比特派或者 Bitpie）更新下载。"
+        "data":"比特派安卓版下载：<a class='import' href='#/down'>点击</a><br/>比特派苹果版：苹果用户请通过香港或美国 ID 登录 App Store 搜索（比特派或者 Bitpie）更新下载。"
       },
       {
         "type":0,
@@ -127,7 +127,7 @@
       },
       {
         "type":0,
-        "data":"Bitpie Android:<a class='import' href='#/download'> Click</a><br/>Bitpie iOS: Search “bitpie” in AppStore"
+        "data":"Bitpie Android:<a class='import' href='#/down'> Click</a><br/>Bitpie iOS: Search “bitpie” in AppStore"
       },
       {
         "type":0,
