@@ -3,8 +3,10 @@ $(function(){
   var i18n ;
   if(lang === 'cn') {
     i18n = cn
+    lang = 'cn'
   }else{
     i18n = en
+    lang = 'en'
   }
   var url1 = 'https://api1.bitpie.com'
   var url2 = 'https://api3.bitpie.com'
@@ -53,7 +55,7 @@ $(function(){
 
 
   var getCodeNum = 1
-  function getCode (type){
+  function getCode (type,lang){
     var country = parseInt($('#country').attr('data-num'))
     var phoneNum = $("#phoneNum").val()
     var url;
@@ -81,7 +83,7 @@ $(function(){
           $('#getCode').attr('disabled',false);
           return $.alert({
             title: '提示',
-            content: data.rm
+            content: data.rm[lang]
           });
         }
         var index = 60;
@@ -103,7 +105,7 @@ $(function(){
       },
       error:function(e){
         getCodeNum+=1
-        getCode(getCodeNum)
+        getCode(getCodeNum,lang)
       }
     })
   }
@@ -130,7 +132,7 @@ $(function(){
   })
 
   var recodeNum = 1
-  function recode(type){
+  function recode(type,lang){
     var url;
     var invite_code = getQueryString('invite_code')
     var account_name = getQueryString('account_name')
@@ -165,18 +167,18 @@ $(function(){
         }else{
           $.alert({
             title: '提示',
-            content: data.rm
+            content: data.rm[lang]
           });
         }
       },
       error:function(){
         recodeNum+=1
-        recode(recodeNum)
+        recode(recodeNum,lang)
       }
     })
   }
   $('.login-btn').click(function(){
 
-    recode(recodeNum)
+    recode(recodeNum,lang)
   })
 })
