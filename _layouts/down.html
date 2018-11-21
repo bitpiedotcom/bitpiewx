@@ -40,6 +40,7 @@
 
     }
     window.onload = function() {
+        var flags = true;
         var u = navigator.userAgent;
         var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
         var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
@@ -85,15 +86,18 @@
             loadHtml();
             loadStyleText(cssText);
         }else{
-            if(ios_lang){
-                ios_lang = new String(ios_lang).toLocaleLowerCase();
-                if(ios_lang.indexOf("zh") > -1 || ios_lang.indexOf("cn") > -1){
+            if(flags){
+                flags = false;
+                if (ios_lang) {
+                    ios_lang = new String(ios_lang).toLocaleLowerCase();
+                    if (ios_lang.indexOf("zh") > -1 || ios_lang.indexOf("cn") > -1) {
+                        window.location.href = "https://bitpie.com/ios/";
+                    } else {
+                        window.location.href = "https://itunes.apple.com/us/app/bitpie-bitcoin-wallet/id1168568820"
+                    }
+                } else {
                     window.location.href = "https://bitpie.com/ios/";
-                }else{
-                    window.location.href = "https://itunes.apple.com/us/app/bitpie-bitcoin-wallet/id1168568820"
                 }
-            }else{
-                window.location.href = "https://bitpie.com/ios/";
             }
 
         }
