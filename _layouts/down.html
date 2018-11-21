@@ -40,6 +40,11 @@
 
     }
     window.onload = function() {
+        var flags = true;
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        var ios_lang = navigator.language||navigator.userLanguage;
         function is_weixin() {
             var ua = navigator.userAgent.toLowerCase();
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
@@ -53,17 +58,7 @@
             document.getElementById("weixinDisplay").style = "text-align:center;display:block";
             //document.getElementById("browser").style = "text-align:center;display:block";
         }
-        //console.log(window.navigator.userAgent.toLowerCase());
-        if (is_weixin()) {
-            //console.log("11");
-           run();
-        }
-        //var html = '<div class="span12 lessonimg"  style="text-align:center;"><p>本版本仅限于公司内部人员使用</p></div>';
-//        if(window.navigator.userAgent.toLowerCase().indexOf('safari') > -1){
-//            if(!is_weixin()) {
-//                document.getElementById("weixinDisplay").innerHTML = "<p>本版本仅限于公司内部人员使用</p>";
-//            }
-//        }
+
 
         var isWeixin = is_weixin();
         var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
@@ -91,6 +86,7 @@
             loadHtml();
             loadStyleText(cssText);
         }
+        
     }
 
 
