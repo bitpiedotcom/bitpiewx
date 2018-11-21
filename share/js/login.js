@@ -74,7 +74,7 @@ $(function(){
     }
     $.ajax({
       type:'GET',
-      url:'https://pie.getcai.com'+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
+      url:url+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
       dataType:'json',
       success:function(data){
         if(data.code != 200) {
@@ -149,7 +149,7 @@ $(function(){
     }
     $.ajax({
       type:'POST',
-      url:'https://pie.getcai.com'+'/api/v1/invite/user/recode',
+      url:url+'/api/v1/invite/user/recode',
       dataType:'json',
       data:{
         area:area,
