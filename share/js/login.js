@@ -6,9 +6,9 @@ $(function(){
   }else{
     i18n = en
   }
-  var url1 = 'https://bitpie.getcai.com'
-  var url2 = 'https://api2.bitpie.com'
-  var url3 = 'https://api3.bitpie.com'
+  var url1 = 'https://api1.bitpie.com'
+  var url2 = 'https://api3.bitpie.com'
+  var url3 = 'https://api2.bitpie.com'
   var win_height = parseInt($(document).height())
   $('body').css({'minHeight':win_height})
   $('.sussess-container').css({'minHeight':win_height})
@@ -74,7 +74,7 @@ $(function(){
     }
     $.ajax({
       type:'GET',
-      url:url+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
+      url:'https://pie.getcai.com'+'/api/v1/invite/getCode?phone='+phoneNum+'&area='+country,
       dataType:'json',
       success:function(data){
         if(data.code != 200) {
@@ -149,7 +149,7 @@ $(function(){
     }
     $.ajax({
       type:'POST',
-      url:url+'/api/v1/invite/user/recode',
+      url:'https://pie.getcai.com'+'/api/v1/invite/user/recode',
       dataType:'json',
       data:{
         area:area,
