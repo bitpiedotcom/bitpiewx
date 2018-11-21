@@ -6,9 +6,9 @@ $(function(){
   }else{
     i18n = en
   }
-  var url1 = 'https://dealer.bitpie.songchenwen.com'
-  var url2 = 'https://bitpie.getcai.com'
-  var url3 = 'https://bitpie.getcai.com2'
+  var url1 = 'https://api1.bitpie.com'
+  var url2 = 'https://api2.bitpie.com'
+  var url3 = 'https://api3.bitpie.com'
   var win_height = parseInt($(document).height())
   $('body').css({'minHeight':win_height})
   $('.sussess-container').css({'minHeight':win_height})
@@ -57,6 +57,7 @@ $(function(){
     var country = parseInt($('#country').attr('data-num'))
     var phoneNum = $("#phoneNum").val()
     var url;
+    var self = $('#getCode');
     if(type === 1){
       url = url1
     }else if(type === 2){
