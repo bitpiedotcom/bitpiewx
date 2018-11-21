@@ -67,11 +67,12 @@ body{
   border:none;
   height:40px;
   line-height:40px;
-  width:100%;
+  width:99%;
   margin-top:-2px;
   box-shadow: none;
-  color:#c8c8c8;
   font-size:15px;
+  color:#333;
+  box-sizing:border-box;
 }
 .login-btn{
   width:200px;
@@ -318,8 +319,12 @@ body{
   padding-bottom: 30px;
 }
 .downIcon{
-  width:10px;
-  height:10px;
+  width:8px;
+  height:8px;
   display:inline;
   margin-left:10px;
+}
+input::-webkit-input-placeholder {
+  color:#c8c8c8;
+  font-size:16px;
 }
