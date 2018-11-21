@@ -85,23 +85,8 @@
         if(isWeixin){
             loadHtml();
             loadStyleText(cssText);
-        }else{
-            if(flags){
-                flags = false;
-                if (ios_lang) {
-                    ios_lang = new String(ios_lang).toLocaleLowerCase();
-                    if (ios_lang.indexOf("zh") > -1 || ios_lang.indexOf("cn") > -1) {
-                        window.location.href = "https://bitpie.com/ios/";
-                    } else {
-                        window.location.href = "https://itunes.apple.com/us/app/bitpie-bitcoin-wallet/id1168568820"
-                    }
-                } else {
-                    window.location.href = "https://bitpie.com/ios/";
-                }
-            }
-
         }
-
+        
     }
 
 
