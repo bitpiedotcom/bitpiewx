@@ -19,10 +19,11 @@ const en = {
     intro: {
       1: '1. Activity time: From November 15, 2018 12 p.m. to November 30, 2018 11.59 p.m. （HongKong Time）',
       2: '2. How to get the rewards: After inviting a valid user, you can view the reward details in “Bitpie– Reward Centre”;',
-      3: '3. Rewards details：The invitee can get a free EOS account Coupon, (Each user can only use one coupon);<br/>',
-      4: '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie; ',
-      5: '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
-      6: '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;'
+      3: '3. Rewards details：The invitee can get a free EOS account Coupon;',
+      4: '4. Conditions for collection: Only users who do not have an EOS account in Bitpie, and each user can only receive one coupon.<br/>',
+      5: '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie; ',
+      6: '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
+      7: '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;'
     },
     foot: '* To the extent permitted by law, Bitpie reserves the right of final interpretation of this activity.',
     banner:'images/bg_en.png',
@@ -44,7 +45,9 @@ const en = {
       '【1】Channel Rewards: By inviting valid users, the inviter can get all EOS DApp rewards on Bitpie from the invitees. No ceiling for Invitation times, no ceiling for Rewards; ',
       '【2】Resource Rewards: By inviting valid users, both the inviter and the invitee can get a free EOS account Coupon or an EOS-Resource-Help Coupon;',
       '3. How to get the rewards: After inviting a valid user, you can view the reward details in “Bitpie– Reward Centre”;',
-      '4. Valid user: users who don´t have EOS account on Bitpie APP, the invitee cannot be yourself;<br/>',
+      '4. View reward: At present, the inviter reward will be displayed in “Transaction Details”, in the later version it will be moved to “Reward Center”;',
+      '5. Valid user: users who don´t have EOS account on Bitpie APP, the invitee cannot be yourself;',
+      '6. Successful invitation: The invitee user is valid and the activation of the “free account coupon” has succeed. After this process is completed it will show successful activation.<br/>',
       '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie;',
       '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
       '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;',
