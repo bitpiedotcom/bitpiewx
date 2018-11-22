@@ -1,6 +1,68 @@
 {
   "cn":[
     {
+      "title":"比特派将支持 Infiniverse（INF）空投",
+      "intro":"亲爱的派友：比特派钱包以及派银行将支持 Infiniverse项目代币 INF的空投。",
+      "data":"2018-11-19",
+      "watch":1,
+      "id":32,
+      "month":"November",
+      "day":"19",
+      "type":1
+
+    },
+    {
+      "title":"关于比特派暂停 CDY 收发的公告",
+      "intro":"亲爱的派友：根据 CDY 官方消息，CDY 正在进行官方升级。为此比特派已在香港时间11月14日9：30暂停派钱包 ZEC 的收发及派银行 CDY 的充提功能。待 CDY 升级稳定后，我们会在第一时间恢复，具体时间将以公告另行通知。暂停期间为此带来的不便，敬请谅解！",
+      "data":"2018-11-14",
+      "watch":1,
+      "id":31,
+      "month":"November",
+      "day":"14",
+      "type":1
+
+    },
+    {
+      "title":"比特派钱包关于支持 BCH 硬分叉的公告",
+      "intro":"比特派将支持 BCH 的硬分叉，将于香港时间2018年11月16日 00:40:00 进行资产快照。并将于香港时间 2018年11月15日19:00 暂停比特派钱包中 BCH 的收发与派银行 BCH 充提功能。硬分叉完成且稳定后，我们会在第一时间恢复 BCH 相关功能，具体时间将以公告另行通知。暂停期间带来的不便，敬请谅解！",
+      "data":"2018-11-06",
+      "watch":1,
+      "id":30,
+      "month":"November",
+      "day":"06",
+      "type":1
+    },
+    {
+      "title":"比特派派银行将支持 Hirevibes（HVT）空投",
+      "intro":"亲爱的派友：比特派派银行将支持 Hirevibes 项目代币 HVT 的空投。",
+      "data":"2018-11-03",
+      "watch":1,
+      "id":29,
+      "month":"November",
+      "day":"03",
+      "type":1
+    },
+    {
+      "title":"关于比特派恢复 ZEC 发币的公告",
+      "intro":"亲爱的派友：ZEC 网络的硬分叉已经完成，比特派钱包目前已经完成了对 ZEC 的调试和升级，现已重新开放 ZEC 发币功能，请您前往 bitpie.com 升级 App 至最新版(安卓v3.7.1,苹果v3.6.8.)即可使用。",
+      "data":"2018-10-30",
+      "watch":1,
+      "id":28,
+      "month":"October",
+      "day":"30",
+      "type":1
+    },
+    {
+      "title":"关于比特派暂停 ZEC 发币的公告",
+      "intro":"根据 ZEC 官方消息，ZEC 将在区块高度 419200 发生硬分叉。为此比特派预计将在香港时间10月28日9：30暂停 ZEC 的发币业务，期间收币不受影响。待 ZEC 硬分叉稳定后，我们会在第一时间恢复，具体时间将以公告另行通知。暂停期间为此带来的不便，敬请谅解！",
+      "data":"2018-10-25",
+      "watch":1,
+      "id":27,
+      "month":"October",
+      "day":"25",
+      "type":1
+    },
+    {
       "title":"比特派机房停机维护通知",
       "intro":"比特派机房设备将于北京时间 2018 年 10 月 22 日晚 23:00 点整停机维护，停机期间派钱包收、发币，交易所交易功能正常、派银行充值正常，应用内以下功能受到影响",
       "data":"2018-10-22",
@@ -182,6 +244,66 @@
     }
   ],
   "en":[
+    {
+      "title":"Bitpie will Support Infiniverse（INF） Airdrop",
+      "intro":"Dear Bitpiers,Bitpie Pie Bank will support Infiniverse（INF） Airdrop Project.",
+      "data":"2018-11-19",
+      "watch":1,
+      "id":32,
+      "month":"November",
+      "day":"19",
+      "type":1
+    },
+    {
+      "title":"Announcement on the Suspension of CDY Sends and Receives Service",
+      "intro":"According to CDY official announcement, CDY is undergoing an official upgrade. Hence, Bitpie has suspended the sends and receives service of CDY in the Pie Wallet and CDY withdrawal and deposit service in Pie Bank at 9:30 a.m. on November 14th (Hong Kong time). When the CDY upgrade is completed and runs stable, we will resume the service immediately, the specific time will be informed as an announcement.",
+      "data":"2018-11-14",
+      "watch":1,
+      "id":31,
+      "month":"November",
+      "day":"14",
+      "type":1
+    },
+    {
+      "title":"Bitpie Wallet supports BCH Hard Fork Announcement",
+      "intro":"Bitpie will support the hard fork of BCH and will take a snapshot on November 16, 2018, 00:40:00 Hong Kong time.",
+      "data":"2018-11-06",
+      "watch":1,
+      "id":30,
+      "month":"November",
+      "day":"06",
+      "type":1
+    },
+    {
+      "title":"Bitpie Pie Bank will support Hirevibes (HVT) Airdrop",
+      "intro":"Bitpie Pie Bank will support Hirevibes HVT Airdrop Project.Hirevibes (HVT) Project Airdrop Information Date of Snapshot: November 4, 2018 08:00-10:00 (UTC+8 Beijing time / Hong Kong time)",
+      "data":"2018-11-03",
+      "watch":1,
+      "id":29,
+      "month":"November",
+      "day":"03",
+      "type":1
+    },
+    {
+      "title":"Resumption of ZEC (Zcash) Sending",
+      "intro":"Dear Bitpiers, ZEC (Zcash) mainnet upgrade is completed, and Bitpie wallet has carried out the debugging and upgrading upon ZEC. Since now, the sending of ZEC is resumed. Please update to the newest version (android v3.7.1, iOS v3.6.8) on Bitpie.com.",
+      "data":"2018-10-30",
+      "watch":1,
+      "id":28,
+      "month":"October",
+      "day":"30",
+      "type":1
+    },
+    {
+      "title":"Announcement on the Suspension of ZEC Withdrawal and Deposit Service",
+      "intro":"Dear Bitpiers, According to ZEC official announcement, ZEC will have a hard fork at block height 419200. Hence, Bitpie will suspend ZEC's withdrawal and deposit service at 9:30 a.m. on October 28th (Hong Kong time). When the ZEC hard fork is completed and runs stable, we will resume the service immediately, the specific time will be informed as an announcement.",
+      "data":"2018-10-25",
+      "watch":1,
+      "id":27,
+      "month":"October",
+      "day":"25",
+      "type":1
+    },
     {
       "title":"Notification of Server Maintenance",
       "intro":"The server maintenance will be performed from 11:00 p.m. October 22, 2018 to 3:00 a.m. October 23, 2018(UTC+8). During the maintenance, please be noted the following functions will be affected",

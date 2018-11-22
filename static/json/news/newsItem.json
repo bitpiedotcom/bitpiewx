@@ -1,6 +1,36 @@
 {
   "cn":[
     {
+      "title":"比特派：钱包的私钥存储方案",
+      "intro":"您知道区块链钱包是如何管理私钥的吗？作为领域内资格最老、安全口碑最好的的钱包团队，比太/比特派团队今天将专门针对这个问题给大家做一下科普。",
+      "data":"2018-11-20",
+      "type":2,
+      "url":"https://www.jinse.com/bitcoin/275810.html",
+      "id":5,
+      "img":"/static/image/news/news5.png",
+      "watch":"20000"
+    },
+    {
+      "title":"万万没想到，日本币圈这样评价『比特护盾』！",
+      "intro":"2018年3月开始，『BITHD（比特护盾）』登陆日本。而这篇文章是日本知名媒体“BITDAYS”编集部绝密的入手了『BITHD（比特护盾）』后，与四个非常熟悉虚拟货币的大佬进行座谈后的交流记录。",
+      "data":"2018-08-09",
+      "type":2,
+      "url":"http://www.sohu.com/a/246093898_100129607",
+      "id":4,
+      "img":"/static/image/news/news4.jpg",
+      "watch":"481"
+    },
+    {
+      "title":"彩云评测：BitHD (比特护盾)钱包",
+      "intro":"BitHD(比特护盾)是一款智能手表样式的数字货币硬件钱包，由比特派钱包团队历时一年研发并推出，该团队开发项目之一比太钱包是国内唯一被比特币官网推荐的钱包。",
+      "data":"2018-08-06",
+      "type":2,
+      "url":"https://www.cybtc.com/article-3225-1.html",
+      "id":3,
+      "img":"/static/image/news/news2.jpg",
+      "watch":4436
+    },
+    {
       "title":"比特派香港办公室成立，作为Fin-Tech企业将受香港政府大力支持",
       "intro":"近日，比特派钱包入驻香港数码港，香港办公室正式成立。香港政府对于加密经济及区块链技术持较为开放的态度，公司作为Fin-Tech企业也将受到香港政府的大力支持。",
       "data":"2018-07-20",
@@ -8,36 +38,6 @@
       "url":"https://mp.weixin.qq.com/s/sG2Un7s5S8KcfmjBt7bEhQ",
       "id":1,
       "img":"/static/image/news/news1.png",
-      "watch":1200
-    },
-    {
-      "title":"比太钱包文浩：从数字货币丢币血泪史，到如何保障你的资产安全？",
-      "intro":"毕业于北航计算机系，曾带领团队设计开发了彩票销售与管理系统，进入区块链领域后带领团队开发了国内唯一一个被bitcoin.org官方推荐的比太钱包。之后又开发了小白也能轻松上手的多区块链资产钱包-比特派 bitpie.com及硬件钱包比特护盾。在区块链技术领域享有良好声誉。",
-      "data":"2018-07-18",
-      "type":2,
-      "url":"https://mp.weixin.qq.com/s?__biz=MzI5Njk2MDUwMg==&mid=100000829&idx=1&sn=695443b82a453b5fcde38b9a150e9ab0",
-      "id":2,
-      "img":"/static/image/news/news2.png",
-      "watch":1200
-    },
-    {
-      "title":"巴比特测评：比特护盾硬件钱包",
-      "intro":"比特护盾是一款由比特派团队推出的，手表样式的硬件钱包。它的英文名是bitHD,HD既有分层确定性的寓意，也可以理解为护盾的拼音首字母。这是一款冷钱包，意味着你掌握了钱包的私钥，真正拥有区块链资产的控制权。",
-      "data":"2018-06-06",
-      "type":2,
-      "url":"https://www.8btc.com/article/217854",
-      "id":3,
-      "img":"/static/image/news/news3.png",
-      "watch":1200
-    },
-    {
-      "title":"风险中藏着机会，区块链安全成为大生意",
-      "intro":"6月30日，在由巴比特主办的“世界区块链大会·乌镇”分会场“数字资产与用户隐私——区块链应用与安全论坛”，来自BKEX的创始人纪京言、ZOS创始人高潮、比特派钱包创始人文浩、溢唐数据创始人曾熙围绕“区块链技术的安全隐患”话题展开讨论，BEPAL CEO胡园泉担任主持。",
-      "data":"2018-06-30",
-      "type":2,
-      "url":"http://m.8btc.com/risk-chance-blockchain-security",
-      "id":4,
-      "img":"/static/image/news/news4.jpg",
       "watch":1200
     }
   ],
@@ -49,7 +49,7 @@
       "type":2,
       "img":"/static/image/news/newse1.png",
       "url":"https://medium.com/@Bitpie/the-way-for-bitpie-to-eos-ecology-concentration-leads-to-profession-ba0ad0efad4c",
-      "id":1
+      "id":3
     },
     {
       "title":"Bitpie Hong Kong Office Founded as a FinTech Corporation",
@@ -67,42 +67,7 @@
       "type":2,
       "img":"/static/image/news/newse3.png",
       "url":"https://medium.com/@Bitpie/why-digital-wallets-need-omni-usdt-200f24c5d00f",
-      "id":3
-    },
-    {
-      "title":"格付け機関から高評価のEOS、安全に保有するならウォレットアプリBitpieがおすすめ！",
-      "intro":"日々成長を遂げる仮想通貨界にあって、大きな注目を集めている通貨があります。その通貨の名前はイオス（EOS）。",
-      "data":"2018-08-08",
-      "type":2,
-      "img":"/static/image/news/newse4.png",
-      "url":"https://bitdays.jp/wallet/bitpie/11057/",
-      "id":4
-    }
-  ],
-  "jp":[
-    {
-      "title":"比特派新品发布会召开 冷钱包与智能手表结合带来更多玩法",
-      "intro":"金色财经-比特币 12月30日讯 2017年12月30日下午14：30分，比特派/比太团队于北京3W咖啡厅举办了神秘新品发布会。此次发布会以“未来已来”为主题，邀请了区块链/比特币行业的诸多大咖、达人、媒体等各色人群前来共聚一堂，一同见证神秘新品的问世。比特派创始人文浩上台做出演讲并为大家揭开了此次神秘新品的面纱。",
-      "data":"2018/08/08",
-      "type":2,
-      "url":"https://www.jinse.com/bitcoin/123580.html",
       "id":1
-    },
-    {
-      "title":"比特派新比特派/比太团队发布冷钱包终极解决方案 - 比特护盾（BITHD）",
-      "intro":"白话区块链 12月30日讯 未来已来，BITHD 是第一个真正做到能让大妈也能轻松使用的硬件钱包，BITHD 也是第一个可穿戴的、给区块链世界的未来带来无限可能玩法的硬件设备，BITHD 来了！",
-      "data":"2017-12-30",
-      "type":2,
-      "url":"https://mp.weixin.qq.com/s/PHBJaW8kUW-duMeKb7Hg2g",
-      "id":2
-    },
-    {
-      "title":"比特派新比特派/比太团队发布冷钱包终极解决方案 - 比特护盾（BITHD）",
-      "intro":"AICoin 2017-12-30 15:06:18 了解比太历史的人都知道，我们最初是一个由四名码农组成的技术团队，我们很拼，也艰苦奋斗了好几年，很不容易。码农团队的特点大家懂的，虽然比特币/区块链行业很“浮躁”，我们这个技术团队仍然保持了相当程度的“出淤泥而不染”",
-      "data":"2017-12-30",
-      "type":2,
-      "url":"https://www.aicoin.net.cn/amp/services/news-share?id=3762&lang=zh&from=timeline",
-      "id":3
     }
   ]
 }
