@@ -121,6 +121,7 @@ $(function(){
     }
     var self = $(this);
     self.attr('disabled',true);
+    $('#getCode').addClass('on')
     getCode(getCodeNum)
 
   })
