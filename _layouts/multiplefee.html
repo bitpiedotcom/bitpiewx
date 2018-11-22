@@ -92,11 +92,20 @@
 
 <script>
     $(function(){
-//        $.get("https://bitpie.getcai.com/api/v1/ex/otc/fee", function(result){
-//            console.log(result);
-//        });
-        var url="https://bitpie.getcai.com/api/v1/ex/otc/fee?coin_code=BTC";
-        $.get(url,function(result){
+        function loadAjax(url,type,callback){
+            $.ajax({
+                url:url,
+                type:type,
+                dataType:'json',
+                success:function(data){
+                    return callback(null,data)
+                },
+                error:function(err){
+                    return callback(true,null)
+                }
+            })
+        }
+        function done(result){
             if(result.discount) {
                 var vip = Decimal(result.vip).mul(100);
                 var vip2vip = Decimal(result.vip2vip).mul(100);
@@ -106,23 +115,52 @@
 
                 $("#normal").html(normal+(normal == 0 ?"":"%"));
             }
-
-
-
-        });
-        var url="https://bitpie.getcai.com/api/v1/ex/otc/fee";
-        $.get(url,function(result){
+        }
+        function done1(result){
             if(result.discount) {
                 $("#othervip").html((Decimal(result.vip).mul(100))+"%");
                 $("#othervip2vip").html((Decimal(result.vip2vip).mul(100))+"%");
 
                 $("#othernormal").html((Decimal(result.normal).mul(100))+"%");
             }
+        }
+        loadAjax('https://api2.bitpie.com/api/v1/ex/otc/fee','GET',function(flag,data){
+            if(!flag){
+                done1(data);
+            }else{
+                loadAjax('https://api1.bitpie.com/api/v1/ex/otc/fee','GET',function(flag,data){
+                    if(!flag){
+                       done1(data);
+                    }else{
+                        loadAjax('https://api3.bitpie.com/api/v1/ex/otc/fee','GET',function(flag,data){
+                            if(!flag){
+                                done1(data);
+                            }
+                        })
 
+                    }
+                })
+            }
+        })
 
+        loadAjax('https://api2.bitpie.com/api/v1/ex/otc/fee?coin_code=BTC','GET',function(flag,data){
+            if(!flag){
+                done(data);
+            }else{
+                loadAjax('https://api1.bitpie.com/api/v1/ex/otc/fee?coin_code=BTC','GET',function(flag,data){
+                    if(!flag){
+                        done(data);
+                    }else{
+                        loadAjax('https://api3.bitpie.com/api/v1/ex/otc/fee?coin_code=BTC','GET',function(flag,data){
+                            if(!flag){
+                                done(data);
+                            }
+                        })
 
-        });
-
+                    }
+                })
+            }
+        })
 
 
     })
