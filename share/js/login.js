@@ -122,7 +122,7 @@ $(function(){
     var self = $(this);
     self.attr('disabled',true);
     $('#getCode').addClass('on')
-    getCode(getCodeNum)
+    getCode(getCodeNum,lang)
 
   })
   $(".country-list-box").on("click",".country-list",function(){
