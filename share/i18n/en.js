@@ -30,7 +30,7 @@ const en = {
     img:'images/bai_en.png'
   },
   success: {
-    intro: 'On Bitpie version 3.7.7 or later Click on <br/>"Me - Receive Rewards" to see the rewards details.',
+    intro: 'On Bitpie version 3.7.7 or later Click on <br/>"Me——Reward Center" to see the rewards details.',
     button: 'Download Bitpie App',
     successBg: 'images/chenggong_en.png'
   },

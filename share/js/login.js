@@ -136,11 +136,9 @@ $(function(){
   function recode(type,lang){
     var url;
     var invite_code = getQueryString('invite_code')
-    var account_name = getQueryString('account_name')
     var area = $('#country').attr('data-num')
     var phone = $('#phoneNum').val()
     var vaildCode = $('#intro3').val()
-    var activity_type = getQueryString('activity_type')
     if(type === 1){
       url = url1
     }else if(type === 2){
@@ -158,9 +156,7 @@ $(function(){
         area:area,
         phone  :phone,
         inviteCode:invite_code,
-        vaildCode   :vaildCode,
-        accountName:account_name,
-        activity_type:activity_type
+        vaildCode   :vaildCode
       },
       success:function(data){
         if(data.result){
