@@ -33,7 +33,7 @@ const en = {
   },
   success: {
     intro: 'On Bitpie version 3.7.7 or later Click on <br/>"Me——Reward Center" to see the rewards details.',
-    button: 'Download Bitpie App',
+    button: 'Update Bitpie App',
     successBg: 'images/chenggong_en.png'
   },
   share:{

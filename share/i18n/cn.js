@@ -34,7 +34,7 @@ const cn = {
   },
   success: {
     intro: '在 比特派v3.7.7 以上版本中</br>点击“我—— 奖励中心”查看奖励情况。',
-    button: '立即下载比特派钱包',
+    button: '立即升级比特派钱包',
     successBg: 'images/successBg.png'
   },
   share:{
