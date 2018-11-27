@@ -21,10 +21,11 @@ const en = {
       2: '2. How to get the rewards: After inviting a valid user, you can view the reward details in “Bitpie– Reward Centre”;',
       3: '3. Rewards details：The invitee can get a free EOS account Coupon;',
       4: '4. Conditions for collection: Only users who do not have an EOS account in Bitpie, and each user can only receive one coupon.',
-      5: '5. Upon the creation of EOS account by the invitee, by default, the iniviter will receive all the channel rewards from the DApps participated in by the invitee.',
-      6: '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie; ',
-      7: '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
-      8: '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;'
+      5: '5. The new user of the Bitpie wallet needs to complete a BTC or ETH coin transfer operation (you can send money to yourself) to activate the free creation coupon.<br/>',
+      6: '* Upon the creation of EOS account by the invitee, by default, the iniviter will receive all the channel rewards from the DApps participated in by the invitee.',
+      7: '* The phone number is only the proof for receiving the reward, real-name authentication is not compulsory while using Bitpie; ',
+      8: '* Bitpie have the right to cancel rewards that are obtained through improper ways;',
+      9: '* The same phone number, the same UID, the same terminal number or characteristics that are reasonably displayed as the same user are treated as the same user;'
     },
     foot: '* To the extent permitted by law, Bitpie reserves the right of final interpretation of this activity.',
     banner:'images/bg_en.png',
