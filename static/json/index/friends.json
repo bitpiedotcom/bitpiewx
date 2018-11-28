@@ -94,5 +94,13 @@
   {
     "src":"/static/image/index_friend/Chaince@2x.png",
     "link":"https://chaince.com/"
+  },
+  {
+    "src":"/static/image/index_friend/bishijie@2x.png",
+    "link":"https://www.bishijie.com"
+  },
+  {
+    "src":"/static/image/index_friend/spiderstore@2x.png",
+    "link":"https://chaince.com/"
   }
 ]
