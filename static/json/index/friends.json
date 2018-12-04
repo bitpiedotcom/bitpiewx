@@ -106,5 +106,9 @@
   {
     "src":"/static/image/index_friend/coinness@2x.png",
     "link":"https://www.coinness.com/"
+  },
+  {
+    "src":"/static/image/index_friend/btccom@2x.png",
+    "link":"https://btc.com/"
   }
 ]
