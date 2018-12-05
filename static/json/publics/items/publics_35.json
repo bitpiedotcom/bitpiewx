@@ -1,6 +1,6 @@
 {
   "cn":{
-    "title":"比特派派银行支持 BCHSV 充提公告",
+    "title":"比特派派银行支持 BCHSV 充提及比特护盾支持领取 BCHSV 公告",
     "data":"2018-12-04",
     "id":35,
     "watch":28,
@@ -12,6 +12,10 @@
       {
         "type":0,
         "data":"比特派派银行已开放 BCHSV 充提！"
+      },
+      {
+        "type":0,
+        "data":"比特护盾支持领取 BCHSV , 安卓版升级最新版 V3.7.9，IOS 版审核通过即可。<a href='https://bitpie.com/download' target='_blank'>点击更新</a>"
       },
       {
         "type":0,
