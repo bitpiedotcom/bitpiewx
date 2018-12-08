@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-    <title>抽奖券规则</title>
+    <script src="/js/jquery-1.11.0.js"></script>
+    <title tkey="title">抽奖券规则</title>
     <style>
         body{
             font-family:"Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
@@ -74,5 +75,29 @@
     <p>中奖规则：当您持有的奖券号和当日开奖号吻合，则恭喜您获得当日的奖品。</p>
     <p>本活动最终解释权归 Bitpie 所有。</p>
 </div>
+<script type="text/javascript">
+    $(function(){
+        var jsdata = {
+            "en":{
+
+            }
+        };
+        var langCode = "en";
+        var lang = (navigator.language || navigator.browserLanguage).toLowerCase();
+        var translate = function (jsdata)
+        {
+            $("[tkey]").each (function (index)
+            {
+                var strTr = jsdata [$(this).attr ('tkey')];
+                $(this).html (strTr);
+            });
+        }
+        if(new String(lang).indexOf("zh") > -1){
+            langCode = "cn";
+        }
+        //translate(langCode)
+
+    })
+</script>
 </body>
 </html>
