@@ -22,15 +22,16 @@
             letter-spacing: 0;
         }
         .content{
+            padding-top: 20px;
             width:90%;
             margin:0 auto;
         }
         .content p{
             font-family: PingFangSC-Regular;
-            font-size: 13px;
+            font-size: 16px;
             color: #000000;
             letter-spacing: 0;
-            line-height: 23px;
+            line-height: 32px;
         }
         .img_info{
             display: block;
@@ -44,19 +45,34 @@
             letter-spacing: 0;
             line-height: 23px;
         }
-        .content-info{
-            font-family: PingFangSC-Regular !important;
-            font-size: 12px !important;
-            color: #000000 !important;
-            letter-spacing: 0 !important;
-            line-height: 19px !important;
+
+        .content-first,.content-second,.content-three{
+            margin-top: 40px;
         }
-        .wrong{
-            margin-top: 25px !important;
+        .content-first p,.content-second p,.content-three p{
+            line-height: 22px;
         }
+        .content-three p{
+            font-size: 14px;
+        }
+        @media(min-width:769px) {
+            .active{
+                width:768px;
+                margin:0 auto;
+                border:1px solid #e0e0e0;
+                -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+                border-radius: 5px;
+                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+
+            }
+
+        }
+
+
     </style>
 </head>
 <body>
+<div class="active">
 <div class="header">
     <img class="log_top" src="/acimg/banner_ch.png">
 </div>
@@ -66,18 +82,24 @@
         “2018币圈复活节”由比特派举办，每届“币圈复活节”会为币圈朋友们带来奖品福利以及区块链上新的技术功能。希望可以给整个币圈带来信心，一起以积极的状态迎接新的一年。
     </p>
     <img class="log_top img_info" src="/acimg/pic_ch.png">
+    <div class="content-first">
     <h3>“币圈复活节”有哪些亮点？</h3>
     <p>1、基于 EOS 的跨链稳定币 EBTC、EETH、EUSD发布</p>
     <p>2、接入跨链稳定币的 EOS DApp 小游戏</p>
     <p>3、持有EBTC、EETH、EUSD获得抽奖券</p>
+    </div>
+    <div class="content-second">
     <h3>怎样参与“币圈复活节”？</h3>
     <p>1、活动时间：12月13日至12月23日</p>
     <p>2、通过 bitpie.com 更新最新客户端</p>
     <p>3、在比特派 App 首页“币圈复活节”入口处点击进入</p>
-    <p class="content-info wrong">* 注意事项：</p>
-    <p class="content-info">1、活动中有大量需要用到 EOS 账户的地方，若参与活动建议先准备好 EOS 账户</p>
-    <p class="content-info">2、兑换 EBTC、EETH、EUSD 时会有一定的区块网络确认时间，请耐心等待</p>
-    </p>
+    </div>
+    <div class="content-three">
+    <p>* 注意事项：</p>
+    <p>1、活动中有大量需要用到 EOS 账户的地方，若参与活动建议先准备好 EOS 账户</p>
+    <p>2、兑换 EBTC、EETH、EUSD 时会有一定的区块网络确认时间，请耐心等待</p>
+    </div>
+</div>
 </div>
 </body>
 </html>
