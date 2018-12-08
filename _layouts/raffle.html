@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>抽奖券规则</title>
+    <style>
+        body{
+            font-family:"Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
+        }
+        .diy{
+            width:80%;
+            margin:0 auto;
+        }
+        table{
+            width: 90%;
+            background-color: transparent;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        .table-bordered th{
+            background-color: #cdcdcd;
+        }
+        .table-bordered {
+            border: 1px solid #333;
+            border-collapse: separate;
+            *border-collapse: collapse;
+            border-left: 0;
+            border-top:0;
+            margin:30px auto 40px auto;
+        }
+        .table-bordered th,.table-bordered td{
+            padding: 8px;
+            line-height: 20px;
+            text-align: center;
+            vertical-align: top;
+            /*border:1px solid #333;*/
+            border-top: 1px solid #333;
+            border-left: 1px solid #333;
+        }
+        p{
+            font-size: 12px;
+        }
+        .diy-info{
+            color:#d9534f;
+        }
+    </style>
 </head>
 <body>
-raffle
+<div class="diy">
+    <h3>抽奖券规则</h3>
+    <p>1.抽奖活动时间： 2018年12月17日 12:00:00 至 2018年12月23日 21:00:00</p>
+    <p>2.准备好你的 EOS 帐号，如果还未有 EOS 帐号，可根据教程创建。<a href="http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html" target="_blank">点击</a></p>
+    <p>3.获得抽奖券：在首页-币币兑换中，进行 BTC-EBTC、ETH-EETH、USDT-EUSD 兑换定期可抽奖券，多换多得。</p>
+    <p>4.在活动期间每日 19:00:00，会对快照参与者的 EBTC、EETH、EUSD 的余额进行快照，届时参与者每持有 0.02 EBTC 或 0.8 EETH 或 80 USDT-EUSD 可获得一张抽奖券，奖券号码随机发放</p>
+    <p>5.活动奖品：活动将抽取7名中奖者，奖品依次为 比特护盾、比特护盾、比特护盾、iPhone XS Max、iPhone XS Max、iPhone XS Max、最高可得30万大奖。</p>
+    <p>6.中奖奖金：根据奖券送出的数量逐渐增加，最高奖金30万。中奖奖金将以 EOS 形式发放，最终发放数量以 2018年12月17日 12:00:00 火币 OTC 交易所“购买”价格为基准计算，需使用比特派钱包接收。</p>
+    <table class="table-bordered">
+        <tr><th>开奖时间</th><th>抽奖数据统计截止</th><th>奖品</th></tr>
+        <tr><td>12月17日 21:00</td><td>12月17日 19:00</td><td>比特护盾</td></tr>
+        <tr><td>12月18日 21:00</td><td>12月18日 19:00</td><td>比特护盾</td></tr>
+        <tr><td>12月19日 21:00</td><td>12月19日 19:00</td><td>比特护盾</td></tr>
+        <tr><td>12月20日 21:00</td><td>12月20日 19:00</td><td>iPhone XS Max</td></tr>
+        <tr><td>12月21日 21:00</td><td>12月21日 19:00</td><td>iPhone XS Max</td></tr>
+        <tr><td>12月22日 21:00</td><td>12月22日 19:00</td><td>iPhone XS Max</td></tr>
+        <tr><td>12月23日 21:00</td><td>12月23日 19:00</td><td>最高 30 万</td></tr>
+    </table>
+
+    <h3 class="diy-info">公平性声明:</h3>
+    <p>为确保公平，每日开奖号会取当日香港时间 20:00 之后产生的第一个 BTC、ETH、EOS 区块 Hash 值，依次首尾相连再做 Hash256。并使用最后所得的哈希结果对总奖券数取余，所得余数即为开奖号码。（若整除则开奖号码为最大奖券号）</p>
+    <p>中奖规则：当您持有的奖券号和当日开奖号吻合，则恭喜您获得当日的奖品 —— 最高 “30 万”或一部 iPhone XS Max。</p>
+    <p>本活动最终解释权归 Bitpie 所有。</p>
+</div>
 </body>
 </html>
