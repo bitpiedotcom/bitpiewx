@@ -17,7 +17,7 @@ const en = {
     button: 'Get now',
     title: 'Activity rules',
     intro: {
-      1: '1. Activity time: From November 27, 2018 12 a.m. to December 11, 2018 11:59 p.m. （HongKong Time）',
+      1: '1. Activity time: From November 27, 2018 12 a.m. to December 24, 2018 11:59 p.m. （HongKong Time）',
       2: '2. How to get the rewards: After inviting a valid user, you can view the reward details in “Bitpie– Reward Centre”;',
       3: '3. Rewards details：The invitee can get a free EOS account Coupon;',
       4: '4. Conditions for collection: Only users who do not have an EOS account in Bitpie, and each user can only receive one coupon.',
@@ -42,7 +42,7 @@ const en = {
     btn2:'Share image',
     intro: [
       'Activity rules:',
-      '1. Activity time: From November 27, 2018 12 a.m. to December 11, 2018 11:59 p.m. （HongKong Time）',
+      '1. Activity time: From November 27, 2018 12 a.m. to December 24, 2018 11:59 p.m. （HongKong Time）',
       '2. Rewards details ',
       '【1】Channel Rewards: By inviting valid users, the inviter can get all EOS DApp rewards on Bitpie from the invitees. No ceiling for Invitation times, no ceiling for Rewards; ',
       '【2】Resource Rewards: By inviting valid users, both the inviter and the invitee can get a free EOS account Coupon or an EOS-Resource-Help Coupon;',
