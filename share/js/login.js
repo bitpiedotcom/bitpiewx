@@ -32,12 +32,6 @@ $(function(){
       dataType:'json',
       success:function(data){
         $('.country-box').addClass('on')
-        var data = data
-        var html = '';
-        for(var i=0; i<data.length; i++){
-          html += '<div class="country-list" data-num="'+data[i].country_calling_code+'">'+data[i].country_name+'</div>'
-        }
-        $(".country-list-box").html(html);
       },
       error:function(){
         conutry+=1
@@ -46,7 +40,13 @@ $(function(){
     })
   }
   $(".input-country-btn").click(function(){
-
+    $('.country-box').addClass('on')
+    var data = [{"country_name": "Canada", "country_calling_code": "1", "currency_code": "CAD", "country_code": "CAN"}, {"country_name": "China", "country_calling_code": "86", "currency_code": "CNY", "country_code": "CHN"}, {"country_name": "Germany", "country_calling_code": "49", "currency_code": "EUR", "country_code": "DEU"}, {"country_name": "France", "country_calling_code": "33", "currency_code": "EUR", "country_code": "FRA"}, {"country_name": "United Kingdom", "country_calling_code": "44", "currency_code": "GBP", "country_code": "GBR"}, {"country_name": "Hong Kong", "country_calling_code": "852", "currency_code": "HKD", "country_code": "HKG"}, {"country_name": "Japan", "country_calling_code": "81", "currency_code": "JPY", "country_code": "JA"}, {"country_name": "Korea", "country_calling_code": "82", "currency_code": "KRW", "country_code": "KOR"}, {"country_name": "Macao", "country_calling_code": "853", "currency_code": "MOP", "country_code": "MAC"}, {"country_name": "Taiwan", "country_calling_code": "886", "currency_code": "TWD", "country_code": "TWN"}, {"country_name": "United States of America", "country_calling_code": "1", "currency_code": "USD", "country_code": "USA"}]
+    var html = '';
+    for(var i=0; i<data.length; i++){
+      html += '<div class="country-list" data-num="'+data[i].country_calling_code+'">'+data[i].country_name+'</div>'
+    }
+    $(".country-list-box").html(html);
     getcountry(conutry)
   });
   $('.close-btn').click(function(){
