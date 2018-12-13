@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-    <title>币圈复活节</title>
+    <script  src="/js/jquery-1.11.0.js"></script>
+    <title tkey="title"></title>
     <style>
         body{
             padding:0;
@@ -77,39 +78,88 @@
     <img class="log_top" src="/acimg/banner_ch.png">
 </div>
 <div class="content">
-    <h3>“币圈复活节”是什么？</h3>
-    <p class="content-p">
-        “2018币圈复活节”由比特派举办，每届“币圈复活节”会为币圈朋友们带来福利以及区块链上的技术创新。希望“币圈复活节”可以增强整个币圈信心，一起以积极的状态迎接新的一年。
+    <h3 tkey="ch3"></h3>
+    <p class="content-p" tkey="cp3">
+
     </p>
     <img class="log_top img_info" src="/acimg/pic_ch.png">
     <div class="content-first">
-    <h3>“币圈复活节”有哪些亮点？</h3>
-    <p>1、基于 EOS 的跨链稳定币 EBTC、EETH、EUSD 正式发布</p>
-    <p>2、多个接入 EOS 跨链稳定币的 DApp 上线</p>
-    <p>3、持有 EBTC、EETH、EUSD 获得大量福利</p>
+    <h3 tkey="first-h3"></h3>
+    <p tkey="first-p1"></p>
+    <p tkey="first-p2"></p>
+    <p tkey="first-p3"></p>
     </div>
     <div class="content-second">
-    <h3>怎样参与“币圈复活节”？</h3>
-    <p>1、活动时间：12月17日 12:00:00 至12月23日 24:00:00。</p>
-    <p>2、通过 <a href="https://bitpie.com/download" target="_blank">bitpie.com/download</a> 更新最新客户端。</p>
-    <p>3、在比特派 App 首页“币圈复活节”入口处点击进入，参与活动。</p>
+    <h3 tkey="second-h3"></h3>
+    <p tkey="second-p1"></p>
+    <p tkey="second-p2"></p>
+    <p tkey="second-p3"></p>
     </div>
     <div class="content-three">
-    <p>* 注意事项：</p>
-    <p>1、参与活动需提前准备好 EOS 账户。<a href="http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html" target="_blank">创建账户教程</a></p>
-    <p>2、兑换 EBTC、EETH、EUSD 时会有一定的区块网络确认时间，请耐心等待。</p>
+    <p tkey="three-p1"></p>
+    <p tkey="three-p2"></p>
+    <p tkey="three-p3"></p>
     </div>
     <div class="content-fourth">
-        <p>QA：EBTC、EETH、EUSD 是什么？</p>
-        <p>EBTC、EETH、EUSD 是 EOS 上的跨链稳定币，分别对应 BTC、ETH、USDT 在EOS 网络上的 1:1 映射。官网 <a href="https://eosstablecoin.com" target="_blank">https://eosstablecoin.com</a></p>
-        <p>QA：如何获得 EBTC、EETH、EUSD 这三种稳定币？</p>
-        <p>您可以通过比特派 APP 首页“币币兑换”进行兑换。 </p>
-        <p>QA：换取 EBTC、EETH、EUSD 有什么用？ </p>
-        <p>跨链稳定币丰富了 EOS 生态的资产多样性，用户可以通过 EBTC、EETH、EUSD 来体验 EOS DApp，并且可以避免因 EOS 价格波动而带来的损失。 </p>
-        <p>QA：如何获取 EOS 账户？</p>
-        <p>通过比特派 APP 首页-全部-创建EOS账户，可以选择自己喜欢的方式开通 EOS 账户。<a href="http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html" target="_blank">创建账户教程</a></p>
+        <p tkey="fourth-1"></p>
+        <p tkey="fourth-2"></p>
+        <p tkey="fourth-3"></p>
+        <p tkey="fourth-4"></p>
+        <p tkey="fourth-5"></p>
+        <p tkey="fourth-6"></p>
+        <p tkey="fourth-7"></p>
+        <p tkey="fourth-8"></p>
     </div>
 </div>
 </div>
+<script type="text/javascript">
+    $(function(){
+        var langCode = "cn";
+        var lang = (navigator.language || navigator.browserLanguage).toLowerCase();
+        var jsdata = [
+            {"cn": {
+                "title":"币圈复活节",
+                "ch3":"“币圈复活节”是什么？",
+                "cp3":"“2018币圈复活节”由比特派举办，每届“币圈复活节”会为币圈朋友们带来福利以及区块链上的技术创新。希望“币圈复活节”可以增强整个币圈信心，一起以积极的状态迎接新的一年。",
+                "first-h3":"“币圈复活节”有哪些亮点？",
+                "first-p1":"1、基于 EOS 的跨链稳定币 EBTC、EETH、EUSD 正式发布",
+                "first-p2":"2、多个接入 EOS 跨链稳定币的 DApp 上线",
+                "first-p3":"3、持有 EBTC、EETH、EUSD 获得大量福利",
+                "second-h3":"怎样参与“币圈复活节”？",
+                "second-p1":"1、活动时间：12月17日 12:00:00 至12月23日 24:00:00。",
+                "second-p2":"2、通过 <a href='https://bitpie.com/download' target='_blank'>bitpie.com/download</a> 更新最新客户端。",
+                "second-p3":"3、在比特派 App 首页“币圈复活节”入口处点击进入，参与活动。",
+                "three-p1":"* 注意事项：",
+                "three-p2":"1、参与活动需提前准备好 EOS 账户。<a href='http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html' target='_blank'>创建账户教程</a>",
+                "three-p3":"2、兑换 EBTC、EETH、EUSD 时会有一定的区块网络确认时间，请耐心等待。",
+                "fourth-1":"QA：EBTC、EETH、EUSD 是什么？",
+                "fourth-2":"EBTC、EETH、EUSD 是 EOS 上的跨链稳定币，分别对应 BTC、ETH、USDT 在EOS 网络上的 1:1 映射。官网 <a href='https://eosstablecoin.com' target='_blank'>https://eosstablecoin.com</a>",
+                "fourth-3":"QA：如何获得 EBTC、EETH、EUSD 这三种稳定币？",
+                "fourth-4":"您可以通过比特派 APP 首页“币币兑换”进行兑换。",
+                "fourth-5":"QA：换取 EBTC、EETH、EUSD 有什么用？",
+                "fourth-6":"跨链稳定币丰富了 EOS 生态的资产多样性，用户可以通过 EBTC、EETH、EUSD 来体验 EOS DApp，并且可以避免因 EOS 价格波动而带来的损失。",
+                "fourth-7":"QA：如何获取 EOS 账户？",
+                "fourth-8":"通过比特派 APP 首页-全部-创建EOS账户，可以选择自己喜欢的方式开通 EOS 账户。<a href='http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html' target='_blank'>创建账户教程</a>",
+            }
+            },
+            {"en": {
+
+            }
+
+            }
+        ];
+        var translate = function (jsdata)
+        {
+            $("[tkey]").each (function (index)
+            {
+                var strTr = jsdata [$(this).attr ('tkey')];
+                $(this).html (strTr);
+            });
+        }
+
+        translate(jsdata[0].cn)
+
+    })
+</script>
 </body>
 </html>
