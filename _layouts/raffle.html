@@ -114,6 +114,39 @@
                 }
             },
             {
+                "en":{
+                    "title":"Lottery Draw Rules",
+                    "diy-p1":"1.Lottery time: December 17th, 2018 12:00 to December 23, 2018 24:00. (UTC+8).",
+                    "diy-p2":"2.Get your EOS account ready in Bitpie wallet. If you don't have an EOS account, you can create one according to the tutorial.<a href='http://docs.bitpie.com/en/latest/eosaccount/index.html' target='_blank' style='color:#D9534F'>click</a>",
+                    "diy-p3":"3.Lottery ticket giving out: during the above period, every day at 7 p.m., the system will take snapshots of the EBTC, EETH, and EUSD balances in Bitpie users’ accounts. Participants will be given one lottery ticket by holding EVERY 0.02 EBTC or 0.8 EETH or 80 USDT-EUSD. The lottery tickets are given out randomly at 8 p.m. The winning list will be announced at 9 p.m.",
+                    "diy-p4":"4.How to get EBTC, EETH and EUSD: You can swap BTC-EBTC, ETH-EETH, USDT-EUSD through Wallet – Coin swap.",
+                    "diy-p5":"5.Lottery Prizes: The event will last for 7 days and we will have only one winner per day. The prize lists are shown below. The final cash prize can be altered according to the total number of tickets issued; the highest is $45,000 USD. (The cash prize will be awarded in the form of EOS. The final amount of EOS will be calculated based on the “purchase” price of the OTC exchange on December 17, 2018 at 4p.m., and the winner will receive it through Bitpie wallet.)",
+                    "th1":"Draw time",
+                    "th2":"Lottery Pot Closing Time",
+                    "th3":"Prizes",
+                    "td1":"17th December 9 p.m.",
+                    "td2":"17th December 7 p.m.",
+                    "td3":"BITHD",
+                    "td4":"18th December 9 p.m.",
+                    "td5":"18th December 7 p.m.",
+                    "td6":"19th December 9 p.m.",
+                    "td7":"19th December 7 p.m.",
+                    "td8":"20th December 9 p.m.",
+                    "td9":"20th December 7 p.m.",
+                    "td10":"iPhone XS Max",
+                    "td11":"21st December 9 p.m.",
+                    "td12":"21st December 7 p.m.",
+                    "td13":"22nd December 9 p.m.",
+                    "td14":"22nd December 7 p.m.",
+                    "td15":"23rd December 9 p.m.",
+                    "td16":"23rd December 7 p.m.",
+                    "td17":"Highest $45.000",
+                    "diy-info":"Disclaimer:",
+                    "info-p1":"To guarantee fairness, the daily draw number will be determined by the first block hash value of BTC, ETH, EOS generated after 8.pm. Hong Kong time at that day. We will link these three hash values from beginning to the end and then calculate its SHA2-256, and eventually take its remainder as the lucky number. (If it is exactly divisible, the lottery number will be the biggest lottery number)",
+                    "info-p2":"After the daily snapshot is completed, the EOS account “bitpie4candy” will make an on-chain transaction. The total number of tickets will be recorded as memo in the EOS Blockchain to demonstrate fairness and transparency.",
+                    "info-p3":"Who to win: when your lottery number matches with the lucky draw number on that day, congratulations to you!",
+                    "info-p4":"Bitpie reserves the right to interpret this activity."
+                }
 
             }
         ];
@@ -129,9 +162,11 @@
         }
         if(new String(lang).indexOf("zh") > -1){
             langCode = "cn";
+            translate(jsdata[0].cn)
+        }else{
+            langCode = "en";
+            translate(jsdata[1].en)
         }
-        translate(jsdata[0].cn)
-
     })
 </script>
 </body>
