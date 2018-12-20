@@ -110,5 +110,9 @@
   {
     "src":"/static/image/index_friend/btccom@2x.png",
     "link":"https://btc.com/"
+  },
+  {
+    "src":"/static/image/index_friend/hoo@2x.png",
+    "link":"https://hoo.com/"
   }
 ]
