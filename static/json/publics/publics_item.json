@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"比特派钱包将支持 EOS CAFE DAC 空投",
+      "intro":"亲爱的派友:比特派钱包将支持 EOS CAFE DAC 项目代币 BEAN 的空投。",
+      "data":"2018-12-20",
+      "watch":1,
+      "id":36,
+      "month":"December",
+      "day":"20",
+      "type":1
+    },
+    {
       "title":"比特派派银行支持 BCHSV 充提及比特护盾支持领取 BCHSV 公告",
       "intro":"比特护盾支持领取 BCHSV , 安卓版升级最新版 V3.7.9，IOS 版审核通过即可",
       "data":"2018-12-04",
@@ -272,6 +282,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Bitpie Wallet will support EOS CAFE DAC Airdrop",
+      "intro":"Dear Bitpiers:Bitpie Wallet will support EOS CAFE DAC BEAN Airdrop.",
+      "data":"2018-12-20",
+      "watch":1,
+      "id":36,
+      "month":"December",
+      "day":"20",
+      "type":1
+    },
     {
       "title":"Bitpie【Invitation Reward and Getting Free EOS Accounts】 Activity Rules",
       "intro":"1. Activity time: From November 27, 2018 12 a.m. to December 11, 2018 11:59 p.m. （HongKong Time）2. Rewards details【1】Channel Rewards: By inviting valid users, the inviter can get all EOS DApp rewards on Bitpie from the invitees. No ceiling for Invitation times, no ceiling for Rewards",
