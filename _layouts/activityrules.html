@@ -64,13 +64,13 @@
             /*text-align: center;*/
         /*}*/
 
-        .content-first,.content-second,.content-three,.content-fourth{
+        .content-first,.content-second,.content-three,.content-fourth,.content-add{
             margin-top: 40px;
         }
-        .content-first p,.content-second p,.content-three p,.content-fourth p{
+        .content-first p,.content-second p,.content-three p,.content-fourth p,.content-add p{
             line-height: 22px;
         }
-        .content-three p,.content-fourth p,.content-five p{
+        .content-three p,.content-fourth p,.content-five p,.content-add p{
             font-size: 14px;
         }
         .content-first p{
@@ -99,31 +99,41 @@
 </div>
 <div class="content">
     <div class="content-second">
-    <h3 tkey="second-h3">活动时间</h3>
-    <p tkey="second-p1">12月30日 12:00:00 - 2019年1月2日 12:00:00</p>
+    <h3 tkey="second-h3"></h3>
+    <p tkey="second-p1"></p>
     </div>
     <div class="content-first">
-        <h3>活动奖品</h3>
-        <p>一等奖: iPhone XS Max</p>
-        <p>二等奖: 666 EUSD</p>
-        <p>三等奖: 66 EUSD</p>
+        <h3 tkey="first-h3"></h3>
+        <p tkey="first-p1"></p>
+        <p tkey="first-p2"></p>
+        <p tkey="first-p3"></p>
     </div>
     <div class="content-three" style="position: relative">
-    <h3>参与活动</h3>
-    <p tkey="three-p1">* 此活动仅限在“比特派钱包—— DApp 页面”找到带有“稳定币”角标 <img style="position:relative;top:5px;width:22px;height:22px;display: inline-block" src="/acimg/stable@2x.png"> 的 DApp 参与。</p>
+    <h3 tkey="three-h3"></h3>
+    <p tkey="three-p1"></p>
     </div>
-    <div class="content-fourth">
-        <h3>获得奖券</h3>
-        <p tkey="fourth-1">使用 EUSD 参与 EOS DApp，每次参与额度 ≥ 1EUSD，可获得1张抽奖券。参与游戏次数越多，可获得奖券数越多。</p>
-        <p>活动期间在 Newdex 或 WhaleEx 或 Findex 进行 EUSD 交易，单笔成交 ≥ 1EUSD，可获得1张抽奖券。交易次数越多，可获得抽奖券越多。</p>
-        <p>开奖时间：2019年1月3日 21：00</p>
+    <div class="content-add">
+        <h3 tkey="add-h3"></h3>
+        <p tkey="add-p1"></p>
+        <p tkey="add-p2"></p>
+        <p tkey="add-p3"></p>
     </div>
     <div class="content-five">
-        <p>扫描查看详情</p>
+        <p tkey="add-p4"></p>
         <img src="/acimg/weixin_rules.png" style="width:80px;height:80px;display: block;margin: 0 auto">
-        <p>bitpie.com</p>
-
+        <p tkey="add-p5"></p>
     </div>
+    <div class="content-fourth">
+        <p tkey="fourth-1"></p>
+        <p tkey="fourth-2"></p>
+        <p tkey="fourth-3"></p>
+        <p tkey="fourth-4"></p>
+        <p tkey="fourth-5"></p>
+        <p tkey="fourth-6"></p>
+        <p tkey="fourth-7"></p>
+        <p tkey="fourth-8"></p>
+    </div>
+
 
 </div>
 </div>
@@ -133,22 +143,24 @@
         var lang = (navigator.language || navigator.browserLanguage).toLowerCase();
         var jsdata = [
             {"cn": {
-                "title":"币圈复活节",
-                "content-top-info":"iOS 用户需在 DApp 页，置顶 Banner 点击进入猜大小游戏",
-                "ch3":"“币圈复活节”是什么？",
-                "cp3":"“2018币圈复活节”由比特派举办，每届“币圈复活节”会为币圈朋友们带来福利以及区块链上的技术创新。希望“币圈复活节”可以增强整个币圈信心，一起以积极的状态迎接新的一年。",
-//                "first-h3":"“币圈复活节”有哪些亮点？",
-//                "first-p1":"1、基于 EOS 的跨链稳定币 EBTC、EETH、EUSD 正式发布",
-//                "first-p2":"2、多个接入 EOS 跨链稳定币的 DApp 上线",
-//                "first-p3":"3、持有 EBTC、EETH、EUSD 获得大量福利",
-                "second-h3":"怎样参与“币圈复活节”？",
-                "second-p1":"1、活动时间：12月17日 12:00:00 至12月24日 24:00:00。",
-                "second-p2":"2、通过 <a href='https://bitpie.com/download' target='_blank'>bitpie.com/download</a> 更新最新客户端。",
-                "second-p3":"3、在比特派 App 首页“币圈复活节”入口处点击进入，参与活动。",
-                "second-p4":"4、扫描下方二维码找到组织。",
-                "three-p1":"* 注意事项：",
-                "three-p2":"1、参与活动需提前准备好 EOS 账户。<a href='http://docs.bitpie.com/zh_CN/latest/eosaccount/index.html' target='_blank'>创建账户教程</a>",
-                "three-p3":"2、兑换 EBTC、EETH、EUSD 时会有一定的区块网络确认时间，请耐心等待。",
+                "title":"币圈复活节返场活动",
+//                "content-top-info":"iOS 用户需在 DApp 页，置顶 Banner 点击进入猜大小游戏",
+//                "ch3":"“币圈复活节”是什么？",
+//                "cp3":"“2018币圈复活节”由比特派举办，每届“币圈复活节”会为币圈朋友们带来福利以及区块链上的技术创新。希望“币圈复活节”可以增强整个币圈信心，一起以积极的状态迎接新的一年。",
+                "first-h3":"活动奖品",
+                "first-p1":"一等奖: iPhone XS Max",
+                "first-p2":"二等奖: 666 EUSD",
+                "first-p3":"三等奖: 66 EUSD",
+                "second-h3":"活动时间",
+                "second-p1":"12月30日 12:00:00 - 2019年1月2日 12:00:00",
+                "three-h3":"参加活动",
+                "three-p1":"* 此活动仅限在“比特派钱包—— DApp 页面”找到带有“稳定币”角标 <img style=\"position:relative;top:5px;width:22px;height:22px;display: inline-block\" src=\"/acimg/stable@2x.png\"> 的 DApp 参与。",
+                "add-h3":"获得奖券",
+                "add-p1":"使用 EUSD 参与 EOS DApp，每次参与额度 ≥ 1EUSD，可获得1张抽奖券。参与游戏次数越多，可获得奖券数越多。",
+                "add-p2":"活动期间在 Newdex 或 WhaleEx 或 Findex 进行 EUSD 交易，单笔成交 ≥ 1EUSD，可获得1张抽奖券。交易次数越多，可获得抽奖券越多。",
+                "add-p3":"开奖时间：2019年1月3日 21：00",
+                "add-p4":"扫描查看详情",
+                "add-p5":"<a href='http://bitpie.com target='_blank'>bitpie.com</a>",
                 "fourth-1":"QA：EBTC、EETH、EUSD 是什么？",
                 "fourth-2":"EBTC、EETH、EUSD 是 EOS 上的跨链稳定币，分别对应 BTC、ETH、USDT 在EOS 网络上的 1:1 映射。官网 <a href='https://eosstablecoin.com' target='_blank'>https://eosstablecoin.com</a>",
                 "fourth-3":"QA：如何获得 EBTC、EETH、EUSD 这三种稳定币？",
@@ -160,22 +172,24 @@
             }
             },
             {"en": {
-                "title":"EOS DApps Feast",
-                "content-top-info":"iOS users can enter the BIG/SMALL game through the Top Banner in the DAPP page",
-                "ch3":'What is "EOS DApps Feast"?',
-                "cp3":'"2018 EOS DApps Feast" is organized by Bitpie, every time, “EOS DApps Feast” will bring many benefits to all cryptocurrency world holders and also bring innovation to the Blockchain Technology. We hope that the “EOS DApps Feast” can enhance the confidence of the entire cryptocurrency world and welcome the new year together in a positive way.',
-               // "first-h3":'EOS DApps Feast" Highlights ?',
-               // "first-p1":"1.Officially release EOS-based Cross-chain Stablecoins: EBTC, EETH, EUSD.",
-               // "first-p2":"2.A couple of Dapps integrating EOS Cross-chain Stablecoins debut.",
-               // "first-p3":"3.EBTC, EETH, EUSD holders can get a lot of benefits.",
-                "second-h3":'How to participate in the "EOS DApps Feast"?',
-                "second-p1":"1.Activity time: December 17, 12 p.m. to December 24, 12 a.m. (UTC+8)",
-                "second-p2":"2.Upgrade to the latest version at: <a href='https://bitpie.com/download' target='_blank'>bitpie.com/download</a> .",
-                "second-p3":"3.Click on the banner--“EOS DApps Feast” at Bitpie App Home page to participate in the activity.",
-                "second-p4":"4.Scan Qr Code to Join Us.",
-                "three-p1":"* Notes:",
-                "three-p2":"1.The EOS account should be prepared in advance in order to participate in the activity. <a href='http://docs.bitpie.com/en/latest/eosaccount/index.html' target='_blank'>(How to create an EOS account tutorial)</a>",
-                "three-p3":"2.There will be some network confirmation time when swapping to EBTC, EETH, EUSD, please be patient.",
+                "title":"Dapp Feast--New Year Activity",
+                //"content-top-info":"iOS users can enter the BIG/SMALL game through the Top Banner in the DAPP page",
+                //"ch3":'What is "EOS DApps Feast"?',
+                // "cp3":'"2018 EOS DApps Feast" is organized by Bitpie, every time, “EOS DApps Feast” will bring many benefits to all cryptocurrency world holders and also bring innovation to the Blockchain Technology. We hope that the “EOS DApps Feast” can enhance the confidence of the entire cryptocurrency world and welcome the new year together in a positive way.',
+                "first-h3":'Prizes',
+                "first-p1":"First Winner: 1 set of iPhone Xs Max",
+                "first-p2":"Second Winner: 666 EUSD",
+                "first-p3":"Third Winner: 66 EUSD",
+                "second-h3":'Activity Time',
+                "second-p1":"2018.12.30 12:00:00 - 2019.1.2 12:00:00(UTC+8)",
+                "three-h3":"",
+                "three-p1":"This Activity is associated with the Dapps listed in Bitpie wallet with “stable” tag.",
+                "add-h3":"",
+                "add-p1":"",
+                "add-p2":"",
+                "add-p3":"The winner list will be announced at 2019.1.3 21:00:00.",
+                "add-p4":"",
+                "add-p5":"",
                 "fourth-1":"QA:What are EBTC, EETH and EUSD?",
                 "fourth-2":"EBTC, EETH, and EUSD are Cross-chain Stablecoins on EOS Mainnet, which are pegged to BTC, ETH, and USDT on the EOS Mainnet at 1:1 ratio. These stablecoins are accepted by the gateways operated by Bitpie.Official website <a href='https://eosstablecoin.com' target='_blank'>https://eosstablecoin.com</a>",
                 "fourth-3":"QA:How do I get EBTC, EETH and EUSD?",
@@ -201,14 +215,15 @@
         if(lang.indexOf("zh") > -1) {
             $($(".log_top").get(0)).attr("src",src1);
             $($(".img_info").get(0)).attr("src",src2);
-           // translate(jsdata[0].cn)
+          // translate(jsdata[0].cn)
         }else{
             src1 = $($(".log_top").get(0)).attr("data-en");
             src2 = $($(".img_info").get(0)).attr("data-en");
             $($(".log_top").get(0)).attr("src",src1);
             $($(".img_info").get(0)).attr("src",src2);
-            //translate(jsdata[1].en)
+          //  translate(jsdata[1].en)
         }
+        translate(jsdata[0].cn)
 
     })
 </script>
