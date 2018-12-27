@@ -12,6 +12,7 @@
         body{
             padding:0;
             margin:0;
+            background: #fff;
         }
         .log_top{
             width:100%;
@@ -21,6 +22,7 @@
             font-size: 23px;
             color: #9C2C39;
             letter-spacing: 0;
+            text-align: center;
         }
         a,a:hover,a:active{color:#9C2C39}
         .content{
@@ -34,6 +36,12 @@
             color: #000000;
             letter-spacing: 0;
             line-height: 32px;
+        }
+        .content-five p,.content-second p{
+            text-align: center;
+        }
+        .content-second{
+            margin-top: 0px !important;
         }
         .img_info{
             display: block;
@@ -52,6 +60,9 @@
             letter-spacing: 0;
             line-height: 23px;
         }
+        /*.content-second p{*/
+            /*text-align: center;*/
+        /*}*/
 
         .content-first,.content-second,.content-three,.content-fourth{
             margin-top: 40px;
@@ -59,8 +70,11 @@
         .content-first p,.content-second p,.content-three p,.content-fourth p{
             line-height: 22px;
         }
-        .content-three p,.content-fourth p{
+        .content-three p,.content-fourth p,.content-five p{
             font-size: 14px;
+        }
+        .content-first p{
+            text-align: center;
         }
         @media(min-width:769px) {
             .active{
@@ -81,43 +95,36 @@
 <body>
 <div class="active">
 <div class="header">
-    <img class="log_top" src="" data-cn="/acimg/banner_ch.jpg" data-en="/acimg/banner_ch.en.jpg">
+    <img class="log_top" src="" data-cn="/acimg/banner_ch@3x.png" data-en="/acimg/banner_en@3x.png">
 </div>
 <div class="content">
-    <h3 tkey="ch3"></h3>
-    <p class="content-p" tkey="cp3">
-
-    </p>
-    <img class="log_top img_info" src="" data-cn="/acimg/pic_ch.png" data-en="/acimg/pic_ch.en.png">
-    <!--<div class="content-first">-->
-    <!--<h3 tkey="first-h3"></h3>-->
-    <!--<p tkey="first-p1"></p>-->
-    <!--<p tkey="first-p2"></p>-->
-    <!--<p tkey="first-p3"></p>-->
-    <!--</div>-->
     <div class="content-second">
-    <h3 tkey="second-h3"></h3>
-    <p tkey="second-p1"></p>
-    <p tkey="second-p2"></p>
-    <p tkey="second-p3"></p>
-    <p tkey="second-p4"></p>
-    <img class="log_weixun" src="/acimg/weixin.jpg">
+    <h3 tkey="second-h3">活动时间</h3>
+    <p tkey="second-p1">12月30日 12:00:00 - 2019年1月2日 12:00:00</p>
     </div>
-    <div class="content-three">
-    <p tkey="three-p1"></p>
-    <p tkey="three-p2"></p>
-    <p tkey="three-p3"></p>
+    <div class="content-first">
+        <h3>活动奖品</h3>
+        <p>一等奖: iPhone XS Max</p>
+        <p>二等奖: 666 EUSD</p>
+        <p>三等奖: 66 EUSD</p>
+    </div>
+    <div class="content-three" style="position: relative">
+    <h3>参与活动</h3>
+    <p tkey="three-p1">* 此活动仅限在“比特派钱包—— DApp 页面”找到带有“稳定币”角标 <img style="position:relative;top:5px;width:22px;height:22px;display: inline-block" src="/acimg/stable@2x.png"> 的 DApp 参与。</p>
     </div>
     <div class="content-fourth">
-        <p tkey="fourth-1"></p>
-        <p tkey="fourth-2"></p>
-        <p tkey="fourth-3"></p>
-        <p tkey="fourth-4"></p>
-        <p tkey="fourth-5"></p>
-        <p tkey="fourth-6"></p>
-        <p tkey="fourth-7"></p>
-        <p tkey="fourth-8"></p>
+        <h3>获得奖券</h3>
+        <p tkey="fourth-1">使用 EUSD 参与 EOS DApp，每次参与额度 ≥ 1EUSD，可获得1张抽奖券。参与游戏次数越多，可获得奖券数越多。</p>
+        <p>活动期间在 Newdex 或 WhaleEx 或 Findex 进行 EUSD 交易，单笔成交 ≥ 1EUSD，可获得1张抽奖券。交易次数越多，可获得抽奖券越多。</p>
+        <p>开奖时间：2019年1月3日 21：00</p>
     </div>
+    <div class="content-five">
+        <p>扫描查看详情</p>
+        <img src="/acimg/weixin_rules.png" style="width:80px;height:80px;display: block;margin: 0 auto">
+        <p>bitpie.com</p>
+
+    </div>
+
 </div>
 </div>
 <script type="text/javascript">
@@ -194,13 +201,13 @@
         if(lang.indexOf("zh") > -1) {
             $($(".log_top").get(0)).attr("src",src1);
             $($(".img_info").get(0)).attr("src",src2);
-            translate(jsdata[0].cn)
+           // translate(jsdata[0].cn)
         }else{
             src1 = $($(".log_top").get(0)).attr("data-en");
             src2 = $($(".img_info").get(0)).attr("data-en");
             $($(".log_top").get(0)).attr("src",src1);
             $($(".img_info").get(0)).attr("src",src2);
-            translate(jsdata[1].en)
+            //translate(jsdata[1].en)
         }
 
     })
