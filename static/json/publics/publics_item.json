@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"关于支持以太坊ETH君士坦丁堡（Constantinople）分叉的公告",
+      "intro":"亲爱的派友:比特派将支持以太坊Ethereum（ETH）的君士坦丁堡（Constantinople）分叉",
+      "data":"2019-01-04",
+      "watch":1,
+      "id":37,
+      "month":"January",
+      "day":"04",
+      "type":1
+    },
+    {
       "title":"比特派钱包将支持 EOS CAFE DAC 空投",
       "intro":"亲爱的派友:比特派钱包将支持 EOS CAFE DAC 项目代币 BEAN 的空投。",
       "data":"2018-12-20",
@@ -282,6 +292,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Announcement on Supporting Etheruem (ETH) Constantinople Hard-fork",
+      "intro":"Dear Bitpiers:Bitpie will support Ethereum (ETH) Constantinople fork.",
+      "data":"2019-01-04",
+      "watch":1,
+      "id":37,
+      "month":"January",
+      "day":"04",
+      "type":1
+    },
     {
       "title":"Bitpie Wallet will support EOS CAFE DAC Airdrop",
       "intro":"Dear Bitpiers:Bitpie Wallet will support EOS CAFE DAC BEAN Airdrop.",
