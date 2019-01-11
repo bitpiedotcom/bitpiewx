@@ -33,3 +33,21 @@ The contents of this repository are licensed under the [Apache
 
 ## Version
 1.0.1
+
+project install
+
+install ruby
+curl -L https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm -v
+rvm install 2.6.0
+rvm use 2.6.0
+
+install jekyll
+gem sources --remove https://rubygems.org/
+gem sources -a http://rubygems.org/
+gem install jekyll bundler
+gem install jekyll -v 3.6.3
+jekyll build --watch
+bundle install --gemfile Gemfile
+jekyll s
