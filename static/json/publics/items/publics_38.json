@@ -1,0 +1,42 @@
+{
+  "cn":{
+    "title":"比特派关于支持TRX用户空投BTT的公告",
+    "data":"2019-01-22",
+    "id":38,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"亲爱的派友："
+      },
+      {
+        "type":0,
+        "data":"根据BitTorrent Token（BTT）分配机制，波场（TRX）持有者将获得 BTT 糖果空投，空投将发生多轮并持续较长的时间（2019-2025）。官方将在TRX区块高度6,600,000（预计为2019年2月11日，具体时间受实际出块速度影响）为首次空投进行快照。<br/>比特派钱包和派银行的用户无需任何操作即可领取 BTT 空投，届时更新版本即可显示。<br/>为保障您的资产安全，建议您提前将 TRX 转入到比特派钱包，比特派将协助您处理空投中的一切技术问题。"
+      },
+      {
+        "type":0,
+        "data":"比特派团队<br/>2019年01月22日"
+      }
+    ]
+  },
+  "en":{
+    "title":"Bitpie Wallet and PieBank will Support BitTorrent (BTT) Airdrop",
+    "data":"2019-01-22",
+    "id":38,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Dear Bitpiers:"
+      },
+      {
+        "type":0,
+        "data":"Bitpie Wallet and PieBank will support BTT Airdrop. On February 11th, 2019, BitTorrent Foundation will initiate its first airdrop of BitTorrent (BTT) to TRON (TRX) holders. The airdrop will take multiple rounds for a longer period of time (2019-2025). The official will take a snapshot of the first airdrop at the height of the TRX block of 6,600,000 (The specific time is affected by the actual block rate) Users can automatically get the corresponding BTT airdrop by depositing the TRX into the Bitpie wallet or PieBank.<br/>BitTorrent（BTT）Airdrop Information:Snapshot time : 10 Feb 2019 08:00 (UTC+8)(The specific time is affected by the actual block rate)<br/>Airdrop time : 11 Feb 2019<br/>Airdrop supply : 1 TRX : 1 BTT<br/>Airdrop supply : 10.8 Billion<br/>Total supply : 990 Billiom<br/>BTT Official website : <a href='https://www.bittorrent.com/btt' target='_blank'>https://www.bittorrent.com/btt</a><br/>For more BTT airdrop information : <a href='https://medium.com/bittorrent/bittorrent-foundation-unveils-more-details-regarding-bittorrent-btt-airdrops-for-tron-trx-8bbd194f8a87' target='_blank'>https://medium.com/bittorrent/bittorrent-foundation-unveils-more-details-regarding-bittorrent-btt-airdrops-for-tron-trx-8bbd194f8a87</a><br/>If you want to join this airdrop, you can refer to the above link.<br/>To keep your assets safe, we suggested that you deposit TRX to the Bitpie wallet or PieBank in advance, and Bitpie will help you with all the technical issues in the airdrop. After the project's tokens are airdropped, we will issue the BTT to the TRX holders as soon as possible.<br/>Thank you for your support."
+      },
+      {
+        "type":0,
+        "data":"Bitpie Team, <br/>January 22, 2019"
+      }
+    ]
+  }
+}
