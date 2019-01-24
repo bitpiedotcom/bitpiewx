@@ -122,5 +122,9 @@
   {
     "src":"/static/image/index_friend/scatter.png",
     "link":"https://get-scatter.com/"
+  },
+  {
+    "src":"/static/image/index_friend/jw-friends.jpg",
+    "link":"https://johnwick.io/"
   }
 ]
