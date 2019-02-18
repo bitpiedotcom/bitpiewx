@@ -32,6 +32,10 @@
     "link":"http://www.8btc.com/"
   },
   {
+    "src":"/static/image/index_friend/bitkan.png",
+    "link":"https://bitkan.com"
+  },
+  {
     "src":"/static/image/index_friend/hecaijing@2x.png",
     "link":"https://www.hecaijing.com/"
   },
@@ -126,9 +130,5 @@
   {
     "src":"/static/image/index_friend/jw-friends.jpg",
     "link":"https://johnwick.io/"
-  },
-  {
-    "src":"/static/image/index_friend/bitkan.png",
-    "link":"https://bitkan.com"
   }
 ]
