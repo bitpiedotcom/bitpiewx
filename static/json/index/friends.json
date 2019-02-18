@@ -126,5 +126,9 @@
   {
     "src":"/static/image/index_friend/jw-friends.jpg",
     "link":"https://johnwick.io/"
+  },
+  {
+    "src":"/static/image/index_friend/bitkan.png",
+    "link":"https://bitkan.com"
   }
 ]
