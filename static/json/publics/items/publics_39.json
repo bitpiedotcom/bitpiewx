@@ -1,0 +1,42 @@
+{
+  "cn":{
+    "title":"关于支持以太坊ETH君士坦丁堡（Constantinople）分叉的公告",
+    "data":"2019-02-28",
+    "id":39,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"亲爱的派友："
+      },
+      {
+        "type":0,
+        "data":"比特派将支持以太坊Ethereum（ETH）的君士坦丁堡（Constantinople）升级，升级高度 7,080,000 （预计2019年3月1日 3点35分）。<br/>为保障您的资产安全，建议您提前将ETH充值到钱包中，分叉期间避免 ETH 收发，比特派将协助您处理硬分叉中的一切技术问题。"
+      },
+      {
+        "type":0,
+        "data":"比特派团队<br/>2019年02月28日"
+      }
+    ]
+  },
+  "en":{
+    "title":"Announcement on Supporting Etheruem (ETH) Constantinople Hard-fork",
+    "data":"2019-02-28",
+    "id":39,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Fellow Bitpiers:"
+      },
+      {
+        "type":0,
+        "data":"Bitpie will support Ethereum (ETH) Constantinople fork Upgrade at the block height 7,080,000 (predicted time 2019 March 1,3:35 a.m. (UTC+8).<br/>To ensure your assets safety, it is strongly advised to send your ETH to your Bitpie wallet in advance and pause the sends and receives during the fork period. Bitpie will help you deal with all technical issues in this hard-fork."
+      },
+      {
+        "type":0,
+        "data":"Bitpie Team, <br/>February 28, 2019"
+      }
+    ]
+  }
+}
