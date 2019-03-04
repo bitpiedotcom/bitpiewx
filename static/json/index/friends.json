@@ -130,5 +130,9 @@
   {
     "src":"/static/image/index_friend/jw-friends.jpg",
     "link":"https://johnwick.io/"
+  },
+  {
+    "src":"/static/image/index_friend/block.png",
+    "link":"https://blockchair.com/"
   }
 ]
