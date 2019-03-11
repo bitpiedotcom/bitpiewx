@@ -1,0 +1,62 @@
+{
+  "cn":{
+    "title":"有关停止支持LBTC币种的公告",
+    "data":"2019-01-22",
+    "id":40,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"亲爱的比特派用户："
+      },
+      {
+        "type":0,
+        "data":"因 LBTC 较近一次主网升级相关数据变动较大，经内部讨论，比特派将不支持LBTC的此次升级与后续更新，并将即日起停止提供 LBTC 收发等一切相关服务。"
+      },
+      {
+        "type":0,
+        "data":"持有 LBTC 的用户资产安全不会受此影响，可将LBTC私钥导入官方钱包进行后续操作。"
+      },
+      {
+        "type":0,
+        "data":"比特派<br/>2019年3月11日"
+      },
+      {
+        "type":0,
+        "data":"附导入官方教程:<a href='https://www.jianshu.com/p/b5047bfe3ee9' target='_blank'>https://www.jianshu.com/p/b5047bfe3ee9</a>"
+      }
+    ]
+  },
+  "en":{
+    "title":"Announcement on LBTC（Lightning Bitcoin Mainnet Suspension",
+    "data":"2019-01-22",
+    "id":40,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Fellow Bitpiers:"
+      },
+      {
+        "type":0,
+        "data":"Due to the major changes on the mainnet upgrade of LBTC, Bitpie will not support the following upgrade of LBTC, and terminate providing all related services including LBTC sending and receiving."
+      },
+      {
+        "type":0,
+        "data":"The security of the user's LBTC will not be affected. The LBTC private key can be imported to the official wallet for subsequent operations."
+      },
+      {
+        "type":0,
+        "data":"Thanks for your understanding and support."
+      },
+      {
+        "type":0,
+        "data":"Bitpie<br/>March 11, 2019"
+      },
+      {
+        "type":0,
+        "data":"Tutorial on importing to the official wallet:<a href='https://medium.com/@Bitpie/tutorial-on-importing-lbtc-lightning-bitcoin-from-bitpie-to-lbtc-official-wallet-c08992454deb' target='_blank'>https://medium.com/@Bitpie/tutorial-on-importing-lbtc-lightning-bitcoin-from-bitpie-to-lbtc-official-wallet-c08992454deb</a>"
+      }
+    ]
+  }
+}
