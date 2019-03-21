@@ -1,6 +1,36 @@
 {
   "cn":[
     {
+      "title":"BITHD RAZOR 震撼来袭",
+      "intro":"（可以跟信用卡一样插在钱包的卡槽里）的卡片版硬件钱包，比特护盾 刀锋RAZOR，来了！",
+      "data":"2019-03-15",
+      "type":2,
+      "url":"https://www.jinse.com/blockchain/329468.html",
+      "id":6,
+      "img":"/static/image/news/index_news1.png",
+      "watch":"1031"
+    },
+    {
+      "title":"希瓦的守护--冰甲 助记词板",
+      "intro":"希瓦的守护-【冰甲】--现在，你有一款安全、坚固、高颜值的助记词板守护你的助记词了！！！",
+      "data":"2019-03-21",
+      "type":2,
+      "url":"https://www.jinse.com/blockchain/332534.html",
+      "id":7,
+      "img":"/static/image/news/index_news2.png",
+      "watch":"88"
+    },
+    {
+      "title":"比特护盾手表版和卡片版的设计初衷",
+      "intro":"关于比特护盾的设计，我们首先从固件上说起。比特护盾作为一款硬件钱包，固件的目的是安全，而不是为了运行复杂的智能设备系统，因此，优先考虑的还是安全。从设计的角度上讲，比特护盾二代的手表版和卡片版是不一样的。",
+      "data":"2019-01-22",
+      "type":2,
+      "url":"https://www.jinse.com/bitcoin/309724.html",
+      "id":8,
+      "img":"/static/image/news/index_news3.png",
+      "watch":"1031"
+    },
+    {
       "title":"比特派：钱包的私钥存储方案",
       "intro":"您知道区块链钱包是如何管理私钥的吗？作为领域内资格最老、安全口碑最好的的钱包团队，比太/比特派团队今天将专门针对这个问题给大家做一下科普。",
       "data":"2018-11-20",
