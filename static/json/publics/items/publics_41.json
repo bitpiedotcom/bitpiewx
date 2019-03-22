@@ -1,0 +1,70 @@
+{
+  "cn":{
+    "title":"比特派钱包将第一时间支持波场稳定币USDT-TRON",
+    "data":"2019-03-22",
+    "id":41,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"亲爱的比特派用户："
+      },
+      {
+        "type":0,
+        "data":"比特派将会在第一时间支持波场和Tether泰达公司合作推出的基于TRC20的USDT代币（USDT-TRON），并在未来开通USDT-TRON与USDT-OMNI之间的双向跨链兑换。 同时，比特派也将支持针对于USDT-TRON持有者的Airdrop计划，具体计划内容另行通知。"
+      },
+      {
+        "type":0,
+        "data":"作为全球稳定币使用量最大的钱包，比特派致力于为全世界用户提供安全的资产管理以及丰富的区块链应用服务。比特派钱包已经支持了BTC、TRON、ETH、USDT等30多个区块链网络，并支持USDT-Omni, USDT-ERC20, GUSD, PAX, TUSD等主流稳定币，六年间服务了全球数百万用户，安全管理了高达百亿美元的区块链资产。团队目前有比特派钱包，比太钱包，BitHD硬件钱包，比特派开放平台，Chaincloud等多个产品线，服务范围覆盖小白用户、专业用户、企业用户以及区块链行业客户。"
+      },
+      {
+        "type":0,
+        "data":"比特派在安全方面投入了大量的精力并享有良好的声誉。也正因此，其开发的比特币钱包-比太(Bither)被作为推荐钱包列入 bitcoin.org 。"
+      },
+      {
+        "type":0,
+        "data":"更多详情请参见官网：<a href= 'https://bitpie.com' target='_blank'>https://bitpie.com </a>"
+      },
+      {
+        "type":0,
+        "data":"感谢您的大力支持！<br/>比特派团队<br/>2019年3月22日"
+      }
+    ]
+  },
+  "en":{
+    "title":" Announcement on Supporting USDT-TRON",
+    "data":"2019-03-22",
+    "id":41,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Fellow Bitpiers:"
+      },
+      {
+        "type":0,
+        "data":"Bitpie will support, at the very first time, the sends and receives of the USDT-TRON, a TRC20-based stable coin issued jointly by TRON and Tether Company."
+      },
+      {
+        "type":0,
+        "data":"Besides, Bitpie will also launch the two-way cross-chain exchange access of USDT-TRON/USDT-OMNI in the “Coin Swap”in the near future."
+      },
+      {
+        "type":0,
+        "data":"Meanwhile, Bitpie will support the Airdrop Plan for USDT-TRON holders, which will be announced separately."
+      },
+      {
+        "type":0,
+        "data":"As the largest stable coin wallet worldwide, Bitpie Wallet supports over 30 blockchains including BTC, ETH, EOS etc., and stable coins such as USDT-Omni, USDT-ERC20, GUSD, PAX, TUSD etc., which has served over million users worldwide and safely stored over 10billion US Dollars' worth of cryptocurrencies in the past 6 years. The Team now runs Bitpie Wallet, Bither Wallet, BitHD Hardware Wallet, Pie Open Platform and Chaincloud, which target users covering newbies, senior users, businesses and blockchain practitioners."
+      },
+      {
+        "type":0,
+        "data":"We attach great importance to asset safety, and have received a good reputation in this respect. Therefore, our bitcoin wallet “Bither” is listed among the wallets recommended by bitcoin.org.<br/>Website:<a href='https://bitpie.com' target='_blank'> https://bitpie.com</a>"
+      },
+      {
+        "type":0,
+        "data":"Bitpie Team</br>March 22, 2019"
+      }
+    ]
+  }
+}

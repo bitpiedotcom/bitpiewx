@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"比特派钱包将第一时间支持波场稳定币USDT-TRON",
+      "intro":"比特派将会在第一时间支持波场和Tether泰达公司合作推出的基于TRC20的USDT代币（USDT-TRON），并在未来开通USDT-TRON与USDT-OMNI之间的双向跨链兑换。",
+      "data":"2019-03-22",
+      "watch":24,
+      "id":41,
+      "month":"March",
+      "day":"22",
+      "type":1
+    },
+    {
       "title":"有关停止支持LBTC币种的公告",
       "intro":"因 LBTC 较近一次主网升级相关数据变动较大，经内部讨论，比特派将不支持LBTC的此次升级与后续更新，并将即日起停止提供 LBTC 收发等一切相关服务。",
       "data":"2019-03-11",
@@ -322,6 +332,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Announcement on Supporting USDT-TRON",
+      "intro":"Bitpie will support, at the very first time, the sends and receives of the USDT-TRON, a TRC20-based stable coin issued jointly by TRON and Tether Company.",
+      "data":"2019-03-22",
+      "watch":24,
+      "id":41,
+      "month":"March",
+      "day":"22",
+      "type":1
+    },
     {
       "title":"Announcement on LBTC（Lightning Bitcoin Mainnet Suspension",
       "intro":"Due to the major changes on the mainnet upgrade of LBTC, Bitpie will not support the following upgrade of LBTC, and terminate providing all related services including LBTC sending and receiving.",
