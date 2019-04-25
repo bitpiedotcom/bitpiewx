@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"通知：USDT 节点升级中，3-4小时后恢复，请您耐心等待",
+      "intro":"通知：USDT 节点升级中，3-4小时后恢复，请您耐心等待",
+      "data":"2019-04-25",
+      "watch":24,
+      "id":43,
+      "month":"April",
+      "day":"25",
+      "type":1
+    },
+    {
       "title":"关于比特派钱包内兑换 USDT-TRON 的通知及教程",
       "intro":"怎样兑换USDT-TRON？ 在 比特派APP—派银行——USDT理财 初参与。可以将USDT 与 USDT-TRON 进行1：1兑换。",
       "data":"2019-04-24",
@@ -342,6 +352,16 @@
     }
   ],
   "en":[
+    {
+      "title":"USDT server is upgrading and will restart in 2-3 hours.",
+      "intro":"USDT server is upgrading and will restart in 2-3 hours.",
+      "data":"2019-04-25",
+      "watch":24,
+      "id":43,
+      "month":"April",
+      "day":"25",
+      "type":1
+    },
     {
       "title":"How to Swap Your USDT-OMNI for TRC20 Based USDT",
       "intro":"You are now able to swap your USDT-OMNI for TRC20 Based USDT. Please follow the steps:Open Bitpie APP- Pie Bank - USDT Financial Plan.",

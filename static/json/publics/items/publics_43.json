@@ -1,0 +1,26 @@
+{
+  "cn":{
+    "title":"通知：USDT 节点升级中，3-4小时后恢复，请您耐心等待",
+    "data":"2019-04-25",
+    "id":43,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"通知：USDT 节点升级中，3-4小时后恢复，请您耐心等待"
+      }
+    ]
+  },
+  "en":{
+    "title":"USDT server is upgrading and will restart in 2-3 hours.",
+    "data":"2019-04-25",
+    "id":43,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"USDT server is upgrading and will restart in 2-3 hours."
+      }
+    ]
+  }
+}
