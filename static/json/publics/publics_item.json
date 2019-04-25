@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"关于比特派钱包内兑换 USDT-TRON 的通知及教程",
+      "intro":"怎样兑换USDT-TRON？ 在 比特派APP—派银行——USDT理财 初参与。可以将USDT 与 USDT-TRON 进行1：1兑换。",
+      "data":"2019-04-24",
+      "watch":24,
+      "id":42,
+      "month":"April",
+      "day":"24",
+      "type":1
+    },
+    {
       "title":"比特派钱包将第一时间支持波场稳定币USDT-TRON",
       "intro":"比特派将会在第一时间支持波场和Tether泰达公司合作推出的基于TRC20的USDT代币（USDT-TRON），并在未来开通USDT-TRON与USDT-OMNI之间的双向跨链兑换。",
       "data":"2019-03-22",
@@ -332,6 +342,16 @@
     }
   ],
   "en":[
+    {
+      "title":"How to Swap Your USDT-OMNI for TRC20 Based USDT",
+      "intro":"You are now able to swap your USDT-OMNI for TRC20 Based USDT. Please follow the steps:Open Bitpie APP- Pie Bank - USDT Financial Plan.",
+      "data":"2019-04-24",
+      "watch":24,
+      "id":42,
+      "month":"April",
+      "day":"24",
+      "type":1
+    },
     {
       "title":"Announcement on Supporting USDT-TRON",
       "intro":"Bitpie will support, at the very first time, the sends and receives of the USDT-TRON, a TRC20-based stable coin issued jointly by TRON and Tether Company.",
