@@ -1,8 +1,8 @@
 {
   "cn":[
     {
-      "title":"通知：USDT 节点升级中，3-4小时后恢复，请您耐心等待",
-      "intro":"通知：USDT 节点升级中，3-4小时后恢复，请您耐心等待",
+      "title":"USDT 节点升级已完成，相关功能已恢复正常。",
+      "intro":"USDT 节点升级已完成，相关功能已恢复正常。",
       "data":"2019-04-25",
       "watch":24,
       "id":43,
@@ -353,8 +353,8 @@
   ],
   "en":[
     {
-      "title":"USDT server is upgrading and will restart in 2-3 hours.",
-      "intro":"USDT server is upgrading and will restart in 2-3 hours.",
+      "title":"The USDT node upgrade has been completed，all functions back to normal.",
+      "intro":"The USDT node upgrade has been completed，all functions back to normal.",
       "data":"2019-04-25",
       "watch":24,
       "id":43,
