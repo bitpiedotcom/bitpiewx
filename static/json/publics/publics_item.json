@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"比特派钱包关于支持BCH升级的公告",
+      "intro":"亲爱的派友：比特派将支持 BCH 主网升级，并于2019年05月15日20:00(HKT) 暂停比特派钱包中 BCH 的收发与派银行 BCH 充提功能，待升级完成后开放。",
+      "data":"2019-05-15",
+      "watch":24,
+      "id":44,
+      "month":"May",
+      "day":"15",
+      "type":1
+    },
+    {
       "title":"USDT 节点升级已完成，相关功能已恢复正常。",
       "intro":"USDT 节点升级已完成，相关功能已恢复正常。",
       "data":"2019-04-25",
@@ -352,6 +362,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Announcement on Bitpie’s Support to BCH Upgrade",
+      "intro":"Fellow Bitpiers,Bitpie Wallet will support BCH mainnet upgrade. The sending and receiving in Bitpie wallet and the deposit and withdrawal in Pie Bank will be suspended from 20:00(HKT) 15th May, 2019, which will be resumed after the upgrade is completed.",
+      "data":"2019-05-15",
+      "watch":24,
+      "id":44,
+      "month":"May",
+      "day":"15",
+      "type":1
+    },
     {
       "title":"The USDT node upgrade has been completed，all functions back to normal.",
       "intro":"The USDT node upgrade has been completed，all functions back to normal.",

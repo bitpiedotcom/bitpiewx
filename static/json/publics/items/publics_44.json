@@ -1,0 +1,54 @@
+{
+  "cn":{
+    "title":"比特派钱包关于支持BCH升级的公告",
+    "data":"2019-05-15",
+    "id":44,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"亲爱的派友："
+      },
+      {
+        "type":0,
+        "data":"比特派将支持 BCH 主网升级，并于2019年05月15日20:00(HKT) 暂停比特派钱包中 BCH 的收发与派银行 BCH 充提功能，待升级完成后开放。"
+      },
+      {
+        "type":0,
+        "data":"为保障您的资产安全，升级期间尽量避免操作 BCH 相关功能。"
+      },
+      {
+        "type":0,
+        "data":"比特派团队<br/>2019年5月15日"
+      },
+      {
+        "type":0,
+        "data":"新浪微博：@比特派钱包 weibo.com/bitpiewallet<br/>微信公众号：公众号搜索“bitpiewallet”<br/>Telegram：t.me/bitpie1"
+      }
+    ]
+  },
+  "en":{
+    "title":"Announcement on Bitpie’s Support to BCH Upgrade",
+    "data":"2019-05-15",
+    "id":44,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Fellow Bitpiers,"
+      },
+      {
+        "type":0,
+        "data":"Bitpie Wallet will support BCH mainnet upgrade. The sending and receiving in Bitpie wallet and the deposit and withdrawal in Pie Bank will be suspended from 20:00(HKT) 15th May, 2019, which will be resumed after the upgrade is completed."
+      },
+      {
+        "type":0,
+        "data":"For the sake of your asset’s safety, please avoid BCH related operations during the said period of time."
+      },
+      {
+        "type":0,
+        "data":"Bitpie Team<br/>May 15, 2019"
+      }
+    ]
+  }
+}
