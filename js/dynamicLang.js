@@ -123,7 +123,7 @@ Lang.prototype.pack.zh = {
         "3.Trades between users who paid deposit and common users":"3、押金用户与普通用户之间的交易 ",
         "fees only on users who post advertisements, no fees on common users":"只对广告方收取服务费(单方向)，普通用户不收取。",
         "BTC Fees":"BTC服务费率列表",
-        "Other Coins Fees":"其它币种服务费率列表",
+        "Coins Fees":"服务费率列表",
         "OTC Trade Fees":"OTC 服务费率",
         "Instructions for Pie Bank Withdrawal":"派银行充值提现说明",
         "and":"且",
