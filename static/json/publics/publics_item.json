@@ -1,6 +1,16 @@
 {
   "cn":[
     {
+      "title":"暂停DASH发币的公告",
+      "intro":"尊敬的bitpie用户：由于DASH网络升级，部分节点未同步升级，导致产生分叉，为保障用户资金安全，bitpie钱包已于6月19日17：00（UTC+8）暂停DASH发币功能，请您耐心等待，待DASH网络恢复稳定后，将会第一时间告知，请您持续关注最新公告。",
+      "data":"2019-06-19",
+      "watch":24,
+      "id":45,
+      "month":"June",
+      "day":"19",
+      "type":1
+    },
+    {
       "title":"比特派钱包关于支持BCH升级的公告",
       "intro":"亲爱的派友：比特派将支持 BCH 主网升级，并于2019年05月15日20:00(HKT) 暂停比特派钱包中 BCH 的收发与派银行 BCH 充提功能，待升级完成后开放。",
       "data":"2019-05-15",
@@ -362,6 +372,16 @@
     }
   ],
   "en":[
+    {
+      "title":"Announcement on Suspension of Dash Sending",
+      "intro":"Fellow Bitpiers,A fork chain of DASH network was noted during its upgrade because some nodes failed to upgrade in time. Therefore, for the sake of the asset security, Bitpie has already suspended the sending of DASH at the time of 15:00, June 19, 2019(UTC+8).We will resume the function of sending DASH immediately after the network runs stably.",
+      "data":"2019-06-19",
+      "watch":24,
+      "id":45,
+      "month":"June",
+      "day":"19",
+      "type":1
+    },
     {
       "title":"Announcement on Bitpie’s Support to BCH Upgrade",
       "intro":"Fellow Bitpiers,Bitpie Wallet will support BCH mainnet upgrade. The sending and receiving in Bitpie wallet and the deposit and withdrawal in Pie Bank will be suspended from 20:00(HKT) 15th May, 2019, which will be resumed after the upgrade is completed.",

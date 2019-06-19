@@ -1,0 +1,50 @@
+{
+  "cn":{
+    "title":"暂停DASH发币的公告",
+    "data":"2019-06-19",
+    "id":45,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"尊敬的bitpie用户："
+      },
+      {
+        "type":0,
+        "data":"由于DASH网络升级，部分节点未同步升级，导致产生分叉，为保障用户资金安全，bitpie钱包已于6月19日17：00（UTC+8）暂停DASH发币功能，请您耐心等待，待DASH网络恢复稳定后，将会第一时间告知，请您持续关注最新公告。"
+      },
+      {
+        "type":0,
+        "data":"如您有任何疑问，请随时咨询bitpie官方：<br/> 官方客服微信号：tingtingwuxu <br/>官方微博：比特派钱包"
+      },
+      {
+        "type":0,
+        "data":"2019年6月19日"
+      }
+    ]
+  },
+  "en":{
+    "title":"Announcement on Suspension of Dash Sending",
+    "data":"2019-06-19",
+    "id":45,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Fellow Bitpiers,"
+      },
+      {
+        "type":0,
+        "data":"A fork chain of DASH network was noted during its upgrade because some nodes failed to upgrade in time. Therefore, for the sake of the asset security, Bitpie has already suspended the sending of DASH at the time of 15:00, June 19, 2019(UTC+8).We will resume the function of sending DASH immediately after the network runs stably."
+      },
+      {
+        "type":0,
+        "data":"If you have any question, feel free to reach out on:<br/>Telegram: https://t.me/BitpieInternational<br/>Twitter: https://twitter.com/BitpieWallet"
+      },
+      {
+        "type":0,
+        "data":"June 19, 2019"
+      }
+    ]
+  }
+}
