@@ -1,0 +1,50 @@
+{
+  "cn":{
+    "title":"关于 DASH 恢复发币及潜在分叉处理方案的公告",
+    "data":"2019-06-22",
+    "id":46,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"尊敬的bitpie用户："
+      },
+      {
+        "type":0,
+        "data":"对于近期DASH网络升级，造成的潜在分叉问题，主流矿池都采取了支持升级后DASH新链的做法。为保障多数用户的利益，比特派将采取与主流矿池一致的方案，即只支持升级后的DASH网络上币中的收发，并将于 6月22日15：00（UTC+8）恢复 DASH 发币功能。"
+      },
+      {
+        "type":0,
+        "data":"为确保资产安全，请您在发币前确认接收方是否支持新链。"
+      },
+      {
+        "type":0,
+        "data":"比特派钱包<br/>2019年6月22日"
+      }
+    ]
+  },
+  "en":{
+    "title":"Announcement on DASH Sending Resumption",
+    "data":"2019-06-22",
+    "id":46,
+    "watch":29,
+    "message":[
+      {
+        "type":0,
+        "data":"Dear Bitpiers,"
+      },
+      {
+        "type":0,
+        "data":"The upgrade of DASH network is now accomplished. The newly upgraded mainnet is running stably.We will resume the sending function of DASH at 15:00, June 22, 2019 (UTC+8)."
+      },
+      {
+        "type":0,
+        "data":"For the sake of your asset safety, please confirm the receiving address is accepting the new mainnet or not before carrying out a DASH sending."
+      },
+      {
+        "type":0,
+        "data":"Bitpie Wallet<br/>June 22, 2019"
+      }
+    ]
+  }
+}
