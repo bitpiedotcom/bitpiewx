@@ -1,0 +1,52 @@
+{
+  "cn": {
+    "title": "暂停SAFE收发币的公告",
+    "data": "2019-06-25",
+    "id": 47,
+    "watch": 29,
+    "message": [{
+        "type": 0,
+        "data": "尊敬的bitpie用户："
+      },
+      {
+        "type": 0,
+        "data": "由于SAFE主网升级中网络有波动，目前暂停所有交易所SAFE充提，Bitpie钱包已于6月25日14：00（UTC+8）暂停SAFE收发币功能，具体恢复时间另行通知，请您耐心等待。"
+      },
+      {
+        "type": 0,
+        "data": "官方公告链接：https://0x9.me/MlpTe"
+      },
+      {
+        "type": 0,
+        "data": "如您有任何疑问，请随时咨询bitpie官方：<br>官方客服微信号：tingtingwuxu<br>官方微博：比特派钱包"
+      },
+      {
+        "type": 0,
+        "data": "2019年6月25日"
+      }
+    ]
+  },
+  "en": {
+    "title": "Announcement on Suspension of SAFE Sending and Receiving",
+    "data": "2019-06-25",
+    "id": 47,
+    "watch": 29,
+    "message": [{
+        "type": 0,
+        "data": "Fellow Bitpiers,"
+      },
+      {
+        "type": 0,
+        "data": "Due to the SAFE network upgrade, for the sake of your asset safety, Bitpie has already suspended the sending and receiving of SAFE at the time of 14:00, June 25, 2019(UTC+8). We will resume SAFE sending and receiving immediately after the network runs stably."
+      },
+      {
+        "type": 0,
+        "data": "If you have any question, feel free to reach out on:<br>Telegram: https://t.me/BitpieInternational<br>Twitter: https://twitter.com/BitpieWallet"
+      },
+      {
+        "type": 0,
+        "data": "June 25, 2019"
+      }
+    ]
+  }
+}
