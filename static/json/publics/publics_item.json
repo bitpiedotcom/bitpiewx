@@ -1,5 +1,15 @@
 {
   "cn": [{
+      "title": "恢复SAFE收发币的公告",
+      "intro": "SAFE主网已稳定运行，Bitpie钱包已于7月1日18：00（UTC+8）恢复SAFE收发币等相关功能。",
+      "data": "2019-07-01",
+      "watch": 24,
+      "id": 48,
+      "month": "July",
+      "day": "1",
+      "type": 1
+    },
+    {
       "title": "暂停SAFE收发币的公告",
       "intro": "由于SAFE主网升级中网络有波动，目前暂停所有交易所SAFE充提，Bitpie钱包已于6月25日14：00（UTC+8）暂停SAFE收发币功能，具体恢复时间另行通知，请您耐心等待。",
       "data": "2019-06-25",
@@ -391,6 +401,16 @@
     }
   ],
   "en": [{
+      "title": "Announcement on Resumption of SAFE Sending and Receiving",
+      "intro": "The SAFE mainnet has been running stably. Bitpie wallet has resumed SAFE transaction and other related functions at 18:00 (UTC+8) on July 1.",
+      "data": "2019-07-01",
+      "watch": 24,
+      "id": 48,
+      "month": "July",
+      "day": "1",
+      "type": 1
+    },
+    {
       "title": "Announcement on Suspension of SAFE Sending and Receiving",
       "intro": "Due to the SAFE network upgrade, for the sake of your asset safety, Bitpie has already suspended the sending and receiving of SAFE at the time of 14:00, June 25, 2019(UTC+8). We will resume SAFE sending and receiving immediately after the network runs stably.",
       "data": "2019-06-25",
