@@ -1,5 +1,15 @@
 {
   "cn": [{
+      "title": "关于支持 ZEC（Zcash）分叉币 Ycash 的公告",
+      "intro": "比特派暂定将支持 ZEC（Zcash）的分叉币 Ycash，并将于区块高度 570,000 进行快照（预计2019年07月18日）。",
+      "data": "2019-07-02",
+      "watch": 24,
+      "id": 49,
+      "month": "July",
+      "day": "2",
+      "type": 1
+    },
+    {
       "title": "恢复SAFE收发币的公告",
       "intro": "SAFE主网已稳定运行，Bitpie钱包已于7月1日18：00（UTC+8）恢复SAFE收发币等相关功能。",
       "data": "2019-07-01",
@@ -401,6 +411,16 @@
     }
   ],
   "en": [{
+      "title": "Announcement on Supporting ZEC (Zcash) Fork Coin Ycash",
+      "intro": "Bitpie wallet is tentatively scheduled to support ZEC (Zcash)'s forked coin Ycash and will take a snapshot at the block height of 570,000 (expected time July 18, 2019).",
+      "data": "2019-07-02",
+      "watch": 24,
+      "id": 49,
+      "month": "July",
+      "day": "2",
+      "type": 1
+    },
+    {
       "title": "Announcement on Resumption of SAFE Sending and Receiving",
       "intro": "The SAFE mainnet has been running stably. Bitpie wallet has resumed SAFE transaction and other related functions at 18:00 (UTC+8) on July 1.",
       "data": "2019-07-01",
