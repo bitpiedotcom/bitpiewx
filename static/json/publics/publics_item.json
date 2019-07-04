@@ -1,5 +1,15 @@
 {
   "cn": [{
+      "title": "因苹果官方强制要求，比特派现已不再禁止用户截屏助记词（但我们仍然会在相关页面予以警示）。",
+      "intro": "过去由于比特派一直在软件（Android/iOS）上禁止助记词截屏行为，有效地制止了用户将助记词截图储存于图库甚至上传到云盘的错误行为，大大降低了用户因保管不当而丢币的概率，比特派也因此一直被用户称为“良心钱包”“安全钱包”。",
+      "data": "2019-07-04",
+      "watch": 24,
+      "id": 50,
+      "month": "July",
+      "day": "4",
+      "type": 1
+    },
+    {
       "title": "关于支持 ZEC（Zcash）分叉币 Ycash 的公告",
       "intro": "比特派暂定将支持 ZEC（Zcash）的分叉币 Ycash，并将于区块高度 570,000 进行快照（预计2019年07月18日）。",
       "data": "2019-07-02",
@@ -411,6 +421,16 @@
     }
   ],
   "en": [{
+      "title": "Due to Apple’s official mandate, Bitpie Wallet is no longer prohibit user from doing mnemonics screenshots  (but we will still be alerted on the relevant page).",
+      "intro": "In the past, because Bitpie Wallet had prohibit users from doing mnemonics screenshots on Android & iOS, it effectively stopped the user from store the mnemonic screenshots in the gallery or even uploading them to the cloud disk, which greatly reduced the user's improper storage and the probability of losing coins. Therefore, Bitpie Wallet has been called \"conscience wallet\" and \"safe wallet\" by users.",
+      "data": "2019-07-04",
+      "watch": 24,
+      "id": 50,
+      "month": "July",
+      "day": "4",
+      "type": 1
+    },
+    {
       "title": "Announcement on Supporting ZEC (Zcash) Fork Coin Ycash",
       "intro": "Bitpie wallet is tentatively scheduled to support ZEC (Zcash)'s forked coin Ycash and will take a snapshot at the block height of 570,000 (expected time July 18, 2019).",
       "data": "2019-07-02",
