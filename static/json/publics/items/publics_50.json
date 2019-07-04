@@ -1,12 +1,16 @@
 {
   "cn": {
-    "title": "因苹果官方强制要求，比特派现已不再禁止用户截屏助记词（但我们仍然会在相关页面予以警示）。",
+    "title": "关于 iOS 版本比特派钱包不再禁止用户截屏助记词的公告",
     "data": "2019-07-04",
     "id": 50,
     "watch": 29,
     "message": [{
         "type": 0,
         "data": "亲爱的派友："
+      },
+      {
+        "type": 0,
+        "data":"因苹果官方强制要求，比特派现已不再禁止用户截屏助记词（但我们仍然会在相关页面予以警示）。"
       },
       {
         "type": 0,
@@ -35,13 +39,17 @@
     ]
   },
   "en": {
-    "title": "Due to Apple’s official mandate, Bitpie Wallet is no longer prohibit user from doing mnemonics screenshots  (but we will still be alerted on the relevant page).",
+    "title": "Announcement on the iOS version of Bitpie is no longer prohibit for screenshots mnemonics",
     "data": "2019-07-04",
     "id": 50,
     "watch": 29,
     "message": [{
         "type": 0,
         "data": "Dear Bitpie Users:"
+      },
+      {
+        "type": 0,
+        "data":"Due to Apple’s official mandate, Bitpie Wallet is no longer prohibit user from doing mnemonics screenshots  (but we will still be alerted on the relevant page)."
       },
       {
         "type": 0,
