@@ -14,7 +14,7 @@
       },
       {
         "type": 1,
-        "image": "https://bitpie.com/static/image/news/usdt-tron-cn.png"
+        "image": "./static/image/news/usdt-tron-cn.png"
       },
       {
         "type": 0,
@@ -89,7 +89,7 @@
       },
       {
         "type": 1,
-        "image": "https://bitpie.com/static/image/news/usdt-tron-en.jpg"
+        "image": "./static/image/news/usdt-tron-en.jpg"
       },
       {
         "type": 0,
