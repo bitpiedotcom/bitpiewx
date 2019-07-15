@@ -1,5 +1,14 @@
 {
   "cn": [{
+      "title": "比特派钱包将第一时间支持波场稳定币USDT-TRON激励计划2.0版及USDT兑换教程",
+      "intro": "比特派现已经支持波场和Tether泰达公司合作推出的基于TRC20的USDT代币（USDT-TRON），并已经开通USDT-TRON与USDT-OMNI和USDT-ERC20之间的双向跨链兑换。 同时，比特派也将支持波场官方针对于USDT-TRON持有者的激励计划2.0版。",
+      "data": "2019-07-12",
+      "watch": 24,
+      "id": 51,
+      "month": "July",
+      "day": "12",
+      "type": 1
+    }, {
       "title": "关于 iOS 版本比特派钱包不再禁止用户截屏助记词的公告",
       "intro": "因苹果官方强制要求，比特派现已不再禁止用户截屏助记词（但我们仍然会在相关页面予以警示）。",
       "data": "2019-07-04",
@@ -421,6 +430,15 @@
     }
   ],
   "en": [{
+      "title": "Announcement on Supporting USDT-TRON New Incentive Plan and USDT Swap Demo",
+      "intro": "Bitpie has already supported the sends and receives of the USDT-TRON, a TRC20-based stable coin issued jointly by TRON and Tether Company.",
+      "data": "2019-07-12",
+      "watch": 24,
+      "id": 51,
+      "month": "July",
+      "day": "12",
+      "type": 1
+    }, {
       "title": "Announcement on the iOS version of Bitpie is no longer prohibit for screenshots mnemonics",
       "intro": "Due to Apple’s official mandate, Bitpie Wallet is no longer prohibit user from doing mnemonics screenshots  (but we will still be alerted on the relevant page).",
       "data": "2019-07-04",
