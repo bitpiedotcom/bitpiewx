@@ -55,7 +55,7 @@ Lang.prototype.pack.zh = {
         "Use your cell phone  to install by scaning the qr code":"或者用手机扫描下面的二维码安装",
         "Doc":"帮助",
         "BITPIE LIMITED was registered at Republic of Seychelles since 2015":"BITPIE LIMITED于2015年在塞舌尔共和国注册",
-        "Bitpie iOS app is under operation of Bitpie Canada":"Bitpie iOS 版由 Bitpie Canada 运营",
+        "Bitpie iOS app is under operation of BITPIE HK LIMITED":"Bitpie iOS 版由 BITPIE HK LIMITED 运营",
         "Blog":"博客",
         "blog":"博客",
         "Written by":"作者",
