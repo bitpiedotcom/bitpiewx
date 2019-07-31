@@ -73,12 +73,75 @@
   ],
   "en":[
     {
-      "title":"The Way for Bitpie to EOS Ecology : Concentration Leads to Profession",
-      "intro":"As the world’s leading multi-chain wallet, Bitpie Wallet is the earliest supporter and participant of EOS Ecology. It is also the only wallet among all the wallets supporting EOS in the world that has experienced both bull and bear market. In the past 5 years, there had never been even a security issue, and hundreds of billions of digital assets have been safely kept by Bitpie Wallet for millions of users around the world. Bitpie Wallet focuses on the development and support of various functions within EOS ecology, and now can support EOS ecology with powerful functions.",
-      "data":"2018-08-05",
+      "title":"Official Press Release Announcing New Partnership with Cocos-BCX",
+      "intro":"We are very thrilled to announce our global partnership with Cocos-BCX, a pioneer in the area of digital game economy platform for the next generation.",
+      "data":"2019-07-11",
       "type":2,
-      "img":"/static/image/news/newse1.png",
-      "url":"https://medium.com/@Bitpie/the-way-for-bitpie-to-eos-ecology-concentration-leads-to-profession-ba0ad0efad4c",
+      "img":"/static/image/news/bitpieweb_cocos.jpg",
+      "url":"https://medium.com/bitpie/official-press-release-announcing-new-partnership-with-cocos-bcx-9f1cbc94098",
+      "id":10
+    },
+    {
+      "title":"Best Unboxing Video: BitHD Watch 2",
+      "intro":"BITHD is 100% Open Source wallet including all manufacturing files. The first edition of BITHD watch was released on Dec. 30th 2017. In 2018 we have shipped more than 5 thousand BITHD watch to global users. Now we are delivering the new generation of BITHD watch!",
+      "data":"2019-07-04",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_unboxbithd.jpg",
+      "url":"https://medium.com/bitpie/best-unboxing-video-bithd-watch-2-3afae32a0136",
+      "id":9
+    },
+    {
+      "title":"What is Coin/Token Swap and How to Swap?",
+      "intro":"Coin Swap is a simple and private way to allow cryptocurrency holders to exchange coin (e.g. BTC→USDT or ETH→BTC) at a predetermined rate.",
+      "data":"2019-07-01",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_coinswap.jpg",
+      "url":"https://medium.com/bitpie/coin-swap-a-simple-and-private-way-to-convert-your-coins-cbf0a225eb12",
+      "id":8
+    },
+    {
+      "title":"How to Buy Bitcoin in a Simple Way?",
+      "intro":"It is hard to buy Bitcoin for lots of people around the world. Also, it not easy for many agencies to find a trustable third party to buy bitcoin for their clients. Bitpie Wallet, as a reputable decentralized wallet, now offers people a simple way to buy and sell bitcoin (and more cryptocurrencies) with a USD bank account.",
+      "data":"2019-06-27",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_buyandsell.jpg",
+      "url":"https://medium.com/bitpie/buy-your-bitcoin-with-usd-right-now-or-never-aa9466943394",
+      "id":7
+    },
+    {
+      "title":"What is KYC and Why We Need It?",
+      "intro":"KYC=Know Your Customer. The objective of the KYC is to identity theft, Prevent terrorist financing, Money laundering and Financial fraud. KYC allows us to understand the customer better and manage risks prudently.\nOnly through KYC, can users be protected from the money laundering and internet crimes.",
+      "data":"2019-06-27",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_kyc.jpg",
+      "url":"https://medium.com/bitpie/what-is-kyc-and-why-we-need-it-29d033f30c6e",
+      "id":6
+    },
+    {
+      "title":"Bitpie and PAX Reached Strategic Global Strategic Cooperation",
+      "intro":"Today, we are very pleased to announce a global strategic partnership with Stable Coin PAX. Bitpie and PAX will jointly promote the compliant US Dollar stable coin and its related service.",
+      "data":"2019-05-24",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_pax.jpg",
+      "url":"https://medium.com/bitpie/bitpie-and-stable-coin-pax-start-global-strategic-cooperation-53b10d6936e1",
+      "id":5
+    },
+    {
+      "title":"Frozen Armor Unboxing Video",
+      "intro":"A close view on our newly-made Seedphrase Memorizer — Frozen Armor!",
+      "data":"2019-05-10",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_armor.jpg",
+      "url":"https://medium.com/bitpie/an-unboxing-video-from-our-partner-cypherglass-8afb16a3c57d",
+      "id":4
+    },
+    {
+      "title":"Where to Buy BITHD Hardware Wallet?",
+      "intro":"BitHD is a product matrix of 100% open source cryptocurrency hardware cold wallet solutions, which was initially launched on December 30th 2017 by the Bither Team after years of research and development.",
+      "data":"2019-05-04",
+      "type":2,
+      "img":"/static/image/news/bitpieweb_buybithd.jpg",
+      "url":"https://medium.com/bitpie/where-can-you-purchase-bithd-hardware-wallet-be5b43dea016",
       "id":3
     },
     {
