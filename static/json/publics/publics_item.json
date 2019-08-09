@@ -1,5 +1,16 @@
 {
-  "cn": [{
+  "cn": [
+    {
+      "title": "比特派关于支持 Nervos CKB 兑换公告",
+      "intro": "比特派钱包将于香港时间 8月15日 12：00 am 开通 USDT（Omni 与 ERC20 均可）与 Nervos Network 代币 CKB 的币币兑换功能。",
+      "data": "2019-08-09",
+      "watch": 424,
+      "id": 52,
+      "month": "August",
+      "day": "09",
+      "type": 1
+    },
+    {
       "title": "比特派钱包将第一时间支持波场稳定币USDT-TRON激励计划2.0版及USDT兑换教程",
       "intro": "比特派现已经支持波场和Tether泰达公司合作推出的基于TRC20的USDT代币（USDT-TRON），并已经开通USDT-TRON与USDT-OMNI和USDT-ERC20之间的双向跨链兑换。 同时，比特派也将支持波场官方针对于USDT-TRON持有者的激励计划2.0版。",
       "data": "2019-07-12",
@@ -8,7 +19,8 @@
       "month": "July",
       "day": "12",
       "type": 1
-    }, {
+    },
+    {
       "title": "关于 iOS 版本比特派钱包不再禁止用户截屏助记词的公告",
       "intro": "因苹果官方强制要求，比特派现已不再禁止用户截屏助记词（但我们仍然会在相关页面予以警示）。",
       "data": "2019-07-04",
