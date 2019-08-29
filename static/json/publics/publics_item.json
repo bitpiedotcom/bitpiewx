@@ -1,6 +1,14 @@
 {
-  "cn": [
-    {
+  "cn": [{
+      "title": "声明",
+      "intro": "今收到用户反馈，交易所NZCCX（网址：http://www.nzccx.pro）将比特派列为“生态伙伴”。比特派Bitpie钱包特此声明：比特派此前从未听说，也未与此交易所有过任何接触与合作。",
+      "data": "2019-08-29",
+      "watch": 24,
+      "id": 54,
+      "month": "August",
+      "day": "29",
+      "type": 1
+    }, {
       "title": "有关停止支持 LCH 币种的公告",
       "intro": "因 LCH 官方已经不再对该项目进行维护，比特派将从即日起停止提供 LCH 收发等一切相关服务，如需咨询相关事宜请联系 LCH 官方。",
       "data": "2019-08-20",
@@ -451,8 +459,16 @@
       "type": 1
     }
   ],
-  "en": [
-    {
+  "en": [{
+      "title": "声明",
+      "intro": "今收到用户反馈，交易所NZCCX（网址：http://www.nzccx.pro）将比特派列为“生态伙伴”。比特派Bitpie钱包特此声明：比特派此前从未听说，也未与此交易所有过任何接触与合作。",
+      "data": "2019-08-29",
+      "watch": 24,
+      "id": 54,
+      "month": "August",
+      "day": "29",
+      "type": 1
+    }, {
       "title": "Announcement on LCH",
       "intro": "As the LCH official team no longer maintains the project, Bitpie Wallet will stop providing all related services such as LCH sending and receiving from now on. Please contact LCH official if you have any other issues.",
       "data": "2019-08-20",
