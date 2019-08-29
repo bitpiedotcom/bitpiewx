@@ -1,5 +1,23 @@
 {
-  "cn": [
+  "cn": [{
+      "title": "声明",
+      "intro": "今收到用户反馈，交易所NZCCX（网址：http://www.nzccx.pro）将比特派列为“生态伙伴”。比特派Bitpie钱包特此声明：比特派此前从未听说，也未与此交易所有过任何接触与合作。",
+      "data": "2019-08-29",
+      "watch": 24,
+      "id": 54,
+      "month": "August",
+      "day": "29",
+      "type": 1
+    }, {
+      "title": "有关停止支持 LCH 币种的公告",
+      "intro": "因 LCH 官方已经不再对该项目进行维护，比特派将从即日起停止提供 LCH 收发等一切相关服务，如需咨询相关事宜请联系 LCH 官方。",
+      "data": "2019-08-20",
+      "watch": 24,
+      "id": 53,
+      "month": "August",
+      "day": "20",
+      "type": 1
+    },
     {
       "title": "比特派关于支持 Nervos CKB 兑换公告",
       "intro": "比特派钱包将于香港时间 8月15日 12：00 am 开通 USDT（Omni 与 ERC20 均可）与 Nervos Network 代币 CKB 的币币兑换功能。",
@@ -442,6 +460,25 @@
     }
   ],
   "en": [{
+      "title": "声明",
+      "intro": "今收到用户反馈，交易所NZCCX（网址：http://www.nzccx.pro）将比特派列为“生态伙伴”。比特派Bitpie钱包特此声明：比特派此前从未听说，也未与此交易所有过任何接触与合作。",
+      "data": "2019-08-29",
+      "watch": 24,
+      "id": 54,
+      "month": "August",
+      "day": "29",
+      "type": 1
+    }, {
+      "title": "Announcement on LCH",
+      "intro": "As the LCH official team no longer maintains the project, Bitpie Wallet will stop providing all related services such as LCH sending and receiving from now on. Please contact LCH official if you have any other issues.",
+      "data": "2019-08-20",
+      "watch": 24,
+      "id": 53,
+      "month": "August",
+      "day": "20",
+      "type": 1
+    },
+    {
       "title": "Announcement on Supporting USDT-TRON New Incentive Plan and USDT Swap Demo",
       "intro": "Bitpie has already supported the sends and receives of the USDT-TRON, a TRC20-based stable coin issued jointly by TRON and Tether Company.",
       "data": "2019-07-12",
