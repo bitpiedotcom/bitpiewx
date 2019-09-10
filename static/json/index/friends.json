@@ -160,5 +160,9 @@
   {
     "src": "/static/image/index_friend/spiderstore@2x.png",
     "link": "https://spider.store/"
+  },
+  {
+    "src": "/static/image/index_friend/newdex.png",
+    "link": "https://newdex.vip"
   }
 ]
