@@ -1,5 +1,14 @@
 {
   "cn": [{
+      "title": "比特派将支持Ethereum Classic（ETC）硬分叉升级",
+      "intro": "比特派将支持Ethereum Classic（ETC）硬分叉升级，根据ETC (Ethereum Classic) 官方计划，ETC将于区块高度达到8,772,000时（预计于香港时间2019年9月12日-13日）进行硬分叉升级。",
+      "data": "2019-08-29",
+      "watch": 24,
+      "id": 55,
+      "month": "September",
+      "day": "11",
+      "type": 1
+    }, {
       "title": "声明",
       "intro": "今收到用户反馈，交易所NZCCX（网址：http://www.nzccx.pro）将比特派列为“生态伙伴”。比特派Bitpie钱包特此声明：比特派此前从未听说，也未与此交易所有过任何接触与合作。",
       "data": "2019-08-29",
@@ -460,6 +469,15 @@
     }
   ],
   "en": [{
+      "title": "Announcement on Bitcoin Support ETC Hard Fork Upgrade",
+      "intro": "Bitpie wallet will support the Ethereum Classic (ETC) hard fork upgrade. According to the ETC (Ethereum Classic) Official`s  plan, ETC will implement the hard fork at block height 8,772,000 (expected in HK time September 12-13, 2019) for upgrade.",
+      "data": "2019-08-29",
+      "watch": 24,
+      "id": 55,
+      "month": "September",
+      "day": "11",
+      "type": 1
+    }, {
       "title": "声明",
       "intro": "今收到用户反馈，交易所NZCCX（网址：http://www.nzccx.pro）将比特派列为“生态伙伴”。比特派Bitpie钱包特此声明：比特派此前从未听说，也未与此交易所有过任何接触与合作。",
       "data": "2019-08-29",
