@@ -1,5 +1,14 @@
 {
   "cn": [{
+      "title": "关于 iOS 版本比特派钱包更换开发者账号及APP更新的公告",
+      "intro": "为了便于对 IOS 版本比特派APP的更新与管理，比特派团队已将原开发者账号【 BITPIE TECHNOLOGY INC. 】变更为新账号【BITPIE HK LIMITED】。",
+      "data": "2019-10-9",
+      "watch": 24,
+      "id": 56,
+      "month": "October",
+      "day": "9",
+      "type": 1
+    }, {
       "title": "比特派将支持Ethereum Classic（ETC）硬分叉升级",
       "intro": "比特派将支持Ethereum Classic（ETC）硬分叉升级，根据ETC (Ethereum Classic) 官方计划，ETC将于区块高度达到8,772,000时（预计于香港时间2019年9月12日-13日）进行硬分叉升级。",
       "data": "2019-08-29",
@@ -469,6 +478,15 @@
     }
   ],
   "en": [{
+      "title": "Announcement on the replacement of developer account and APP update for  Bitpie Wallet iOS version",
+      "intro": "In order to facilitate the update and management of the iOS version of Bitpie APP, the original developer account [BITPIE TECHNOLOGY INC.] has been changed to the new account [BITPIE HK LIMITED] by Bitpie Team",
+      "data": "2019-10-9",
+      "watch": 24,
+      "id": 55,
+      "month": "October",
+      "day": "9",
+      "type": 1
+    }, {
       "title": "Announcement on Bitcoin Support ETC Hard Fork Upgrade",
       "intro": "Bitpie wallet will support the Ethereum Classic (ETC) hard fork upgrade. According to the ETC (Ethereum Classic) Official`s  plan, ETC will implement the hard fork at block height 8,772,000 (expected in HK time September 12-13, 2019) for upgrade.",
       "data": "2019-08-29",
